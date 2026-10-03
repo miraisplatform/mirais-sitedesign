@@ -325,6 +325,30 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
 .cc-join{padding:56px clamp(16px,6vw,96px);background:#111;color:var(--white);display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;border-bottom:1px solid var(--ink)}
 .cc-join h2{margin:0;font-size:clamp(24px,3.4vw,40px);font-weight:900;line-height:1.4}
 .cc-join a{background:#FFB020;color:#111;padding:14px 28px;border-radius:999px;font-weight:900;font-size:17px}
+/* スマホ用ヘッダー：ロゴを残し、丸いハンバーガーボタンでメニューを開く */
+.m-logo,.burger{display:none}
+@media (max-width:700px){
+  .navbar{justify-content:space-between;align-items:center}
+  .navbar .pill,.navbar .cta{display:none}
+  .m-logo{pointer-events:auto;display:flex;align-items:center;height:52px;padding:0 22px;border-radius:999px;background:var(--pill);color:var(--ink);font-family:var(--f-logo);font-size:20px;letter-spacing:.02em;box-shadow:0 2px 0 var(--ink)}
+  .burger{pointer-events:auto;display:grid;place-content:center;gap:6px;width:52px;height:52px;border-radius:50%;border:0;background:var(--ink);cursor:pointer;box-shadow:0 2px 0 var(--pill)}
+  .burger span{display:block;width:22px;height:2.5px;border-radius:2px;background:var(--pill);transition:transform .25s,opacity .2s}
+  .burger[aria-expanded="true"]{background:var(--pill);box-shadow:0 2px 0 var(--ink)}
+  .burger[aria-expanded="true"] span{background:var(--ink)}
+  .burger[aria-expanded="true"] span:nth-child(1){transform:translateY(8.5px) rotate(45deg)}
+  .burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+  .burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-8.5px) rotate(-45deg)}
+}
+.m-menu{position:fixed;inset:0;z-index:19;background:var(--hero);color:var(--white);padding:calc(env(safe-area-inset-top,0px) + 96px) 24px calc(env(safe-area-inset-bottom,0px) + 32px);display:flex;flex-direction:column;gap:28px;overflow-y:auto}
+.m-links{display:flex;flex-direction:column;border-top:1px solid rgba(255,255,255,.35)}
+.m-links a{font-size:22px;font-weight:900;padding:14px 4px;border-bottom:1px solid rgba(255,255,255,.35);display:flex;justify-content:space-between}
+.m-links a::after{content:"→";font-family:var(--f-latin);font-weight:400}
+.m-cta{align-self:flex-start;background:var(--pill);color:var(--ink);padding:14px 24px;border-radius:999px;font-weight:900;font-size:16px}
+.m-sns{display:flex;gap:18px;font-family:var(--f-latin);font-size:16px}
+.m-sns a{border-bottom:1px solid currentColor}
+.m-menu[hidden]{display:none}
+@media (min-width:701px){.m-menu{display:none!important}}
+@media (prefers-reduced-motion:reduce){.burger span{transition:none}}
 </style>
 
 </head>
@@ -341,7 +365,24 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
     <a href="#tags">タグ</a>
   </nav>
   <a class="cta" href="#feature-soudan">就活・進学お悩み相談 →</a>
+  <a class="m-logo" href="#" aria-label="MIRAIS トップへ">MIRAIS</a>
+  <button class="burger" id="burger" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="m-menu"><span></span><span></span><span></span></button>
 </div>
+<nav class="m-menu" id="m-menu" aria-label="スマホ用メニュー" hidden>
+  <div class="m-links">
+    <a href="#">トップ</a>
+    <a href="#about">MIRAISとは</a>
+    <a href="#articles">記事一覧</a>
+    <a href="#features">特集</a>
+    <a href="#feature-miraiscircle">MIRAISサークル</a>
+    <a href="#genre-report">取材レポート</a>
+    <a href="#genre-column">コラム</a>
+    <a href="#genre-interview">インタビュー</a>
+    <a href="#tags">タグ</a>
+  </div>
+  <a class="m-cta" href="#feature-soudan">就活・進学お悩み相談 →</a>
+  <div class="m-sns"><a href="https://www.instagram.com/100mirais" target="_blank" rel="noopener">Instagram ↗</a><a href="https://www.youtube.com/@MIRAIS-zs8pn/videos" target="_blank" rel="noopener">YouTube ↗</a></div>
+</nav>
 <main id="app"><p class="err">読み込み中…</p></main>
 <footer>
   <div class="marq copy" aria-hidden="true"><div class="track" id="foot-track"></div></div>
@@ -352,6 +393,16 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
 </footer>
 
 <script>
+/* スマホ用メニュー */
+(function(){
+  const btn=document.getElementById("burger"), menu=document.getElementById("m-menu");
+  const set=open=>{menu.hidden=!open;btn.setAttribute("aria-expanded",open);btn.setAttribute("aria-label",open?"メニューを閉じる":"メニューを開く");document.documentElement.style.overflow=open?"hidden":""};
+  btn.addEventListener("click",()=>set(menu.hidden));
+  menu.addEventListener("click",e=>{if(e.target.closest("a"))set(false)});
+  window.addEventListener("hashchange",()=>set(false));
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!menu.hidden){set(false);btn.focus()}});
+  window.matchMedia("(min-width:701px)").addEventListener("change",e=>{if(e.matches)set(false)});
+})();
 let D=null, filter="all", afilter="all";
 const app=document.getElementById("app");
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
