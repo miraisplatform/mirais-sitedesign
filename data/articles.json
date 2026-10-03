@@ -206,7 +206,7 @@
    "oldUrl": "https://www.mirais2055.jp/shukatsuev",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_ab38e757a7e94cdea0a6660f30b4d459~mv2.png",
+    "src": "images/7fe300_ab38e757a7e94cdea0a6660f30b4d459_mv2.png",
     "alt": "9月のミライワークショップ"
    },
    "body": [
@@ -252,7 +252,7 @@
    "oldUrl": "https://www.mirais2055.jp/communicationev",
    "note": "ページには「2024年7月25日（土）」とあるが曜日が合わない。2025年なら金曜。開催年を確認",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_2552e780ee734765b29b54fb982c12cd~mv2.png",
+    "src": "images/7fe300_2552e780ee734765b29b54fb982c12cd_mv2.png",
     "alt": "コミュニケーション教室"
    },
    "body": [
@@ -356,7 +356,7 @@
    "oldUrl": "https://www.mirais2055.jp/entameshukatsu",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_558de2f5bf88427b98e5073cace57d55~mv2.jpg",
+    "src": "images/7fe300_558de2f5bf88427b98e5073cace57d55_mv2.jpg",
     "alt": "エンタメ業界研究フェス"
    },
    "body": [
@@ -414,7 +414,7 @@
    "oldUrl": "https://www.mirais2055.jp/jcginterview",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_025cb3a07be8485f9a784674f3e04f41~mv2.jpeg",
+    "src": "images/7fe300_025cb3a07be8485f9a784674f3e04f41_mv2.jpeg",
     "alt": "取材の様子3"
    },
    "body": [
@@ -422,15 +422,15 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_55ef3208664b460e83e94e4b274e9d7b~mv2.jpeg",
+       "src": "images/7fe300_55ef3208664b460e83e94e4b274e9d7b_mv2.jpeg",
        "alt": "木成諒さん"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_526dc487d8344d70a0bc9c99b4b09c0f~mv2.jpeg",
+       "src": "images/7fe300_526dc487d8344d70a0bc9c99b4b09c0f_mv2.jpeg",
        "alt": "取材の様子1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_fc78436263bc4ec7904a02e8b91ce22a~mv2.jpeg",
+       "src": "images/7fe300_fc78436263bc4ec7904a02e8b91ce22a_mv2.jpeg",
        "alt": "取材の様子2"
       }
      ]
@@ -473,7 +473,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_025cb3a07be8485f9a784674f3e04f41~mv2.jpeg",
+     "src": "images/7fe300_025cb3a07be8485f9a784674f3e04f41_mv2.jpeg",
      "alt": "取材の様子3"
     },
     {
@@ -514,7 +514,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_fb05be9faae94841a97b8d5780fb2927~mv2.jpeg",
+     "src": "images/7fe300_fb05be9faae94841a97b8d5780fb2927_mv2.jpeg",
      "alt": "取材の様子4"
     },
     {
@@ -535,7 +535,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_ea315e6d5b9e4993929d838e907fad0b~mv2.jpeg",
+     "src": "images/7fe300_ea315e6d5b9e4993929d838e907fad0b_mv2.jpeg",
      "alt": "取材の様子5"
     },
     {
@@ -552,7 +552,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_74bf2e4466344d65b03b15ffcf8738b3~mv2.jpeg",
+     "src": "images/7fe300_74bf2e4466344d65b03b15ffcf8738b3_mv2.jpeg",
      "alt": "木成さんと筆者"
     },
     {
@@ -590,7 +590,7 @@
    "oldUrl": "https://www.mirais2055.jp/satuseilog02",
    "note": "M-newsからMIRAISサークルへ移す案",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_5c8f8672a3654ba581041022ab218cae~mv2.jpg",
+    "src": "images/7fe300_5c8f8672a3654ba581041022ab218cae_mv2.jpg",
     "alt": "制作会議"
    },
    "body": [
@@ -600,7 +600,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_5c8f8672a3654ba581041022ab218cae~mv2.jpg",
+     "src": "images/7fe300_5c8f8672a3654ba581041022ab218cae_mv2.jpg",
      "alt": "制作会議"
     },
     {
@@ -609,7 +609,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_ebf5db63a706462885afec6e9b6bd104~mv2.jpg",
+     "src": "images/7fe300_ebf5db63a706462885afec6e9b6bd104_mv2.jpg",
      "alt": "ミーティングの様子"
     },
     {
@@ -622,7 +622,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_02778296837c480287376273c9b5f1d0~mv2.jpeg",
+     "src": "images/7fe300_02778296837c480287376273c9b5f1d0_mv2.jpeg",
      "alt": "ピンマイクを装着"
     },
     {
@@ -633,15 +633,15 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_26c8dc0afe3642349f996a047d62da66~mv2.jpeg",
+       "src": "images/7fe300_26c8dc0afe3642349f996a047d62da66_mv2.jpeg",
        "alt": "撮影の様子1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_c3cb7fbd304d45cca7d525b8f23334d2~mv2.jpg",
+       "src": "images/7fe300_c3cb7fbd304d45cca7d525b8f23334d2_mv2.jpg",
        "alt": "撮影の様子2"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_7792f031be694a37a8a11ab0c48675ce~mv2.jpg",
+       "src": "images/7fe300_7792f031be694a37a8a11ab0c48675ce_mv2.jpg",
        "alt": "撮影の様子3"
       }
      ]
@@ -662,11 +662,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_58e1f524dd314a619358424493a4953d~mv2.jpeg",
+       "src": "images/7fe300_58e1f524dd314a619358424493a4953d_mv2.jpeg",
        "alt": "撮影の様子4"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_17b0f72a213d49099ad954e9b48e3094~mv2.jpg",
+       "src": "images/7fe300_17b0f72a213d49099ad954e9b48e3094_mv2.jpg",
        "alt": "撮影の様子5"
       }
      ]
@@ -696,7 +696,7 @@
    "oldUrl": "https://www.mirais2055.jp/satsueilog01",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_283ae577ae3a4bfab9aa98336c90999f~mv2.jpeg",
+    "src": "images/7fe300_283ae577ae3a4bfab9aa98336c90999f_mv2.jpeg",
     "alt": "撮影の様子1"
    },
    "body": [
@@ -716,23 +716,23 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_283ae577ae3a4bfab9aa98336c90999f~mv2.jpeg",
+       "src": "images/7fe300_283ae577ae3a4bfab9aa98336c90999f_mv2.jpeg",
        "alt": "撮影の様子1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_e993adb65fba40a296798c0caf226cbd~mv2.jpg",
+       "src": "images/7fe300_e993adb65fba40a296798c0caf226cbd_mv2.jpg",
        "alt": "撮影の様子2"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_fcbe5e8452754eafaee2213c5a5e88a5~mv2.jpeg",
+       "src": "images/7fe300_fcbe5e8452754eafaee2213c5a5e88a5_mv2.jpeg",
        "alt": "撮影の様子3"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_691d6bf3a114478f945630acaf9cccd6~mv2.jpeg",
+       "src": "images/7fe300_691d6bf3a114478f945630acaf9cccd6_mv2.jpeg",
        "alt": "撮影の様子4"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_b5f5571230cf45ed82ab0370105c9c66~mv2.jpg",
+       "src": "images/7fe300_b5f5571230cf45ed82ab0370105c9c66_mv2.jpg",
        "alt": "撮影の様子5"
       }
      ]
@@ -767,7 +767,7 @@
    "oldUrl": "https://www.mirais2055.jp/seisakumtg01",
    "note": "M-newsからMIRAISサークルへ移す案",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_f6521cdc177149198f7611eb413c937b~mv2.jpeg",
+    "src": "images/7fe300_f6521cdc177149198f7611eb413c937b_mv2.jpeg",
     "alt": "制作会議の様子"
    },
    "body": [
@@ -777,7 +777,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_f6521cdc177149198f7611eb413c937b~mv2.jpeg",
+     "src": "images/7fe300_f6521cdc177149198f7611eb413c937b_mv2.jpeg",
      "alt": "制作会議の様子"
     },
     {
@@ -786,7 +786,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_95de26c263a347dc9366a50e4f7477e8~mv2.jpeg",
+     "src": "images/7fe300_95de26c263a347dc9366a50e4f7477e8_mv2.jpeg",
      "alt": "司会進行する曽田さん"
     },
     {
@@ -797,11 +797,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_a7bd4881e91544249c8e937df93d114d~mv2.jpeg",
+       "src": "images/7fe300_a7bd4881e91544249c8e937df93d114d_mv2.jpeg",
        "alt": "会議の様子1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_7a95bb402a3d4abd8803dbc3f6b66380~mv2.jpeg",
+       "src": "images/7fe300_7a95bb402a3d4abd8803dbc3f6b66380_mv2.jpeg",
        "alt": "会議の様子2"
       }
      ]
@@ -822,11 +822,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_333c2230ba6b4c47874bfdb7da5c25dc~mv2.jpeg",
+       "src": "images/7fe300_333c2230ba6b4c47874bfdb7da5c25dc_mv2.jpeg",
        "alt": "会議の様子3"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_ea3bf5dd865e4e6088c6d02ce1604a1d~mv2.jpeg",
+       "src": "images/7fe300_ea3bf5dd865e4e6088c6d02ce1604a1d_mv2.jpeg",
        "alt": "会議の様子4"
       }
      ]
@@ -839,23 +839,23 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_2f19da73a23f4e5cb9fdf73d878d0060~mv2.jpeg",
+       "src": "images/7fe300_2f19da73a23f4e5cb9fdf73d878d0060_mv2.jpeg",
        "alt": "サンプル撮影1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_c712cea245d047ec8c67cd5a93e33771~mv2.jpeg",
+       "src": "images/7fe300_c712cea245d047ec8c67cd5a93e33771_mv2.jpeg",
        "alt": "サンプル撮影2"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_2069369972504ea7a48ccbcae7c68e78~mv2.jpeg",
+       "src": "images/7fe300_2069369972504ea7a48ccbcae7c68e78_mv2.jpeg",
        "alt": "サンプル撮影3"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_9d65bec36a504a6b9e02816c88032971~mv2.jpeg",
+       "src": "images/7fe300_9d65bec36a504a6b9e02816c88032971_mv2.jpeg",
        "alt": "サンプル撮影4"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_b3048bf569ef48baaa209fce08220a02~mv2.jpeg",
+       "src": "images/7fe300_b3048bf569ef48baaa209fce08220a02_mv2.jpeg",
        "alt": "サンプル撮影5"
       }
      ]
@@ -886,7 +886,7 @@
    "oldUrl": "https://www.mirais2055.jp/yumeshouten",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_c3fa5c7d39d346ae979966a6d4cd9b40~mv2.jpeg",
+    "src": "images/7fe300_c3fa5c7d39d346ae979966a6d4cd9b40_mv2.jpeg",
     "alt": "こども夢の商店街"
    },
    "body": [
@@ -900,7 +900,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_c3fa5c7d39d346ae979966a6d4cd9b40~mv2.jpeg",
+     "src": "images/7fe300_c3fa5c7d39d346ae979966a6d4cd9b40_mv2.jpeg",
      "alt": "こども夢の商店街"
     },
     {
@@ -913,7 +913,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_788fa8515eb54897b0bd60579205b7ef~mv2.jpeg",
+     "src": "images/7fe300_788fa8515eb54897b0bd60579205b7ef_mv2.jpeg",
      "alt": "看板"
     },
     {
@@ -934,7 +934,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_5192a18b88c3417280e32428d833962a~mv2.jpeg",
+     "src": "images/7fe300_5192a18b88c3417280e32428d833962a_mv2.jpeg",
      "alt": "お店の様子"
     },
     {
@@ -971,7 +971,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_064199b046ed4ca6acdda72f94f0ecbc~mv2.jpeg",
+     "src": "images/7fe300_064199b046ed4ca6acdda72f94f0ecbc_mv2.jpeg",
      "alt": "おむすび通貨"
     },
     {
@@ -1021,7 +1021,7 @@
    "oldUrl": "https://www.mirais2055.jp/otonarisunday02",
    "note": "旧M-news一覧ではリンク先が初台編になっていた",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_478b0eadfc234b93943457c6f4a8904b~mv2.jpg",
+    "src": "images/7fe300_478b0eadfc234b93943457c6f4a8904b_mv2.jpg",
     "alt": "本町コミュニティセンター"
    },
    "body": [
@@ -1035,7 +1035,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_478b0eadfc234b93943457c6f4a8904b~mv2.jpg",
+     "src": "images/7fe300_478b0eadfc234b93943457c6f4a8904b_mv2.jpg",
      "alt": "本町コミュニティセンター"
     },
     {
@@ -1048,13 +1048,13 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_1d11170a5f9e4c94be1e0066cf741403~mv2.jpg",
+     "src": "images/7fe300_1d11170a5f9e4c94be1e0066cf741403_mv2.jpg",
      "alt": "吹き抜け",
      "caption": "下から見上げるとこのような感じだ。1Fにいても2Fからの光が差し込んでくる。"
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_7bf757d8b3984cef81331ffa408d4cf5~mv2.jpg",
+     "src": "images/7fe300_7bf757d8b3984cef81331ffa408d4cf5_mv2.jpg",
      "alt": "自動販売機"
     },
     {
@@ -1063,7 +1063,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_79070b65b033498fa735976fc79c8fbe~mv2.jpg",
+     "src": "images/7fe300_79070b65b033498fa735976fc79c8fbe_mv2.jpg",
      "alt": "アリーナのオープンイベント"
     },
     {
@@ -1104,7 +1104,7 @@
    "oldUrl": "https://www.mirais2055.jp/otonarisunday01",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_6b3a12a423234b009cb1eb3523055515~mv2.jpeg",
+    "src": "images/7fe300_6b3a12a423234b009cb1eb3523055515_mv2.jpeg",
     "alt": "渋谷おとなりサンデー"
    },
    "body": [
@@ -1114,7 +1114,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_6b3a12a423234b009cb1eb3523055515~mv2.jpeg",
+     "src": "images/7fe300_6b3a12a423234b009cb1eb3523055515_mv2.jpeg",
      "alt": "渋谷おとなりサンデー"
     },
     {
@@ -1133,11 +1133,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_b5774bce801d48b689216d47dbb9ed21~mv2.jpeg",
+       "src": "images/7fe300_b5774bce801d48b689216d47dbb9ed21_mv2.jpeg",
        "alt": "商店街の様子1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_da87f518fc2a470f85190b2374d334fc~mv2.jpg",
+       "src": "images/7fe300_da87f518fc2a470f85190b2374d334fc_mv2.jpg",
        "alt": "商店街の様子2"
       }
      ]
@@ -1154,11 +1154,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_479a07be7f4e43bd8107a5e8c5f64423~mv2.jpg",
+       "src": "images/7fe300_479a07be7f4e43bd8107a5e8c5f64423_mv2.jpg",
        "alt": "商店街の様子3"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_2f2229ab94d84aa6af1e7effe829b199~mv2.jpeg",
+       "src": "images/7fe300_2f2229ab94d84aa6af1e7effe829b199_mv2.jpeg",
        "alt": "商店街の様子4"
       }
      ]
@@ -1190,7 +1190,7 @@
    "oldUrl": "https://www.mirais2055.jp/gardenp",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/11062b_dd78751ee6bc4a93a26af87926b1be61~mv2.jpg",
+    "src": "images/11062b_dd78751ee6bc4a93a26af87926b1be61_mv2.jpg",
     "alt": "ガーデンパーティー"
    },
    "body": [
@@ -1208,7 +1208,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/11062b_dd78751ee6bc4a93a26af87926b1be61~mv2.jpg",
+     "src": "images/11062b_dd78751ee6bc4a93a26af87926b1be61_mv2.jpg",
      "alt": "ガーデンパーティー"
     },
     {
@@ -1305,7 +1305,7 @@
    "oldUrl": "https://www.mirais2055.jp/e-sports-第四回",
    "note": "旧URLが日本語（e-sports-第四回）。新URLは esports05 にして転送",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_99e9453f6b4f406d9cd1ee91eba91b83~mv2.jpeg",
+    "src": "images/7fe300_99e9453f6b4f406d9cd1ee91eba91b83_mv2.jpeg",
     "alt": "点数配分"
    },
    "body": [
@@ -1323,7 +1323,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_99e9453f6b4f406d9cd1ee91eba91b83~mv2.jpeg",
+     "src": "images/7fe300_99e9453f6b4f406d9cd1ee91eba91b83_mv2.jpeg",
      "alt": "点数配分",
      "caption": "点数配分はこのようになっています。"
     },
@@ -1339,11 +1339,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_af5e2007997d4755b5795c3c3af7c442~mv2.jpeg",
+       "src": "images/7fe300_af5e2007997d4755b5795c3c3af7c442_mv2.jpeg",
        "alt": "出場チーム1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_36481db8e638424a8be9db9984cf5902~mv2.jpeg",
+       "src": "images/7fe300_36481db8e638424a8be9db9984cf5902_mv2.jpeg",
        "alt": "出場チーム2"
       }
      ]
@@ -1358,19 +1358,19 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_1392a5e9e72040c4ae0aa7d1699a57b1~mv2.jpg",
+     "src": "images/7fe300_1392a5e9e72040c4ae0aa7d1699a57b1_mv2.jpg",
      "alt": "広島工業大学",
      "caption": "広島工業大学"
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_8e109601b64f48648c61c15d3b759c51~mv2.jpg",
+     "src": "images/7fe300_8e109601b64f48648c61c15d3b759c51_mv2.jpg",
      "alt": "城西国際大学",
      "caption": "城西国際大学"
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_252a2eb1bf0447108a7b2a3a51703b0e~mv2.jpg",
+     "src": "images/7fe300_252a2eb1bf0447108a7b2a3a51703b0e_mv2.jpg",
      "alt": "東京理科大学",
      "caption": "東京理科大学"
     },
@@ -1394,11 +1394,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_f2da493b24a24e8caa4cda96783ade3a~mv2.jpg",
+       "src": "images/7fe300_f2da493b24a24e8caa4cda96783ade3a_mv2.jpg",
        "alt": "試合の様子1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_95d95ceb85b4447ea34362d35f423a0e~mv2.jpg",
+       "src": "images/7fe300_95d95ceb85b4447ea34362d35f423a0e_mv2.jpg",
        "alt": "試合の様子2"
       }
      ]
@@ -1413,7 +1413,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_c33b821e067e4ff88b76b7936850c0f5~mv2.jpeg",
+     "src": "images/7fe300_c33b821e067e4ff88b76b7936850c0f5_mv2.jpeg",
      "alt": "試合の様子3"
     },
     {
@@ -1456,11 +1456,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_84540849a7a546e3bfa0c66880b157fd~mv2.jpg",
+       "src": "images/7fe300_84540849a7a546e3bfa0c66880b157fd_mv2.jpg",
        "alt": "試合の様子4"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_2562920be612430b9a750a7a7d385ff6~mv2.jpg",
+       "src": "images/7fe300_2562920be612430b9a750a7a7d385ff6_mv2.jpg",
        "alt": "試合の様子5"
       }
      ]
@@ -1495,7 +1495,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_551e9a2136fa46f181ff34c32c18ecaf~mv2.png",
+     "src": "images/7fe300_551e9a2136fa46f181ff34c32c18ecaf_mv2.png",
      "alt": "大学対抗部門の結果"
     },
     {
@@ -1508,7 +1508,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_c97086aac7a0485b9b18ccabcd5a95a6~mv2.jpeg",
+     "src": "images/7fe300_c97086aac7a0485b9b18ccabcd5a95a6_mv2.jpeg",
      "alt": "近畿大学の3人"
     },
     {
@@ -1593,7 +1593,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_15b8433ff3834b63b1de9c84edeb9206~mv2.jpg",
+     "src": "images/7fe300_15b8433ff3834b63b1de9c84edeb9206_mv2.jpg",
      "alt": "全体写真"
     },
     {
@@ -1627,7 +1627,7 @@
    "oldUrl": "https://www.mirais2055.jp/kidscolumn04",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_d49d477531bf453495efc5b8f7381ea3~mv2.png",
+    "src": "images/7fe300_d49d477531bf453495efc5b8f7381ea3_mv2.png",
     "alt": "十人十色 第4回"
    },
    "body": [
@@ -1665,7 +1665,7 @@
    "oldUrl": "https://www.mirais2055.jp/kidscolumn03",
    "note": "新着一覧では 2025.03.24",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_91a65892a7ba4a798f19a75165f45036~mv2.png",
+    "src": "images/7fe300_91a65892a7ba4a798f19a75165f45036_mv2.png",
     "alt": "十人十色 第3回"
    },
    "body": [
@@ -1729,7 +1729,7 @@
    "oldUrl": "https://www.mirais2055.jp/kidscolumn02",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_e8beb6845e4741a4a8847a51aae4140e~mv2.jpg",
+    "src": "images/7fe300_e8beb6845e4741a4a8847a51aae4140e_mv2.jpg",
     "alt": "十人十色 第2回"
    },
    "body": [
@@ -1781,7 +1781,7 @@
     }
    ],
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_b41e140f780e44379030bc1a0a1b5f62~mv2.jpg",
+    "src": "images/7fe300_b41e140f780e44379030bc1a0a1b5f62_mv2.jpg",
     "alt": ""
    },
    "hasVideo": false
@@ -1801,7 +1801,7 @@
    "oldUrl": "https://www.mirais2055.jp/esports04",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_774be2641f2542eca885412761fbb001~mv2.jpeg",
+    "src": "images/7fe300_774be2641f2542eca885412761fbb001_mv2.jpeg",
     "alt": "esports awards"
    },
    "body": [
@@ -1907,7 +1907,7 @@
    "oldUrl": "https://www.mirais2055.jp/horietoba",
    "note": "タグは本文を読んで決める",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_bf514943fd7c40ffbfb70c92d182fa40~mv2.jpg",
+    "src": "images/7fe300_bf514943fd7c40ffbfb70c92d182fa40_mv2.jpg",
     "alt": "特別プロジェクト"
    },
    "body": [
@@ -1917,7 +1917,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_bf514943fd7c40ffbfb70c92d182fa40~mv2.jpg",
+     "src": "images/7fe300_bf514943fd7c40ffbfb70c92d182fa40_mv2.jpg",
      "alt": "特別プロジェクト"
     },
     {
@@ -1930,7 +1930,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_baea4c606fb0443cbeb01ee71c1167b2~mv2.jpg",
+     "src": "images/7fe300_baea4c606fb0443cbeb01ee71c1167b2_mv2.jpg",
      "alt": "sioミルクフランス"
     },
     {
@@ -1971,7 +1971,7 @@
    "oldUrl": "https://www.mirais2055.jp/wcbtennou",
    "note": "M-newsからParasportsへ移す案",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_8b67dd962d6b4ebe9421e5917ba7df11~mv2.jpg",
+    "src": "images/7fe300_8b67dd962d6b4ebe9421e5917ba7df11_mv2.jpg",
     "alt": "天皇杯決勝"
    },
    "body": [
@@ -2008,7 +2008,7 @@
    "oldUrl": "https://www.mirais2055.jp/複製-sugina",
    "note": "旧URLが「複製-sugina」。新URLを dlive19 にして転送。旧For Starsページのリンク先も間違っていた",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_e2417bf177e1438f873cc28b96f4ae3e~mv2.png",
+    "src": "images/7fe300_e2417bf177e1438f873cc28b96f4ae3e_mv2.png",
     "alt": "D'LIVE vol.19"
    },
    "body": [
@@ -2018,7 +2018,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_95c90a1f640b4ee193e3d10ee8b12013~mv2.png",
+     "src": "images/7fe300_95c90a1f640b4ee193e3d10ee8b12013_mv2.png",
      "alt": "ライブの様子"
     },
     {
@@ -2043,7 +2043,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_6d847a4619c141f1902f643f631165b6~mv2.png",
+     "src": "images/7fe300_6d847a4619c141f1902f643f631165b6_mv2.png",
      "alt": "麗華さん",
      "caption": "麗華さん"
     },
@@ -2055,11 +2055,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_de3fef8e888245f1bf09d1c27568d006~mv2.png",
+       "src": "images/7fe300_de3fef8e888245f1bf09d1c27568d006_mv2.png",
        "alt": "ボランティアスタッフ1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_f7ef58b244134608b7b54f166f4833cf~mv2.png",
+       "src": "images/7fe300_f7ef58b244134608b7b54f166f4833cf_mv2.png",
        "alt": "ボランティアスタッフ2"
       }
      ]
@@ -2099,7 +2099,7 @@
    "oldUrl": "https://www.mirais2055.jp/eports03",
    "note": "旧URLのつづりが eports03（sが抜け）。新URLは esports03 にして転送",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_7e0a6d1c4b4545e28bceee451d0adc97~mv2.png",
+    "src": "images/7fe300_7e0a6d1c4b4545e28bceee451d0adc97_mv2.png",
     "alt": "大会ロゴ"
    },
    "body": [
@@ -2127,7 +2127,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_9f6426a7e3154b0aa37091cffca883af~mv2.png",
+     "src": "images/7fe300_9f6426a7e3154b0aa37091cffca883af_mv2.png",
      "alt": "会場の様子"
     },
     {
@@ -2184,7 +2184,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_f2369a72d4f64f87bebab012131167a0~mv2.png",
+     "src": "images/7fe300_f2369a72d4f64f87bebab012131167a0_mv2.png",
      "alt": "N1の選手たち"
     },
     {
@@ -2229,7 +2229,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_5d935a2e0afa453593fea37d0bc9e140~mv2.png",
+     "src": "images/7fe300_5d935a2e0afa453593fea37d0bc9e140_mv2.png",
      "alt": "がってぃんてぃんEXの選手たち"
     },
     {
@@ -2285,7 +2285,7 @@
    "oldUrl": "https://www.mirais2055.jp/post/nasef主催全日本高校eスポーツ選手権",
    "note": "上の記事と同じ大会。1本にまとめる案",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_3aff5080358f4bbaabc1041923d4fc3f~mv2.png",
+    "src": "images/7fe300_3aff5080358f4bbaabc1041923d4fc3f_mv2.png",
     "alt": "会場の様子"
    },
    "body": [
@@ -2307,7 +2307,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_d77856b732d5491189d9c772502e6f41~mv2.png",
+     "src": "images/7fe300_d77856b732d5491189d9c772502e6f41_mv2.png",
      "alt": "試合の様子"
     },
     {
@@ -2385,7 +2385,7 @@
    "oldUrl": "https://www.mirais2055.jp/esports02",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_12f850f4356f49bda8c8087a69a97d2d~mv2.webp",
+    "src": "images/7fe300_12f850f4356f49bda8c8087a69a97d2d_mv2.webp",
     "alt": "eスポーツのイメージ"
    },
    "body": [
@@ -2560,7 +2560,7 @@
     }
    ],
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_48ad9edddc2c48368685c5219001f3f7~mv2.jpg",
+    "src": "images/7fe300_48ad9edddc2c48368685c5219001f3f7_mv2.jpg",
     "alt": "ゲームをプレイする様子"
    },
    "hasVideo": false
@@ -2610,7 +2610,7 @@
    "oldUrl": "https://www.mirais2055.jp/post/pv-ミーティング！",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_a9f3a905a98f47e5a3f60c963496ab0b~mv2.jpeg",
+    "src": "images/7fe300_a9f3a905a98f47e5a3f60c963496ab0b_mv2.jpeg",
     "alt": "PVミーティング"
    },
    "body": [
@@ -2628,7 +2628,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_a9f3a905a98f47e5a3f60c963496ab0b~mv2.jpeg",
+     "src": "images/7fe300_a9f3a905a98f47e5a3f60c963496ab0b_mv2.jpeg",
      "alt": "PVミーティング"
     },
     {
@@ -2672,7 +2672,7 @@
    "oldUrl": "https://www.mirais2055.jp/post/板橋区に植物館があるって、知ってますか？！",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_474f97e5e9fa48baaa68c90e1762d9fa~mv2.jpg",
+    "src": "images/7fe300_474f97e5e9fa48baaa68c90e1762d9fa_mv2.jpg",
     "alt": "熱帯環境植物館"
    },
    "body": [
@@ -2690,7 +2690,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_474f97e5e9fa48baaa68c90e1762d9fa~mv2.jpg",
+     "src": "images/7fe300_474f97e5e9fa48baaa68c90e1762d9fa_mv2.jpg",
      "alt": "熱帯環境植物館"
     },
     {
@@ -2711,7 +2711,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_ded5026e1a98445da362361cbf6bc477~mv2.jpeg",
+     "src": "images/7fe300_ded5026e1a98445da362361cbf6bc477_mv2.jpeg",
      "alt": "ヒマンチュラ・チャオプラヤ"
     },
     {
@@ -2756,7 +2756,7 @@
    "oldUrl": "https://www.mirais2055.jp/post/しながわ水族館へ取材！",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_620926e8b46d46b785e2c951cd813e41~mv2.jpg",
+    "src": "images/7fe300_620926e8b46d46b785e2c951cd813e41_mv2.jpg",
     "alt": "しながわ水族館"
    },
    "body": [
@@ -2766,7 +2766,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_620926e8b46d46b785e2c951cd813e41~mv2.jpg",
+     "src": "images/7fe300_620926e8b46d46b785e2c951cd813e41_mv2.jpg",
      "alt": "しながわ水族館"
     },
     {
@@ -2789,11 +2789,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_3cb5e46df88d442c94c9de477866968e~mv2.jpeg",
+       "src": "images/7fe300_3cb5e46df88d442c94c9de477866968e_mv2.jpeg",
        "alt": "水族館の中1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_872f37e81ebb4fa3a517ad252352c4b6~mv2.jpeg",
+       "src": "images/7fe300_872f37e81ebb4fa3a517ad252352c4b6_mv2.jpeg",
        "alt": "水族館の中2"
       }
      ]
@@ -2808,7 +2808,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_e2eff02cf1d5421f814d8b8a3e9ef966~mv2.jpeg",
+     "src": "images/7fe300_e2eff02cf1d5421f814d8b8a3e9ef966_mv2.jpeg",
      "alt": "撮影の様子"
     },
     {
@@ -2930,7 +2930,7 @@
    "oldUrl": "https://www.mirais2055.jp/post/d-live-voi-18の取材を行いました！",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_cde51b87a30f47d49b08e155e1159488~mv2.jpg",
+    "src": "images/7fe300_cde51b87a30f47d49b08e155e1159488_mv2.jpg",
     "alt": "D'LIVE vol.18の会場"
    },
    "body": [
@@ -2944,7 +2944,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_cde51b87a30f47d49b08e155e1159488~mv2.jpg",
+     "src": "images/7fe300_cde51b87a30f47d49b08e155e1159488_mv2.jpg",
      "alt": "D'LIVE vol.18の会場"
     },
     {
@@ -2959,11 +2959,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_a049e9d5f3cc4fe29ef2252693a3d873~mv2.jpeg",
+       "src": "images/7fe300_a049e9d5f3cc4fe29ef2252693a3d873_mv2.jpeg",
        "alt": "取材の様子1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_9d0ff0ff07a1436c99ae442439ed7d0c~mv2.jpg",
+       "src": "images/7fe300_9d0ff0ff07a1436c99ae442439ed7d0c_mv2.jpg",
        "alt": "取材の様子2"
       }
      ]
@@ -2995,7 +2995,7 @@
    "oldUrl": "https://www.mirais2055.jp/sugina",
    "note": "日付の記載なし",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_ff5682e6e2ec487692502691b64eb2ec~mv2.jpeg",
+    "src": "images/7fe300_ff5682e6e2ec487692502691b64eb2ec_mv2.jpeg",
     "alt": "sUginAのステージ"
    },
    "body": [
@@ -3009,7 +3009,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_ff5682e6e2ec487692502691b64eb2ec~mv2.jpeg",
+     "src": "images/7fe300_ff5682e6e2ec487692502691b64eb2ec_mv2.jpeg",
      "alt": "sUginAのステージ"
     },
     {
@@ -3042,7 +3042,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_defc81545c454a3482d41deedbae5de9~mv2.jpg",
+     "src": "images/7fe300_defc81545c454a3482d41deedbae5de9_mv2.jpg",
      "alt": "インタビューの様子1"
     },
     {
@@ -3071,7 +3071,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_990b62a8b87546f9922e936c87e0b887~mv2.jpg",
+     "src": "images/7fe300_990b62a8b87546f9922e936c87e0b887_mv2.jpg",
      "alt": "インタビューの様子2"
     },
     {
@@ -3100,7 +3100,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_3811efc9cda24b0b9e72396e506de939~mv2.jpg",
+     "src": "images/7fe300_3811efc9cda24b0b9e72396e506de939_mv2.jpg",
      "alt": "インタビューの様子3"
     },
     {
@@ -3117,7 +3117,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_5983c8dacc344c69a3d740dcb95a542b~mv2.jpg",
+     "src": "images/7fe300_5983c8dacc344c69a3d740dcb95a542b_mv2.jpg",
      "alt": "インタビューの様子4"
     },
     {
@@ -3130,7 +3130,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_dfd6a6d119a24d8cb0930a156ba1df46~mv2.jpg",
+     "src": "images/7fe300_dfd6a6d119a24d8cb0930a156ba1df46_mv2.jpg",
      "alt": "インタビューの様子5"
     },
     {
@@ -3159,7 +3159,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_42eca7d4c36b41f1affa109106f339bd~mv2.jpg",
+     "src": "images/7fe300_42eca7d4c36b41f1affa109106f339bd_mv2.jpg",
      "alt": "インタビューの様子6"
     },
     {
@@ -3176,7 +3176,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_2590a70e761b46418c2ec9005c235d34~mv2.jpg",
+     "src": "images/7fe300_2590a70e761b46418c2ec9005c235d34_mv2.jpg",
      "alt": "sUginAの二人"
     },
     {
@@ -3201,7 +3201,7 @@
    "oldUrl": "https://www.mirais2055.jp/dlivegakusei",
    "note": "日付の記載なし",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_a2cd1eee49a84d849854747022256b35~mv2.jpg",
+    "src": "images/7fe300_a2cd1eee49a84d849854747022256b35_mv2.jpg",
     "alt": "学生ボランティアの皆さん"
    },
    "body": [
@@ -3211,7 +3211,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_a2cd1eee49a84d849854747022256b35~mv2.jpg",
+     "src": "images/7fe300_a2cd1eee49a84d849854747022256b35_mv2.jpg",
      "alt": "学生ボランティアの皆さん"
     },
     {
@@ -3228,7 +3228,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_f5859859b4c64a12b52a8db068af72b5~mv2.jpg",
+     "src": "images/7fe300_f5859859b4c64a12b52a8db068af72b5_mv2.jpg",
      "alt": "開演前の準備",
      "caption": "開演前に準備をしている様子"
     },
@@ -3254,7 +3254,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_2d6a17bacbb445b28020bf243803d033~mv2.jpg",
+     "src": "images/7fe300_2d6a17bacbb445b28020bf243803d033_mv2.jpg",
      "alt": "インタビューの様子1"
     },
     {
@@ -3271,7 +3271,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_93bdf79e48884b81af1fe966d1a44dac~mv2.jpg",
+     "src": "images/7fe300_93bdf79e48884b81af1fe966d1a44dac_mv2.jpg",
      "alt": "インタビューの様子2"
     },
     {
@@ -3290,11 +3290,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_ced8034228a743a69f2a427ffe527913~mv2.jpg",
+       "src": "images/7fe300_ced8034228a743a69f2a427ffe527913_mv2.jpg",
        "alt": "インタビューの様子3"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_ba4925d48f6147db8871a3ddd071c5cb~mv2.jpg",
+       "src": "images/7fe300_ba4925d48f6147db8871a3ddd071c5cb_mv2.jpg",
        "alt": "インタビューの様子4"
       }
      ]
@@ -3313,7 +3313,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_82b30aa597a44eb2940dc13a25874f59~mv2.jpg",
+     "src": "images/7fe300_82b30aa597a44eb2940dc13a25874f59_mv2.jpg",
      "alt": "インタビューの様子5"
     },
     {
@@ -3349,7 +3349,7 @@
    "oldUrl": "https://www.mirais2055.jp/post/デフ陸上選手権大会-ボランティアイベント取材！",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_ed96f9eae5114c779b546a683d9484ad~mv2.jpg",
+    "src": "images/7fe300_ed96f9eae5114c779b546a683d9484ad_mv2.jpg",
     "alt": "プレスパス"
    },
    "body": [
@@ -3363,7 +3363,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_ed96f9eae5114c779b546a683d9484ad~mv2.jpg",
+     "src": "images/7fe300_ed96f9eae5114c779b546a683d9484ad_mv2.jpg",
      "alt": "プレスパス",
      "caption": "プレスの証であるパスです。ドキドキします。"
     },
@@ -3381,18 +3381,18 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_44d10250179b4003aaa1979e0efb5679~mv2.jpg",
+     "src": "images/7fe300_44d10250179b4003aaa1979e0efb5679_mv2.jpg",
      "alt": "報道ビブス",
      "caption": "こういう報道ビブスを着用することもあります。"
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_47448f2523394007894fa8b1c0d3f19d~mv2.jpg",
+     "src": "images/7fe300_47448f2523394007894fa8b1c0d3f19d_mv2.jpg",
      "alt": "イベント風景1"
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_b52d42187e3f41c9a6fae1ed85142e6c~mv2.jpg",
+     "src": "images/7fe300_b52d42187e3f41c9a6fae1ed85142e6c_mv2.jpg",
      "alt": "イベント風景2",
      "caption": "手話通訳士の方、アスリート、ボランティアのみなさん。思い思いのイベントグッズを作っています。"
     },
@@ -3457,7 +3457,7 @@
    "oldUrl": "https://www.mirais2055.jp/tokyoforward",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_96dbaccdeace4989aba5d989b28dbe1f~mv2.png",
+    "src": "images/7fe300_96dbaccdeace4989aba5d989b28dbe1f_mv2.png",
     "alt": "国立競技場のセレモニー"
    },
    "body": [
@@ -3467,7 +3467,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_96dbaccdeace4989aba5d989b28dbe1f~mv2.png",
+     "src": "images/7fe300_96dbaccdeace4989aba5d989b28dbe1f_mv2.png",
      "alt": "国立競技場のセレモニー"
     },
     {
@@ -3476,7 +3476,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_b9936ddad3ec41c18d09f3343e256401~mv2.png",
+     "src": "images/7fe300_b9936ddad3ec41c18d09f3343e256401_mv2.png",
      "alt": "あいさつの様子"
     },
     {
@@ -3503,19 +3503,19 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_0cbb678d03784e64ab465154fcf2ff49~mv2.png",
+       "src": "images/7fe300_0cbb678d03784e64ab465154fcf2ff49_mv2.png",
        "alt": "会場の様子1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_d6dcbc578cfd443ab659c8196a39381f~mv2.png",
+       "src": "images/7fe300_d6dcbc578cfd443ab659c8196a39381f_mv2.png",
        "alt": "会場の様子2"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_d35c59bb94fa4d868986c40b0667bf24~mv2.png",
+       "src": "images/7fe300_d35c59bb94fa4d868986c40b0667bf24_mv2.png",
        "alt": "会場の様子3"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_9124d1332ca842409198fce333c7248c~mv2.png",
+       "src": "images/7fe300_9124d1332ca842409198fce333c7248c_mv2.png",
        "alt": "会場の様子4"
       }
      ]
@@ -3526,7 +3526,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_28c0d0d270de4e68b4330f24fd3a7535~mv2.png",
+     "src": "images/7fe300_28c0d0d270de4e68b4330f24fd3a7535_mv2.png",
      "alt": "ゲストの皆さん"
     },
     {
@@ -3539,7 +3539,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_88d5c9703d8e4a21aa2a977f702b2a08~mv2.png",
+     "src": "images/7fe300_88d5c9703d8e4a21aa2a977f702b2a08_mv2.png",
      "alt": "フィナーレ"
     }
    ],
@@ -3559,7 +3559,7 @@
    "oldUrl": "https://www.mirais2055.jp/okuyamasenshu",
    "note": "競技・特集の振り分けは本文を読んで確定",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_1608b0597fb94d5e86e45476e96e4960~mv2.png",
+    "src": "images/7fe300_1608b0597fb94d5e86e45476e96e4960_mv2.png",
     "alt": "撮影の様子"
    },
    "body": [
@@ -3577,12 +3577,12 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_1608b0597fb94d5e86e45476e96e4960~mv2.png",
+     "src": "images/7fe300_1608b0597fb94d5e86e45476e96e4960_mv2.png",
      "alt": "撮影の様子"
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_18ad7ae4290d435c8eeace627168b56a~mv2.png",
+     "src": "images/7fe300_18ad7ae4290d435c8eeace627168b56a_mv2.png",
      "alt": "奥山選手と学生スタッフ",
      "caption": "奥山選手と学生スタッフの皆さん"
     }
@@ -3603,7 +3603,7 @@
    "oldUrl": "https://www.mirais2055.jp/ootashoukosenshu",
    "note": "M-newsからParasportsへ移す案",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_c568201585a3483284cd97bf7f73dba0~mv2.png",
+    "src": "images/7fe300_c568201585a3483284cd97bf7f73dba0_mv2.png",
     "alt": "太田選手と学生スタッフ"
    },
    "body": [
@@ -3617,7 +3617,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_c568201585a3483284cd97bf7f73dba0~mv2.png",
+     "src": "images/7fe300_c568201585a3483284cd97bf7f73dba0_mv2.png",
      "alt": "太田選手と学生スタッフ"
     },
     {
@@ -3726,7 +3726,7 @@
    "oldUrl": "https://www.mirais2055.jp/blsc",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_1c377454749648548d08804d3f93b90c~mv2.jpg",
+    "src": "images/7fe300_1c377454749648548d08804d3f93b90c_mv2.jpg",
     "alt": "東日本リーグ第7節"
    },
    "body": [
@@ -3740,7 +3740,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_6021a8ebdb604994950ce6bbde87704f~mv2.jpg",
+     "src": "images/7fe300_6021a8ebdb604994950ce6bbde87704f_mv2.jpg",
      "alt": "菊島宙選手",
      "caption": "写真は25得点をあげ得点王に輝いた埼玉T.Wingsの菊島宙選手"
     },
@@ -3754,12 +3754,12 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_9a56f6fe38524885879c238c0b1593eb~mv2.jpg",
+     "src": "images/7fe300_9a56f6fe38524885879c238c0b1593eb_mv2.jpg",
      "alt": "試合の様子"
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_e0c660631e44402fbd6b89f4f0042b76~mv2.jpg",
+     "src": "images/7fe300_e0c660631e44402fbd6b89f4f0042b76_mv2.jpg",
      "alt": "円陣",
      "caption": "試合前に円陣を組む姿。"
     },
@@ -3781,7 +3781,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_ab71095a960a4c209c2c1de610615716~mv2.jpg",
+     "src": "images/7fe300_ab71095a960a4c209c2c1de610615716_mv2.jpg",
      "alt": "ゴール裏のガイド",
      "caption": "ゴール裏にはガイドと呼ばれる選手に指示を出す役割が存在する。"
     },
@@ -3817,7 +3817,7 @@
    "oldUrl": "https://www.mirais2055.jp/bunkyoblsc",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_4c7b3c6b7ec04ea1816a09a2c6d01e5d~mv2.jpg",
+    "src": "images/7fe300_4c7b3c6b7ec04ea1816a09a2c6d01e5d_mv2.jpg",
     "alt": "ユニバーサルスポーツDays"
    },
    "body": [
@@ -3829,11 +3829,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_93f30083525146e390518f316bba37e2~mv2.jpg",
+       "src": "images/7fe300_93f30083525146e390518f316bba37e2_mv2.jpg",
        "alt": "体験教室1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_e6b46c02f297401b851e8573622d24e3~mv2.jpg",
+       "src": "images/7fe300_e6b46c02f297401b851e8573622d24e3_mv2.jpg",
        "alt": "体験教室2"
       }
      ]
@@ -3850,18 +3850,18 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_06a83cebfabd453a8692ab21f83bab12~mv2.jpg",
+       "src": "images/7fe300_06a83cebfabd453a8692ab21f83bab12_mv2.jpg",
        "alt": "石川直宏さんの教室1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_5de25a02657c41a69b8a5fabb5bb2cbd~mv2.jpg",
+       "src": "images/7fe300_5de25a02657c41a69b8a5fabb5bb2cbd_mv2.jpg",
        "alt": "石川直宏さんの教室2"
       }
      ]
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_66e6803077b245a2af756d9196af5f47~mv2.jpg",
+     "src": "images/7fe300_66e6803077b245a2af756d9196af5f47_mv2.jpg",
      "alt": "パッカくんと石川直宏さん",
      "caption": "写真右からオフィシャルマスコットのパッカくん、元サッカー日本代表の石川直宏さん"
     },
@@ -3886,7 +3886,7 @@
    "oldUrl": "https://www.mirais2055.jp/worldtryout",
    "note": "野球のトライアウトの記事でパラスポーツではないため、M-newsへ移す案。旧Parasportsページのリンク先も間違っていた",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_0c33f69bb9ab4707b6350950afc5fd88~mv2.jpg",
+    "src": "images/7fe300_0c33f69bb9ab4707b6350950afc5fd88_mv2.jpg",
     "alt": "コーチ陣と清原監督"
    },
    "body": [
@@ -3920,18 +3920,18 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_0c33f69bb9ab4707b6350950afc5fd88~mv2.jpg",
+     "src": "images/7fe300_0c33f69bb9ab4707b6350950afc5fd88_mv2.jpg",
      "alt": "コーチ陣と清原監督",
      "caption": "写真左から投手コーチの入来祐作氏、監督の清原和博氏、打撃コーチの片岡篤史氏"
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_e8e1b547f86e463b985f8b7b64fb0b71~mv2.jpg",
+     "src": "images/7fe300_e8e1b547f86e463b985f8b7b64fb0b71_mv2.jpg",
      "alt": "試合の様子1"
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_001832157ec04ec1be4033eb7b227ef5~mv2.jpg",
+     "src": "images/7fe300_001832157ec04ec1be4033eb7b227ef5_mv2.jpg",
      "alt": "東尾修氏との対談",
      "caption": "西武ライオンズ時代のチームメイト東尾修さんと対談、握手をする清原氏"
     },
@@ -3969,7 +3969,7 @@
    "oldUrl": "https://www.mirais2055.jp/ヒューリック-ダイハツjapanパラバドミントン国際大会2019",
    "note": "旧URLが日本語なので、新URLは parabadminton2019 にして旧URLから転送",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_ced47383df704836b7f7ce76debc5977~mv2.jpg",
+    "src": "images/7fe300_ced47383df704836b7f7ce76debc5977_mv2.jpg",
     "alt": "パラバドミントン国際大会"
    },
    "body": [
@@ -3983,7 +3983,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_6cfb10b7c8ef4726934df5db24fbe0a5~mv2.jpg",
+     "src": "images/7fe300_6cfb10b7c8ef4726934df5db24fbe0a5_mv2.jpg",
      "alt": "試合の様子"
     },
     {
@@ -4058,7 +4058,7 @@
    "oldUrl": "https://www.mirais2055.jp/enjoyparafes",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_2ed4043792284e2bb8b48b26fb83aa5d~mv2.jpg",
+    "src": "images/7fe300_2ed4043792284e2bb8b48b26fb83aa5d_mv2.jpg",
     "alt": "香取慎吾さんのサイン"
    },
    "body": [
@@ -4074,30 +4074,30 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_787dbd2c852d4cbea0652a1785ff0ac0~mv2.jpg",
+       "src": "images/7fe300_787dbd2c852d4cbea0652a1785ff0ac0_mv2.jpg",
        "alt": "会場の様子1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_ce00efac4f0c469182b5da9163473764~mv2.jpg",
+       "src": "images/7fe300_ce00efac4f0c469182b5da9163473764_mv2.jpg",
        "alt": "会場の様子2"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_f8d3eed5aa804bdd985d0cd452de373f~mv2.jpg",
+       "src": "images/7fe300_f8d3eed5aa804bdd985d0cd452de373f_mv2.jpg",
        "alt": "会場の様子3"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_6ef02a3372a548cd87ea43df4d3fa6d0~mv2.jpg",
+       "src": "images/7fe300_6ef02a3372a548cd87ea43df4d3fa6d0_mv2.jpg",
        "alt": "会場の様子4"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_47a07ce9e13e4a2cb1dcc8a560aa7f4f~mv2.jpg",
+       "src": "images/7fe300_47a07ce9e13e4a2cb1dcc8a560aa7f4f_mv2.jpg",
        "alt": "会場の様子5"
       }
      ]
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_2ed4043792284e2bb8b48b26fb83aa5d~mv2.jpg",
+     "src": "images/7fe300_2ed4043792284e2bb8b48b26fb83aa5d_mv2.jpg",
      "alt": "香取慎吾さんのサイン",
      "caption": "香取慎吾さんのサイン"
     },
@@ -4105,11 +4105,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_ebcc231ee7ed4e49a43f764dfb04b100~mv2.jpg",
+       "src": "images/7fe300_ebcc231ee7ed4e49a43f764dfb04b100_mv2.jpg",
        "alt": "会場の様子6"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_1c820c3127c243e3bba214309135eb95~mv2.jpg",
+       "src": "images/7fe300_1c820c3127c243e3bba214309135eb95_mv2.jpg",
        "alt": "会場の様子7"
       }
      ]
@@ -4160,7 +4160,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_f805353a0c654184b8b9242765017647~mv2.jpg",
+     "src": "images/7fe300_f805353a0c654184b8b9242765017647_mv2.jpg",
      "alt": "試合会場のコート"
     },
     {
@@ -4171,11 +4171,11 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_2379364275df4013b01835c63ad61acc~mv2.jpg",
+       "src": "images/7fe300_2379364275df4013b01835c63ad61acc_mv2.jpg",
        "alt": "投球する選手"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_338711a181d141fe9af04ccedcb0f5ff~mv2.jpg",
+       "src": "images/7fe300_338711a181d141fe9af04ccedcb0f5ff_mv2.jpg",
        "alt": "ディフェンスする選手"
       }
      ]
@@ -4204,19 +4204,19 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_0aa5d2b2003e4b889e043760a72b8a77~mv2.jpg",
+       "src": "images/7fe300_0aa5d2b2003e4b889e043760a72b8a77_mv2.jpg",
        "alt": "試合の様子1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_5c7bc2e797224deea5357c31a3bc22ac~mv2.jpg",
+       "src": "images/7fe300_5c7bc2e797224deea5357c31a3bc22ac_mv2.jpg",
        "alt": "試合の様子2"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_5f17d53157ef451292f7a4146d3b9517~mv2.jpg",
+       "src": "images/7fe300_5f17d53157ef451292f7a4146d3b9517_mv2.jpg",
        "alt": "試合の様子3"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_42a8f81c4ffd4277996a6ae8e4e0f507~mv2.jpg",
+       "src": "images/7fe300_42a8f81c4ffd4277996a6ae8e4e0f507_mv2.jpg",
        "alt": "試合の様子4"
       }
      ]
@@ -4248,7 +4248,7 @@
     }
    ],
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_6d0bcda38169400d815a452aeb836d26~mv2.jpg",
+    "src": "images/7fe300_6d0bcda38169400d815a452aeb836d26_mv2.jpg",
     "alt": "ゴールボールの試合の様子"
    },
    "hasVideo": false
@@ -4268,7 +4268,7 @@
    "oldUrl": "https://www.mirais2055.jp/pararikujou",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_e2725eb13b534965a609d4e1f3010271~mv2.jpg",
+    "src": "images/7fe300_e2725eb13b534965a609d4e1f3010271_mv2.jpg",
     "alt": "陸上教室の様子1"
    },
    "body": [
@@ -4280,15 +4280,15 @@
      "type": "gallery",
      "items": [
       {
-       "src": "https://static.wixstatic.com/media/7fe300_e2725eb13b534965a609d4e1f3010271~mv2.jpg",
+       "src": "images/7fe300_e2725eb13b534965a609d4e1f3010271_mv2.jpg",
        "alt": "陸上教室の様子1"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_23a733d11f824f0490fe7912472cd5ca~mv2.jpg",
+       "src": "images/7fe300_23a733d11f824f0490fe7912472cd5ca_mv2.jpg",
        "alt": "陸上教室の様子2"
       },
       {
-       "src": "https://static.wixstatic.com/media/7fe300_255eb73f3f0f401294019a1266bea4ab~mv2.jpg",
+       "src": "images/7fe300_255eb73f3f0f401294019a1266bea4ab_mv2.jpg",
        "alt": "陸上教室の様子3"
       }
      ]
@@ -4314,7 +4314,7 @@
    "oldUrl": "https://www.mirais2055.jp/beyondevent",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_f269b5a6c24742228ff72bb075ee0a00~mv2.jpg",
+    "src": "images/7fe300_f269b5a6c24742228ff72bb075ee0a00_mv2.jpg",
     "alt": "BEYOND PARK 秋葉原の会場"
    },
    "body": [
@@ -4332,7 +4332,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_f269b5a6c24742228ff72bb075ee0a00~mv2.jpg",
+     "src": "images/7fe300_f269b5a6c24742228ff72bb075ee0a00_mv2.jpg",
      "alt": "BEYOND PARK 秋葉原の会場"
     },
     {
@@ -4341,7 +4341,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_368b4b4728b54c0e93da71924cc82324~mv2.jpg",
+     "src": "images/7fe300_368b4b4728b54c0e93da71924cc82324_mv2.jpg",
      "alt": "パネル展示"
     },
     {
@@ -4350,13 +4350,13 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_671c82a57840493d86b4e54c0698ba18~mv2.jpg",
+     "src": "images/7fe300_671c82a57840493d86b4e54c0698ba18_mv2.jpg",
      "alt": "トークショー1",
      "caption": "左から、みんなのたかみちさん、篠田麻里子さん、花岡伸和さん(日本パラ陸上競技連盟福理事長)"
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_a81f25b078224c28bb4d641f514a8be7~mv2.jpg",
+     "src": "images/7fe300_a81f25b078224c28bb4d641f514a8be7_mv2.jpg",
      "alt": "トークショー2",
      "caption": "左から東塚菜実子さん、岡本依子さん、みんなのたかみちさん"
     },
@@ -4395,7 +4395,7 @@
    "oldUrl": "https://www.mirais2055.jp/gishisougu",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_e973a508e66c4179bfed14da555d1b41~mv2.jpg",
+    "src": "images/7fe300_e973a508e66c4179bfed14da555d1b41_mv2.jpg",
     "alt": "歴史ある義足の展示"
    },
    "body": [
@@ -4417,7 +4417,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_e973a508e66c4179bfed14da555d1b41~mv2.jpg",
+     "src": "images/7fe300_e973a508e66c4179bfed14da555d1b41_mv2.jpg",
      "alt": "歴史ある義足の展示"
     },
     {
@@ -4434,7 +4434,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_0f1222fc361c440aa73233d412e03d0a~mv2.jpg",
+     "src": "images/7fe300_0f1222fc361c440aa73233d412e03d0a_mv2.jpg",
      "alt": "義足体験"
     },
     {
@@ -4443,7 +4443,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_e2b3a180697b45958d04c80562984996~mv2.jpg",
+     "src": "images/7fe300_e2b3a180697b45958d04c80562984996_mv2.jpg",
      "alt": "ストレッチ中の参加者",
      "caption": "義肢装具士のトレーナーの方々やスタートラインTOKYOの方々にレクチャーを受けながらストレッチ中のスポーツ義足初体験の皆さん。"
     },
@@ -4503,7 +4503,7 @@
    "oldUrl": "https://www.mirais2055.jp/tokyoafterdark",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_d1bf7b1f41cd4978b7ce3078dee90d62~mv2.jpg",
+    "src": "images/7fe300_d1bf7b1f41cd4978b7ce3078dee90d62_mv2.jpg",
     "alt": "TOKYO AFTER DARKの会場"
    },
    "body": [
@@ -4513,7 +4513,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_a3d2b501c9814131a85fafdcaf1e724c~mv2.jpg",
+     "src": "images/7fe300_a3d2b501c9814131a85fafdcaf1e724c_mv2.jpg",
      "alt": "サイバーウィル"
     },
     {
@@ -4526,7 +4526,7 @@
     },
     {
      "type": "img",
-     "src": "https://static.wixstatic.com/media/7fe300_6f90983bae484248bbad6f5a99c52066~mv2.jpg",
+     "src": "images/7fe300_6f90983bae484248bbad6f5a99c52066_mv2.jpg",
      "alt": "サイバーボッチャ"
     },
     {
@@ -4558,7 +4558,7 @@
    "oldUrl": "https://www.mirais2055.jp/canoe",
    "note": "",
    "cover": {
-    "src": "https://static.wixstatic.com/media/7fe300_0e8161e0533c4e01b250d6102db82eb9~mv2.jpg",
+    "src": "images/7fe300_0e8161e0533c4e01b250d6102db82eb9_mv2.jpg",
     "alt": "パラカヌー会見の様子"
    },
    "body": [
