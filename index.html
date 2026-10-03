@@ -258,6 +258,19 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
 .insta .follow{display:inline-flex;align-items:center;gap:10px;background:#111111;color:var(--pill);padding:12px 24px;border-radius:999px;font-weight:700;font-size:16px}
 .insta .sub{font-weight:700;border-bottom:1.5px solid currentColor}
 @media (max-width:700px){.insta{grid-template-columns:minmax(0,1fr)}}
+.insta-wrap{background:#00C2A8;border-bottom:1px solid var(--ink)}
+.insta-wrap .insta{border-bottom:0}
+.ig-track{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:0 clamp(16px,6vw,96px) 8px}
+.ig-track::-webkit-scrollbar{display:none}
+.ig{flex:0 0 clamp(200px,26vw,300px);aspect-ratio:1/1;max-width:80vw;scroll-snap-align:start;position:relative;overflow:hidden;background:#0a8f7c;border:1.5px solid #111}
+.ig img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.ig:hover img{transform:scale(1.05)}
+.ig .cap{position:absolute;left:0;right:0;bottom:0;padding:24px 12px 10px;font-size:12px;line-height:1.5;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.65));display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.ig .vid{position:absolute;top:10px;right:10px;background:#111;color:var(--pill);font-size:11px;font-weight:700;padding:2px 8px}
+.ig-ctl{display:flex;justify-content:flex-end;gap:10px;padding:14px clamp(16px,6vw,96px) 40px}
+.ig-ctl button{width:48px;height:48px;border-radius:50%;border:1.5px solid #111;background:transparent;color:#111;font-size:18px;cursor:pointer}
+.ig-ctl button:hover{background:#111;color:var(--pill)}
+@media (prefers-reduced-motion:reduce){.ig img{transition:none}}
 </style>
 
 </head>
@@ -372,11 +385,31 @@ function wireSeries(){
     t.addEventListener("scroll",()=>requestAnimationFrame(mark),{passive:true});mark();
   });
 }
+/* Instagram：Beholdで発行したフィードURLを入れると、最新の投稿がカルーセルに並ぶ */
+const INSTA_FEED="";
+let IG=null;
 function instaSection(){
-  return `<section class="insta">
+  return `<div class="insta-wrap"><section class="insta">
     <div><div class="eyebrow">100のMIRAI SELECTION</div><h2>10代・20代の<br>未来を、街で聞く。</h2><p>街頭インタビュー番組「100のMIRAI」のセレクションは、Instagramで公開中。あなたの街にも現れるかも！？</p></div>
     <div class="acts"><span class="handle">@100mirais</span><a class="follow" href="https://www.instagram.com/100mirais" target="_blank" rel="noopener">Instagramでフォロー ↗</a><a class="sub" href="#feature-100mirai">番組の一覧を見る →</a></div>
-  </section>`;
+  </section><div class="ig-slot"></div></div>`;
+}
+function igHtml(posts){
+  return `<div class="ig-track">${posts.map(p=>`<a class="ig" href="${esc(p.url)}" target="_blank" rel="noopener"><img src="${esc(p.img)}" alt="${esc((p.cap||"Instagramの投稿").slice(0,60))}" loading="lazy">${p.video?'<span class="vid">▶ 動画</span>':""}${p.cap?`<span class="cap">${esc(p.cap)}</span>`:""}</a>`).join("")}</div>
+  <div class="ig-ctl"><button data-ig="-1" aria-label="前の投稿">←</button><button data-ig="1" aria-label="次の投稿">→</button></div>`;
+}
+function wireInsta(){
+  const slots=app.querySelectorAll(".ig-slot"); if(!slots.length||!INSTA_FEED) return;
+  const fill=posts=>slots.forEach(sl=>{ if(!posts.length) return; sl.innerHTML=igHtml(posts);
+    const t=sl.querySelector(".ig-track");
+    sl.querySelectorAll("[data-ig]").forEach(b=>b.onclick=()=>t.scrollBy({left:Number(b.dataset.ig)*(t.querySelector(".ig").offsetWidth+14),behavior:"smooth"}));});
+  if(IG) return fill(IG);
+  fetch(INSTA_FEED).then(r=>r.json()).then(d=>{
+    const list=Array.isArray(d)?d:(d.posts||[]);
+    IG=list.slice(0,6).map(p=>({url:p.permalink,cap:(p.caption||"").replace(/\s+/g," "),video:/VIDEO/i.test(p.mediaType||""),
+      img:(p.sizes&&p.sizes.medium&&p.sizes.medium.mediaUrl)||p.thumbnailUrl||p.mediaUrl})).filter(p=>p.img&&p.url);
+    fill(IG);
+  }).catch(()=>{});
 }
 /* views */
 function home(){
@@ -412,7 +445,7 @@ function home(){
   </div>
   <div class="sec-h">Tags</div>
   ${tagCloud()}`;
-  wireSeries();
+  wireSeries(); wireInsta();
   app.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{filter=b.dataset.f;const y=scrollY;home();scrollTo(0,y)});
   const s=document.getElementById("slider");
   const step=()=>s.querySelector(".slide").getBoundingClientRect().width+20;
@@ -462,7 +495,7 @@ function featurePage(id){
   ${list.length?grid(list):`<div class="empty"><p>この特集の記事は準備中です。公開をお楽しみに。</p></div>`}
   ${id==="100mirai"?instaSection():""}
   ${seriesSection(others,"MORE","ほかの特集",true)}`;
-  wireSeries();
+  wireSeries(); wireInsta();
 }
 
 function listPage(kind,id){
