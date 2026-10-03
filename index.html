@@ -349,6 +349,16 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
 .m-menu[hidden]{display:none}
 @media (min-width:701px){.m-menu{display:none!important}}
 @media (prefers-reduced-motion:reduce){.burger span{transition:none}}
+/* ヒーロー：スマホでは縦長のスライドにして、見出しが切れないようにする */
+.slide .cap span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:700px){
+  .slider{gap:14px;padding-bottom:110px}
+  .slide{flex:0 0 86%;aspect-ratio:4/5}
+  .slide .cap{left:0;right:0;bottom:0;max-width:none;padding:16px 18px 18px}
+  .slide .cap h2{font-size:20px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .biglogo{font-size:29vw;bottom:-.08em}
+  .arrows{display:none}
+}
 </style>
 
 </head>
