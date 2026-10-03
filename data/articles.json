@@ -75,6 +75,9 @@
   },
   "sports": {
    "label": "スポーツ"
+  },
+  "monozukuri": {
+   "label": "ものづくり"
   }
  },
  "features": {
@@ -2573,12 +2576,15 @@
    "tags": [
     "job-experience"
    ],
-   "title": "飼育員さんの仕事を知ろう！板橋区立熱帯環境植物館",
+   "title": "板橋区立熱帯環境植物館へ！",
    "date": "2024-07-23",
    "writer": "Reporter：ナッキー（木村 月）／Camera・Edit：MIRAIS",
    "oldUrl": "https://www.mirais2055.jp/jobjoy-itabashi",
    "note": "特集ページの中にだけある動画。1本の記事ページにする",
-   "cover": null,
+   "cover": {
+    "src": "https://i.ytimg.com/vi/j7a4xGSKF4Y/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
    "body": [
     {
      "type": "p",
@@ -2586,7 +2592,8 @@
     },
     {
      "type": "video",
-     "href": "https://www.youtube.com/@MIRAIS-zs8pn/videos"
+     "href": "https://www.youtube.com/watch?v=j7a4xGSKF4Y",
+     "title": "飼育員さんの仕事を知ろう！板橋区立熱帯環境植物館"
     },
     {
      "type": "link",
@@ -2814,6 +2821,11 @@
     {
      "type": "p",
      "text": "お楽しみに！"
+    },
+    {
+     "type": "link",
+     "label": "完成した番組はこちら",
+     "href": "#jobjoy-shinagawa"
     }
    ],
    "hasVideo": false
@@ -2831,14 +2843,22 @@
    "writer": "MIRAIS",
    "oldUrl": "https://www.mirais2055.jp/mnews-volunteer",
    "note": "M-newsページの中にだけある記事",
-   "cover": null,
+   "cover": {
+    "src": "https://i.ytimg.com/vi/8TtaWP46xFY/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
    "body": [
     {
      "type": "p",
      "text": "コロナ禍を経て、学生たちのボランティアへの意識はどう変化したのか？日本財団ボランティアセンターによる発表が行われました。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.youtube.com/watch?v=8TtaWP46xFY",
+     "title": "学生のボランティアへの意識調査 発表会"
     }
    ],
-   "hasVideo": false
+   "hasVideo": true
   },
   {
    "slug": "sp01-quagga",
@@ -2854,7 +2874,10 @@
    "writer": "Camera・Edit：MIRAIS／Narration：泉水 朝陽",
    "oldUrl": "https://www.mirais2055.jp/sp01-quagga",
    "note": "特集ページの中にだけある番組。1本の記事ページにする",
-   "cover": null,
+   "cover": {
+    "src": "https://i.ytimg.com/vi/vtpCIBecZAU/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
    "body": [
     {
      "type": "p",
@@ -2862,7 +2885,8 @@
     },
     {
      "type": "video",
-     "href": "https://www.youtube.com/@MIRAIS-zs8pn/videos"
+     "href": "https://www.youtube.com/watch?v=vtpCIBecZAU",
+     "title": "第1回 合同会社クアッガ"
     }
    ],
    "hasVideo": true
@@ -2881,7 +2905,10 @@
    "writer": "Camera・Edit：MIRAIS",
    "oldUrl": "https://www.mirais2055.jp/sp02-rentio",
    "note": "同上",
-   "cover": null,
+   "cover": {
+    "src": "https://i.ytimg.com/vi/R9Wisx8hps4/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
    "body": [
     {
      "type": "p",
@@ -2889,7 +2916,8 @@
     },
     {
      "type": "video",
-     "href": "https://www.youtube.com/@MIRAIS-zs8pn/videos"
+     "href": "https://www.youtube.com/watch?v=R9Wisx8hps4",
+     "title": "第2回 レンティオ株式会社"
     }
    ],
    "hasVideo": true
@@ -2907,14 +2935,22 @@
    "writer": "MIRAIS",
    "oldUrl": "https://www.mirais2055.jp/mnews-sme",
    "note": "M-newsページの中にだけある記事。中小企業の魅力発信なので tsumugu に入れる案",
-   "cover": null,
+   "cover": {
+    "src": "https://i.ytimg.com/vi/td7BMJmOs3c/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
    "body": [
     {
      "type": "p",
      "text": "八王子にて開催されたものづくりの魅力が分かる体験イベントをレポート！"
+    },
+    {
+     "type": "video",
+     "href": "https://www.youtube.com/watch?v=td7BMJmOs3c",
+     "title": "中小企業の魅力体験イベント レポート！"
     }
    ],
-   "hasVideo": false
+   "hasVideo": true
   },
   {
    "slug": "blog-dlive18",
@@ -3407,9 +3443,18 @@
     {
      "type": "p",
      "text": "もっといろんな方にデフスポーツや障がいを持っていても活躍する人たちのことを知って欲しいなと思っています。"
+    },
+    {
+     "type": "h",
+     "text": "イベントの動画"
+    },
+    {
+     "type": "video",
+     "href": "https://www.youtube.com/watch?v=pyzQT-f-GgY",
+     "title": "日本デフ陸上競技選手権大会の応援イベント開催！"
     }
    ],
-   "hasVideo": false
+   "hasVideo": true
   },
   {
    "slug": "blog-open",
@@ -4608,7 +4653,10 @@
    "writer": "Camera：MIRAIS／Video editor：kono rinon",
    "oldUrl": "https://www.mirais2055.jp/100mirai01",
    "note": "日付の記載なし",
-   "cover": null,
+   "cover": {
+    "src": "https://i.ytimg.com/vi/vWAcWGmHV2U/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
    "body": [
     {
      "type": "p",
@@ -4616,7 +4664,8 @@
     },
     {
      "type": "video",
-     "href": "https://www.youtube.com/@MIRAIS-zs8pn/videos"
+     "href": "https://www.youtube.com/watch?v=vWAcWGmHV2U",
+     "title": "第1回 100のMIRAI（Shibuya & Harajuku）"
     }
    ],
    "hasVideo": true
@@ -4634,7 +4683,10 @@
    "writer": "Camera：MIRAIS／Video editor：kono rinon",
    "oldUrl": "https://www.mirais2055.jp/100mirai02",
    "note": "日付の記載なし",
-   "cover": null,
+   "cover": {
+    "src": "https://i.ytimg.com/vi/4STrtF001FA/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
    "body": [
     {
      "type": "p",
@@ -4642,7 +4694,8 @@
     },
     {
      "type": "video",
-     "href": "https://www.youtube.com/@MIRAIS-zs8pn/videos"
+     "href": "https://www.youtube.com/watch?v=4STrtF001FA",
+     "title": "第2回 100のMIRAI（Harajuku）"
     }
    ],
    "hasVideo": true
@@ -4660,7 +4713,10 @@
    "writer": "Camera：MIRAIS／Video editor：あんり",
    "oldUrl": "https://www.mirais2055.jp/100mirai03",
    "note": "タイトル・日付の記載なし。第3回として扱う案",
-   "cover": null,
+   "cover": {
+    "src": "https://i.ytimg.com/vi/HpO-ERneDV8/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
    "body": [
     {
      "type": "p",
@@ -4668,7 +4724,8 @@
     },
     {
      "type": "video",
-     "href": "https://www.youtube.com/@MIRAIS-zs8pn/videos"
+     "href": "https://www.youtube.com/watch?v=HpO-ERneDV8",
+     "title": "第3回 100のMIRAI（Shibuya）"
     }
    ],
    "hasVideo": true
@@ -4759,6 +4816,73 @@
     }
    ],
    "hasVideo": false
+  },
+  {
+   "slug": "monozukurif01",
+   "status": "done",
+   "feature": "monozukurif",
+   "genre": "video",
+   "tags": [
+    "monozukuri",
+    "job-experience",
+    "career"
+   ],
+   "title": "【第1回】長沢ベルト工業",
+   "date": "",
+   "writer": "MIRAIS Channel",
+   "oldUrl": "",
+   "note": "YouTubeから追加",
+   "cover": {
+    "src": "https://i.ytimg.com/vi/vFTeHZj7QdY/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
+   "hasVideo": true,
+   "body": [
+    {
+     "type": "p",
+     "text": "鉄鋼、建築、革細工、発明……日本が世界に誇る、モノ作りのお仕事の魅力を発信する monozukuri+F。第1回は長沢ベルト工業を訪ねました。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.youtube.com/watch?v=vFTeHZj7QdY",
+     "title": "【第1回】長沢ベルト工業「monozukuri+F」"
+    }
+   ]
+  },
+  {
+   "slug": "jobjoy-shinagawa",
+   "status": "done",
+   "feature": "jobjoy",
+   "genre": "video",
+   "tags": [
+    "job-experience"
+   ],
+   "title": "しながわ水族館へ！",
+   "date": "",
+   "writer": "Reporter：ナッキー（木村 月）／Camera・Edit：MIRAIS",
+   "oldUrl": "",
+   "note": "YouTubeから追加",
+   "cover": {
+    "src": "https://i.ytimg.com/vi/Rulaxpan5EM/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
+   "hasVideo": true,
+   "body": [
+    {
+     "type": "p",
+     "text": "世の中に存在する、たくさんの仕事を、高校生や大学生が実際に体験するジョブタノ！。今回はナビゲーターのナッキーが、しながわ水族館で魚類を担当している飼育員さんに、お仕事の内容を聞きました。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.youtube.com/watch?v=Rulaxpan5EM",
+     "title": "【第2回】しながわ水族館へ！【ジョブタノ！】"
+    },
+    {
+     "type": "link",
+     "label": "撮影の舞台裏はこちら",
+     "href": "#blog-shinagawa"
+    }
+   ]
   }
  ]
 }
