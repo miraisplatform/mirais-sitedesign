@@ -249,6 +249,15 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
 .vbadge{position:absolute;right:12px;bottom:12px;z-index:1;background:var(--ink);color:var(--pill);font-size:12px;font-weight:700;padding:2px 10px}
 .yt{position:relative;aspect-ratio:16/9;max-width:100%;margin:0 0 1.6em;border:1px solid var(--ink);background:var(--ink)}
 .yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.insta{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:28px;align-items:center;padding:48px clamp(16px,6vw,96px);background:#00C2A8;color:#111111;border-bottom:1px solid var(--ink)}
+.insta .eyebrow{font-family:var(--f-latin);letter-spacing:.14em;font-size:14px}
+.insta h2{font-family:var(--f-jp);font-weight:900;font-size:clamp(30px,5vw,58px);line-height:1.2;margin:8px 0 12px}
+.insta p{margin:0;max-width:30em;font-weight:500}
+.insta .acts{display:flex;flex-direction:column;gap:12px;align-items:flex-start}
+.insta .handle{font-family:var(--f-logo);font-size:clamp(28px,4vw,48px);line-height:1}
+.insta .follow{display:inline-flex;align-items:center;gap:10px;background:#111111;color:var(--pill);padding:12px 24px;border-radius:999px;font-weight:700;font-size:16px}
+.insta .sub{font-weight:700;border-bottom:1.5px solid currentColor}
+@media (max-width:700px){.insta{grid-template-columns:minmax(0,1fr)}}
 </style>
 
 </head>
@@ -363,6 +372,12 @@ function wireSeries(){
     t.addEventListener("scroll",()=>requestAnimationFrame(mark),{passive:true});mark();
   });
 }
+function instaSection(){
+  return `<section class="insta">
+    <div><div class="eyebrow">100のMIRAI SELECTION</div><h2>10代・20代の<br>「未来」を街で聞く。</h2><p>街頭インタビュー番組「100のMIRAI」のセレクションは、Instagramで公開中。あなたの街にも現れるかも！？</p></div>
+    <div class="acts"><span class="handle">@100mirais</span><a class="follow" href="https://www.instagram.com/100mirais" target="_blank" rel="noopener">Instagramでフォロー ↗</a><a class="sub" href="#feature-100mirai">番組の一覧を見る →</a></div>
+  </section>`;
+}
 /* views */
 function home(){
   const all=done().sort(byDate);
@@ -390,6 +405,7 @@ function home(){
   ${grid(list)}
   <div class="more-all"><a href="#articles">すべての記事を見る（${all.length}本） <i>→</i></a></div>
   ${seriesSection(Object.keys(D.features),"FEATURES","テーマごとの特集・連載",true)}
+  ${instaSection()}
   <div class="sec-h">News &amp; Events</div>
   <div class="rows">
     ${NEWS.map(n=>`<a class="row" href="${n.u}"><span class="d">${n.d}</span><span class="t">${esc(n.t)}</span><span class="ti">${esc(n.ti)}</span><span class="c">${esc(n.c)}</span><span class="w">READ →</span></a>`).join("")}
@@ -444,6 +460,7 @@ function featurePage(id){
     <div class="count"><span>${list.length?`記事 ${list.length}本`:"準備中"}</span></div>
   </div></header>
   ${list.length?grid(list):`<div class="empty"><p>この特集の記事は準備中です。公開をお楽しみに。</p></div>`}
+  ${id==="100mirai"?instaSection():""}
   ${seriesSection(others,"MORE","ほかの特集",true)}`;
   wireSeries();
 }
