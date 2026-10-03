@@ -1,0 +1,4764 @@
+{
+ "site": {
+  "name": "MIRAIS",
+  "tagline": "すべての学生のMIRAIにつながるプロジェクト",
+  "description": "自分の目指す仕事、やりたいこと、好きなことをあきらめなくていい社会へ。"
+ },
+ "genres": {
+  "report": {
+   "label": "取材レポート"
+  },
+  "interview": {
+   "label": "インタビュー"
+  },
+  "column": {
+   "label": "コラム"
+  },
+  "activity": {
+   "label": "活動レポート"
+  },
+  "notice": {
+   "label": "お知らせ"
+  },
+  "video": {
+   "label": "動画"
+  }
+ },
+ "tags": {
+  "parasports": {
+   "label": "パラスポーツ"
+  },
+  "blind": {
+   "label": "ブラインドスポーツ"
+  },
+  "wheelchair": {
+   "label": "車いすスポーツ"
+  },
+  "deaf": {
+   "label": "デフ・手話"
+  },
+  "inclusive": {
+   "label": "共生社会"
+  },
+  "esports": {
+   "label": "eスポーツ"
+  },
+  "student-writer": {
+   "label": "学生ライター"
+  },
+  "self": {
+   "label": "自分らしさ"
+  },
+  "career": {
+   "label": "仕事・キャリア"
+  },
+  "job-experience": {
+   "label": "仕事体験"
+  },
+  "shukatsu": {
+   "label": "就活"
+  },
+  "startup": {
+   "label": "起業"
+  },
+  "shibuya": {
+   "label": "地域・渋谷"
+  },
+  "kids": {
+   "label": "子ども・教育"
+  },
+  "video-making": {
+   "label": "映像制作"
+  },
+  "communication": {
+   "label": "コミュニケーション"
+  },
+  "sports": {
+   "label": "スポーツ"
+  }
+ },
+ "features": {
+  "esportsfuture": {
+   "name": "e-sports future",
+   "catch": "MIRAIS高校生メンバー初連載！",
+   "intro": "横田くんが「e-sports」の魅力を記事を通して伝えていきます！",
+   "color": "#3B5BFF",
+   "ink": "#FFFFFF",
+   "oldUrl": "https://www.mirais2055.jp/esportsfuture"
+  },
+  "kidscolumn": {
+   "name": "十人十色",
+   "catch": "これからを生きていく小学生や中学生たちへ。",
+   "intro": "新しいメンバーの「うさぎ」が送る、自分の体験談も含めたメッセージコラム。学校という限られた環境だけでなく、自分で選び、自分で決めることの大切さを伝えます。保護者の方には、子どもたちが自らの選択を尊重できるよう導くことの大切さを。今後はワークショップなども予定しています。",
+   "color": "#F6D44A",
+   "ink": "#111111",
+   "oldUrl": "https://www.mirais2055.jp/kidscolumn"
+  },
+  "parasports": {
+   "name": "Parasports",
+   "catch": "障害そのものの認知拡大などで活躍するアスリートやアーティストを紹介！",
+   "intro": "パラリンピックや各種大会、ほかにも、障害そのものの認知拡大などで活躍するアスリートたちやアーティストたちを、インタビュー記事で紹介！",
+   "color": "#FF8A5B",
+   "ink": "#111111",
+   "oldUrl": "https://www.mirais2055.jp/parasports"
+  },
+  "forstars": {
+   "name": "For Stars",
+   "catch": "耳に障害を持つアスリートたちのオリンピック、デフリンピック。",
+   "intro": "聴覚障害を持ちながら積極的に活躍するアスリートやアーティストを紹介するコンテンツ。デフリンピックは2025年に東京で開催されました。",
+   "color": "#B69CFF",
+   "ink": "#111111",
+   "oldUrl": "https://www.mirais2055.jp/forstars"
+  },
+  "jobjoy": {
+   "name": "ジョブタノ！",
+   "catch": "世の中に存在する、たくさんの仕事を、高校生や大学生が実際に体験！",
+   "intro": "リアルな経験を通して初めて知れることや、自分の知らない世界を見て、自分の未来の可能性を広げよう！",
+   "color": "#E4FF3A",
+   "ink": "#111111",
+   "oldUrl": "https://www.mirais2055.jp/jobjoy"
+  },
+  "teens": {
+   "name": "teens!",
+   "catch": "自分たちがトレンドの発信地！",
+   "intro": "MIRAIS発の学生による学生のための情報発信ユニット！モットーは「学生のリアルな声」をカタチにすること！今流行のスイーツ、話題のスポット、ほかにも進学や仕事など、学生たちが得する情報をメンバーがお届け！将来的には、企業などとコラボして、イベントの開催や商品開発なども行っていく予定です。",
+   "color": "#FF7EB6",
+   "ink": "#111111",
+   "oldUrl": "https://www.mirais2055.jp/teens"
+  },
+  "socialpioneers": {
+   "name": "Social Pioneers",
+   "catch": "日本の未来の希望を作る、起業家たち。",
+   "intro": "就職が当たり前の世の中で、どうして彼らは独立することを選んだのか？なぜその仕事を選んだのか？これから起業したい人も、そうではない人も、これからを頑張る力と勇気を授ける番組。",
+   "color": "#111111",
+   "ink": "#E4FF3A",
+   "oldUrl": "https://www.mirais2055.jp/socialpioneers"
+  },
+  "100mirai": {
+   "name": "100のMIRAI",
+   "catch": "あなたの街にも現れるかも！？",
+   "intro": "10代や20代に夢や未来について語ってもらう街頭インタビュー番組！",
+   "color": "#00C2A8",
+   "ink": "#111111",
+   "oldUrl": "https://www.mirais2055.jp/100mirais"
+  },
+  "miraiscircle": {
+   "name": "MIRAISサークル",
+   "catch": "for all youth",
+   "intro": "「自分のやりたいことってなんだろう？」「どんな業界を目指したいんだろう？」といった問いに向き合いながら、様々な人との出会いを通じて自分の進路を探索できる場。ショートドラマ制作、取材・仕事体験、受験や就活に役立つイベントの3つを柱にした、大学生による企画です。",
+   "color": "#FFB020",
+   "ink": "#111111",
+   "oldUrl": "https://www.mirais2055.jp/miraiscircle"
+  },
+  "tsumugu": {
+   "name": "tsumugu",
+   "catch": "Tsumugu Project",
+   "intro": "日本にある魅力ある中小企業や様々なベンチャー企業、個性的な個人商店などの魅力を伝え、人とつないでいくプロジェクトです。魅力発信の番組はもちろんのこと、体験する機会の提供やコラボなど、様々な展開を計画中！",
+   "color": "#2FB67C",
+   "ink": "#111111",
+   "oldUrl": "https://www.mirais2055.jp/tsumugu"
+  },
+  "monozukurif": {
+   "name": "monozukuri+F",
+   "catch": "ものづくりってカッコいい！！",
+   "intro": "鉄鋼、建築、革細工、発明……日本が世界に誇る、モノ作りのお仕事の魅力を発信！",
+   "color": "#8C6A4F",
+   "ink": "#FFFFFF",
+   "oldUrl": "https://www.mirais2055.jp/monozukurif"
+  },
+  "miraijuku": {
+   "name": "未来教室",
+   "catch": "こどもに生きる力と、活躍するチャンスを。",
+   "intro": "未来塾は、個性×コミュニケーション能力×学習で「こどものみらい」をはぐくむ教室です。ベースとなる定期的な学習支援に加え、不定期で芸術やスポーツなどに触れられる教室を開催します。家庭環境に関係なく、すべてのこどもたちに機会を作るため、未来教室は原則完全無料としております。",
+   "color": "#9CC9FF",
+   "ink": "#111111",
+   "oldUrl": "https://www.mirais2055.jp/miraijuku"
+  },
+  "soudan": {
+   "name": "就活・進学お悩み相談",
+   "catch": "就職や進学に関する相談窓口スタート！",
+   "intro": "学生の未来を一緒に作るメディアプロジェクトMIRAISでは、今までたくさんの学生スタッフの声を聴いてきました。そこで、リニューアルを記念して、就活への不安や、総合型入試への疑問などを解消するための無料相談窓口を設置します！",
+   "color": "#E8452C",
+   "ink": "#FFFFFF",
+   "oldUrl": "https://www.mirais2055.jp/soudan"
+  },
+  "mnews": {
+   "name": "M-news",
+   "catch": "MIRAISの最新ニュースと活動レポート。",
+   "intro": "イベント取材、制作の裏側、スポーツ大会など、MIRAISの活動を写真や動画とともに発信しています。",
+   "color": "#D9D6CE",
+   "ink": "#111111",
+   "oldUrl": "https://www.mirais2055.jp/m-news"
+  }
+ },
+ "articles": [
+  {
+   "slug": "shukatsuev",
+   "status": "done",
+   "feature": "miraiscircle",
+   "genre": "notice",
+   "tags": [
+    "shukatsu"
+   ],
+   "title": "9月のミライワークショップ開催",
+   "date": "2026-09-02",
+   "writer": "MIRAISサークル",
+   "oldUrl": "https://www.mirais2055.jp/shukatsuev",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_ab38e757a7e94cdea0a6660f30b4d459~mv2.png",
+    "alt": "9月のミライワークショップ"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "自分の言葉で話せない、テンプレになってしまうのはなぜ？2次面接で落とされてしまうのはどうして？就活の仕組みから学び、賢く内定に近づこう。"
+    },
+    {
+     "type": "h",
+     "text": "開催概要"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "日にち：9月19日（土）",
+      "前半：14時〜15時ごろまで",
+      "後半：15時10分〜16時10分ごろまで",
+      "場所：結・しぶや（渋谷区文化総合センター大和田）",
+      "講師：MIRAIS大学生スタッフ（就活・インターン経験済）"
+     ]
+    },
+    {
+     "type": "link",
+     "label": "申し込みフォーム",
+     "href": "https://docs.google.com/forms/d/e/1FAIpQLSfV1Ic8Jk8sIzrv1QYG_tQaKVail2xqUk-ImAunhMDff3J46w/viewform"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "communicationev",
+   "status": "done",
+   "feature": "miraiscircle",
+   "genre": "notice",
+   "tags": [
+    "shukatsu",
+    "communication"
+   ],
+   "title": "大学生のためのコミュニケーション教室 開催！",
+   "date": "2026-07-25",
+   "writer": "MIRAIS",
+   "oldUrl": "https://www.mirais2055.jp/communicationev",
+   "note": "ページには「2024年7月25日（土）」とあるが曜日が合わない。2025年なら金曜。開催年を確認",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_2552e780ee734765b29b54fb982c12cd~mv2.png",
+    "alt": "コミュニケーション教室"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "人と話すとき、何を言ったらいいかわからず苦笑い……就活の面接のときも、どういえばいいかわからず滝汗……そんなコミュニケーションが苦手なあなたのための、「対話」に慣れるためのコミュニケーション教室、開催です。"
+    },
+    {
+     "type": "p",
+     "text": "「まずは話してみましょう！」ではなく、今回はあらかじめ決まった台本を使い、「相手と話す感覚」に慣れるところからスタートするコミュニケーション教室です。だから、どう話せばいいのかな、雑談って苦手、みんなの前で「はいやってみて！」となるのが苦手なあなたも大丈夫。その一歩目を一緒に踏み出していきましょう。"
+    },
+    {
+     "type": "p",
+     "text": "今回は少人数制のため、定員が埋まり次第、締め切らせていただきます。あらかじめご了承ください。"
+    },
+    {
+     "type": "h",
+     "text": "開催日時・場所"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "日時：7月25日（土）14:00～15:00",
+      "場所：結・しぶや（渋谷区文化総合センター大和田9階 東京都渋谷区桜丘町23-21）"
+     ]
+    },
+    {
+     "type": "h",
+     "text": "お申込み・お問い合わせ"
+    },
+    {
+     "type": "p",
+     "text": "下のボタンからお申込み・お問い合わせください。（Googleフォームが開きます）"
+    },
+    {
+     "type": "link",
+     "label": "お申込みフォーム",
+     "href": "https://docs.google.com/forms/d/e/1FAIpQLScvXW5temOrPh5Gxt-8wRWeF08UQOFYeqlPUcDOOfuHkH5g5Q/viewform"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "circle-drama",
+   "status": "done",
+   "feature": "miraiscircle",
+   "genre": "notice",
+   "tags": [
+    "video-making",
+    "shukatsu"
+   ],
+   "title": "就活ドラマ、鋭意製作中！",
+   "date": "2026-03-23",
+   "writer": "MIRAISサークル",
+   "oldUrl": "https://www.mirais2055.jp/circle-drama",
+   "note": "特集ページの中にだけあるお知らせ",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "MIRAISサークルでは、就活をテーマにしたショートドラマを現在鋭意製作中！"
+    },
+    {
+     "type": "p",
+     "text": "MIRAISサークルは、「自分のやりたいことってなんだろう？」「自分がなりたいものってなんだろう？」「どんな業界を目指したいんだろう？」といった問いに向き合いながら、様々な人との出会いを通じて自分の進路を探索できる場を提供する、大学生による企画です。"
+    },
+    {
+     "type": "h",
+     "text": "MIRAISサークルの3つの柱"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Drama Creative：受験や就活をテーマにしたショートドラマの制作",
+      "Interview：学校や企業への取材、仕事の体験",
+      "Event：受験や就活に役立つイベント"
+     ]
+    },
+    {
+     "type": "link",
+     "label": "制作会議のレポートはこちら",
+     "href": "#seisakumtg01"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "entameshukatsu",
+   "status": "done",
+   "feature": "miraiscircle",
+   "genre": "report",
+   "tags": [
+    "shukatsu",
+    "career"
+   ],
+   "title": "エンタメ業界研究フェス レポート",
+   "date": "2025-10-16",
+   "writer": "Yuika Soda",
+   "oldUrl": "https://www.mirais2055.jp/entameshukatsu",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_558de2f5bf88427b98e5073cace57d55~mv2.jpg",
+    "alt": "エンタメ業界研究フェス"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "今回、9月8日に開催されたエンタメ業界研究フェスという就活イベントに参加しました。このイベントは、エンタメ業界を目指す学生のためにエンタメ業界に特化した業界研究イベントで、なんと今年初開催！"
+    },
+    {
+     "type": "p",
+     "text": "テレビ局、映画、音楽、映像制作、舞台などエンタメ業界の最前線を支える企業が集結していました。"
+    },
+    {
+     "type": "p",
+     "text": "さらに、フリーテレビプロデューサーの佐久間宣行さんや鈴木おさむさんのトークショーや、ぱーてぃーちゃん、ラパルフェなどによるお笑いステージなどエンタメ業界ならではのコンテンツも。"
+    },
+    {
+     "type": "p",
+     "text": "大学1年生～大学4年生まで参加できるとのことで、当日は大混雑！人気企業による講演会はすぐに満員になっていました。"
+    },
+    {
+     "type": "p",
+     "text": "開場前から大混雑で、イベントに行く前は色んな企業を見に行こうと思っていたのですが、3、4つの企業しか話を聞くことが出来ませんでした。普段の企業説明会では直接社員の方と話すことができる機会は少ないですが、今回は直接お話を伺うことができました。私も新入社員の方に直接、たくさん質問してきました。直接お話をすることで、説明会だけでは聞けない細かな内容だったり、本音を聞くことが出来たため、とても有意義な時間を過ごすことができました。"
+    },
+    {
+     "type": "p",
+     "text": "また、行く前までは知らなかった企業も、ブースに貼ってあるポスターを見て「この作品に携わった会社なんだ……！」と知れるのが、エンタメが大好きな私にとってはすごく楽しかったです。"
+    },
+    {
+     "type": "p",
+     "text": "会場はぴあアリーナMMで行われ、ブース訪問やセミナー参加の合計5件以上で、10月にぴあアリーナMMで行われたPIA MUSIC COMPLEX 2025への応募資格のプレゼントがあったりと、エンタメ業界ならではの特典もありました。"
+    },
+    {
+     "type": "p",
+     "text": "今回初めて開催されたエンタメ業界研究フェス。エンタメ業界を志望する人は多いものの、エンタメ業界に特化した就活イベントは少なかったため、エンタメ業界を目指す就活生にとっては嬉しいイベントだったのではないでしょうか。"
+    },
+    {
+     "type": "p",
+     "text": "私は対面での大型就活イベントは初めて参加しましたが、知らなかった企業に出会えて自分のキャリアを考えるのにとても役立ちました。オンライン上だと、自分の興味のある企業の説明しか聞けませんが、このような対面型のイベントは様々な出会いがあるので自分の興味を広げられる場であると感じました。今後もこういったイベントが開催されたら積極的に参加しようと思いました！"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "jcginterview",
+   "status": "done",
+   "feature": "esportsfuture",
+   "genre": "interview",
+   "tags": [
+    "esports",
+    "career"
+   ],
+   "title": "eスポーツ二刀流の新しい生き方！プロゲーマー 木成 諒さん",
+   "date": "2025-07-15",
+   "writer": "Interviewer・Writer：横田 武蔵（MIRAIS）／Photo：MIRAIS／取材協力：株式会社JCG",
+   "oldUrl": "https://www.mirais2055.jp/jcginterview",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_025cb3a07be8485f9a784674f3e04f41~mv2.jpeg",
+    "alt": "取材の様子3"
+   },
+   "body": [
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_55ef3208664b460e83e94e4b274e9d7b~mv2.jpeg",
+       "alt": "木成諒さん"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_526dc487d8344d70a0bc9c99b4b09c0f~mv2.jpeg",
+       "alt": "取材の様子1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_fc78436263bc4ec7904a02e8b91ce22a~mv2.jpeg",
+       "alt": "取材の様子2"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "今回、私はeスポーツのイベント企画・運営を主に行っているJCGに所属している格闘ゲームのプロゲーマーであり、営業部のリーダー(取材当時)として働いている木成諒さんに取材をすることができました。"
+    },
+    {
+     "type": "p",
+     "text": "この記事では取材した内容の中でも特に興味深い回答をもらえた質問を載せています。"
+    },
+    {
+     "type": "h",
+     "text": "JCGの創業理由、木成さんがJCGに入った経緯"
+    },
+    {
+     "type": "p",
+     "text": "JCGの創業経緯として、社長(現代表取締役CEO)の松本がゲームコミュニティのリーダーのような存在で、当時イベント(オフ会主催やMCなど)をしていたら認知が広がっていきました。その結果、公式から仕事としてお声がけいただき、2017年にeスポーツの広がりと共にeスポーツ事業を行い始めて今のJCGができたという経緯です。"
+    },
+    {
+     "type": "p",
+     "text": "私がJCGに入る前の経歴として20〜26歳で声優の仕事をして、26〜28歳でゲームセンターに毎日通っていて、世界大会に出場する機会を得られて準優勝まで行けたんですよ。この影響でeスポーツにかかわる仕事をしたいと感じるようになり、ポノスというゲーム制作会社でプロゲーミングチームのスカウトやマネージャーを28～30歳まで担当し、当時のウェルプレイド・ライゼスト(現GLOE)というeスポーツの大会やゲームイベントの企画を行う会社に転職し、2年間ADとして経験を積んで、その後個人でフリーランスという形で2年間eスポーツにかかわる仕事をさせてもらい、当時の取引先の一つだったJCGに入ったという経緯です。"
+    },
+    {
+     "type": "h",
+     "text": "これまでどんなイベントを企画してきたのですか"
+    },
+    {
+     "type": "p",
+     "text": "JCGの実績として、JCGと京王電鉄が共催した「京王 Presents JCG STREET FIGHTER 6 CAPCOM Pro Tour 2024 SUPER PREMIER JAPAN」、「ストリートファイターリーグ: Pro-JP 2020」、FPSではレインボーシックス シージのプロリーグの運営、現在では、VALORANTプロリーグVALORANT Challengers Japanの運営、他にも東京ゲームショウの企業ブースの施工業務、他にはオフラインイベントや一般企業さんの社内ゲーム大会などの運営・企画を行っています。"
+    },
+    {
+     "type": "p",
+     "text": "僕個人としては、格闘ゲームのプロとして格闘ゲームのプロモーション番組や新キャラ発表などをさせてもらっています。"
+    },
+    {
+     "type": "h",
+     "text": "ほかのジャンルと比べて格闘ゲームにおいて日本のプロが世界で活躍する理由は何ですか"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_025cb3a07be8485f9a784674f3e04f41~mv2.jpeg",
+     "alt": "取材の様子3"
+    },
+    {
+     "type": "p",
+     "text": "いろいろ理由はあると思いますが、一つ目は人口の多さ。日本の会社が作っていることで比較的なじみがあることが人口の多さにつながっていると思います。二つ目は、スター選手がいること。梅原大吾さんような世界で活躍する選手がいることで憧れてプロを目指したい新規ユーザーが増えるのは大きいと思います。三つ目は、日本人の気質的な話。日本人は職人気質な人が多いと思います。これは格闘ゲームと相性がいいですね。四つ目は、年齢を重ねても勝つことができる点。経験値が多いほうが相手の行動を予測する精度がよくなることが多いです。若くて強い人もいますが経験があることで思考が早くなるので年齢が高くても勝てるのは要因の一つです。五つ目は、情報を全部出すこと。国内大会で勝つことだけを目的にすると情報を秘密にして、大会で初見殺しみたいにしたほうがいいです。しかし日本のレベルを上げるという観点で見たときに情報を共有することが必須になると思います。それ故に他の国に比べて圧倒的に情報量が違います。"
+    },
+    {
+     "type": "h",
+     "text": "プロゲーマーの方は配信活動をしている人が多いですが、配信している方と木成さんのような会社で働きながらプロゲーマーをしている方の違いは何ですか、また配信しないメリットはありますか"
+    },
+    {
+     "type": "p",
+     "text": "違いとして配信は行ったほうが絶対に良いです。私も一時期配信をしていたのですが、配信を意識しすぎるあまり練習にコミットできなかったです。"
+    },
+    {
+     "type": "p",
+     "text": "働く・配信・練習は時間的に無理だったので、配信をあきらめました。なので配信をしないメリットは、練習に集中できることです。"
+    },
+    {
+     "type": "p",
+     "text": "ただ、配信するメリットは結構あります。"
+    },
+    {
+     "type": "p",
+     "text": "まず一つ目は、たくさんの人が配信を見ることで、情報が集まることです。プロでも知らないことを視聴者に教えてもらうみたいなことがあるので、このような情報が集まってくることは一つです。"
+    },
+    {
+     "type": "p",
+     "text": "二つ目は、数字に強くなることです。SNS(YouTube、Xなど)のフォロワーが増えることがメリットです。"
+    },
+    {
+     "type": "p",
+     "text": "三つ目は、二つ目に似ているのですけど個人の価値が上がるというのがあります。例えば、配信をすることで人となりがわかるので企業の案件やイベントに呼ばれやすくなったりします。最後にコアなファンがつきやすいです。個人のイベントだったり、グッズだったりを買ってくれるファンは配信のほうがつきやすいです。"
+    },
+    {
+     "type": "h",
+     "text": "プロゲーマーを目指している人にアドバイスをください"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_fb05be9faae94841a97b8d5780fb2927~mv2.jpeg",
+     "alt": "取材の様子4"
+    },
+    {
+     "type": "p",
+     "text": "プロゲーマーを目指す上でまずは、勉強ができるほうがいいです。理由としてeスポーツは、競争が激しくゲームのルールだけではなく、プレイするゲーム自体が変わることが当たり前で他のスポーツにはない特徴があるため先を読む能力が必要になってくるんですよね。そういうのはやはり地頭の良さみたいなのが必要で学生時代に勉強を頑張っている人のほうが身につきやすいと思います。今の私の部署は僕以外にも現役のプロゲーマーがいます。一緒にお仕事をしていく中でそういった方々は皆どこか抜けて賢いところがあるなと感じます。"
+    },
+    {
+     "type": "p",
+     "text": "そして、二つ目は絶対にあきらめないこと。勝つまでやる、どんなに負けても勝てるようになるまで練習することが大切です。"
+    },
+    {
+     "type": "p",
+     "text": "私は諦めが悪くて負けず嫌いだったのでプロになれました。"
+    },
+    {
+     "type": "h",
+     "text": "これからのプロゲーマーとして、そしてJCGとしての展望"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_ea315e6d5b9e4993929d838e907fad0b~mv2.jpeg",
+     "alt": "取材の様子5"
+    },
+    {
+     "type": "p",
+     "text": "プロとしては、まず、勝ちたいです。仕事もプロも全力でやってどっちも結果を残す。二刀流eスポーツ界の大谷翔平選手のような存在になりたいです。"
+    },
+    {
+     "type": "p",
+     "text": "あとは周りから目指される指標になりたい。プロゲーマーと仕事をするていうのを両立できるっていうのを示して、こういうやり方もあるんだよっていうのを見せていきたい。この世界のパイオニアになるみたいな感じです。"
+    },
+    {
+     "type": "p",
+     "text": "JCGで働く社会人としての目標は、視聴者層を増やしていきたいとか、コミュニティに還元をしたいみたいなのはあるんですけど、リアルスポーツみたいな感じで多くの人の生活の一部にeスポーツ観戦が入っていくようにしたいと考えています。あとはJCGの主催の大会と聞いてあの会社なら大丈夫だなみたいなブランドイメージみたいなのを作っていきたいです。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_74bf2e4466344d65b03b15ffcf8738b3~mv2.jpeg",
+     "alt": "木成さんと筆者"
+    },
+    {
+     "type": "p",
+     "text": "今回取材をさせていただいた木成さんは、世界で活躍するプロゲーマーで、今年ラスベガスで開催するEVO(Evolution Championship Series)という格闘ゲームの世界大会にも鉄拳8部門に出場予定です。"
+    },
+    {
+     "type": "p",
+     "text": "木成さんを取材させていただいた中でとても気さくな方で、僕自身非常に緊張していたのですが、冗談を言ってこっちの緊張をほぐしていただいてとても楽しく取材をさせていただきました。"
+    },
+    {
+     "type": "p",
+     "text": "ありがとうございました！"
+    },
+    {
+     "type": "link",
+     "label": "株式会社JCG",
+     "href": "https://jcg.co.jp/"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "satuseilog02",
+   "status": "done",
+   "feature": "miraiscircle",
+   "genre": "activity",
+   "tags": [
+    "video-making",
+    "shukatsu"
+   ],
+   "title": "制作会議＆ドラマサンプル撮影日！",
+   "date": "2025-06-29",
+   "writer": "Writer：MIRAIS広報部／Model・Actor：木村 月／Drama Producer：曽田 結加",
+   "oldUrl": "https://www.mirais2055.jp/satuseilog02",
+   "note": "M-newsからMIRAISサークルへ移す案",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_5c8f8672a3654ba581041022ab218cae~mv2.jpg",
+    "alt": "制作会議"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "今日は朝から活動！就活ドラマ制作会議＆サンプル撮影！"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_5c8f8672a3654ba581041022ab218cae~mv2.jpg",
+     "alt": "制作会議"
+    },
+    {
+     "type": "p",
+     "text": "新しく参加するタカツくんも加えてのミーティングでした。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_ebf5db63a706462885afec6e9b6bd104~mv2.jpg",
+     "alt": "ミーティングの様子"
+    },
+    {
+     "type": "p",
+     "text": "午後からは撮影に。"
+    },
+    {
+     "type": "p",
+     "text": "ナッキーにピンマイクを装着する曽田さん。もうすっかりスタッフのオーラです。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_02778296837c480287376273c9b5f1d0~mv2.jpeg",
+     "alt": "ピンマイクを装着"
+    },
+    {
+     "type": "p",
+     "text": "じゃん！"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_26c8dc0afe3642349f996a047d62da66~mv2.jpeg",
+       "alt": "撮影の様子1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_c3cb7fbd304d45cca7d525b8f23334d2~mv2.jpg",
+       "alt": "撮影の様子2"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_7792f031be694a37a8a11ab0c48675ce~mv2.jpg",
+       "alt": "撮影の様子3"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "もともと決めていた台本はありましたが、その場の雰囲気やナッキーの演技で変更したいことも出てくるもの。"
+    },
+    {
+     "type": "p",
+     "text": "その場で臨機応変にいろいろ変更しながら、撮影しました。"
+    },
+    {
+     "type": "p",
+     "text": "発案者の曽田さんの演出はもちろんのこと、横田くんもADとして参加し、いろんな意見が飛び交う現場となりました。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_58e1f524dd314a619358424493a4953d~mv2.jpeg",
+       "alt": "撮影の様子4"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_17b0f72a213d49099ad954e9b48e3094~mv2.jpg",
+       "alt": "撮影の様子5"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "そのあとは、イベントのレポートも撮影しました！"
+    },
+    {
+     "type": "p",
+     "text": "ドラマも、レポートも配信をお楽しみに～！"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "satsueilog01",
+   "status": "done",
+   "feature": "mnews",
+   "genre": "activity",
+   "tags": [
+    "video-making"
+   ],
+   "title": "MIRAISセレクション撮影！",
+   "date": "2025-06-17",
+   "writer": "Writer・Photo：MIRAIS広報部／Model：木村 月",
+   "oldUrl": "https://www.mirais2055.jp/satsueilog01",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_283ae577ae3a4bfab9aa98336c90999f~mv2.jpeg",
+    "alt": "撮影の様子1"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "本日、大学2年生のナッキーこと月(なつき)さんが、新企画のMIRAISセレクションの撮影にチャレンジしました。"
+    },
+    {
+     "type": "p",
+     "text": "ナッキーは、曽田さん企画の「就活ドラマ（タイトル仮）」のメイン役者としても活躍します。"
+    },
+    {
+     "type": "p",
+     "text": "撮影は、植物に囲まれた場所で行われました。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_283ae577ae3a4bfab9aa98336c90999f~mv2.jpeg",
+       "alt": "撮影の様子1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_e993adb65fba40a296798c0caf226cbd~mv2.jpg",
+       "alt": "撮影の様子2"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_fcbe5e8452754eafaee2213c5a5e88a5~mv2.jpeg",
+       "alt": "撮影の様子3"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_691d6bf3a114478f945630acaf9cccd6~mv2.jpeg",
+       "alt": "撮影の様子4"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_b5f5571230cf45ed82ab0370105c9c66~mv2.jpg",
+       "alt": "撮影の様子5"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "謎の穴へと吸い込まれていくナッキー。その先には……！？"
+    },
+    {
+     "type": "p",
+     "text": "近日公開予定！お楽しみに！"
+    },
+    {
+     "type": "p",
+     "text": "MIRAISは出演者としても活躍したい人も募集しています！インフルエンサーやYouTuber、俳優などに興味がある方はぜひactivoからご応募ください！"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "seisakumtg01",
+   "status": "done",
+   "feature": "miraiscircle",
+   "genre": "activity",
+   "tags": [
+    "video-making",
+    "shukatsu"
+   ],
+   "title": "就活ドラマ 制作会議 レポート",
+   "date": "2025-06-16",
+   "writer": "MIRAIS",
+   "oldUrl": "https://www.mirais2055.jp/seisakumtg01",
+   "note": "M-newsからMIRAISサークルへ移す案",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_f6521cdc177149198f7611eb413c937b~mv2.jpeg",
+    "alt": "制作会議の様子"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "6月15日(日)、代々木八幡コミュニティセンターにて、就活生へ向けた企画「MIRAISサークル」のコンテンツの一つ「就活ドラマ」の制作会議が行われました。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_f6521cdc177149198f7611eb413c937b~mv2.jpeg",
+     "alt": "制作会議の様子"
+    },
+    {
+     "type": "p",
+     "text": "MIRAISサークルの企画発案者である大学3年生の曽田さんが、今回初めてドラマ制作スタッフの前で司会進行を務めます。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_95de26c263a347dc9366a50e4f7477e8~mv2.jpeg",
+     "alt": "司会進行する曽田さん"
+    },
+    {
+     "type": "p",
+     "text": "曽田さんはリアル就活生。当事者だからこそ、抱えているみんなの不安の解消や、就活をもっと楽しいものにしたいという気持ちから、この企画をMIRAISで企画しました。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_a7bd4881e91544249c8e937df93d114d~mv2.jpeg",
+       "alt": "会議の様子1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_7a95bb402a3d4abd8803dbc3f6b66380~mv2.jpeg",
+       "alt": "会議の様子2"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "人の前に立ち、話をまとめたりするのってとても大変なことですが、臆することなく進行をしている曽田さん。"
+    },
+    {
+     "type": "p",
+     "text": "ドラマのタイトルはみんなで話しながら、しっかりと時間をかけて決めていきます。"
+    },
+    {
+     "type": "p",
+     "text": "正式タイトルは後日発表予定！"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_333c2230ba6b4c47874bfdb7da5c25dc~mv2.jpeg",
+       "alt": "会議の様子3"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_ea3bf5dd865e4e6088c6d02ce1604a1d~mv2.jpeg",
+       "alt": "会議の様子4"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "その後は実際にサンプル撮影！"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_2f19da73a23f4e5cb9fdf73d878d0060~mv2.jpeg",
+       "alt": "サンプル撮影1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_c712cea245d047ec8c67cd5a93e33771~mv2.jpeg",
+       "alt": "サンプル撮影2"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_2069369972504ea7a48ccbcae7c68e78~mv2.jpeg",
+       "alt": "サンプル撮影3"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_9d65bec36a504a6b9e02816c88032971~mv2.jpeg",
+       "alt": "サンプル撮影4"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_b3048bf569ef48baaa209fce08220a02~mv2.jpeg",
+       "alt": "サンプル撮影5"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "今回はサンプル映像なので、大々的に公開はしませんが、撮影の様子は配信予定！"
+    },
+    {
+     "type": "p",
+     "text": "どんなドラマになっていくか、お楽しみに！"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "yumeshouten",
+   "status": "done",
+   "feature": "mnews",
+   "genre": "activity",
+   "tags": [
+    "kids",
+    "shibuya"
+   ],
+   "title": "番外編：こども夢の商店街 ミニレポート",
+   "date": "2025-06-13",
+   "writer": "Writer・Photo：MIRAIS",
+   "oldUrl": "https://www.mirais2055.jp/yumeshouten",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_c3fa5c7d39d346ae979966a6d4cd9b40~mv2.jpeg",
+    "alt": "こども夢の商店街"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "ミニレポート番外編。"
+    },
+    {
+     "type": "p",
+     "text": "おとなりサンデーの商店街から帰っていると、初台駅にあるオペラシティが何やらにぎやかだ。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_c3fa5c7d39d346ae979966a6d4cd9b40~mv2.jpeg",
+     "alt": "こども夢の商店街"
+    },
+    {
+     "type": "p",
+     "text": "子どもたちが大勢「いらっしゃいませー！」と声を上げている。"
+    },
+    {
+     "type": "p",
+     "text": "何かバザーか何かだろうか。少しだけ眺めていると、看板があった。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_788fa8515eb54897b0bd60579205b7ef~mv2.jpeg",
+     "alt": "看板"
+    },
+    {
+     "type": "p",
+     "text": "「こども夢の商店街」"
+    },
+    {
+     "type": "p",
+     "text": "子どもが「店主」となり様々なものを売る、そんなちょっと変わった小さな商店街であった。"
+    },
+    {
+     "type": "p",
+     "text": "お店を少し覗いてみると、みんな思い思いに違うものを売っている。"
+    },
+    {
+     "type": "p",
+     "text": "あるお店では、レジンを使った手作りのアクセサリー、あるお店ではトレーディングカードのオリジナルの組み合わせのパック、あるお店では手作りのつけ爪など、見ているだけでも飽きないラインナップ。まるで、東京ビッグサイトで毎年開催されている、ハンドメイドのイベントのような雰囲気だ。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_5192a18b88c3417280e32428d833962a~mv2.jpeg",
+     "alt": "お店の様子"
+    },
+    {
+     "type": "p",
+     "text": "「タイムセール中です！」「セットで値引きしますよー！」大人顔負けの商売上手たちの元気な声がオペラシティに響き渡る。ここもまるでオペラシティの舞台のようで、ロケーションもぴったり。"
+    },
+    {
+     "type": "p",
+     "text": "ちなみに、通貨は日本円ではなく「おむすび通貨」という独自の通貨を使っている。"
+    },
+    {
+     "type": "p",
+     "text": "このイベントの企画主催元である一般社団法人ユメ・フルサトのサイトによれば、「お金の価値保存機能をおさえることで流通速度を高めた世界初のコメ本位制地域通貨」とのこと。"
+    },
+    {
+     "type": "p",
+     "text": "20むすび（単位は「むすび」）＝1000円だそう。"
+    },
+    {
+     "type": "p",
+     "text": "こちらで売っているものはおおよそ平均４むすび程度なので、そこそこいろいろ買うことができる。"
+    },
+    {
+     "type": "p",
+     "text": "ちなみにこの通貨、提携している実際のお店も全国にあるようだ。"
+    },
+    {
+     "type": "p",
+     "text": "東京エリアでも多摩方面から都心は江東区エリア付近まで、本当に広がりを見せているれっきとした本当の独自の通貨である。"
+    },
+    {
+     "type": "p",
+     "text": "単なるおままごと的なものでは終わっていないというところが、面白いところだ。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_064199b046ed4ca6acdda72f94f0ecbc~mv2.jpeg",
+     "alt": "おむすび通貨"
+    },
+    {
+     "type": "p",
+     "text": "子どもたちにはまだ早い、お金の勉強だなんて……という声がまだ存在する社会ではあるが、いつかかならず子どもたちも成長し、何らかの仕事に就く日が来る。"
+    },
+    {
+     "type": "p",
+     "text": "それはアルバイトであったり、就職であったり、人によっては起業やフリーランスもあるだろう。早い段階から実際に自分で商品を作り、売るという経験をしていれば、自分はどんなことならできるのか、どんな仕事があるのかを、もっと知りたくなってくるのではないか。"
+    },
+    {
+     "type": "p",
+     "text": "そうすれば、大人になったとき、「あの仕事に就いていればよかった」という後悔をする可能性は低くなり、ひとりひとりが満足した道へ進むことができるのではないだろうか。"
+    },
+    {
+     "type": "p",
+     "text": "なかには、この経験を生かして、インターネットなどで自分で本当にお店を持つ、そんな子も現れるかもしれない。"
+    },
+    {
+     "type": "p",
+     "text": "ちなみに次回は7月にも開催予定とのこと。気になった君はぜひ参加してみよう。"
+    },
+    {
+     "type": "link",
+     "label": "一般社団法人ユメ・フルサト",
+     "href": "https://f-bank.jimdofree.com/"
+    },
+    {
+     "type": "link",
+     "label": "こども夢の商店街",
+     "href": "https://www.f-money.com/"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "otonarisunday02",
+   "status": "done",
+   "feature": "mnews",
+   "genre": "activity",
+   "tags": [
+    "shibuya"
+   ],
+   "title": "渋谷おとなりサンデー ミニレポート 本町コミュニティセンター編",
+   "date": "2025-06-06",
+   "writer": "Writer・Photo：MIRAIS",
+   "oldUrl": "https://www.mirais2055.jp/otonarisunday02",
+   "note": "旧M-news一覧ではリンク先が初台編になっていた",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_478b0eadfc234b93943457c6f4a8904b~mv2.jpg",
+    "alt": "本町コミュニティセンター"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "渋谷本町に、今回新しく「本町コミュニティセンター」が誕生した。"
+    },
+    {
+     "type": "p",
+     "text": "3F建ての公共施設で、スポーツから勉強会まで、さまざまな場面で活用できる施設となっている。デザインとしては、吹き抜けのようになっており、開放感が溢れており、外からの自然光も入ってくる、明るい室内だ。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_478b0eadfc234b93943457c6f4a8904b~mv2.jpg",
+     "alt": "本町コミュニティセンター"
+    },
+    {
+     "type": "p",
+     "text": "各フロアはこのような構造になっている。"
+    },
+    {
+     "type": "p",
+     "text": "1Fに主に会議室系統がまとまっており、上の階に行くと、体育館のようなアリーナ、汗をかいても大丈夫なシャワールームがある。そしてその上の階には、スタジオも完備されているため、ダンスレッスンなども実施することができる。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_1d11170a5f9e4c94be1e0066cf741403~mv2.jpg",
+     "alt": "吹き抜け",
+     "caption": "下から見上げるとこのような感じだ。1Fにいても2Fからの光が差し込んでくる。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_7bf757d8b3984cef81331ffa408d4cf5~mv2.jpg",
+     "alt": "自動販売機"
+    },
+    {
+     "type": "p",
+     "text": "自動販売機も完備されている。のどが渇いたときや、活動で小腹がすいたときにも使えるマルチな自販機だ。電子決済にも対応しているため、小銭がないというときにも使うことができる。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_79070b65b033498fa735976fc79c8fbe~mv2.jpg",
+     "alt": "アリーナのオープンイベント"
+    },
+    {
+     "type": "p",
+     "text": "この日は、室内エリアがとうとうオープンした日ということで、さっそくアリーナではオープンイベントとしてバスケットボールの試合やバレーボール体験などが行われた。"
+    },
+    {
+     "type": "p",
+     "text": "多くの子どもたちが参加し、選手たちとの交流を楽しみながら、スポーツの楽しさを体験した。"
+    },
+    {
+     "type": "p",
+     "text": "外には広いグラウンドも整備されており、外でも十分に楽しむことができる。"
+    },
+    {
+     "type": "p",
+     "text": "この本町というところからどのような縁がつながりどのような施設へと成長をしていくのか、楽しみである。"
+    },
+    {
+     "type": "link",
+     "label": "初台エリア編はこちら",
+     "href": "#otonarisunday01"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "otonarisunday01",
+   "status": "done",
+   "feature": "mnews",
+   "genre": "activity",
+   "tags": [
+    "shibuya"
+   ],
+   "title": "渋谷おとなりサンデー ミニレポート 初台エリア編",
+   "date": "2025-06-02",
+   "writer": "Writer・Photo：MIRAIS",
+   "oldUrl": "https://www.mirais2055.jp/otonarisunday01",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_6b3a12a423234b009cb1eb3523055515~mv2.jpeg",
+    "alt": "渋谷おとなりサンデー"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "渋谷のまちでみんなとつながる日。今年も6月第一日曜日に、「渋谷おとなりサンデー」が一斉開催された。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_6b3a12a423234b009cb1eb3523055515~mv2.jpeg",
+     "alt": "渋谷おとなりサンデー"
+    },
+    {
+     "type": "p",
+     "text": "おとなりサンデーはフランス・パリの「隣人祭」をお手本にしているイベントで、渋谷の様々なエリアでライブパフォーマンスやバザー、フリーマーケット、ワークショップなどが渋谷区民や渋谷で活動している団体によって実施されている。毎年6月1日は一斉開催日であり、渋谷区全体がおとなりサンデーの舞台となる。"
+    },
+    {
+     "type": "p",
+     "text": "まず訪れた初台・幡ヶ谷・上原エリアでは、主に子どもたちのためのコンテンツが充実していた。"
+    },
+    {
+     "type": "p",
+     "text": "自由に道にチョークアートを施したり、バスケチーム「ALVALK東京」によるフリースローゲームや、ウォーキングフットボールの路上でのミニ試合なども開催。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_b5774bce801d48b689216d47dbb9ed21~mv2.jpeg",
+       "alt": "商店街の様子1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_da87f518fc2a470f85190b2374d334fc~mv2.jpg",
+       "alt": "商店街の様子2"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "少々曇天の日ではあったが、そんなことは関係なし。商店街にたくさんの子どもたちが自由に駆け回り、あちらこちらで明るい笑い声がこだましていた。なかには子ども自らが店長となり小さなお店を運営するなど、チャレンジャーな子どももいたほどだ。"
+    },
+    {
+     "type": "p",
+     "text": "渋谷といえば流行の最先端、IT企業、観光地というイメージが色濃いかもしれないが、少しエリアを離れてみると、まったく違う顔が見えてくるのが魅力だ。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_479a07be7f4e43bd8107a5e8c5f64423~mv2.jpg",
+       "alt": "商店街の様子3"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_2f2229ab94d84aa6af1e7effe829b199~mv2.jpeg",
+       "alt": "商店街の様子4"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "ほかのエリアもいくつか紹介していこう。"
+    },
+    {
+     "type": "link",
+     "label": "本町コミュニティセンター編はこちら",
+     "href": "#otonarisunday02"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "gardenp",
+   "status": "done",
+   "feature": "mnews",
+   "genre": "activity",
+   "tags": [
+    "kids",
+    "shibuya"
+   ],
+   "title": "至誠学園ガーデンパーティーへ参加",
+   "date": "2025-05-19",
+   "writer": "横田 武蔵",
+   "oldUrl": "https://www.mirais2055.jp/gardenp",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/11062b_dd78751ee6bc4a93a26af87926b1be61~mv2.jpg",
+    "alt": "ガーデンパーティー"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "数年ぶりにMIRAISで立川にある児童養護施設、「至誠学園」のガーデンパーティへ参加しました。"
+    },
+    {
+     "type": "p",
+     "text": "このガーデンパーティは、地域交流も兼ねており、施設にいる子どもたちの健やかな成長を願って至誠学園が企画をしているイベントになります。"
+    },
+    {
+     "type": "p",
+     "text": "今回は大学一年生のスタッフの横田くんも参加しました。そのミニレポートになります。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/11062b_dd78751ee6bc4a93a26af87926b1be61~mv2.jpg",
+     "alt": "ガーデンパーティー"
+    },
+    {
+     "type": "h",
+     "text": "至誠学園とは多くの子供がいる児童養護施設です。"
+    },
+    {
+     "type": "p",
+     "text": "至誠学園は戦後戦争孤児を助けるために設立されたらしく、日本で歴史ある児童養護施設の一つだと言われています。このガーデンパーティは、いわゆる文化祭のようなお店が並んでいたり、ダンスなどのショーを見ることができました。"
+    },
+    {
+     "type": "p",
+     "text": "まず最初に至誠学園に入った時すごく施設が大きくて驚きました。さらに入り口に24時間テレビの旗があり、そこで鈴江奈々アナウンサーと杉上佐智枝元アナウンサーが絵本の読み聞かせを行なっていました。私も実際に聞いたのですが感情の表し方がすごく上手だなと感じました。他にもショーではマックのドナルドが参加してパフォーマンスをしていたりなどかなり豪華な体験をすることができました。"
+    },
+    {
+     "type": "p",
+     "text": "しかし私が最も印象に残っているのは、至誠学園をでた後を書いている記事でした。その記事に載っている方は奨学金を借りて大学に通っていたそうなのですが、家賃や生活費を稼ぎながら大学に通うことが難しく、留年をしてしまったと書いてありました。その後学生寮に入ることができ大学も卒業できたと書いてあったのですが、多くの学生は親に学費、生活費などを出してもらうことができます。"
+    },
+    {
+     "type": "p",
+     "text": "生まれた環境の差だけでこれだけの不利になることがすごくやるせない気持ちになりました。"
+    },
+    {
+     "type": "p",
+     "text": "この現状を少しでも変えることができれば不幸な思いをする人が減ると思います。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "challengesports",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "report",
+   "tags": [
+    "parasports"
+   ],
+   "title": "チャレスポ！TOKYO レポート",
+   "date": "2025-05-02",
+   "writer": "Movie editor：ayana／Narrator：下川結愛",
+   "oldUrl": "https://www.mirais2055.jp/challengesports",
+   "note": "M-newsからParasportsへ移す案",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "いろんなパラスポーツが体験できる！東京体育館で開催されたチャレスポ！TOKYOのレポートです。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.mirais2055.jp/challengesports"
+    }
+   ],
+   "hasVideo": true
+  },
+  {
+   "slug": "nhkchoutaiken",
+   "status": "done",
+   "feature": "mnews",
+   "genre": "report",
+   "tags": [
+    "kids"
+   ],
+   "title": "NHK超体験フェス レポート！",
+   "date": "2025-05-02",
+   "writer": "Movie editor：ayana／Narrator：りり",
+   "oldUrl": "https://www.mirais2055.jp/nhkchoutaiken",
+   "note": "",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "東京渋谷で今年放送100周年を迎えるNHKの様々なコンテンツが体験できる、NHK超体験フェスが今年も開催されました。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.mirais2055.jp/nhkchoutaiken"
+    }
+   ],
+   "hasVideo": true
+  },
+  {
+   "slug": "esports05",
+   "status": "done",
+   "feature": "esportsfuture",
+   "genre": "report",
+   "tags": [
+    "esports",
+    "student-writer"
+   ],
+   "title": "マイナビeカレ〜esports全国大学選手権2025〜 レポート",
+   "date": "2025-04-04",
+   "writer": "Interviewer・Writer・Photo：横田 武蔵（MIRAIS）／Photo：マイナビeカレ PR事務局",
+   "oldUrl": "https://www.mirais2055.jp/e-sports-第四回",
+   "note": "旧URLが日本語（e-sports-第四回）。新URLは esports05 にして転送",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_99e9453f6b4f406d9cd1ee91eba91b83~mv2.jpeg",
+    "alt": "点数配分"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "今回、eスポーツの大学生大会であるマイナビeカレ〜esports全国大学選手権2025〜Apex Legends部門を取材しました。"
+    },
+    {
+     "type": "p",
+     "text": "この大会は日本国内の大学に所属している人ならだれでも参加することができる大会になっており、次世代の日本のプロゲーマーを目指す方も多く参加するためとてもレベルの高い大会になっています。"
+    },
+    {
+     "type": "p",
+     "text": "大会の形式は４ブロックに別れ試合を行い、上位五チームが決勝に進出することができます。決勝では５マッチを行い、合計点数が多いチームが勝利という形式です。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_99e9453f6b4f406d9cd1ee91eba91b83~mv2.jpeg",
+     "alt": "点数配分",
+     "caption": "点数配分はこのようになっています。"
+    },
+    {
+     "type": "p",
+     "text": "この大会は大学対抗部門だと100万円の賞金が獲得でき、準優勝でも10万円獲得できます。さらにアンバサダーという制度をつくっていて、人気配信者やプロゲーマーが一人一チームについて本番前のエキシビジョンマッチを一緒にプレイしてくれたり、その後の本戦を応援配信してくれます。"
+    },
+    {
+     "type": "p",
+     "text": "出場チームは20チームです。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_af5e2007997d4755b5795c3c3af7c442~mv2.jpeg",
+       "alt": "出場チーム1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_36481db8e638424a8be9db9984cf5902~mv2.jpeg",
+       "alt": "出場チーム2"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "出場チームを見た際に、印象に強く残ったのは東京大学だと思いました。ほかにもGMARCHだったり理科大だったり、今年から大学生の自分から見ると偏差値の高い大学が非常に多いなと思いました。"
+    },
+    {
+     "type": "p",
+     "text": "会場に入り最初に思ったことは会場が大きいなと思いました。前に行ったイベントよりも一試合のプレイヤーの数が違うためより大きい会場が使われていることに感動しました。その後の選手入場の時にチームごとに個性が出る登場の仕方をしているのが面白かったなという印象があります。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_1392a5e9e72040c4ae0aa7d1699a57b1~mv2.jpg",
+     "alt": "広島工業大学",
+     "caption": "広島工業大学"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_8e109601b64f48648c61c15d3b759c51~mv2.jpg",
+     "alt": "城西国際大学",
+     "caption": "城西国際大学"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_252a2eb1bf0447108a7b2a3a51703b0e~mv2.jpg",
+     "alt": "東京理科大学",
+     "caption": "東京理科大学"
+    },
+    {
+     "type": "h",
+     "text": "エキシビジョン1試合目"
+    },
+    {
+     "type": "p",
+     "text": "1tappyさんがアンバサダーとして入った広島専修大学が勝利を収めました。相手の意表を突く仕掛けで強い場所を取りきることで試合を最終盤まで有利に進めたことが勝因になりました。"
+    },
+    {
+     "type": "h",
+     "text": "エキシビジョン2試合目"
+    },
+    {
+     "type": "p",
+     "text": "Ftyanさんがアンバサダーの立教大学が勝利を収めました。多くの場所を持っていた専修大学をエイムで抑えて勝利を手繰り寄せていました。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_f2da493b24a24e8caa4cda96783ade3a~mv2.jpg",
+       "alt": "試合の様子1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_95d95ceb85b4447ea34362d35f423a0e~mv2.jpg",
+       "alt": "試合の様子2"
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "text": "本戦第一試合"
+    },
+    {
+     "type": "p",
+     "text": "立教大学1位 広島専修大学2位という結果になりました。立教大学が16キルをしながら1位を取ったことで合計28ポイントを初戦で獲得するという一気に立教大学が優勝に大きく近づく形になりました。勝利後めちゃくちゃ盛り上がっていました。立教大学は最高ランクのプレデターに全員が到達している唯一のチームでかなり打ち合いなどに自身があるチームでもあり、エキシビジョンと合わせて二連続1位なこともありかなり流れがよさそうでした。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_c33b821e067e4ff88b76b7936850c0f5~mv2.jpeg",
+     "alt": "試合の様子3"
+    },
+    {
+     "type": "h",
+     "text": "本戦第二試合目"
+    },
+    {
+     "type": "p",
+     "text": "大阪工業大学1位 日本大学２位"
+    },
+    {
+     "type": "p",
+     "text": "最後のポジションは苦しそうでしだが、うまく敵同士が争った跡に漁夫の利をすることができたため、8キルをしながら1位を取ることができていました。立教大学が15位で負けてしまったため、かなり追いつきそうになっていました。"
+    },
+    {
+     "type": "h",
+     "text": "本戦第三戦目"
+    },
+    {
+     "type": "p",
+     "text": "神奈川工科大学1位 拓殖大学2位"
+    },
+    {
+     "type": "p",
+     "text": "上の場所をうまく保持したことで1位を取ることに成功しました。10キル1位なので22ポイント一気に稼ぎ総合ポイント3位になりました。またここで総合ポイントで立教大学に大阪工業大学が追いつくことに成功しました。"
+    },
+    {
+     "type": "h",
+     "text": "本戦第四試合目"
+    },
+    {
+     "type": "p",
+     "text": "専修大学1位 日本大学2位"
+    },
+    {
+     "type": "p",
+     "text": "後がない下位チームが1位を取るためにキルムーブをし始めていた。専修大学も9ポイント14位だったため1位を取るためにキル重視の構成に変えそれが功を奏した形となり15キル1位という結果になり総合順位も5位につくことができた。また立教大学が日本大学、近畿大学に抜かれる形で3位に2回日本大学が2位になっていてキルポイントも拾えているため1位になり優勝まであと一歩という形になりました。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_84540849a7a546e3bfa0c66880b157fd~mv2.jpg",
+       "alt": "試合の様子4"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_2562920be612430b9a750a7a7d385ff6~mv2.jpg",
+       "alt": "試合の様子5"
+      }
+     ]
+    },
+    {
+     "type": "h",
+     "text": "本戦第五試合目"
+    },
+    {
+     "type": "p",
+     "text": "広島工業大学1位 東京理科大学2位"
+    },
+    {
+     "type": "p",
+     "text": "前回大会1位の広島工業大学がふるっていなかった中、最後に意地を見せた結果になりました。15キル1位という素晴らしい結果だったものの四試合目までのポイントが足りずに総合順位１位には届かないということを悟っていたのか1位の時に悔しそうな顔をしていました。"
+    },
+    {
+     "type": "p",
+     "text": "面白かったのは東京大学がすごいスピードでキルを重ねていて近畿大学との直接対決に負けてしまったため終わってしまったのですが夢がある動きをしていました。またかなり早めに多くの上位チームが全滅しておりかなり順位が予想しづらくなっていました。"
+    },
+    {
+     "type": "h",
+     "text": "最終順位"
+    },
+    {
+     "type": "p",
+     "text": "1位 近畿大学／2位 日本大学"
+    },
+    {
+     "type": "p",
+     "text": "かなり印象的だったのが1位と呼ばれていた時少し悔しそうにしていたことです。最後の試合では3位で自分たちがミスをしたと考えていたそうでそのことが引っ掛かっていたといっていました。また近畿大学のYuri選手が違うメンバーとALGSという世界大会でアメリカに行くそうでかなり将来有望な選手なんだと感じました。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_551e9a2136fa46f181ff34c32c18ecaf~mv2.png",
+     "alt": "大学対抗部門の結果"
+    },
+    {
+     "type": "h",
+     "text": "近畿大学インタビュー"
+    },
+    {
+     "type": "p",
+     "text": "近畿大学の3人にインタビューをすることができたのでその内容をお話ししたいと思います。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_c97086aac7a0485b9b18ccabcd5a95a6~mv2.jpeg",
+     "alt": "近畿大学の3人"
+    },
+    {
+     "type": "q",
+     "text": "大会の感想"
+    },
+    {
+     "type": "p",
+     "text": "全体通して楽しくできた。一回挫けそうになったが持ち直してできたのが楽しかった。"
+    },
+    {
+     "type": "q",
+     "text": "大会通して最も印象に残っているシーン"
+    },
+    {
+     "type": "p",
+     "text": "最終戦の最後のシーン。勝てるところを自分たちのミスで負けてしまったためそこが一番印象強い。悔しい気持ちを持ちながら優勝になり、心残りがあると思っている。"
+    },
+    {
+     "type": "q",
+     "text": "今回の大会の勝因"
+    },
+    {
+     "type": "p",
+     "text": "Yuri選手が僕がいたことと自信たっぷりに答えており、他の二人も肯定していた。"
+    },
+    {
+     "type": "q",
+     "text": "チームを組んだきっかけ"
+    },
+    {
+     "type": "p",
+     "text": "Yuri選手とFREEA選手は去年も一緒に出ておりもう一人が卒業したことで、メンバーを探していたところTakabon選手が去年の大会を見ていて一緒のチームでやりたいと思い、半ば強引にチームに入れてもらったのが経緯だと語っていた。Yuri選手曰く、気づいたらTakabon選手はいたと話していたのが印象的だった。"
+    },
+    {
+     "type": "q",
+     "text": "将来の展望は"
+    },
+    {
+     "type": "p",
+     "text": "FREEA選手、eスポーツはするかわからないが競技するしないに関係なくゲームは続けるつもり。"
+    },
+    {
+     "type": "p",
+     "text": "Yuri選手、ALGSという大会が決まっているのでそこに向けて頑張りたいと思っている。"
+    },
+    {
+     "type": "p",
+     "text": "Takabon選手、大学生大会に参加できる機会があれば積極的に参加したいと思っている。そして近畿大学のeスポーツサークルを盛り上げていきたいと思っていると話してくれた。"
+    },
+    {
+     "type": "q",
+     "text": "近畿大学のeスポーツサークルの設備が良いことが今回の大会に影響したかどうか"
+    },
+    {
+     "type": "p",
+     "text": "明確にあったと回答。Takabon選手はもともとeスポーツサークルの設備を借りて出場する予定でFREEA選手は予選の当日に停電になり急遽設備を借りて出場した。予選突破できたのは間違いなくeスポーツサークルの設備があったことが影響していた。"
+    },
+    {
+     "type": "q",
+     "text": "他のチームを意識していたのか"
+    },
+    {
+     "type": "p",
+     "text": "FREEA選手はすべての選手を調べ上げていて、特徴や強さなどを明確にしていた。しかしYuri選手はその資料に目を通しておらず、Takabon選手も半分くらい見て対策をしていたと回答していた。"
+    },
+    {
+     "type": "q",
+     "text": "今大会は機材トラブルで少し長めのインターバルがあったがその間どのような会話があったのか"
+    },
+    {
+     "type": "p",
+     "text": "基本的に雑談メインでアンバサダーのsaku選手とラーメンを食べたいと話していた。雑談をしながら集中は途切れないよう意識はしていた。"
+    },
+    {
+     "type": "q",
+     "text": "練習の頻度や意識したこと"
+    },
+    {
+     "type": "p",
+     "text": "3人で合同で練習はあまりしておらず、どちらかといえば個人技メインのチームで相手を倒すことを意識していたと回答してもらった。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_15b8433ff3834b63b1de9c84edeb9206~mv2.jpg",
+     "alt": "全体写真"
+    },
+    {
+     "type": "h",
+     "text": "今回のイベントの感想"
+    },
+    {
+     "type": "p",
+     "text": "前回の大会と違うタイトルだったので形式が違うため、同じeスポーツなのに違う面白さがありました。20チームがいろいろな動きで噛み合ったり、一斉に戦いが起き最初のほうに勝っていたチームが、他のチームに敗れることで逆転が起きるこの面白さがバトルロワイアルの面白さだなと思いました。この文を見てもし大会に興味がわいたら配信のアーカイブを見たり、Apex Legendsをプレイしてみてください。"
+    },
+    {
+     "type": "link",
+     "label": "マイナビeカレ 公式サイト",
+     "href": "https://esports-college.jp/"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "kidscolumn04",
+   "status": "done",
+   "feature": "kidscolumn",
+   "genre": "column",
+   "tags": [
+    "self",
+    "student-writer"
+   ],
+   "title": "女子校の通過儀礼！？ある日突然仲間外れにされた話",
+   "date": "2025-03-24",
+   "writer": "うさぎ",
+   "oldUrl": "https://www.mirais2055.jp/kidscolumn04",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_d49d477531bf453495efc5b8f7381ea3~mv2.png",
+    "alt": "十人十色 第4回"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "私は中高女子校に通っていた。「馴染めない」と悩んでいた小学校生活とは一変し、似た価値観を持つクラスメイトたちと出会うことができ幸先は良かったのだが、初めての電車通学・中学校生活に慣れてきた中学1年生の6月のある日、仲良くしていた一人の友人Yから仲間外れにされるようになった。"
+    },
+    {
+     "type": "p",
+     "text": "毎朝始業前は、いつメン（いつも一緒にいるメンバー）の机の周りに集まり、5〜６人でたわいもないことをおしゃべりするのが私たちの日課だった。その日もいつメンの輪に入って話を聞こうとすると、友人Yがお尻を向けて私が輪に入っていけないようにするのだ。"
+    },
+    {
+     "type": "p",
+     "text": "それを初めてされた時、目の前の世界が真っ黒になって心臓がきゅっ〜とする感触がした。理解が追いつかなくてただ悲しかった。自身の行いを振り返ってみても、友人Yを傷つけた覚えはなくますます混乱した。さらにショックだったのが、他のいつメンたちが友人Yに気を使ってか、私が省かれているのを見て見ぬフリをしたことだった。"
+    },
+    {
+     "type": "p",
+     "text": "彼女たちには悪気はなかったのかもしれない。ただ、私のように、ある日突然友人Yに意地悪されるのが怖くて、私のことまで気にかけられなかったのかもしれない。どちらにせよ、一夜にして大好きな学校の中で居場所がなくなったことがいかに恐ろしいことかを体験した出来事だった。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "kidscolumn03",
+   "status": "done",
+   "feature": "kidscolumn",
+   "genre": "column",
+   "tags": [
+    "self",
+    "student-writer"
+   ],
+   "title": "\"優等生\"のアイデンティティクライシス",
+   "date": "2025-03-17",
+   "writer": "うさぎ",
+   "oldUrl": "https://www.mirais2055.jp/kidscolumn03",
+   "note": "新着一覧では 2025.03.24",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_91a65892a7ba4a798f19a75165f45036~mv2.png",
+    "alt": "十人十色 第3回"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "クラスの中で優等生キャラ・良い子キャラを維持するためには、これまでとは違う努力をしなければいけないと、小学生ながらに焦った出来事だった。今振り返ってみると、小学生の時から、学校という社会で個性を確立するために奮闘していた。"
+    },
+    {
+     "type": "p",
+     "text": "小学校の低学年の頃は、勉強が得意であった。わからない問題で困っているクラスメイトが理解できるように教えることを楽しく、友人が「あ〜分かった！」と喜ぶ様子を見ると、自己の存在意義を感じることができた。"
+    },
+    {
+     "type": "p",
+     "text": "しかし、小学3年生になると、国語と理科のテストで初めて70点台を記録した。それまで常に80点から90点を取っていたため、悔しさよりも恥ずかしさが勝った。自分は「勉強がそこそこできる」と思い込んでいたため、自信を失い始めた。また、「このままでは両親に褒められないかもしれない」との焦りもあった。私には3歳下の弟がおり、長女として「手のかからない良い子」でありたいという願望が強かった。テストでの凡ミスが多いわけではなかったが、問題の意図を理解できず自信を持って回答できなかった事実が、焦りを増大させた。"
+    },
+    {
+     "type": "p",
+     "text": "小学生の頃から、学校という社会で個性を確立するために奮闘していたことが振り返ればわかる。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "teens-akashi",
+   "status": "done",
+   "feature": "teens",
+   "genre": "report",
+   "tags": [
+    "student-writer"
+   ],
+   "title": "明石城跡紹介",
+   "date": "2025-03-17",
+   "writer": "teens!",
+   "oldUrl": "https://www.mirais2055.jp/teens-akashi",
+   "note": "特集ページの中にだけある記事。1本の記事ページにする",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "MIRAIS発の学生による学生のための情報発信ユニット teens! が、明石城跡を紹介します。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.mirais2055.jp/teens"
+    }
+   ],
+   "hasVideo": true
+  },
+  {
+   "slug": "kidscolumn02",
+   "status": "done",
+   "feature": "kidscolumn",
+   "genre": "column",
+   "tags": [
+    "self",
+    "student-writer"
+   ],
+   "title": "趣味を分かってくれるクラスメイトなんていない",
+   "date": "2025-03-07",
+   "writer": "うさぎ",
+   "oldUrl": "https://www.mirais2055.jp/kidscolumn02",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_e8beb6845e4741a4a8847a51aae4140e~mv2.jpg",
+    "alt": "十人十色 第2回"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "これは私が小学校に進学したばかりの時の話。私が進学した小学校は東京の下町にある歴史の長い学校で、子どもながらに「似たようなライフスタイルの子たちが多いな」と感じていた。当時小学1年生だった私は、ディズニーチャンネルが大好き（特にハンナモンタナとフィニアスとファーブ！）で、映画『ハイスクール・ミュージカル』に憧れを抱いていた。高校ではみんなチアリーダーに入るものだと思っていた。（恥ずかしい…）"
+    },
+    {
+     "type": "p",
+     "text": "だが、私のような趣味を持っているクラスメイトはいなかった。彼らが私の興味関心ごとを知らないように、私もクラスメイトたちの関心ごとや流行りを知らなかった。給食の時間・休憩時間でみんなが話しているトピックがまるで分からない。「ピラメキーノ」？「エド・はるみ」？「うぃ〜（Wii）」？初めて聞く言葉ばかりだ。みんなはなんで知っているの？"
+    },
+    {
+     "type": "p",
+     "text": "GReeeeNさんの楽曲が大流行した年で、授業でも授業中じゃなくても学校中から音楽が聞こえてくる。「あぁ、私もハイスクール・ミュージカルの曲を友達と学校で大きな声で歌いたいなぁ〜」と何度思ったことか (笑)"
+    },
+    {
+     "type": "p",
+     "text": "まるで、自分だけ違う世界にいるみたいだった。好きなことを語りたい！と思っても「なにそれ」「外人はやっぱり違うな！」と言われるのが怖く、いつしかみんなの話を黙って聞くことが増えた。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "kidscolumn01",
+   "status": "done",
+   "feature": "kidscolumn",
+   "genre": "column",
+   "tags": [
+    "self",
+    "student-writer"
+   ],
+   "title": "SNS中毒の私が「自分を大切にできなかった」話",
+   "date": "2025-03-01",
+   "writer": "うさぎ",
+   "oldUrl": "https://www.mirais2055.jp/kidscolumn01",
+   "note": "",
+   "body": [
+    {
+     "type": "p",
+     "text": "夜な夜なインスタグラムを開き、友人たちの楽しそうな旅行のストーリーを眺める日々。学生生活の最後の春休み、友人たちはヨーロッパや東南アジアを旅しており、自分だけが取り残されたような孤独と虚無感にさいなまれていた。"
+    },
+    {
+     "type": "p",
+     "text": "今年に入り、自分自身を見つめ直す過程で、他人と自分を比べる癖が自分を卑下することに繋がっていると気づいた。自分より劣ると感じる人に対しては敬意を抱かず、優れていると感じる人のみを尊敬し評価してしまう傾向があった。これは、自分自身を完全に信じられていないからだと気づいた。"
+    },
+    {
+     "type": "p",
+     "text": "子供の頃から「両親を喜ばせたい」「先生に世話を焼かれたくない」という思いから、自分の価値を他人との比較で測っていた。成績ではなく、「私が私でいられたこと」が評価される経験は、これまでどれだけあったのだろうか。小さい頃から、親を喜ばせることでしか自己価値を見出せずにいたが、それが自分自身を大切にすることの妨げとなっていたのだ。この問いかけは、社会人を目前にして自己受容の大切さを再認識するきっかけとなった。"
+    }
+   ],
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_b41e140f780e44379030bc1a0a1b5f62~mv2.jpg",
+    "alt": ""
+   },
+   "hasVideo": false
+  },
+  {
+   "slug": "esports04",
+   "status": "done",
+   "feature": "esportsfuture",
+   "genre": "column",
+   "tags": [
+    "esports",
+    "student-writer"
+   ],
+   "title": "esports awardsについて",
+   "date": "2025-02-18",
+   "writer": "横田 武蔵",
+   "oldUrl": "https://www.mirais2055.jp/esports04",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_774be2641f2542eca885412761fbb001~mv2.jpeg",
+    "alt": "esports awards"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "esports awardsとは esports界の中であらゆる分野において貢献と成功を称え記録するために開催されている授賞式です。"
+    },
+    {
+     "type": "p",
+     "text": "2024年の授賞式は11月21日にサウジアラビアの都市リヤドのフォーシーズンズホテルという場所で行われました。"
+    },
+    {
+     "type": "p",
+     "text": "分野の例として ・人 ・チーム ・ゲームタイトル ・イベント ・esportsコンテンツ・報道プラットフォームなど、このように多くの分野があります。"
+    },
+    {
+     "type": "p",
+     "text": "その分野の中でも、人で言えばキーボード・マウスを使用する選手、コントローラーを使用する選手、シムレーサー、コーチなどのesports大会の勝敗に直接関わっている方だけでなく、esportsクリエイターやストリーマーの方、大会で実況や解説を行う人、大会の司会者など様々な人が受賞しています。"
+    },
+    {
+     "type": "p",
+     "text": "「esports awardsの理念 ・優秀さを称える ・歴史を作る ・業界を称える」この3つが主に書かれていました。"
+    },
+    {
+     "type": "p",
+     "text": "一つ目の優秀さを称えるとは、選手の中でも素晴らしい結果・プレイをした選手を称賛する機会を作ることです。"
+    },
+    {
+     "type": "p",
+     "text": "二つ目の歴史を作るというのは、esportsに多大な貢献をした方を記録し、永遠に残るようにすることです。"
+    },
+    {
+     "type": "p",
+     "text": "三つ目の業界を称えるというのは、esports界の中で注目を浴びずらい舞台裏側の方々も称賛されるべきだということです。"
+    },
+    {
+     "type": "h",
+     "text": "感想"
+    },
+    {
+     "type": "p",
+     "text": "まずesportsに他のスポーツと同じような式典があることに驚きました。"
+    },
+    {
+     "type": "p",
+     "text": "調べてみると 2016年位からあることがわかり、日本にも「japan esports awards」というものがあり、そちらの方も記事にできたらなと思いました。"
+    },
+    {
+     "type": "p",
+     "text": "このようなesportsの情報をもっと多くの人に知ってもらえるように紹介していきたいと思います。"
+    },
+    {
+     "type": "link",
+     "label": "esports awards 公式サイト",
+     "href": "https://esportsawards.com"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "deafvbkawasaki",
+   "status": "done",
+   "feature": "forstars",
+   "genre": "report",
+   "tags": [
+    "deaf"
+   ],
+   "title": "第26回 ジャパンデフバレーボールカップ川崎大会",
+   "date": "2025-02-09",
+   "writer": "Writer・Movie：MIRAIS／Narrator：ringo",
+   "oldUrl": "https://www.mirais2055.jp/deafvbkawasaki",
+   "note": "3/24公開のレポート動画も同じページに入れる",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "2/9（日）、川崎とどろきアリーナではデフバレーボールの日本一のチームを決める大会、デフバレーボール第 26 回ジャパンデフバレーボールカップ川崎大会の決勝戦が男女ともに開催された。"
+    },
+    {
+     "type": "p",
+     "text": "デフスポーツは今年、東京でデフリンピックが開催されることもあり注目度が上がっているスポーツである。"
+    },
+    {
+     "type": "p",
+     "text": "今回の大会も日本代表候補も出場しており客席の応援団も大盛り上がりだった。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.mirais2055.jp/deafvbkawasaki"
+    }
+   ],
+   "hasVideo": true
+  },
+  {
+   "slug": "horietoba",
+   "status": "done",
+   "feature": "mnews",
+   "genre": "notice",
+   "tags": [],
+   "title": "「堀江貴文×鳥羽周作 特別プロジェクト」が始動！",
+   "date": "2025-02-05",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/horietoba",
+   "note": "タグは本文を読んで決める",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_bf514943fd7c40ffbfb70c92d182fa40~mv2.jpg",
+    "alt": "特別プロジェクト"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "実業家の堀江貴文さんとシェフの鳥羽周作さんがコラボレーションする特別プロジェクトが始動した。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_bf514943fd7c40ffbfb70c92d182fa40~mv2.jpg",
+     "alt": "特別プロジェクト"
+    },
+    {
+     "type": "p",
+     "text": "堀江さんが主催するオンラインサロンHIU（堀江貴文イノベーション大学校）から生まれた「地方活性型エンタメパン屋」の「小麦の奴隷」と、ミシュランガイド東京2020から6年連続掲載の「sio」のオーナーシェフ・鳥羽周作さんがタッグを組んだコラボパン企画である。"
+    },
+    {
+     "type": "h",
+     "text": "第一弾は「sioミルクフランス」"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_baea4c606fb0443cbeb01ee71c1167b2~mv2.jpg",
+     "alt": "sioミルクフランス"
+    },
+    {
+     "type": "p",
+     "text": "鳥羽シェフが堀江さんのラジオに出演したことがきっかけで、コラボレーションが実現した。コラボパンのベースとなったのは「小麦の奴隷」の塩パン。鳥羽シェフが試食後、練乳との相性が良いことを提案。その場で試したところ、その美味しさが確認され開発につながった。"
+    },
+    {
+     "type": "p",
+     "text": "「sioミルクフランス」（300円）はパンの塩味と濃厚なクリームの甘味が絶妙なやみつきになる味わい。練乳クリームは練乳とバターをブレンドした鳥羽シェフこだわりの特製クリームで、塩パンにたっぷりサンドされている。"
+    },
+    {
+     "type": "p",
+     "text": "軽食やおやつ、差し入れや手土産に最適。「小麦の奴隷」の各店舗で販売されるが、2月中は数量限定販売となる。"
+    },
+    {
+     "type": "h",
+     "text": "第2弾は「トバいキーマカレーパン」"
+    },
+    {
+     "type": "p",
+     "text": "コラボパン企画の第2弾は「トバいキーマカレーパン」で、2025年春の販売予定。鳥羽シェフの家庭で作る\"鳥羽家の定番キーマカレー\"をパン生地で包み込んでいる。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "wcbtennou",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "report",
+   "tags": [
+    "parasports",
+    "wheelchair"
+   ],
+   "title": "第49回 日本車いすバスケットボール選手権大会 天皇杯",
+   "date": "2025-02-04",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/wcbtennou",
+   "note": "M-newsからParasportsへ移す案",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_8b67dd962d6b4ebe9421e5917ba7df11~mv2.jpg",
+    "alt": "天皇杯決勝"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "2月4日に行われた「天皇杯 第 49 回日本車いすバスケットボール選手権大会」の決勝戦が東京体育館にて行われた。"
+    },
+    {
+     "type": "p",
+     "text": "2連覇を狙う神奈川 VANGUARDS（ヴァンガーズ）対、初優勝を目指す埼玉ライオンズの戦いは、最終盤まで勝敗の行方がわからない、文字通りのシーソーゲーム。"
+    },
+    {
+     "type": "p",
+     "text": "会場を訪れた 3,349 人の観衆からは、幾度となく歓声が沸き起こった。"
+    },
+    {
+     "type": "p",
+     "text": "結果は、最後までもつれる大接戦を制して神奈川ヴァンガーズが２連覇となった。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "dlive19",
+   "status": "done",
+   "feature": "forstars",
+   "genre": "report",
+   "tags": [
+    "deaf"
+   ],
+   "title": "日本最大級の手話LIVE「D'LIVE vol.19」レポート",
+   "date": "2025-01-08",
+   "writer": "Writer・Photo：MIRAIS、横田 武蔵",
+   "oldUrl": "https://www.mirais2055.jp/複製-sugina",
+   "note": "旧URLが「複製-sugina」。新URLを dlive19 にして転送。旧For Starsページのリンク先も間違っていた",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_e2417bf177e1438f873cc28b96f4ae3e~mv2.png",
+    "alt": "D'LIVE vol.19"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "日本最大級の手話LIVE「D'LIVE vol.19」が川崎のCLUB CITTA'で開催された。このライブは毎年、自動車教習所であるコヤマドライビングスクールが主催しており、聴覚に障がいのある人もない人も楽しめる、スタイリッシュなライブイベントだ。「多くの人たちに手話で表現する楽しさを知ってもらいたい」「聴覚に障がいのある人とない人のコミュニケーションを広げる活動がしたい」というスタッフの声から誕生したものである。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_95c90a1f640b4ee193e3d10ee8b12013~mv2.png",
+     "alt": "ライブの様子"
+    },
+    {
+     "type": "h",
+     "text": "ライブのテーマ"
+    },
+    {
+     "type": "p",
+     "text": "「聴覚に障がいのある人もない人も、共に楽しめるスタイリッシュな手話ライブコンサート」"
+    },
+    {
+     "type": "p",
+     "text": "2004年からコロナ禍を除き（新型コロナの影響で2020、2021年は中止）毎年開催されており今年でvol.19を迎えた。"
+    },
+    {
+     "type": "p",
+     "text": "今年も、色んなパフォーマーたちが登場し、ダイナミックで華麗な手話歌やエネルギッシュなダンスパフォーマンスが披露される白熱のステージとなった。"
+    },
+    {
+     "type": "p",
+     "text": "LIVEが始まると総勢17組のアーティストが様々なパフォーマンスを行い会場を沸かせていく。フィナーレでは、恒例の「ヤングマン(Y.M.C.A)」を、ステージ上の出演者だけでなく観客、運営スタッフ全員で一体化して大盛り上がりの中で幕を閉じた。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_6d847a4619c141f1902f643f631165b6~mv2.png",
+     "alt": "麗華さん",
+     "caption": "麗華さん"
+    },
+    {
+     "type": "p",
+     "text": "このLIVEのもう一つの特徴は毎年、様々な高校、大学の手話サークルの学生によるボランティアスタッフにより運営が成り立っていることである。みんな各々のきっかけから手話を始めており、このライブを構成する重要な要素となっている。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_de3fef8e888245f1bf09d1c27568d006~mv2.png",
+       "alt": "ボランティアスタッフ1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_f7ef58b244134608b7b54f166f4833cf~mv2.png",
+       "alt": "ボランティアスタッフ2"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "来たる2025年にはデフリンピックが東京で開催されることもあり、ここ数年で手話やろう者を題材にしたドラマなどの作品やイベントが多く開催されている。その中でもこのLIVEイベントは今年で19回目となり決して一過性のものではない。普段、手話に触れる機会が無い人でも音楽やダンスなどのパフォーマンスを通し楽しめる場として今後の発展を応援していきたい。"
+    },
+    {
+     "type": "h",
+     "text": "コヤマドライビングスクール"
+    },
+    {
+     "type": "p",
+     "text": "東京と神奈川で５校の自動車教習所を運営しており、外国人のための多言語教習（語語教習/中国語教習）や、障がいを持つ方の教習も行っている。手話検定を受けるなど、手話のできるインストラクターが120名以上も在籍し、聴覚障がい者の通学も多い。"
+    },
+    {
+     "type": "link",
+     "label": "コヤマドライビングスクール",
+     "href": "https://www.koyama.co.jp/"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "eports03",
+   "status": "done",
+   "feature": "esportsfuture",
+   "genre": "report",
+   "tags": [
+    "esports",
+    "student-writer"
+   ],
+   "title": "第2回 NASEF JAPAN 全日本高校eスポーツ選手権【リーグ・オブ・レジェンド部門】",
+   "date": "2025-01-08",
+   "writer": "横田 武蔵",
+   "oldUrl": "https://www.mirais2055.jp/eports03",
+   "note": "旧URLのつづりが eports03（sが抜け）。新URLは esports03 にして転送",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_7e0a6d1c4b4545e28bceee451d0adc97~mv2.png",
+    "alt": "大会ロゴ"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "今回、私はeスポーツの高校生大会であるNASEF JAPAN 全日本高校eスポーツ選手権リーグ・オブ・レジェンド部門を取材しました。"
+    },
+    {
+     "type": "p",
+     "text": "秋から冬にかけて行われる大会になっており全国76校に上る高校から144チームが参加し、高校生の頂点を決める戦いです。4つのブロックに分かれて予選が行われて頂点に立った4チームが準決勝、決勝の舞台で戦います。準決勝は一本先取となっており、勝ち抜いた2チームが2本先取の決勝の舞台で戦います。"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "西日本通信制ブロック代表：N1 (N高等学校)",
+      "西日本全日制ブロック代表：JGGAP 脳筋(福岡県立八女工業高等学校)",
+      "東日本通信制ブロック代表：がってぃんてぃんEX (ルネサンス高等学校横浜キャンパス)",
+      "東日本全日制ブロック代表：岐阜商eスポーツ部(岐阜県立岐阜商業高等学校)"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "の4チームが勝ち上がってきました。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_9f6426a7e3154b0aa37091cffca883af~mv2.png",
+     "alt": "会場の様子"
+    },
+    {
+     "type": "p",
+     "text": "まず、すごかったのがオープニングムービーです。まるでプロの試合を想起させる豪華さについ「かっこいい」と口に出してしまいました。さらに光の演出もかなり凝っていて見ていて飽きないような演出になっていました。"
+    },
+    {
+     "type": "h",
+     "text": "準決勝第一試合"
+    },
+    {
+     "type": "p",
+     "text": "N1 vs JGGAP 脳筋"
+    },
+    {
+     "type": "p",
+     "text": "この試合は序盤N1が圧倒していたのですが終盤JGGAPが盛り返しそうになる集団戦がとても面白かったです。"
+    },
+    {
+     "type": "h",
+     "text": "準決勝第二試合"
+    },
+    {
+     "type": "p",
+     "text": "がってぃんてぃんEX vs 岐阜商eスポーツ部"
+    },
+    {
+     "type": "p",
+     "text": "Ravy選手のアカリというキャラクターがうますぎたのでぜひ注目してほしいです。"
+    },
+    {
+     "type": "h",
+     "text": "決勝戦"
+    },
+    {
+     "type": "p",
+     "text": "N1 vs がってぃんてぃんEX"
+    },
+    {
+     "type": "p",
+     "text": "第一試合：Umasika選手のエズリアルが強すぎたしソロキルと呼ばれる一対一でキルが生まれる場面が多く面白い試合だと感じた。"
+    },
+    {
+     "type": "p",
+     "text": "第二試合：N1が１試合目の反省を生かしてかなり有利な状況を作っていた中がってぃんてぃんEXが少しずつ巻き返して行くところが見どころ。きれいな逆転劇に感動した。"
+    },
+    {
+     "type": "p",
+     "text": "試合後N1とがってぃんてぃんEXの選手たちにインタビューすることができた。"
+    },
+    {
+     "type": "h",
+     "text": "N1のインタビュー"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_f2369a72d4f64f87bebab012131167a0~mv2.png",
+     "alt": "N1の選手たち"
+    },
+    {
+     "type": "q",
+     "text": "今後プロを目指しますか？"
+    },
+    {
+     "type": "p",
+     "text": "Luka選手,kkkk選手がなりたいと回答"
+    },
+    {
+     "type": "q",
+     "text": "３年生(Luka選手、Goma選手)に質問、進学か就職か、進学する場合カレッジリーグに出場予定ですか？"
+    },
+    {
+     "type": "p",
+     "text": "Goma選手、Luka選手ともに進学予定、カレッジリーグにも挑戦したいと答えていた"
+    },
+    {
+     "type": "q",
+     "text": "eスポーツってどんなスポーツですか？"
+    },
+    {
+     "type": "p",
+     "text": "普通のスポーツと変わらないもの、生活の一部、社会的なことも学ぶことができる、青春のようなもの"
+    },
+    {
+     "type": "q",
+     "text": "eスポーツに関係ある仕事に就きたいと考えている方はいますか？"
+    },
+    {
+     "type": "p",
+     "text": "kkkk選手Luka選手は選手としてかかわって行きたい。理由としては、自分の得意なことかつ好きなことで生活をしたい。Luka選手は選手以外でもマネージャーやイベントを開催しコミュニティに貢献したいとの回答をもらった"
+    },
+    {
+     "type": "p",
+     "text": "N1の感想：決勝戦に負けた後で悔しいはずなのに明るく、時にはほほえましい会話がありとても雰囲気がいいチームなんだなと思った。すごい人間ができているなと感じた。"
+    },
+    {
+     "type": "h",
+     "text": "がってぃんてぃんEXのインタビュー"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_5d935a2e0afa453593fea37d0bc9e140~mv2.png",
+     "alt": "がってぃんてぃんEXの選手たち"
+    },
+    {
+     "type": "q",
+     "text": "eスポーツ関係の仕事に就きたいと考えている方はいますか？"
+    },
+    {
+     "type": "p",
+     "text": "みんなeスポーツが好きだからそこを生かしたいと考えている。"
+    },
+    {
+     "type": "q",
+     "text": "飽き性なのにリーグ・オブ・レジェンドを続けられたということですが、このゲームの魅力は何ですか？"
+    },
+    {
+     "type": "p",
+     "text": "どこまで突き詰めても完成しないこと、他のゲームと違ってマスターすることができないことが魅力。すべてが難しいことが飽きなかった要因だった。"
+    },
+    {
+     "type": "q",
+     "text": "eスポーツの魅力はなんですか？"
+    },
+    {
+     "type": "p",
+     "text": "ゲームが好きで好きなもので生活できるもの、ゲームの難しさこそが魅力、観戦も楽しい、仲間と高めあっていくことができるもの、人と戦えること、ゲームを趣味でなく本気で楽しめること。"
+    },
+    {
+     "type": "p",
+     "text": "がってぃんてぃんEXの感想：受け答えがすごく丁寧で大人な印象を受けました。特にリーダーのkanaevi選手がインタビュー慣れしていると感じました。"
+    },
+    {
+     "type": "h",
+     "text": "今回のイベントの感想"
+    },
+    {
+     "type": "p",
+     "text": "本当に面白い試合でした。すべての試合が面白くてチームのコンセプトに沿って戦ったり、すごい激熱な集団戦があったり、ハイレベルな心理戦を繰り広げていてまさに高校生最強の座を決めるに相応しい試合だったと思います。今回の記事を見て少しでもeスポーツ面白そうだったり、興味を抱いてくれるとうれしいです。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "blog-nasef",
+   "status": "done",
+   "feature": "esportsfuture",
+   "genre": "activity",
+   "tags": [
+    "esports"
+   ],
+   "title": "NASEF主催 全日本高校eスポーツ選手権",
+   "date": "2025-01-08",
+   "writer": "荻野 大地",
+   "oldUrl": "https://www.mirais2055.jp/post/nasef主催全日本高校eスポーツ選手権",
+   "note": "上の記事と同じ大会。1本にまとめる案",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_3aff5080358f4bbaabc1041923d4fc3f~mv2.png",
+    "alt": "会場の様子"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "今日は、NASEF主催全日本高校esports選手権に行きました。"
+    },
+    {
+     "type": "p",
+     "text": "僕自身もプレイしたことがあるゲームということで楽しみにしていたのですが、圧巻でした。まず高校生のeスポーツの大会があることなんて知らなかったですし、このような規模であることも知りませんでした。大企業がスポンサーについていることだけでなく、有名ストリーマーなどが解説に付いているなどびっくりすることばかりです。"
+    },
+    {
+     "type": "p",
+     "text": "僕たちが行った土曜日は、League of Legendsというゲームの開催日でした。通称lolと呼ばれるこのゲームは、日本ではまだあまり浸透していないながらも海外では一位二位を争う人気ゲームで、特に中国、韓国で多くのプレイヤーがいます。"
+    },
+    {
+     "type": "p",
+     "text": "そんな日本ではマイナーなlolでも全国の高校にチームがあるということにまず驚かされました。準決勝は東/西・通信/全日で分けられており全４校が出場しました。そして、試合を見ていると流石と言いますか、通信制高校が圧倒的な強さを誇っていました。一般の全日制高校もかなり頑張っていましたが、やはりまだeスポーツの浸透、認識が足りないのではないのかと感じました。優勝校であるルネサンス高校横浜校にはeスポーツ専攻コースがあり、優勝メンバーは全員そのコースらしいです。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_d77856b732d5491189d9c772502e6f41~mv2.png",
+     "alt": "試合の様子"
+    },
+    {
+     "type": "p",
+     "text": "eスポーツの浸透を促す上で世間の認識が問題に上がってきますが、これに対して同行した横田くんがとても面白い考えを持っていました。彼によると原因は言語から来ています。日本語の「スポーツ」には、運動や体を動かすといった意味があります。そして英語の\"sport\"には、日本語で言うと「競技」としてのスポーツの意味合いが強いらしいです。さらに\"game\"とは日本語の「ゲーム」の持つテレビゲームの意味よりも、「試合」の意味に近いです。この理論の通り、海外では日本よりもeスポーツの浸透率が高いそうです。僕自身言語学習には関心がありますので、これはとても興味深い意見でした。"
+    },
+    {
+     "type": "p",
+     "text": "これを踏まえて僕は、日本には「eスポーツ」とは別の呼び方が必要なのではないかと感じています。日本人としては多分、「eスポーツ」と言われるとどうしても「スポーツ」と同一視してしまい、「競技」としてはみてくれないと思うからです。だから世間からは、体を動かさないのにスポーツとみなすなんて、と言われてしまうのです。そもそもジャンルが違うのでは、と僕は思います。"
+    },
+    {
+     "type": "p",
+     "text": "横田くんは選手に、今後どのような形でeスポーツに関わっていくかを尋ねていました。1位のルネサンスと2位のN高ともにチームの中で二人がこれからもなんらかの形で関わっていきたいと答え、プロになりたいと話す選手もいればマネージャーなど、なんらかの形で関わりたいという選手もいました。その他のメンバーも、これからも趣味としては続けたいと答え、彼らのeスポーツへの愛を感じました。キャスターの方がこの熱中こそが青春だと言っていましたが、全くその通りだと思います。彼らにはeスポーツという青春があり、それは彼らの未来でもあるのです。そんな選手たちの夢を応援するため、横田くんは研究を続けているのでした。"
+    },
+    {
+     "type": "p",
+     "text": "今回はインタビューを受け付けているのが通信制の２校のみでしたが、僕としては全日制高校の選手の意見が気になりました。ルネサンスのような専用のコースでない学校の生徒が、eスポーツに打ち込むことに対し周りからどのような反応を受けているのか。僕の家庭では多くのように、ゲームよりも勉強が優先されていましたが、その中でもある程度理解はある方だったと感じます。中学生までは時間制限を設けて許されましたし、高校生からは自律を任されています。僕の両親がこうした理由は、この「自律」を促すためにあると思います。学校の勉強や、社会に触れることを最低限しておかないと、それらが大切なことだと子供はおそらく気づけません。そうしてゲームに熱中するあまり社会性を学ばないまま育ってしまう可能性があるのです。熱中できる対象だということはスポーツと共通すると先ほど述べましたが、ゲームで一つ例外なのは外に出て体を動かしたり、直接人と話したりする機会が少なくなるという点です。それはゲームに夢中になるあまり落第したり、学校に行かなくなってしまう子供が多くいることが実際に映し出しています。しかしeスポーツの道でプロを目指すにはやはり練習時間が必要で、そこに悩んでいるプレイヤーも多いだろうと思います。現代の多くの親は、子供に長時間ゲームをプレイさせてプロにさせるのは、正しい育て方ではないと感じるでしょう。ただ、正しさというのは移り変わるものですから、この認識を変えることも可能です。だからこそ僕は、「スポーツ」とは違う「eスポーツ」の価値を見出し広めていくことが必要だと思います。"
+    },
+    {
+     "type": "link",
+     "label": "同じ大会の横田くんのレポートはこちら",
+     "href": "#eports03"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "blog-newproject",
+   "status": "done",
+   "feature": "mnews",
+   "genre": "notice",
+   "tags": [],
+   "title": "新規企画もスタートします。",
+   "date": "2025-01-08",
+   "writer": "MIRAIS広報部",
+   "oldUrl": "https://www.mirais2055.jp/post/新規企画もスタートします。",
+   "note": "",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "みなさんこんにちは。広報部です。"
+    },
+    {
+     "type": "p",
+     "text": "久々の更新となりましたが、内容が非常に増えてまいりました。"
+    },
+    {
+     "type": "p",
+     "text": "今回は新しい企画をはじめとして、高校生メンバーによるesportsのレポート記事など、さまざまなことがスタートしております。"
+    },
+    {
+     "type": "p",
+     "text": "また、一年ぶりとなるD'LIVEのレポートもupいたしました。"
+    },
+    {
+     "type": "p",
+     "text": "今後加速していくMIRAISを、今年もよろしくお願いいたします。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "esports02",
+   "status": "done",
+   "feature": "esportsfuture",
+   "genre": "column",
+   "tags": [
+    "esports",
+    "student-writer"
+   ],
+   "title": "eスポーツの経済効果",
+   "date": "2024-10-01",
+   "writer": "横田 武蔵",
+   "oldUrl": "https://www.mirais2055.jp/esports02",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_12f850f4356f49bda8c8087a69a97d2d~mv2.webp",
+    "alt": "eスポーツのイメージ"
+   },
+   "body": [
+    {
+     "type": "h",
+     "text": "最初に"
+    },
+    {
+     "type": "p",
+     "text": "前回の記事ではeスポーツとはについてまとめましたが、今回はeスポーツを日本政府が積極的にやりたくなる経済面のメリットについて今回は話していきたいと思います。"
+    },
+    {
+     "type": "h",
+     "text": "eスポーツの良い影響とは"
+    },
+    {
+     "type": "p",
+     "text": "eスポーツが発展することで起こる良い影響として考えているのが以下の5つです。"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "eスポーツ市場の拡大",
+      "新たな雇用創出",
+      "地域の活性化",
+      "新しいビジネスの創造",
+      "周辺産業の波及効果"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "この5つの中で今回注目しているのは1のeスポーツ市場の拡大です。"
+    },
+    {
+     "type": "p",
+     "text": "実際にeスポーツ市場は世界で規模が大きくなっておりeスポーツオリンピックも開催されています。市場が拡大することで日本経済にいい影響があると考えています。"
+    },
+    {
+     "type": "h",
+     "text": "世界と日本のeスポーツ市場や他のスポーツとの比較"
+    },
+    {
+     "type": "p",
+     "text": "全世界のeスポーツ市場が2027年までに22億4000万ドル(3369億円)規模になるという予測があります。韓国コンテンツ振興院が最近発表した「グローバルゲーム産業トレンド」の報告書によると、今年の市場規模は2728億円に達すると予測されています。"
+    },
+    {
+     "type": "p",
+     "text": "韓国で有名なleague of legendsの世界大会決勝が昨年11月にソウルの高尺スカイドームで開催され、1万8000枚のチケットが10分で完売し、チケット関連の収益だけで4億5000万円に達しました。"
+    },
+    {
+     "type": "p",
+     "text": "東京オリンピック(2020年)が与えた経済効果は、約3兆円から約29兆円との記事があり、ロンドンオリンピック(2012年)は約2兆円から24兆円との発表記事もでていて、オリンピックはやはり圧倒的な経済効果があることが分かった。ですが、ドイツw杯(2006年)の経済効果は4171億円との記事がありました。こうして考えると2027年にはeスポーツ市場の経済効果は、w杯に迫る勢いになると考えられます。"
+    },
+    {
+     "type": "p",
+     "text": "しかし日本のeスポーツの市場規模は年々増加していますが125億円と世界のと比べるとあまり大きな割合を占めていません。"
+    },
+    {
+     "type": "p",
+     "text": "よりこれからの時代に日本のeスポーツが発展していくには政府が日本のeスポーツ発展を支援する必要があり、日本にはeスポーツが発展していく必要があると考えています。"
+    },
+    {
+     "type": "h",
+     "text": "まとめ"
+    },
+    {
+     "type": "p",
+     "text": "今回はeスポーツの経済効果についての記事を書きましたが、これを読んだ人に伝えたいのは、eスポーツって他のスポーツに比べても遜色ない市場規模を世界では持っていることです。日本もeスポーツへのゲームという偏見を取り除いてスポーツとしていろいろな面から見てほしいと考えています。"
+    },
+    {
+     "type": "p",
+     "text": "次回からは、いろんなe-スポーツ関係の人たちに話を聞きに行きたいと思っています。ぜひ見てください。"
+    },
+    {
+     "type": "h",
+     "text": "参考文献"
+    },
+    {
+     "type": "link",
+     "label": "経済産業省「日本のeスポーツ発展に向けて」",
+     "href": "https://www.meti.go.jp/meti_lib/report/2019FY/030486.pdf"
+    },
+    {
+     "type": "link",
+     "label": "korit.jp「eスポーツ市場が3兆ウォン規模に拡大 政府の支援なしでは成長は困難」",
+     "href": "https://www.korit.jp/unicornfactory-esports-korea-lol-240306"
+    },
+    {
+     "type": "link",
+     "label": "文部科学省「スポーツの経済効果に関する調査研究」",
+     "href": "https://www.mext.go.jp/component/a_menu/sports/detail/__icsFiles/afieldfile/2014/12/08/1353860_3.pdf"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "esports01",
+   "status": "done",
+   "feature": "esportsfuture",
+   "genre": "column",
+   "tags": [
+    "esports",
+    "student-writer"
+   ],
+   "title": "eスポーツって何？",
+   "date": "2024-09-01",
+   "writer": "横田 武蔵",
+   "oldUrl": "https://www.mirais2055.jp/esports01",
+   "note": "新着一覧では 2024.09.16。どちらの日付にするか",
+   "body": [
+    {
+     "type": "h",
+     "text": "eスポーツ……とは？"
+    },
+    {
+     "type": "p",
+     "text": "eスポーツ(electronic sports)とは簡単に言うとゲームをスポーツと同じように競技として行うことです。近年世界中で注目を集め始めています。eスポーツとゲームの違いとして対戦要素がある、なしがあり、勝敗が実力で決まるものがeスポーツとなりやすいです。"
+    },
+    {
+     "type": "h",
+     "text": "日本と世界のeスポーツ"
+    },
+    {
+     "type": "p",
+     "text": "日本はゲーム大国であり、世界でも多くの人がプレイするゲームをたくさん出していますが、eスポーツはあまり発展していません。"
+    },
+    {
+     "type": "p",
+     "text": "日本ではeスポーツがあまり注目されていませんが世界では多くの人が支持しています。アジア地域は世界でも強い人が多く、韓国、中国の二国が強いです。"
+    },
+    {
+     "type": "p",
+     "text": "また日本と世界の違いとして日本ではスマートフォンのゲームや家庭用ゲーム機(例switchなど)のeスポーツが多いですが、世界ではpcゲームのeスポーツが多いです。"
+    },
+    {
+     "type": "h",
+     "text": "eスポーツの種類"
+    },
+    {
+     "type": "p",
+     "text": "eスポーツの大枠の種類としては７つに分けられます。"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "シューティングゲーム(FPS)",
+      "格闘ゲーム",
+      "リアルタイムストラテジー(RTS)",
+      "マルチプレイヤーオンラインバトルアリーナ(MOBA)",
+      "カードゲーム(DCG)",
+      "スポーツ系ゲーム",
+      "パズルゲーム"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "これらの中にも様々な種類があり、ゲームにより異なるタイトルがあり、異なる戦術があります。"
+    },
+    {
+     "type": "h",
+     "text": "まとめ"
+    },
+    {
+     "type": "p",
+     "text": "今回、これらのことを調べて思ったことは、eスポーツは多くの種類のタイトルがあることに驚いたことです。自分はFPS、MOBAの試合をよく観戦しているのですが、ほかの種類のeスポーツを観戦したいと感じました。今回は大雑把に種類のみの紹介になってしまいましたが、他の記事で7つの種類に分けて紹介できたらと思います。"
+    },
+    {
+     "type": "p",
+     "text": "次回の記事ではeスポーツの経済効果について記事を書こうと思っています。ぜひ見てほしいです。"
+    }
+   ],
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_48ad9edddc2c48368685c5219001f3f7~mv2.jpg",
+    "alt": "ゲームをプレイする様子"
+   },
+   "hasVideo": false
+  },
+  {
+   "slug": "jobjoy-itabashi",
+   "status": "done",
+   "feature": "jobjoy",
+   "genre": "video",
+   "tags": [
+    "job-experience"
+   ],
+   "title": "飼育員さんの仕事を知ろう！板橋区立熱帯環境植物館",
+   "date": "2024-07-23",
+   "writer": "Reporter：ナッキー（木村 月）／Camera・Edit：MIRAIS",
+   "oldUrl": "https://www.mirais2055.jp/jobjoy-itabashi",
+   "note": "特集ページの中にだけある動画。1本の記事ページにする",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "世の中に存在する、たくさんの仕事を、高校生や大学生が実際に体験するジョブタノ！。今回はナビゲーターのナッキーが、板橋区立熱帯環境植物館の飼育員さんに、お仕事の内容を聞きました。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.mirais2055.jp/jobjoy"
+    },
+    {
+     "type": "link",
+     "label": "撮影の舞台裏はこちら",
+     "href": "#blog-itabashi"
+    }
+   ],
+   "hasVideo": true
+  },
+  {
+   "slug": "blog-pv",
+   "status": "done",
+   "feature": "mnews",
+   "genre": "activity",
+   "tags": [
+    "video-making"
+   ],
+   "title": "PV ミーティング！",
+   "date": "2024-04-01",
+   "writer": "MIRAIS広報部",
+   "oldUrl": "https://www.mirais2055.jp/post/pv-ミーティング！",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_a9f3a905a98f47e5a3f60c963496ab0b~mv2.jpeg",
+    "alt": "PVミーティング"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "こんにちは！ 広報部です。"
+    },
+    {
+     "type": "p",
+     "text": "本日はPVミーティングの様子をお届けします。"
+    },
+    {
+     "type": "p",
+     "text": "といっても、ネタバレにならないようにまだこれしか公開はできませんが……。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_a9f3a905a98f47e5a3f60c963496ab0b~mv2.jpeg",
+     "alt": "PVミーティング"
+    },
+    {
+     "type": "p",
+     "text": "現在、大学生スタッフがリーダーになって、MIRAISのPVの制作を行っています。"
+    },
+    {
+     "type": "p",
+     "text": "今月からテスト撮影に入っていく予定です！"
+    },
+    {
+     "type": "p",
+     "text": "少しずつですが、スタッフそれぞれができることで、様々なコンテンツが増えてきました。"
+    },
+    {
+     "type": "p",
+     "text": "まだ公開されておりませんが、取材する場所も増えてきました！"
+    },
+    {
+     "type": "p",
+     "text": "今度は、撮影の模様をお届けしていきます！"
+    },
+    {
+     "type": "p",
+     "text": "お楽しみにー！"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "blog-itabashi",
+   "status": "done",
+   "feature": "jobjoy",
+   "genre": "activity",
+   "tags": [
+    "job-experience"
+   ],
+   "title": "板橋区に植物館があるって、知ってますか？！",
+   "date": "2024-02-08",
+   "writer": "MIRAIS広報部",
+   "oldUrl": "https://www.mirais2055.jp/post/板橋区に植物館があるって、知ってますか？！",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_474f97e5e9fa48baaa68c90e1762d9fa~mv2.jpg",
+    "alt": "熱帯環境植物館"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "今日はジョブタノ！の第二回撮影日！"
+    },
+    {
+     "type": "p",
+     "text": "天候にも恵まれまして、東京都板橋区にある「熱帯環境植物館」にやってきました。"
+    },
+    {
+     "type": "p",
+     "text": "今回もナビゲーターは笑顔が可愛いナッキーです！"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_474f97e5e9fa48baaa68c90e1762d9fa~mv2.jpg",
+     "alt": "熱帯環境植物館"
+    },
+    {
+     "type": "p",
+     "text": "こちらの植物園は、近くにあるゴミ焼却場の熱を利用している、とてもエコな施設。"
+    },
+    {
+     "type": "p",
+     "text": "中に入ると、多種多様な植物たちが迎えてくれます。"
+    },
+    {
+     "type": "p",
+     "text": "こちらには、小さな水族館も併設されています。"
+    },
+    {
+     "type": "p",
+     "text": "なんといっても注目したいのはこの大きなエイ！"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_ded5026e1a98445da362361cbf6bc477~mv2.jpeg",
+     "alt": "ヒマンチュラ・チャオプラヤ"
+    },
+    {
+     "type": "p",
+     "text": "ヒマンチュラ・チャオプラヤという種類で、淡水で生きています。"
+    },
+    {
+     "type": "p",
+     "text": "この水槽には様々な生き物がいますが、他の生き物と喧嘩したりすることもなく、カメが上にのっても仲良く暮らしているそうです。"
+    },
+    {
+     "type": "p",
+     "text": "今回は水族館の飼育員さんにインタビューさせていただきました！"
+    },
+    {
+     "type": "p",
+     "text": "公開は4月を予定！お楽しみに。"
+    },
+    {
+     "type": "p",
+     "text": "MIRAISでは「このお仕事に就きたい！お話を聞いてみたい！」を募集中！応募はお問い合わせまたはアクティボへお待ちしております！"
+    },
+    {
+     "type": "link",
+     "label": "完成した番組はこちら",
+     "href": "#jobjoy-itabashi"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "blog-shinagawa",
+   "status": "done",
+   "feature": "jobjoy",
+   "genre": "activity",
+   "tags": [
+    "job-experience"
+   ],
+   "title": "しながわ水族館へ取材！",
+   "date": "2024-02-06",
+   "writer": "MIRAIS広報部",
+   "oldUrl": "https://www.mirais2055.jp/post/しながわ水族館へ取材！",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_620926e8b46d46b785e2c951cd813e41~mv2.jpg",
+    "alt": "しながわ水族館"
+   },
+   "body": [
+    {
+     "type": "h",
+     "text": "今回は初！ジョブタノ撮影！"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_620926e8b46d46b785e2c951cd813e41~mv2.jpg",
+     "alt": "しながわ水族館"
+    },
+    {
+     "type": "p",
+     "text": "第一回目のリポーターは、ナッキーこと木村 月（なつき）さん！"
+    },
+    {
+     "type": "p",
+     "text": "ロケは曇天となってしまいましたが、元気いっぱいなナッキーです。"
+    },
+    {
+     "type": "p",
+     "text": "今回は、しながわ水族館の魚類を担当している飼育員さんへインタビューを実施！"
+    },
+    {
+     "type": "p",
+     "text": "そのあとは、じっくりと水族館の中を見て周り、水族館のことをはじめとして、あらゆる生き物たちを観察できました。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_3cb5e46df88d442c94c9de477866968e~mv2.jpeg",
+       "alt": "水族館の中1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_872f37e81ebb4fa3a517ad252352c4b6~mv2.jpeg",
+       "alt": "水族館の中2"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "イルカショーで有名なしながわ水族館、実は絶滅危惧種を育てていたり、ほかにもエコな取り組みを行っており、ヒトと環境と魚や動物たちとがこの地球において上手に共存していくための環境づくりに取り組んでいます。"
+    },
+    {
+     "type": "p",
+     "text": "その詳細については、4月から公開予定のジョブタノ！にて！"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_e2eff02cf1d5421f814d8b8a3e9ef966~mv2.jpeg",
+     "alt": "撮影の様子"
+    },
+    {
+     "type": "p",
+     "text": "お楽しみに！"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "mnews-volunteer",
+   "status": "done",
+   "feature": "mnews",
+   "genre": "report",
+   "tags": [
+    "inclusive"
+   ],
+   "title": "学生のボランティアへの意識調査 発表会",
+   "date": "2024-01-30",
+   "writer": "MIRAIS",
+   "oldUrl": "https://www.mirais2055.jp/mnews-volunteer",
+   "note": "M-newsページの中にだけある記事",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "コロナ禍を経て、学生たちのボランティアへの意識はどう変化したのか？日本財団ボランティアセンターによる発表が行われました。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "sp01-quagga",
+   "status": "done",
+   "feature": "socialpioneers",
+   "genre": "video",
+   "tags": [
+    "startup",
+    "career"
+   ],
+   "title": "第1回 合同会社クアッガ",
+   "date": "2024-01-09",
+   "writer": "Camera・Edit：MIRAIS／Narration：泉水 朝陽",
+   "oldUrl": "https://www.mirais2055.jp/sp01-quagga",
+   "note": "特集ページの中にだけある番組。1本の記事ページにする",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "パン好きな人にも環境にも優しい、「パンのロス」をなくすための仕組みを作り上げた合同会社クアッガ。たったふたりだけでスタートしたこの会社に、話を聞きました。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.mirais2055.jp/socialpioneers"
+    }
+   ],
+   "hasVideo": true
+  },
+  {
+   "slug": "sp02-rentio",
+   "status": "done",
+   "feature": "socialpioneers",
+   "genre": "video",
+   "tags": [
+    "startup",
+    "career"
+   ],
+   "title": "第2回 レンティオ株式会社",
+   "date": "2024-01-09",
+   "writer": "Camera・Edit：MIRAIS",
+   "oldUrl": "https://www.mirais2055.jp/sp02-rentio",
+   "note": "同上",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "日本の未来の希望を作る起業家たちを紹介するSocial Pioneers。第2回はレンティオ株式会社です。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.mirais2055.jp/socialpioneers"
+    }
+   ],
+   "hasVideo": true
+  },
+  {
+   "slug": "mnews-sme",
+   "status": "done",
+   "feature": "tsumugu",
+   "genre": "report",
+   "tags": [
+    "job-experience"
+   ],
+   "title": "中小企業の魅力体験イベント レポート！",
+   "date": "2024-01-09",
+   "writer": "MIRAIS",
+   "oldUrl": "https://www.mirais2055.jp/mnews-sme",
+   "note": "M-newsページの中にだけある記事。中小企業の魅力発信なので tsumugu に入れる案",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "八王子にて開催されたものづくりの魅力が分かる体験イベントをレポート！"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "blog-dlive18",
+   "status": "done",
+   "feature": "forstars",
+   "genre": "activity",
+   "tags": [
+    "deaf"
+   ],
+   "title": "D'LIVE vol.18の取材を行いました！",
+   "date": "2023-12-10",
+   "writer": "MIRAIS広報部",
+   "oldUrl": "https://www.mirais2055.jp/post/d-live-voi-18の取材を行いました！",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_cde51b87a30f47d49b08e155e1159488~mv2.jpg",
+    "alt": "D'LIVE vol.18の会場"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "今回は、コヤマドライビングスクールさんが主催する「D'LIVE vol.18」へ取材に行ってきました！"
+    },
+    {
+     "type": "p",
+     "text": "ドライブというのは、「耳に障がいがあるアーティストたちのライブ」で、コヤマドライビングスクールさんが毎年開催し続けているイベントです。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_cde51b87a30f47d49b08e155e1159488~mv2.jpg",
+     "alt": "D'LIVE vol.18の会場"
+    },
+    {
+     "type": "p",
+     "text": "今年もチケットは満員御礼！非常に多くの人たちで盛り上がっていました。"
+    },
+    {
+     "type": "p",
+     "text": "今回は、手話通訳＆インタビュアーとして三村さんが参加しています。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_a049e9d5f3cc4fe29ef2252693a3d873~mv2.jpeg",
+       "alt": "取材の様子1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_9d0ff0ff07a1436c99ae442439ed7d0c~mv2.jpg",
+       "alt": "取材の様子2"
+      }
+     ]
+    },
+    {
+     "type": "link",
+     "label": "今回出演したアーティスト・sUginAへの特別インタビューはこちら",
+     "href": "#sugina"
+    },
+    {
+     "type": "link",
+     "label": "D'LIVEに参加する学生たちへの特別インタビューはこちら",
+     "href": "#dlivegakusei"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "sugina",
+   "status": "done",
+   "feature": "forstars",
+   "genre": "interview",
+   "tags": [
+    "deaf"
+   ],
+   "title": "耳に障がいがあっても輝ける。ダンスユニットsUginA",
+   "date": "2023-12-09",
+   "writer": "Interviewer・手話通訳：三村純可／Photo：MIRAIS",
+   "oldUrl": "https://www.mirais2055.jp/sugina",
+   "note": "日付の記載なし",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_ff5682e6e2ec487692502691b64eb2ec~mv2.jpeg",
+    "alt": "sUginAのステージ"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "聴覚障がいをテーマとしたドラマや小説が話題となっており、2025年の東京デフリンピック開催に向けて認知度向上が進んでいる。コヤマドライビングスクールは2004年より、聴覚障がいを持つパフォーマーたちが活躍する「手話歌&ダンスライブ」D'LIVE（ドライブ）を毎年上演し続けており、今年で18回目となる。"
+    },
+    {
+     "type": "p",
+     "text": "このイベントは健聴者、聴覚障がい者、視覚障がい者など多様な客層が集い、チャリティライブとしての役割も果たしている。コロナによる一時中止を経て、2023年に復活した。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_ff5682e6e2ec487692502691b64eb2ec~mv2.jpeg",
+     "alt": "sUginAのステージ"
+    },
+    {
+     "type": "h",
+     "text": "インタビュー：ダンスユニット「sUginA」"
+    },
+    {
+     "type": "q",
+     "text": "ライブを終えて今の感想をお願いします"
+    },
+    {
+     "type": "p",
+     "text": "梶本「とても楽しかったです。6年前にダンスサークルで知り合って、今日ろう者のダンサー存在を知ってもらえるのが嬉しいです」"
+    },
+    {
+     "type": "q",
+     "text": "このライブに出演しようと思ったのはそういった存在をもっと発信したいから？"
+    },
+    {
+     "type": "p",
+     "text": "梶本「そうです」"
+    },
+    {
+     "type": "q",
+     "text": "二人でやる面白さや大変な点は？"
+    },
+    {
+     "type": "p",
+     "text": "麗華「二人ともジャンルが違うので、激しく踊るのとしなやかに踊るのが全く異なります。リズムなど細かい音を合わせるのが難しいです」"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_defc81545c454a3482d41deedbae5de9~mv2.jpg",
+     "alt": "インタビューの様子1"
+    },
+    {
+     "type": "q",
+     "text": "手話やダンスで発信したいことは？"
+    },
+    {
+     "type": "p",
+     "text": "梶本「自分たちはろう者だけど、ダンスが好きだからダンスをしています。聞こえないからこそ音楽やダンスを楽しんでます」"
+    },
+    {
+     "type": "q",
+     "text": "パフォーマンスの演出は二人で考えている？"
+    },
+    {
+     "type": "p",
+     "text": "梶本「二人で考えています」"
+    },
+    {
+     "type": "q",
+     "text": "ダンスを覚える時は見て覚えているのか？"
+    },
+    {
+     "type": "p",
+     "text": "梶本「初めは見て覚えて、その後リズムのためにカウントを使います」"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_990b62a8b87546f9922e936c87e0b887~mv2.jpg",
+     "alt": "インタビューの様子2"
+    },
+    {
+     "type": "q",
+     "text": "ろう者でダンス経験のある人はどれくらいいるのか？"
+    },
+    {
+     "type": "p",
+     "text": "梶本「結構います。でも部活にダンス部があるところは少ないです。学生時代はそれぞれバレー部と陸上部でした」"
+    },
+    {
+     "type": "q",
+     "text": "バレーや陸上の経験がダンスで活きたか？"
+    },
+    {
+     "type": "p",
+     "text": "麗華「体力と筋トレの基礎は今のダンスに非常に生かされました。どちらもダンスに大事なものです」"
+    },
+    {
+     "type": "q",
+     "text": "ろう者でない人とコミュニケーションを取る上で大変なことは？"
+    },
+    {
+     "type": "p",
+     "text": "麗華「少し前まではマスクで口が見えないから大変でした。ダンス練習時にテンションが上がると早口になるので、もっとゆっくり話してもらえると嬉しいです」"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_3811efc9cda24b0b9e72396e506de939~mv2.jpg",
+     "alt": "インタビューの様子3"
+    },
+    {
+     "type": "q",
+     "text": "このイベントの魅力は？"
+    },
+    {
+     "type": "p",
+     "text": "麗華「ろう者の人がライブに参加していますが、ろう者だけでなく色んな人が楽しめることです」"
+    },
+    {
+     "type": "p",
+     "text": "梶本「手話通訳士がいるので、音楽だけでなく見てもっと楽しめます」"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_5983c8dacc344c69a3d740dcb95a542b~mv2.jpg",
+     "alt": "インタビューの様子4"
+    },
+    {
+     "type": "q",
+     "text": "耳が聞こえない人でもステージに立ちたいと思う人は多いと思いますが、勇気が出ない人が参加するにはどうしたらいいと思うか？"
+    },
+    {
+     "type": "p",
+     "text": "麗華「まずは好きという気持ちが大事です。本当に好きという気持ちがあれば不安や恥ずかしさが勝つことはないと思います」"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_dfd6a6d119a24d8cb0930a156ba1df46~mv2.jpg",
+     "alt": "インタビューの様子5"
+    },
+    {
+     "type": "q",
+     "text": "普段のお仕事は？"
+    },
+    {
+     "type": "p",
+     "text": "梶本「今は休学中ですが、大学生です」"
+    },
+    {
+     "type": "p",
+     "text": "麗華「普段はダンスの講師をしています。4歳の子供がいてダンスと子育てを両立しています」"
+    },
+    {
+     "type": "q",
+     "text": "耳が聞こえない人でも社会で活躍していくには何が必要か？"
+    },
+    {
+     "type": "p",
+     "text": "梶本「諦めずに努力することが必要です。聞こえる人とはぶつかることが多いと思いますが、諦めずに自分の意見を伝えることが大事です」"
+    },
+    {
+     "type": "p",
+     "text": "麗華「聞こえる聞こえない関係なく、何事にも努力することは大事です。耳が聞こえなくても恵まれている人はいっぱいいます。人と比べないことが大事です」"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_42eca7d4c36b41f1affa109106f339bd~mv2.jpg",
+     "alt": "インタビューの様子6"
+    },
+    {
+     "type": "q",
+     "text": "二人の将来の夢は？"
+    },
+    {
+     "type": "p",
+     "text": "梶本「プロのダンサーになって、聞こえる聞こえない関係なく色んな人にパフォーマンスを見てもらい、海外でも活躍できるダンサーになりたいです」"
+    },
+    {
+     "type": "p",
+     "text": "麗華「誰かにとって希望になる人になりたいです」"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_2590a70e761b46418c2ec9005c235d34~mv2.jpg",
+     "alt": "sUginAの二人"
+    },
+    {
+     "type": "p",
+     "text": "今年もたくさんの観客で幕を閉じたD'LIVE。2025年の東京デフリンピック開催が間近となっている中で、このライブのさらなる進化に期待したいところだ。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "dlivegakusei",
+   "status": "done",
+   "feature": "forstars",
+   "genre": "interview",
+   "tags": [
+    "deaf",
+    "student-writer"
+   ],
+   "title": "手話を通して広がる世界。学生ボランティアインタビュー",
+   "date": "2023-12-09",
+   "writer": "Interviewer・手話通訳：三村純可／Photo：MIRAIS",
+   "oldUrl": "https://www.mirais2055.jp/dlivegakusei",
+   "note": "日付の記載なし",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_a2cd1eee49a84d849854747022256b35~mv2.jpg",
+    "alt": "学生ボランティアの皆さん"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "12月9日に行われたD'LIVE vol.18。このライブの特徴は、デフパフォーマーたちがいることやチャリティーコンサートであることなども挙げられるが、もうひとつ特徴がある。それは、主に都内の手話サークルの学生たちがスタッフとして参加している点である。来場者の手話通訳はもちろんのこと、開場前の準備なども自ら行い、D'LIVEを実施するにあたっての重要な役割を担っている。今回は、法政大学、北里大学、上智大学の学生に、ボランティアを通して、手話についての考えやD'LIVEへの思いなど、詳しくお話を伺った。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_a2cd1eee49a84d849854747022256b35~mv2.jpg",
+     "alt": "学生ボランティアの皆さん"
+    },
+    {
+     "type": "q",
+     "text": "元々手話を始めるきっかけは?"
+    },
+    {
+     "type": "p",
+     "text": "「小学校の時に授業で手話を教えてもらう授業があって、手話に興味を持ち、大学で手話サークルに入りました。」"
+    },
+    {
+     "type": "p",
+     "text": "「将来の夢が地方公務員で、沢山の人とコミュニケーションを取りたいなと思って、手話をはじめました。」"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_f5859859b4c64a12b52a8db068af72b5~mv2.jpg",
+     "alt": "開演前の準備",
+     "caption": "開演前に準備をしている様子"
+    },
+    {
+     "type": "q",
+     "text": "実際に学校とか日常の中で手話を使う機会はどれくらいありますか?"
+    },
+    {
+     "type": "p",
+     "text": "「今、飲食店でアルバイトをしているんですけど、そこにろう者のお客さんがいらっしゃって、手話で接客したことはあります。」"
+    },
+    {
+     "type": "q",
+     "text": "手話を始める前と今で考え方が変わったことはありますか?"
+    },
+    {
+     "type": "p",
+     "text": "「手話やるまでは、出来ないのに声を掛けない方が良いかなと思ってたんですけど、難聴の後輩から、その子は指文字でも何でもいいから関わってほしいと言われて、そこから考えが変わりました。視野が広がるなと思います。」"
+    },
+    {
+     "type": "p",
+     "text": "「自分も聴覚障がいを持っているんですけど、手話を通して自分より重い障がいを持っている人がいるんだってことを知りました。そんな人達にも手話を通して、還元できたらなと思います。」"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_2d6a17bacbb445b28020bf243803d033~mv2.jpg",
+     "alt": "インタビューの様子1"
+    },
+    {
+     "type": "q",
+     "text": "このイベントの魅力はどんなところだと思いますか?"
+    },
+    {
+     "type": "p",
+     "text": "「多くの人たちと繋がることができるのが魅力かなと思います。」"
+    },
+    {
+     "type": "p",
+     "text": "「学校からの紹介で、初めて参加をしたのですが、他の手話サークルの人と関われるのが嬉しいです。」"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_93bdf79e48884b81af1fe966d1a44dac~mv2.jpg",
+     "alt": "インタビューの様子2"
+    },
+    {
+     "type": "q",
+     "text": "世の中にはこのライブのように色々なエンタメがありますが、ろう者の方と健聴者が一緒に楽しむにはどうしたらいいと思いますか?"
+    },
+    {
+     "type": "p",
+     "text": "「興味がある人は積極的に手話を始めるのがやはりいいかなと思います。他には、今はスマホで声を拾ってろう者とコミュニケーションが取れるアプリがあるので、それがもっと世間一般に普及したら、もっとエンタメを楽しめるんじゃないかなと思います。」"
+    },
+    {
+     "type": "p",
+     "text": "「あとは、2025年にデフリンピックがあって、それを知らない人っていっぱいいると思います。そこから認知度がもっと広まれば良いかなと思います。」"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_ced8034228a743a69f2a427ffe527913~mv2.jpg",
+       "alt": "インタビューの様子3"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_ba4925d48f6147db8871a3ddd071c5cb~mv2.jpg",
+       "alt": "インタビューの様子4"
+      }
+     ]
+    },
+    {
+     "type": "q",
+     "text": "それはどうやったら広まると思いますか?"
+    },
+    {
+     "type": "p",
+     "text": "「メディアなどを通して、発信することがまず大事かなと思います。」"
+    },
+    {
+     "type": "p",
+     "text": "「それから、小学校とか中学校とかの義務教育の段階で手話の授業やイベントを行えば広がると思います。」"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_82b30aa597a44eb2940dc13a25874f59~mv2.jpg",
+     "alt": "インタビューの様子5"
+    },
+    {
+     "type": "q",
+     "text": "最後に、これから手話を通してやりたいことがあれば教えてもらえますか?"
+    },
+    {
+     "type": "p",
+     "text": "「私は今は教職の授業を取ってるんですが、将来はろう学校で先生をやりたいです。」"
+    },
+    {
+     "type": "p",
+     "text": "「凄い単純なんですけど、もっと色んな人と手話で会話したいです。」"
+    },
+    {
+     "type": "p",
+     "text": "「私は将来、テーマパークで働きたいと思っています。そういった場所でも手話が使える人がいればもっと、ろう者も楽しめると思っています。」"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "blog-deaf-rikujo",
+   "status": "done",
+   "feature": "forstars",
+   "genre": "report",
+   "tags": [
+    "deaf"
+   ],
+   "title": "デフ陸上選手権大会 ボランティアイベント取材！",
+   "date": "2023-11-06",
+   "writer": "MIRAIS広報部",
+   "oldUrl": "https://www.mirais2055.jp/post/デフ陸上選手権大会-ボランティアイベント取材！",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_ed96f9eae5114c779b546a683d9484ad~mv2.jpg",
+    "alt": "プレスパス"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "今回は、日本財団ボランティアセンターより取材のお知らせをいただき、プレスとして「デフ陸上選手権大会」への応援ボランティアイベントを取材してきました！"
+    },
+    {
+     "type": "p",
+     "text": "今回は広報部の大田原くんと共にその模様を撮影してきました。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_ed96f9eae5114c779b546a683d9484ad~mv2.jpg",
+     "alt": "プレスパス",
+     "caption": "プレスの証であるパスです。ドキドキします。"
+    },
+    {
+     "type": "p",
+     "text": "「デフ陸上選手権」というのは、聴覚に障害を持つアスリートのための陸上大会です。"
+    },
+    {
+     "type": "p",
+     "text": "他にも、様々なデフスポーツが存在し、2025年にはなんと、東京でデフリンピック（世界的なデフスポーツの大会！オリンピックのデフバージョン）が行われます！"
+    },
+    {
+     "type": "p",
+     "text": "そういうこともあり、今回はイベントも大いに盛り上がりを見せていました！"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_44d10250179b4003aaa1979e0efb5679~mv2.jpg",
+     "alt": "報道ビブス",
+     "caption": "こういう報道ビブスを着用することもあります。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_47448f2523394007894fa8b1c0d3f19d~mv2.jpg",
+     "alt": "イベント風景1"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_b52d42187e3f41c9a6fae1ed85142e6c~mv2.jpg",
+     "alt": "イベント風景2",
+     "caption": "手話通訳士の方、アスリート、ボランティアのみなさん。思い思いのイベントグッズを作っています。"
+    },
+    {
+     "type": "p",
+     "text": "広報は「社会へ組織の取り組みや企画をPRしていくことが仕事」と思われがちですが、いろんな人たちと交流を深めていくことも大事な仕事の一つです。"
+    },
+    {
+     "type": "p",
+     "text": "みなさん思い思いの応援グッズの作成や、応援を通して、大会を盛り上げていました。"
+    },
+    {
+     "type": "p",
+     "text": "もっといろんな方にデフスポーツや障がいを持っていても活躍する人たちのことを知って欲しいなと思っています。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "blog-open",
+   "status": "done",
+   "feature": "mnews",
+   "genre": "notice",
+   "tags": [],
+   "title": "広報部ブログ開設しました。",
+   "date": "2023-11-01",
+   "writer": "MIRAIS広報部",
+   "oldUrl": "https://www.mirais2055.jp/post/広報部ブログ開設しました。",
+   "note": "",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "MIRAIS広報部です！"
+    },
+    {
+     "type": "p",
+     "text": "この度、活動をレポートしていくブログを開設しました。"
+    },
+    {
+     "type": "p",
+     "text": "現場の写真とともにお送りしていきたいなと思っています。"
+    },
+    {
+     "type": "p",
+     "text": "よろしくお願いいたします！"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "tokyoforward",
+   "status": "done",
+   "feature": "mnews",
+   "genre": "report",
+   "tags": [
+    "inclusive"
+   ],
+   "title": "TOKYO FORWARD 2022",
+   "date": "2022-07-23",
+   "writer": "MIRAIS",
+   "oldUrl": "https://www.mirais2055.jp/tokyoforward",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_96dbaccdeace4989aba5d989b28dbe1f~mv2.png",
+    "alt": "国立競技場のセレモニー"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "コロナ禍で無観客で開催された東京2020大会から１年。ついに有観客イベントが実現した。東京オリンピックからちょうど１年後となる2022年７月23日、開閉会式の会場だった国立競技場で、記念セレモニー「TOKYO FORWARD」が開催された。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_96dbaccdeace4989aba5d989b28dbe1f~mv2.png",
+     "alt": "国立競技場のセレモニー"
+    },
+    {
+     "type": "p",
+     "text": "橋本聖子元東京2020組織委員会会長と、室伏広治スポーツ庁長官があいさつを行った。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_b9936ddad3ec41c18d09f3343e256401~mv2.png",
+     "alt": "あいさつの様子"
+    },
+    {
+     "type": "p",
+     "text": "「困難な中、日本は前に進めることを示した。共生社会、多様性を実現する転換点となった」（橋本）"
+    },
+    {
+     "type": "p",
+     "text": "「アスリートはさまざまな障壁を乗り越えて力を発揮。スポーツが持つ力を示してくれた。パラ選手の活躍によって、共生社会への実現に一歩一歩、歩み続けている。レガシーをさらに進化させていく」（室伏）"
+    },
+    {
+     "type": "p",
+     "text": "その後、イベント「TOKYO FORWARD CHALLENGE」を実施。"
+    },
+    {
+     "type": "p",
+     "text": "まずは、観客席をエリア別にレッド、ブルー、グリーン、パープルの４つにチーム分け。スタジアムビジョンに映し出されたソメイティとミライトワが、観客のクラップの音に合わせて、次々と現れるだるまや東京スカイツリー、富士山などをジャンプしていくゲーム「TOKYO FORWARD GAME」では、チームごとに息を合わせて手元に配られたハリセンでクラップ。"
+    },
+    {
+     "type": "p",
+     "text": "チームレッドが満点で優勝した。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_0cbb678d03784e64ab465154fcf2ff49~mv2.png",
+       "alt": "会場の様子1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_d6dcbc578cfd443ab659c8196a39381f~mv2.png",
+       "alt": "会場の様子2"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_d35c59bb94fa4d868986c40b0667bf24~mv2.png",
+       "alt": "会場の様子3"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_9124d1332ca842409198fce333c7248c~mv2.png",
+       "alt": "会場の様子4"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "お笑いタレントのなかやまきんに君、元レスリング日本代表の吉田沙保里、元サッカー日本代表の丸山桂里奈、タレントの武井壮も参加。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_28c0d0d270de4e68b4330f24fd3a7535~mv2.png",
+     "alt": "ゲストの皆さん"
+    },
+    {
+     "type": "p",
+     "text": "最後に、MC松岡修造は「無観客開催、あの過酷な状況で開催できたのは日本、東京だからと信じている。その力が若者を支えていく」と、東京大会のレガシーを未来につなぐメッセージで締めくくった。"
+    },
+    {
+     "type": "p",
+     "text": "フィナーレはフィールドの中央で、2022年４月にデビューした2000年生まれのシンガーSennaRinが力強い歌声を披露し、会場を華やかな雰囲気で包んだ。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_88d5c9703d8e4a21aa2a977f702b2a08~mv2.png",
+     "alt": "フィナーレ"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "okuyamasenshu",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "interview",
+   "tags": [
+    "parasports"
+   ],
+   "title": "制作レポート パラ・パワーリフティング 奥山一輝選手編",
+   "date": "2020-11-21",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/okuyamasenshu",
+   "note": "競技・特集の振り分けは本文を読んで確定",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_1608b0597fb94d5e86e45476e96e4960~mv2.png",
+    "alt": "撮影の様子"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "本日は学校法人 東放学園専門学校と共同制作作品の撮影です。"
+    },
+    {
+     "type": "p",
+     "text": "奥山選手の競技にかける想い、普段の練習で心がけていることなどのインタビューさせていただきました。"
+    },
+    {
+     "type": "p",
+     "text": "学生スタッフの皆さんも緊張しながらも真剣に撮影に取り組んでくれました。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_1608b0597fb94d5e86e45476e96e4960~mv2.png",
+     "alt": "撮影の様子"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_18ad7ae4290d435c8eeace627168b56a~mv2.png",
+     "alt": "奥山選手と学生スタッフ",
+     "caption": "奥山選手と学生スタッフの皆さん"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "ootashoukosenshu",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "interview",
+   "tags": [
+    "parasports"
+   ],
+   "title": "太田渉子選手へ取材を行いました",
+   "date": "2020-08-28",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/ootashoukosenshu",
+   "note": "M-newsからParasportsへ移す案",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_c568201585a3483284cd97bf7f73dba0~mv2.png",
+    "alt": "太田選手と学生スタッフ"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "本日は学校法人 東放学園専門学校と共同制作です。"
+    },
+    {
+     "type": "p",
+     "text": "緊張しながら参加してくれた学生スタッフも最後は笑顔で記念撮影。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_c568201585a3483284cd97bf7f73dba0~mv2.png",
+     "alt": "太田選手と学生スタッフ"
+    },
+    {
+     "type": "p",
+     "text": "太田選手ありがとうございました。"
+    },
+    {
+     "type": "p",
+     "text": "IKIRU PROJECTはこれからもパラアスリートを応援し続けます。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "blindsc2019",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "report",
+   "tags": [
+    "parasports",
+    "blind"
+   ],
+   "title": "ブラインドサッカー チャレンジカップ2019",
+   "date": "2019-12-09",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/blindsc2019",
+   "note": "",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "12/8（日）、町田市総合体育館にて、ブランドサッカーチャレンジカップ2019が行われた。"
+    },
+    {
+     "type": "p",
+     "text": "このチャレンジカップとは、2018年より始まった、ブラインドサッカーの普及と国際大会へ向けた強化を目的とした国際親善大会である。"
+    },
+    {
+     "type": "p",
+     "text": "なお、会場には入り口付近に車椅子席も設けられており、身体に障がいがあっても、観戦することが可能となっている、バリアフリーな大会である。"
+    },
+    {
+     "type": "p",
+     "text": "今回は、日本vsモロッコ。どちらも世界レベルでの強豪国であり、熱い火花が飛び交う試合を楽しみに、会場には多くの観客が詰め寄った。"
+    },
+    {
+     "type": "p",
+     "text": "日本が先に1点をとったものの、さすがアフリカ選手権で2連覇を果たしているだけあって、その後をすぐ追うようにモロッコが1点を取り、両者同点に。"
+    },
+    {
+     "type": "p",
+     "text": "休憩時間には地元チアリーダーたちの元気いっぱいのダンスパフォーマンスも。"
+    },
+    {
+     "type": "p",
+     "text": "その後、日本もその体躯に負けず攻撃を続けるものの、モロッコに4点取られてしまい、試合は終了。"
+    },
+    {
+     "type": "p",
+     "text": "結果、1ー5でモロッコが勝利した。"
+    },
+    {
+     "type": "p",
+     "text": "他国が優勝したものの、まわりのサポーターをはじめ、日本選手も力強い拍手を送っていた。"
+    },
+    {
+     "type": "p",
+     "text": "サッカーという人気スポーツのパラバージョンということで、その知名度もなかなか高いブラインドサッカー。しかし、まだ視覚障害者の中には、「目が見えなくても、弱視でもスポーツができる」ということを知らない人も多勢いるのではないかと感じた。会場には、白杖の人、あるいは、盲導犬と共にいる人、あるいは、誰かに援助してもらいながら見ている（聴いている）であろう人を、筆者はその日見かけることがなかったからだ。"
+    },
+    {
+     "type": "p",
+     "text": "この日は、wi-fiが飛んでおり、視覚障害があってもそこに繋ぐことでスマホから実況が流れ、現場の音と実況、二つを耳で楽しめる工夫がされていた。だからこそ、大変もったいないと感じたのである。"
+    },
+    {
+     "type": "p",
+     "text": "もともとサッカーをやっていて、ある時に病気や怪我で光を失ってしまった人が、このスポーツのことを知ることができたなら……もう一度フィールドに出ることで、ある意味「光を取り戻す」ことに繋がっていくだろう。"
+    },
+    {
+     "type": "p",
+     "text": "だが、ネットなどを目で見ることが難しい人々には、一体どのようにスポーツのことを知ってもらい、会場に来てもらい、どのようにその楽しさを知ってもらえるのだろうか……。"
+    },
+    {
+     "type": "p",
+     "text": "私たちメディアは、その「伝える」部分へのアクセスを、「目で見るだけ」以外の方法を模索し、工夫していく必要性があるのではないかと感じた試合であった。"
+    },
+    {
+     "type": "link",
+     "label": "日本ブラインドサッカー協会",
+     "href": "http://www.b-soccer.jp"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "blsc",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "report",
+   "tags": [
+    "parasports",
+    "blind"
+   ],
+   "title": "ブラインドサッカー 東日本リーグ第7節",
+   "date": "2019-12-02",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/blsc",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_1c377454749648548d08804d3f93b90c~mv2.jpg",
+    "alt": "東日本リーグ第7節"
+   },
+   "body": [
+    {
+     "type": "h",
+     "text": "【ブラインドサッカー東日本リーグ第7節 優勝決定戦】(1日、文京区小石川運動場)"
+    },
+    {
+     "type": "p",
+     "text": "free bird mejirodaiが埼玉T.Wingsを逆転で下し、チーム創設3年目で初優勝を飾った。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_6021a8ebdb604994950ce6bbde87704f~mv2.jpg",
+     "alt": "菊島宙選手",
+     "caption": "写真は25得点をあげ得点王に輝いた埼玉T.Wingsの菊島宙選手"
+    },
+    {
+     "type": "p",
+     "text": "free bird mejirodaiは練ってきた「宙ちゃん対策」を徹底、キーパーからは常に「そら、そら」と指示が飛んでいた。"
+    },
+    {
+     "type": "p",
+     "text": "結果は、埼玉T.Wings 1-2 free bird mejirodaiと、接戦の1点差で幕を閉じた。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_9a56f6fe38524885879c238c0b1593eb~mv2.jpg",
+     "alt": "試合の様子"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_e0c660631e44402fbd6b89f4f0042b76~mv2.jpg",
+     "alt": "円陣",
+     "caption": "試合前に円陣を組む姿。"
+    },
+    {
+     "type": "h",
+     "text": "ブラインドサッカーとは？"
+    },
+    {
+     "type": "p",
+     "text": "ブラインドサッカーとは、もともと視覚障がいのある選手のために考えられた5人制サッカー。パラリンピックの正式種目にもなっている。"
+    },
+    {
+     "type": "p",
+     "text": "普通のサッカーの様にボールを奪い合い、ゴールを決める、といった事は本当に成立するのだろうか？想像するにゆっくりとした独特の動きなのでは？と思う方は大勢いるだろう。しかし、初めてこの競技を観戦した人は、 みな揃って言う「本当に見えていないの？」と。"
+    },
+    {
+     "type": "p",
+     "text": "ブラインドサッカーで使用されるボールには中に金属の粒が入っているため、選手たちもその音を聞くことでボールの位置や転がりを知ることができる。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_ab71095a960a4c209c2c1de610615716~mv2.jpg",
+     "alt": "ゴール裏のガイド",
+     "caption": "ゴール裏にはガイドと呼ばれる選手に指示を出す役割が存在する。"
+    },
+    {
+     "type": "p",
+     "text": "メディアでも取り上げられる機会が増え注目度も高まっているブラインドサッカー。東京2020へのメダル獲得に期待が高まる。"
+    },
+    {
+     "type": "p",
+     "text": "IKIRUプロジェクトでも、今後の競技の発展に注目していきます。"
+    },
+    {
+     "type": "link",
+     "label": "日本ブラインドサッカー協会",
+     "href": "http://www.b-soccer.jp"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "bunkyoblsc",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "report",
+   "tags": [
+    "parasports",
+    "blind",
+    "inclusive"
+   ],
+   "title": "文京区 ユニバーサルスポーツDays",
+   "date": "2019-12-02",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/bunkyoblsc",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_4c7b3c6b7ec04ea1816a09a2c6d01e5d~mv2.jpg",
+    "alt": "ユニバーサルスポーツDays"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "小石川運動場にて行われたブラインドサッカーの体験教室を取材しました。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_93f30083525146e390518f316bba37e2~mv2.jpg",
+       "alt": "体験教室1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_e6b46c02f297401b851e8573622d24e3~mv2.jpg",
+       "alt": "体験教室2"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "子ども向けの体験イベントが盛りだくさん。"
+    },
+    {
+     "type": "p",
+     "text": "その中で最も盛り上がりを見せていたのが元サッカー日本代表の石川直宏さんによるブラインドサッカー教室。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_06a83cebfabd453a8692ab21f83bab12~mv2.jpg",
+       "alt": "石川直宏さんの教室1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_5de25a02657c41a69b8a5fabb5bb2cbd~mv2.jpg",
+       "alt": "石川直宏さんの教室2"
+      }
+     ]
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_66e6803077b245a2af756d9196af5f47~mv2.jpg",
+     "alt": "パッカくんと石川直宏さん",
+     "caption": "写真右からオフィシャルマスコットのパッカくん、元サッカー日本代表の石川直宏さん"
+    },
+    {
+     "type": "p",
+     "text": "参加している子ども達も目隠しをしてのプレイに困惑しながらも終始笑顔でブラインドサッカー体験を行っていた。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "worldtryout",
+   "status": "done",
+   "feature": "mnews",
+   "genre": "report",
+   "tags": [
+    "sports"
+   ],
+   "title": "背番号3が復活！WorldTryout2019 清原和博監督",
+   "date": "2019-12-01",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/worldtryout",
+   "note": "野球のトライアウトの記事でパラスポーツではないため、M-newsへ移す案。旧Parasportsページのリンク先も間違っていた",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_0c33f69bb9ab4707b6350950afc5fd88~mv2.jpg",
+    "alt": "コーチ陣と清原監督"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "「キヨー」、「待ってたぞ」、「お帰り」という、大歓声が神宮球場に響き渡る。"
+    },
+    {
+     "type": "p",
+     "text": "ライオンズ時代と同じ背番号3番、「キヨ」という愛称……そう、あの清原和博氏がこの日、明治神宮球場へと降り立った。"
+    },
+    {
+     "type": "p",
+     "text": "WorldTryout2019の本戦の幕が開けたのだ。"
+    },
+    {
+     "type": "p",
+     "text": "WorldTryoutとは、戦力外通告を受けてしまった選手や、プロ野球の世界やメジャーを目指す若者の、アピールの場として開催される試合である。"
+    },
+    {
+     "type": "p",
+     "text": "清原選手は、このワールドトライアウトの監督に就任したのである。"
+    },
+    {
+     "type": "p",
+     "text": "午前10時から試合はスタート。ベンチから選手交替などの監督としての采配も行った。"
+    },
+    {
+     "type": "p",
+     "text": "清原監督は、「まだ薬物依存の治療もあり、執行猶止も明けていないが、足元を見つめて野球を一番大切にやっていきたい」とあいさつ。球界復帰への意欲を語った。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_0c33f69bb9ab4707b6350950afc5fd88~mv2.jpg",
+     "alt": "コーチ陣と清原監督",
+     "caption": "写真左から投手コーチの入来祐作氏、監督の清原和博氏、打撃コーチの片岡篤史氏"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_e8e1b547f86e463b985f8b7b64fb0b71~mv2.jpg",
+     "alt": "試合の様子1"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_001832157ec04ec1be4033eb7b227ef5~mv2.jpg",
+     "alt": "東尾修氏との対談",
+     "caption": "西武ライオンズ時代のチームメイト東尾修さんと対談、握手をする清原氏"
+    },
+    {
+     "type": "p",
+     "text": "東尾修氏とのサプライズ対談企画も。"
+    },
+    {
+     "type": "p",
+     "text": "最後には東尾氏が「スタンドにたくさん見に来てくださっているお客さん、いずれNPBのユニホームを着て、本当の復帰ができるように応援してやってください」と呼びかけると、観客席からは大きな拍手とともに「待ってるよ」の声が飛んだ。"
+    },
+    {
+     "type": "p",
+     "text": "清原氏は立ち上がって頭を下げると「グラウンドでこういう声援をいただいたのは、これからの自分の人生に力になりますし、そういう目標をもってがんばっていきたいと思います」と感謝の言葉を述べた。"
+    },
+    {
+     "type": "link",
+     "label": "World Tryout",
+     "href": "https://worldtryout.com"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "parabadminton2019",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "report",
+   "tags": [
+    "parasports"
+   ],
+   "title": "ヒューリック・ダイハツJAPAN パラバドミントン国際大会 2019",
+   "date": "2019-11-18",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/ヒューリック-ダイハツjapanパラバドミントン国際大会2019",
+   "note": "旧URLが日本語なので、新URLは parabadminton2019 にして旧URLから転送",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_ced47383df704836b7f7ce76debc5977~mv2.jpg",
+    "alt": "パラバドミントン国際大会"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "秋晴れの11月17日、ヒューリック・ダイハツJAPAN パラバドミントン国際大会2019が開催され、特に女子ダブルス車いすのクラスが最大の盛り上がりを見せた。"
+    },
+    {
+     "type": "p",
+     "text": "里見紗李奈選手と山崎悠麻選手のペアが、世界選手権金メダル保持の中国ペアと対戦した。第1ゲームは14対21で落としたが、第2ゲームを25対23で奪還。第3ゲームでは、初期段階でリードを許したものの、粘り強いラリーから逆転し21対15で勝利。ゲームカウント2対1で優勝を手にした。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_6cfb10b7c8ef4726934df5db24fbe0a5~mv2.jpg",
+     "alt": "試合の様子"
+    },
+    {
+     "type": "h",
+     "text": "大会成績"
+    },
+    {
+     "type": "p",
+     "text": "【優勝】"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "SU5女子シングルス 鈴木亜弥子",
+      "WH1-2女子ダブルス 里見紗李奈/山崎悠麻"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "【準優勝】"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "SL4女子シングルス 藤野遼",
+      "SL3-SU5女子ダブルス 伊藤則子/鈴木亜弥子"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "【3位】"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "WH2男子シングルス 梶原大暉",
+      "WH1女子シングルス 里見紗李奈",
+      "WH2女子シングルス 山崎悠麻",
+      "SU5男子シングルス 今井大湧",
+      "SU5女子シングルス 豊田まみ子",
+      "WH1-2男子ダブルス 村山浩/梶原大暉",
+      "SL3-SU5女子ダブルス 山田麻美/亀山楓",
+      "SL3-SU5ミックスダブルス 末永敏明/杉野明子"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "東京パラリンピックから競技として正式に追加されたパラバドミントン。初代金メダリストが誰になるのか、今後の動向に注目が集まっている。"
+    },
+    {
+     "type": "link",
+     "label": "日本障がい者バドミントン連盟",
+     "href": "https://jpbf.jp"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "enjoyparafes",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "report",
+   "tags": [
+    "parasports"
+   ],
+   "title": "i enjoy ! パラスポーツパーク in ParaFes",
+   "date": "2019-11-17",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/enjoyparafes",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_2ed4043792284e2bb8b48b26fb83aa5d~mv2.jpg",
+    "alt": "香取慎吾さんのサイン"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "日本財団パラリンピックサポートセンターと武蔵野の森総合スポーツプラザが共催した「i enjoy ! パラスポーツパーク」が「ParaFes2019」と同日開催された。"
+    },
+    {
+     "type": "p",
+     "text": "過去最大の規模として、8競技のパラスポーツの体験コーナー、フォトスポット、IPC＆WOWOWのパラリンピック・ドキュメンタリーシリーズ「WHO I AM」ダイジェスト版の上映ブースとパラスポーツをトコトン楽しめる内容となっており、参加者も子どもから大人まで、障がいのあるなしに関わらず一緒となって楽しむ空間となった。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_787dbd2c852d4cbea0652a1785ff0ac0~mv2.jpg",
+       "alt": "会場の様子1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_ce00efac4f0c469182b5da9163473764~mv2.jpg",
+       "alt": "会場の様子2"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_f8d3eed5aa804bdd985d0cd452de373f~mv2.jpg",
+       "alt": "会場の様子3"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_6ef02a3372a548cd87ea43df4d3fa6d0~mv2.jpg",
+       "alt": "会場の様子4"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_47a07ce9e13e4a2cb1dcc8a560aa7f4f~mv2.jpg",
+       "alt": "会場の様子5"
+      }
+     ]
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_2ed4043792284e2bb8b48b26fb83aa5d~mv2.jpg",
+     "alt": "香取慎吾さんのサイン",
+     "caption": "香取慎吾さんのサイン"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_ebcc231ee7ed4e49a43f764dfb04b100~mv2.jpg",
+       "alt": "会場の様子6"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_1c820c3127c243e3bba214309135eb95~mv2.jpg",
+       "alt": "会場の様子7"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "「コツコツ点字ブロックタイムトライアル」では目隠しをして点字を歩く体験コーナも設置されていた。"
+    },
+    {
+     "type": "p",
+     "text": "普段ではなかなかすることが出来ない体験が可能なイベントが盛りだくさんであった。"
+    },
+    {
+     "type": "p",
+     "text": "若者に人気の動画クリエイターも登場し参加者と一緒に様々なパラスポーツを体験、またその様子を動画撮影しSNSにアップするなど、パラスポーツへの関心が高まりを感じ、まさにテーマパークのような賑わいで盛り上がった。"
+    },
+    {
+     "type": "link",
+     "label": "日本財団パラサポ",
+     "href": "https://www.parasapo.or.jp/"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "goalball",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "report",
+   "tags": [
+    "parasports",
+    "blind",
+    "inclusive"
+   ],
+   "title": "マネードクター2019 日本ゴールボール選手権大会",
+   "date": "2019-11-04",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/goalball",
+   "note": "",
+   "body": [
+    {
+     "type": "p",
+     "text": "11/2、足立区総合スポーツセンターにて、日本のゴールボールの頂上を決める戦い「マネードクター2019日本ゴールボール選手権大会」が行われた。"
+    },
+    {
+     "type": "p",
+     "text": "ゴールボールとは、全員が目隠しをして、音や振動などを頼りに戦う、感覚的なスポーツである。視覚障害者を始め、健常者でもその目隠し（＝アイシールドという）をつけることで、平等な条件のもと、参加することができる。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_f805353a0c654184b8b9242765017647~mv2.jpg",
+     "alt": "試合会場のコート"
+    },
+    {
+     "type": "p",
+     "text": "フィールドにはそれぞれ3人ずつ参戦できる。ボールはボーリングのような投げ方に近い。そのボールを投げて、相手のゴールに入れたら勝ち、というルールとしてはシンプルなもの。ボールの大きさはバスケットボールぐらい。中には鈴が入っており、その音でボールがどこに飛んでいるのかがわかるという仕組みだ。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_2379364275df4013b01835c63ad61acc~mv2.jpg",
+       "alt": "投球する選手"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_338711a181d141fe9af04ccedcb0f5ff~mv2.jpg",
+       "alt": "ディフェンスする選手"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "選手たちはボールを投げる速度、方向、音などを巧みに操り、暗闇の中で自分の感覚をフルに使って戦う。ディフェンス側に回る際は、全身をグンと伸ばして体ををフルに使って、全員でゴールを阻止する。"
+    },
+    {
+     "type": "p",
+     "text": "また、音を頼りにゲームが進んでいくため、試合中は審判の「クワイエットプリーズ！」の掛け声で一瞬に静まり返り、鈴とボールの音、選手たちの音、声だけが響く世界となる。"
+    },
+    {
+     "type": "p",
+     "text": "暗闇と静寂、その2つの静けさの中で生まれるぴしっとした空気があるからこそ、ゴールが決まった時の歓声はより一層盛り上がるのだ。"
+    },
+    {
+     "type": "p",
+     "text": "今回観戦したのは、女子チーム九州なでしこ（福岡、佐賀）VS国リハLadysチームむさしずく（埼玉、東京）、男子チームAmaryllis（埼玉、東京、茨城、神奈川） VS 所沢サンダース（埼玉、東京、茨城、神奈川）の2試合。"
+    },
+    {
+     "type": "p",
+     "text": "どちらのチームもさすが日本の頂上での戦いということで、どちらかが点をとればそのあと再び追いついてくる、の繰り返しで、なかなかにハラハラさせられる試合となった。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_0aa5d2b2003e4b889e043760a72b8a77~mv2.jpg",
+       "alt": "試合の様子1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_5c7bc2e797224deea5357c31a3bc22ac~mv2.jpg",
+       "alt": "試合の様子2"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_5f17d53157ef451292f7a4146d3b9517~mv2.jpg",
+       "alt": "試合の様子3"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_42a8f81c4ffd4277996a6ae8e4e0f507~mv2.jpg",
+       "alt": "試合の様子4"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "激戦の末、女子チームは0ー3で国リハLadiesチームむさしずく、男子チームは6ー3でAmarillysが勝利を納めた。"
+    },
+    {
+     "type": "p",
+     "text": "なお、女子チームは若杉遥選手が得点王とMVPに、男子チームは、伊藤雅敏選手が得点王、辻村真貴選手がMVPに輝いた。"
+    },
+    {
+     "type": "p",
+     "text": "ゴールボールは、相手と激しくぶつかったりすることは基本的にはない。だから、少し工夫を入れて、子ども達にも楽しめるようにすると、体育兼パラ教育的に生かしていけるのではないかと感じた。"
+    },
+    {
+     "type": "p",
+     "text": "目が見えないというのはどういうことなのか、何が大切なのか、何を知っておくべきなのか、自分が体験してみてどう感じたかーそういったことから、アダプテッド・スポーツ（誰もがたのしめるスポーツ）としてのゴールボールそのもの楽しさを知ってもらうことまで、スポーツと社会福祉、両方の知識を楽しみながら得ることができる。そのような体験をして大人になった子どもは、障がいや社会全体に対する視点が広がっているのではないかと考える。また、特別支援学校の視覚障害がいを持つ子ども、持っていない子ども、どちらも混ざり合ってプレーするなどすれば、より知識や体験に深みが増すのではないかとも感じた。"
+    },
+    {
+     "type": "p",
+     "text": "日本頂点の戦いは幕をとじたが、まだまだ、来年の2020に向けてゴールボールの勢いはさらに加速していく。"
+    },
+    {
+     "type": "link",
+     "label": "日本ゴールボール協会",
+     "href": "https://jgba.or.jp/"
+    }
+   ],
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_6d0bcda38169400d815a452aeb836d26~mv2.jpg",
+    "alt": "ゴールボールの試合の様子"
+   },
+   "hasVideo": false
+  },
+  {
+   "slug": "pararikujou",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "report",
+   "tags": [
+    "parasports",
+    "kids"
+   ],
+   "title": "リアル観戦事業【陸上教室・パラ陸上競技】",
+   "date": "2019-09-30",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/pararikujou",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_e2725eb13b534965a609d4e1f3010271~mv2.jpg",
+    "alt": "陸上教室の様子1"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "渋谷区が行っているイベント、リアル観戦事業【陸・パラ陸上競技】に参加しました。"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_e2725eb13b534965a609d4e1f3010271~mv2.jpg",
+       "alt": "陸上教室の様子1"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_23a733d11f824f0490fe7912472cd5ca~mv2.jpg",
+       "alt": "陸上教室の様子2"
+      },
+      {
+       "src": "https://static.wixstatic.com/media/7fe300_255eb73f3f0f401294019a1266bea4ab~mv2.jpg",
+       "alt": "陸上教室の様子3"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "子どもたちのパラ陸上体験やゲストによる陸上教室等があり大変、盛り上がりました。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "beyondevent",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "report",
+   "tags": [
+    "parasports"
+   ],
+   "title": "BEYOND PARK 秋葉原",
+   "date": "2019-09-26",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/beyondevent",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_f269b5a6c24742228ff72bb075ee0a00~mv2.jpg",
+    "alt": "BEYOND PARK 秋葉原の会場"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "本日はBEYOND PARK秋葉原へプレスとして参加しました！"
+    },
+    {
+     "type": "p",
+     "text": "BEYOND PARK 秋葉原は、パラスポーツ応援プロジェクト「TEAM BEYOND」の一環として行なっている、パラスポーツの魅力を伝えるためのイベントです。"
+    },
+    {
+     "type": "p",
+     "text": "当日は人気漫画によるパラスポーツ競技ヒーローのパネルの展示、素敵なプレゼントが当たるスタンプラリー、パラスポーツの体験、最新のＶＲ技術による車いすテニスレーサー体験、多彩なゲストによるトークショーなど充実したコンテンツが満載でした。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_f269b5a6c24742228ff72bb075ee0a00~mv2.jpg",
+     "alt": "BEYOND PARK 秋葉原の会場"
+    },
+    {
+     "type": "h",
+     "text": "人気漫画家によるパネル展示"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_368b4b4728b54c0e93da71924cc82324~mv2.jpg",
+     "alt": "パネル展示"
+    },
+    {
+     "type": "p",
+     "text": "トークショーでは大橋未歩さん(フリーアナウンサー)、篠田麻里子さん(タレント)、岡本依子さん(シドニーオリンピック、テコンドー銅メダリスト)、若宮三紗子さん(2016年卓球世界選手権銅メダリスト)、みんなのたかみちさん(お笑い芸人)、東塚菜実子さん(リポーター)らが登壇されました。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_671c82a57840493d86b4e54c0698ba18~mv2.jpg",
+     "alt": "トークショー1",
+     "caption": "左から、みんなのたかみちさん、篠田麻里子さん、花岡伸和さん(日本パラ陸上競技連盟福理事長)"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_a81f25b078224c28bb4d641f514a8be7~mv2.jpg",
+     "alt": "トークショー2",
+     "caption": "左から東塚菜実子さん、岡本依子さん、みんなのたかみちさん"
+    },
+    {
+     "type": "p",
+     "text": "パラスポーツについて2020東京について等様々なトークで会場を湧かしておりました。"
+    },
+    {
+     "type": "p",
+     "text": "IKIRUプロジェクトのメンバーは車いすフェンシング、卓球、体験させていただき改めてパラスポーツの難しさを感じました。"
+    },
+    {
+     "type": "p",
+     "text": "東京で開催されるという事で注目度が高まっているパラスポーツ。IKIRU PROJECTでも今後更にさまざまな企画で盛り上げていきます！"
+    },
+    {
+     "type": "link",
+     "label": "TEAM BEYOND",
+     "href": "https://www.para-sports.tokyo"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "gishisougu",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "report",
+   "tags": [
+    "parasports",
+    "inclusive"
+   ],
+   "title": "義肢装具サポートセンター 施設公開",
+   "date": "2019-09-22",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/gishisougu",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_e973a508e66c4179bfed14da555d1b41~mv2.jpg",
+    "alt": "歴史ある義足の展示"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "9月21日(土)、公益財団法人鉄道弘済会義肢装具サポートセンターにて、年に1度の施設公開に参加しました。"
+    },
+    {
+     "type": "p",
+     "text": "こちらのイベントは、スポーツ庁障害者スポーツ振興室の方に話を伺っていた際に、「このようなものがありますよ」と教えていただいたものです。"
+    },
+    {
+     "type": "p",
+     "text": "患者さんではない方にも「義肢装具サポートセンターとはどういうところなのか？」を知ってもらうために、毎年開催しています。"
+    },
+    {
+     "type": "p",
+     "text": "施設に入り、会場の上の階に上がると、そこには、たくさんの歴史ある義足が！現在はシリコンやプラスチックなどの素材で軽量化されていますが、過去には金属がメインで使われており、重量も相当のもののようです。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_e973a508e66c4179bfed14da555d1b41~mv2.jpg",
+     "alt": "歴史ある義足の展示"
+    },
+    {
+     "type": "p",
+     "text": "義足を見学したあとは、目玉イベントである義足体験コーナーへ。最初は眺めているだけでしたが、日本を代表する義肢装具士の1人、臼井二美男さんに「どうぞ、体験してみてください」とのお言葉をいただき、チャレンジしてみました。"
+    },
+    {
+     "type": "p",
+     "text": "履いてみて思ったのは、結構重い！そしてカッコイイ！軽々と義足を履きこなしているパラ選手たちを見ているとそんなに重さを感じないように見えますが、そこそこの重量があります。"
+    },
+    {
+     "type": "p",
+     "text": "義足ユーザーを中心とした陸上チームスタートラインTOKYOに所属するローテーション・プラスティ(切除した大腿骨に、切断した足を、180度逆に結合させ、膝の代わりを作る手術)義足ランナー金井 隆義さんに支えられ、途中コケそうになりながらもなんとかゴール。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_0f1222fc361c440aa73233d412e03d0a~mv2.jpg",
+     "alt": "義足体験"
+    },
+    {
+     "type": "p",
+     "text": "その他、パラスポーツ関連ということで、ボッチャーコーナーや、義足製作の体験ツアー(写真撮影不可)、その他、義足ユーザー向けスポーツ義足体験会「THE FIRST STEP」など、内容盛りだくさんなイベントでした。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_e2b3a180697b45958d04c80562984996~mv2.jpg",
+     "alt": "ストレッチ中の参加者",
+     "caption": "義肢装具士のトレーナーの方々やスタートラインTOKYOの方々にレクチャーを受けながらストレッチ中のスポーツ義足初体験の皆さん。"
+    },
+    {
+     "type": "p",
+     "text": "初めは、「どんなものだろうか？」と自分からは少し遠い存在の義肢でしたが、周りに義足ユーザーの皆さんがたくさんいらっしゃると、「特殊なもの」、という考え方からは脱却し、自然に義肢を「体の一部」と見れるようになっていることに気づきました。"
+    },
+    {
+     "type": "p",
+     "text": "もしも自分が体の一部を失ったら……自分ならおそらく落ち込んで外にも出たくない、と考えてしまうだろうなと、1日中考えていました。しかし、義足でも手術をしても病気を経験してもスポーツを通して笑顔いっぱいの選手の皆さん、そして、スポーツ義足を楽しそうに体験している今回の挑戦者の皆さん、また義肢装具士の方々のスポーツ義足への愛情と熱意を見ていると、「パラスポーツ」というのは、体も心も再び外に出して動かしてくれる、身近でありながらも、無限の可能性を持った、重要なものなのだと強く感じました。"
+    },
+    {
+     "type": "p",
+     "text": "その1歩が人生を変えるかもしれない。"
+    },
+    {
+     "type": "p",
+     "text": "だからこそ、IKIRU PROJECTでは東京だけではなく、情報が届きづらい地方にもこういった情報を広げていけるように、さらなるネットワークの構築に努めて参ります。"
+    },
+    {
+     "type": "p",
+     "text": "年に1度のイベントではありますが、興味がある方は来年の開催日に是非参加してみてください。"
+    },
+    {
+     "type": "p",
+     "text": "そして、是非この機会に、日々記録に挑戦し続ける義肢のパラスポーツ選手の皆さんにもエールを！"
+    },
+    {
+     "type": "p",
+     "text": "また、スポーツ義足に興味を持った方は、スタートラインTOKYOの練習会を覗いてみてくださいね。"
+    },
+    {
+     "type": "link",
+     "label": "公益財団法人鉄道弘済会 義肢装具サポートセンター",
+     "href": "http://www.kousaikai.or.jp/support/"
+    },
+    {
+     "type": "link",
+     "label": "切断者スポーツクラブ スタートラインTOKYO",
+     "href": "http://www.startline-tokyo.jp/"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "tokyoafterdark",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "report",
+   "tags": [
+    "parasports",
+    "shibuya"
+   ],
+   "title": "TOKYO AFTER DARK AT SHIBUYA",
+   "date": "2019-08-28",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/tokyoafterdark",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_d1bf7b1f41cd4978b7ce3078dee90d62~mv2.jpg",
+    "alt": "TOKYO AFTER DARKの会場"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "スポーツメーカーNIKEさんの主催するイベントで、TOKYO AFTER DARKというイベントに、観戦という形で参加してきました。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_a3d2b501c9814131a85fafdcaf1e724c~mv2.jpg",
+     "alt": "サイバーウィル"
+    },
+    {
+     "type": "p",
+     "text": "今回用意されていたのは、「サイバーウィル」というバーチャル車椅子競技が楽しめるスポーツと、最近認知度も上がってきている頭脳戦パラスポーツのサイバーバージョン「サイバーボッチャ」。"
+    },
+    {
+     "type": "p",
+     "text": "サイバーウィルは、VRゴーグルに映し出された2100年の東京を舞台に、車輪を回し街を駆け抜けていくバーチャルなスポーツです。車椅子ユーザーもそうでない方も、みんなが楽しめるスポーツとなっています。"
+    },
+    {
+     "type": "img",
+     "src": "https://static.wixstatic.com/media/7fe300_6f90983bae484248bbad6f5a99c52066~mv2.jpg",
+     "alt": "サイバーボッチャ"
+    },
+    {
+     "type": "p",
+     "text": "サイバーボッチャは、元々のボッチャのルールそのままに、床に表示される指示に従ってゲームを進めていきます。ビリヤードにルールが似ており、頭で考えてボールを転がすという非常にシンプルなゲームです。強い力も必要ではないため、より幅広く様々な人が参加出来るスポーツになっています。"
+    },
+    {
+     "type": "p",
+     "text": "夏の夜に紫や青の幻想的な光が浮かぶ中でのスポーツは、そこだけが未来の異次元空間のようで、見ているだけでとてもワクワクしました。"
+    },
+    {
+     "type": "p",
+     "text": "パラスポーツと健常者スポーツ、2つは今分けられていますが、こうやってどんな人でも参加ができる形にすることで、よりお互いの理解が深まっていくのではないのかと感じたイベントでした。"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "canoe",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "report",
+   "tags": [
+    "parasports"
+   ],
+   "title": "2019シーズン パラカヌー 活動計画 発表会見",
+   "date": "2019-05-18",
+   "writer": "",
+   "oldUrl": "https://www.mirais2055.jp/canoe",
+   "note": "",
+   "cover": {
+    "src": "https://static.wixstatic.com/media/7fe300_0e8161e0533c4e01b250d6102db82eb9~mv2.jpg",
+    "alt": "パラカヌー会見の様子"
+   },
+   "body": [
+    {
+     "type": "p",
+     "text": "日本財団で行われました、パラカヌーの会見にプレスとして参加しました。"
+    },
+    {
+     "type": "p",
+     "text": "今回登壇したのは、瀬立モニカ選手、加治良美選手、辰巳博実選手、加藤隆典選手、高木裕太選手の5名。"
+    },
+    {
+     "type": "p",
+     "text": "ハンガリーやポーランドでの大会をはじめ、今シーズンの意気込みなどをお話されていました。"
+    },
+    {
+     "type": "p",
+     "text": "それぞれに目標があり、その言葉にはアスリート特有の溢れるパワーを感じました。"
+    },
+    {
+     "type": "p",
+     "text": "選手の皆さんが今季いい成績が残せるよう、心から応援しています。"
+    },
+    {
+     "type": "link",
+     "label": "日本障害者カヌー協会",
+     "href": "https://www.japan-paracha.org"
+    },
+    {
+     "type": "link",
+     "label": "日本財団",
+     "href": "https://www.nippon-foundation.or.jp"
+    }
+   ],
+   "hasVideo": false
+  },
+  {
+   "slug": "100mirai01",
+   "status": "done",
+   "feature": "100mirai",
+   "genre": "video",
+   "tags": [
+    "shibuya"
+   ],
+   "title": "第1回 100のMIRAI（Shibuya & Harajuku）",
+   "date": "",
+   "writer": "Camera：MIRAIS／Video editor：kono rinon",
+   "oldUrl": "https://www.mirais2055.jp/100mirai01",
+   "note": "日付の記載なし",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "10代や20代に夢や未来について語ってもらう街頭インタビュー番組。第1回は渋谷と原宿で聞きました。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.mirais2055.jp/100mirais"
+    }
+   ],
+   "hasVideo": true
+  },
+  {
+   "slug": "100mirai02",
+   "status": "done",
+   "feature": "100mirai",
+   "genre": "video",
+   "tags": [
+    "shibuya"
+   ],
+   "title": "第2回 100のMIRAI（Harajuku）",
+   "date": "",
+   "writer": "Camera：MIRAIS／Video editor：kono rinon",
+   "oldUrl": "https://www.mirais2055.jp/100mirai02",
+   "note": "日付の記載なし",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "10代や20代に夢や未来について語ってもらう街頭インタビュー番組。第2回は原宿で聞きました。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.mirais2055.jp/100mirais"
+    }
+   ],
+   "hasVideo": true
+  },
+  {
+   "slug": "100mirai03",
+   "status": "done",
+   "feature": "100mirai",
+   "genre": "video",
+   "tags": [
+    "shibuya"
+   ],
+   "title": "第3回 100のMIRAI（Shibuya）",
+   "date": "",
+   "writer": "Camera：MIRAIS／Video editor：あんり",
+   "oldUrl": "https://www.mirais2055.jp/100mirai03",
+   "note": "タイトル・日付の記載なし。第3回として扱う案",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "10代や20代に夢や未来について語ってもらう街頭インタビュー番組。第3回は渋谷で聞きました。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.mirais2055.jp/100mirais"
+    }
+   ],
+   "hasVideo": true
+  },
+  {
+   "slug": "para-schedule",
+   "status": "done",
+   "feature": "parasports",
+   "genre": "notice",
+   "tags": [
+    "parasports"
+   ],
+   "title": "パラスポーツ大会スケジュール 2025–2026",
+   "date": "",
+   "writer": "MIRAIS",
+   "oldUrl": "https://www.mirais2055.jp/複製-dlive19",
+   "note": "記事ではなく大会日程の一覧表。Parasports特集の中の固定ページにする案",
+   "cover": null,
+   "body": [
+    {
+     "type": "p",
+     "text": "全国で開催される主なパラスポーツ大会の日程です。最新の情報は各大会の公式サイトで確認してください。"
+    },
+    {
+     "type": "table",
+     "head": [
+      "競技",
+      "大会名",
+      "日程",
+      "会場"
+     ],
+     "rows": [
+      [
+       "クロスカントリースキー",
+       "CO・OP 2025FIS パラ・ノルディックスキーアジアカップ札幌大会",
+       "2025.01.08–01.09",
+       "白旗山競技場"
+      ],
+      [
+       "アイスホッケー",
+       "2025 ジャパンパラアイスホッケーチャンピオンシップ",
+       "2025.01.10–01.15",
+       "長野市若里多目的スポーツアリーナ（ビッグハット）"
+      ],
+      [
+       "水泳",
+       "2024年度 第8回日本知的障害者選手権新春水泳競技大会",
+       "2025.01.13",
+       "千葉県国際総合水泳場"
+      ],
+      [
+       "ボッチャ",
+       "TOYOTA presents 第26回日本ボッチャ選手権大会",
+       "2025.01.18–01.19",
+       "スカイホール豊田"
+      ],
+      [
+       "車いすバスケットボール",
+       "天皇杯 第50回記念車いすバスケットボール選手権大会",
+       "2025.01.31–02.02",
+       "東京体育館"
+      ],
+      [
+       "車いすラグビー",
+       "2025 ジャパンパラ車いすラグビー競技大会",
+       "2025.02.06–02.09",
+       "千葉ポートアリーナ"
+      ],
+      [
+       "ブラインドフットボール",
+       "さいたま市ノーマライゼーションカップ 2025",
+       "2025.02.15",
+       "サイデン化学アリーナ"
+      ],
+      [
+       "パラスポーツ",
+       "第24回全国障害者スポーツ大会",
+       "2025.10.25–10.27",
+       "彦根総合運動公園陸上競技場ほか"
+      ],
+      [
+       "パラスポーツ",
+       "愛知・名古屋 2026 アジアパラ競技大会",
+       "2026.10.18–10.24",
+       "名古屋市瑞穂公園陸上競技場ほか"
+      ]
+     ]
+    }
+   ],
+   "hasVideo": false
+  }
+ ]
+}

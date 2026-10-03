@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="すべての学生のMIRAIにつながるプロジェクト、MIRAIS。自分の目指す仕事、やりたいこと、好きなことをあきらめなくていい社会へ。">
+<title>MIRAIS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jost:wght@400;500&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap">
+<style>
+/* Layout: ピル型の固定メニュー → 色面ヒーロー（記事スライダー＋巨大ロゴ）→ 流れるコピー → 罫線グリッドの記事 → ニュース行リスト → 流れるフッター
+   Single bold light theme by choice: every color is set explicitly. */
+:root{
+  --ground:#F4F3EE; --gray:#DCDAD3; --ink:#111111; --muted:#55524B;
+  --hero:#3B5BFF; --pill:#E4FF3A; --tag:#E8452C; --white:#FFFFFF;
+  --ph1:#FF9F6B; --ph2:#9CC9FF; --ph3:#F6D44A;
+  --f-logo:"Archivo Black","Arial Black",sans-serif;
+  --f-latin:"Jost","Futura","Avenir Next",sans-serif;
+  --f-jp:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{background:var(--ground);color:var(--ink)}
+body{font-family:var(--f-jp);font-size:16px;line-height:1.8;margin:0}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.gut{padding-inline:16px}
+
+/* pill nav */
+.navbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;display:flex;justify-content:center;gap:10px;padding-block:14px;padding-inline:16px;pointer-events:none}
+.pill{pointer-events:auto;display:flex;align-items:center;gap:4px;background:var(--pill);color:var(--ink);border-radius:999px;padding:6px 8px;max-width:100%;overflow-x:auto;scrollbar-width:none;box-shadow:0 2px 0 var(--ink)}
+.pill::-webkit-scrollbar{display:none}
+.pill a{white-space:nowrap;font-weight:700;font-size:15px;padding:6px 12px;border-radius:999px}
+.pill a:hover{background:var(--ink);color:var(--pill)}
+.pill .home{font-family:var(--f-logo);font-weight:400;letter-spacing:.02em}
+.cta{pointer-events:auto;display:flex;align-items:center;white-space:nowrap;background:var(--ink);color:var(--pill);border-radius:999px;padding:8px 20px;font-weight:700;font-size:15px}
+@media (max-width:640px){.cta{display:none}}
+
+/* hero */
+.hero{background:var(--hero);margin-top:-80px;padding-top:96px;position:relative;overflow:hidden}
+.hero-top{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;color:var(--white);padding-inline:16px;padding-block:8px 18px}
+.hero-top p{margin:0;font-weight:700;font-size:clamp(15px,2.2vw,20px);line-height:1.5}
+.hero-top small{font-family:var(--f-latin);font-size:13px;letter-spacing:.08em;opacity:.85}
+.slider{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding-inline:16px;padding-bottom:clamp(60px,12vw,150px);scrollbar-width:none}
+.slider::-webkit-scrollbar{display:none}
+.slide{flex:0 0 min(82%,900px);scroll-snap-align:center;position:relative;aspect-ratio:16/9;max-width:100%;background:var(--white)}
+.slide .media{position:absolute;inset:0}
+.slide .cap{position:absolute;left:0;bottom:12%;background:var(--white);padding:14px 18px 16px;max-width:min(560px,78%)}
+.slide .cap h2{margin:0 0 6px;font-size:clamp(17px,2.6vw,28px);line-height:1.45;font-weight:900;text-wrap:balance}
+.slide .cap span{font-size:13px;color:var(--muted)}
+.biglogo{position:absolute;left:0;right:0;bottom:-0.12em;text-align:center;font-family:var(--f-logo);font-size:clamp(84px,21vw,300px);line-height:1;color:var(--ink);pointer-events:none;letter-spacing:-.02em;white-space:nowrap}
+.arrows{position:absolute;right:16px;bottom:16px;display:flex;gap:10px;z-index:2}
+.arr{width:46px;height:46px;border-radius:50%;border:1.5px solid var(--ink);background:var(--pill);color:var(--ink);font-size:18px;cursor:pointer}
+
+/* marquee */
+.marq{overflow:hidden;white-space:nowrap;border-block:1px solid var(--ink)}
+.marq .track{display:inline-flex;animation:mq 40s linear infinite}
+.marq span{padding-inline:28px;display:inline-flex;align-items:center;gap:28px}
+.marq.copy span{font-size:clamp(15px,2vw,20px);padding-block:14px;font-weight:500}
+.marq.copy span::after{content:"⟶";font-family:var(--f-latin)}
+.marq.giant{border:0;background:var(--gray)}
+.marq.giant span{font-family:var(--f-logo);font-size:clamp(48px,9vw,110px);line-height:1.25;padding-block:20px 10px;letter-spacing:.01em}
+.marq.giant .track{animation-duration:30s}
+@keyframes mq{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.marq .track{animation:none}}
+
+/* section heads */
+.sec-h{display:flex;justify-content:center;align-items:center;padding-block:18px;border-bottom:1px solid var(--ink);font-family:var(--f-latin);font-size:22px;letter-spacing:.03em}
+
+/* filters */
+.filters{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;padding-block:20px;padding-inline:16px;background:var(--gray);border-bottom:1px dashed var(--ink)}
+.chip{font:500 13px var(--f-jp);border:1px solid var(--ink);background:var(--white);color:var(--ink);padding:5px 14px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--pill)}
+
+/* grid with dashed rules */
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));background:var(--gray)}
+.cell{padding:32px 28px 36px;border-right:1px dashed var(--ink);border-bottom:1px dashed var(--ink);display:flex;flex-direction:column;gap:14px;min-width:0}
+.cell:nth-child(3n){border-right:0}
+.cell .thumb{position:relative;aspect-ratio:4/3;max-width:100%}
+.cell .thumb .media{position:absolute;inset:0}
+.label{position:absolute;top:12px;left:12px;background:var(--white);border:1px solid var(--ink);font-size:13px;padding:3px 10px;z-index:1;font-weight:500}
+.cell h3{margin:0;font-size:clamp(17px,1.8vw,21px);line-height:1.6;font-weight:700;text-wrap:balance}
+.cell:hover h3{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px}
+.cell .who{font-size:14px;font-weight:700;margin:0}
+.cell .sub{font-size:12.5px;color:var(--muted);margin:-8px 0 0}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tags span{font-size:12px;border:1px solid var(--ink);border-radius:999px;padding:2px 10px;background:var(--white)}
+.num{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--ink);padding-top:10px;font-family:var(--f-latin);font-size:22px}
+.num small{font-family:var(--f-jp);font-size:13px;color:var(--muted)}
+@media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cell:nth-child(3n){border-right:1px dashed var(--ink)}.cell:nth-child(2n){border-right:0}}
+@media (max-width:600px){.grid{grid-template-columns:minmax(0,1fr)}.cell{border-right:0!important;padding:24px 16px 28px}}
+
+/* news rows */
+.rows{border-bottom:1px solid var(--ink)}
+.row{display:grid;grid-template-columns:120px 110px minmax(0,1fr) 180px 70px;align-items:center;gap:0;border-bottom:1px solid var(--ink);padding-inline:16px}
+.row:last-child{border-bottom:0}
+.row>*{padding-block:20px}
+.row .d{font-family:var(--f-latin);font-size:16px;font-variant-numeric:tabular-nums;border-right:1px solid var(--ink);padding-block:4px}
+.row .t{justify-self:start;margin-left:20px;background:var(--tag);color:var(--white);font-family:var(--f-latin);font-size:14px;padding:3px 12px;letter-spacing:.04em;white-space:nowrap}
+.row .ti{padding-inline:20px;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .c{border-left:1px solid var(--ink);padding:4px 20px;font-size:14px}
+.row .w{font-family:var(--f-latin);font-size:15px;text-align:right}
+.row:hover .ti{text-decoration:underline}
+@media (max-width:760px){
+  .row{grid-template-columns:auto auto minmax(0,1fr);row-gap:0;padding-block:14px}
+  .row>*{padding-block:2px}
+  .row .ti{grid-column:1/-1;padding-inline:0;white-space:normal;margin-top:6px}
+  .row .c,.row .w{display:none}
+  .row .d{padding-right:14px}.row .t{margin-left:14px}
+}
+.archive{display:flex;justify-content:center;padding-block:44px 64px}
+.archive a{position:relative;border:1px solid var(--ink);border-top:0;padding:16px 80px 18px;font-family:var(--f-latin);font-size:16px;background:var(--ground)}
+.archive a::after{content:"";position:absolute;left:50%;bottom:-8px;width:12px;height:12px;margin-left:-6px;border-radius:50%;background:var(--ink)}
+
+/* placeholder media */
+.media{background:var(--ph2);overflow:hidden}
+.media img{display:block;width:100%;height:100%;object-fit:cover}
+.media .ph{position:absolute;inset:0;display:none;align-items:flex-end;justify-content:flex-end;padding:14px;font-family:var(--f-logo);font-size:clamp(20px,2.8vw,34px);line-height:1.05;color:var(--ink);text-align:right;overflow:hidden;word-break:keep-all;overflow-wrap:anywhere}
+.media.missing img{display:none}
+.media.missing .ph{display:flex}
+.media{position:relative}
+.c-esports .media{background:var(--ph2)}
+.c-parasports .media{background:var(--ph1)}
+.c-jyunin .media{background:var(--ph3)}
+
+/* article */
+.a-head{background:var(--hero);color:var(--white);margin-top:-80px;padding-top:108px;padding-bottom:40px}
+.a-head .in{max-width:760px;margin-inline:auto}
+.a-head .back{display:inline-block;font-size:14px;margin-bottom:18px;border-bottom:1px solid currentColor}
+.a-head .series{display:inline-block;background:var(--pill);color:var(--ink);font-weight:700;font-size:13px;padding:3px 12px;border-radius:999px}
+.a-head h1{font-size:clamp(26px,4.6vw,44px);line-height:1.4;margin:14px 0 12px;font-weight:900;text-wrap:balance}
+.a-head .by{font-family:var(--f-latin);font-size:15px;letter-spacing:.04em}
+.a-body{max-width:760px;margin-inline:auto;padding-block:0 64px}
+.a-body .cover{aspect-ratio:16/9;max-width:100%;margin-top:-1px;border:1px solid var(--ink);position:relative}
+.a-body .cover .media{position:absolute;inset:0}
+.prose{max-width:680px;margin:40px auto 0}
+.prose p{margin:0 0 1.5em}
+.prose h2{font-size:22px;line-height:1.5;margin:2.4em 0 .9em;padding-bottom:8px;border-bottom:1px dashed var(--ink);font-weight:900}
+.prose ol{padding:0;margin:0 0 1.5em;list-style:none;counter-reset:n;border-top:1px solid var(--ink)}
+.prose ol li{counter-increment:n;display:flex;gap:16px;border-bottom:1px solid var(--ink);padding-block:10px}
+.prose ol li::before{content:counter(n,decimal-leading-zero);font-family:var(--f-latin);min-width:2em}
+.prose figure{margin:0 0 1.6em;aspect-ratio:4/3;position:relative;border:1px solid var(--ink)}
+.prose figure .media{position:absolute;inset:0}
+.gal{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:0 0 1.6em}
+.gal figure{margin:0}
+.ext{display:inline-flex;gap:10px;align-items:center;background:var(--ink);color:var(--pill);padding:10px 22px;border-radius:999px;font-weight:700;font-size:15px}
+.src{margin-top:48px;padding-top:14px;border-top:1px dashed var(--ink);font-size:12px;color:var(--muted);overflow-wrap:anywhere}
+
+footer .bottom{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding-block:28px 40px;padding-inline:16px;font-size:13px}
+footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
+.note{background:var(--ink);color:var(--pill);font-size:12px;text-align:center;padding:6px 16px}
+.err{padding:120px 16px;text-align:center;color:var(--muted)}
+/* --- step1 additions: cards with separate tag links, pending items, list headers, features, related --- */
+.cell{position:relative}
+.cell .stretch::after{content:"";position:absolute;inset:0;z-index:0}
+.cell .tags a,.cell .old{position:relative;z-index:1}
+.tags a{font-size:12px;border:1px solid var(--ink);border-radius:999px;padding:2px 10px;background:var(--white)}
+.tags a:hover{background:var(--ink);color:var(--pill)}
+.cell.pending{background:var(--ground)}
+.cell.pending .media{filter:saturate(.35)}
+.stamp{position:absolute;right:12px;top:12px;z-index:1;background:var(--ink);color:var(--white);font-size:12px;padding:2px 10px;letter-spacing:.06em}
+.old{align-self:flex-start;font-size:13px;font-weight:700;border-bottom:1.5px solid var(--ink)}
+.cell.pending h3{color:var(--muted)}
+
+.band{margin-top:-80px;padding-top:110px;padding-bottom:44px;padding-inline:16px;border-bottom:1px solid var(--ink)}
+.band .in{max-width:1080px;margin-inline:auto}
+.band .eyebrow{font-family:var(--f-latin);font-size:14px;letter-spacing:.12em}
+.band h1{font-family:var(--f-logo);font-weight:400;font-size:clamp(40px,9vw,112px);line-height:1.05;margin:10px 0 18px;overflow-wrap:anywhere}
+.band h1.jp{font-family:var(--f-jp);font-weight:900;font-size:clamp(32px,6.4vw,76px);line-height:1.25}
+.band .catch{font-size:clamp(17px,2.2vw,22px);font-weight:700;margin:0 0 10px;max-width:36em;text-wrap:balance}
+.band .intro{margin:0;max-width:40em;font-size:15px}
+.band .count{margin-top:22px;display:flex;gap:10px;flex-wrap:wrap}
+.band .count span{border:1px solid currentColor;border-radius:999px;padding:3px 14px;font-size:13px;font-weight:700}
+.band .back{display:inline-block;font-size:14px;margin-bottom:14px;border-bottom:1px solid currentColor}
+
+.empty{padding:56px 16px;text-align:center;background:var(--gray);border-bottom:1px solid var(--ink)}
+.empty p{margin:0 auto;max-width:30em}
+
+.feats{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));border-top:1px solid var(--ink)}
+.feat{display:flex;flex-direction:column;justify-content:space-between;gap:28px;min-height:230px;padding:22px 20px;border-right:1px solid var(--ink);border-bottom:1px solid var(--ink);min-width:0}
+.feat .nm{font-family:var(--f-logo);font-size:clamp(26px,3vw,34px);line-height:1.1;overflow-wrap:anywhere}
+.feat .nm.jp{font-family:var(--f-jp);font-weight:900}
+.feat p{margin:0;font-size:14px;font-weight:500;line-height:1.6}
+.feat .ft{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid currentColor;padding-top:8px;font-family:var(--f-latin);font-size:14px}
+.feat:hover .nm{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:6px}
+
+.cloud{display:flex;flex-wrap:wrap;gap:10px;padding:28px 16px 40px;justify-content:center;border-bottom:1px solid var(--ink)}
+.cloud a{border:1.5px solid var(--ink);border-radius:999px;padding:6px 16px;font-weight:700;font-size:15px;background:var(--white)}
+.cloud a small{font-family:var(--f-latin);font-weight:500;margin-left:6px;color:var(--muted)}
+.cloud a:hover{background:var(--ink);color:var(--pill)}
+.cloud a:hover small{color:var(--pill)}
+.cloud.genres a{background:var(--pill)}
+
+.a-meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.a-meta a{border-bottom:0}
+.a-meta .series{border:1px solid var(--ink)}
+.a-meta .gen{display:inline-block;border:1px solid currentColor;border-radius:999px;padding:3px 12px;font-size:13px;font-weight:700}
+.related{border-top:1px solid var(--ink)}
+.related .sec-h{background:var(--ground)}
+/* series corner (dodaSPORTS SERIES風) */
+.series{background:linear-gradient(90deg,var(--pill) 0%,var(--pill) 35%,var(--ground) 100%);border-block:1px dashed var(--ink);padding-block:56px 0;overflow:hidden}
+.series .ttl{text-align:center;padding-inline:16px}
+.series h2{font-family:var(--f-logo);font-weight:400;font-size:clamp(56px,11vw,130px);line-height:1;margin:0;letter-spacing:.01em}
+.series .ttl p{margin:14px 0 0;font-weight:700;font-size:clamp(16px,2vw,22px);letter-spacing:.06em}
+.s-track{display:flex;align-items:stretch;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-top:48px;padding-inline:16px}
+.s-track::-webkit-scrollbar{display:none}
+.s-item{flex:0 0 auto;display:flex;padding-inline:14px;border-right:1px dashed var(--ink);scroll-snap-align:start}
+.s-item:last-child{border-right:0}
+.s-cover{position:relative;height:clamp(300px,34vw,400px);aspect-ratio:5/7;max-width:calc(100vw - 60px);display:flex;flex-direction:column;justify-content:space-between;padding:18px;overflow:hidden}
+.s-item.wide .s-cover{aspect-ratio:7/5}
+.s-cover .k{font-family:var(--f-latin);font-size:12px;letter-spacing:.14em;display:flex;justify-content:space-between}
+.s-cover .nm{font-family:var(--f-logo);font-size:clamp(34px,4.6vw,58px);line-height:1;overflow-wrap:anywhere}
+.s-cover .nm.jp{font-family:var(--f-jp);font-weight:900;line-height:1.15}
+.s-item.wide .s-cover .nm{font-size:clamp(44px,6.4vw,84px)}
+.s-cover .cp{font-size:14px;font-weight:700;line-height:1.55;margin:10px 0 0;max-width:22em}
+.s-cover .ghost{position:absolute;right:-.08em;bottom:-.22em;font-family:var(--f-logo);font-size:clamp(150px,20vw,260px);line-height:1;opacity:.14;pointer-events:none}
+.s-cover:hover .nm{text-decoration:underline;text-decoration-thickness:4px;text-underline-offset:8px}
+.s-ctl{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:28px clamp(16px,6vw,110px) 36px}
+.s-ctl button.r{width:58px;height:58px;border-radius:50%;border:1.5px solid var(--ink);background:transparent;color:var(--ink);font-size:20px;cursor:pointer}
+.s-ctl button.r:hover{background:var(--ink);color:var(--pill)}
+.dots{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.dots button{width:10px;height:10px;border-radius:50%;border:0;padding:0;background:var(--ink);opacity:.22;cursor:pointer}
+.dots button[aria-current="true"]{opacity:1}
+.s-more{display:flex;justify-content:center;border-top:1px dashed var(--ink);padding-block:44px 52px}
+.s-more a{display:inline-flex;align-items:center;gap:16px;font-weight:900;font-size:clamp(18px,2.2vw,24px)}
+.s-more a i{font-style:normal;width:58px;height:58px;border-radius:50%;background:var(--ink);color:var(--white);display:grid;place-items:center;font-size:22px}
+.s-more a:hover i{background:var(--hero)}
+/* step3: article blocks */
+.prose .q{margin:1.8em 0 .6em;font-weight:900;display:flex;gap:10px}
+.prose .q::before{content:"Q";font-family:var(--f-logo);font-weight:400;background:var(--ink);color:var(--pill);width:1.7em;height:1.7em;display:grid;place-items:center;flex:0 0 auto;font-size:14px;margin-top:2px}
+.prose figcaption,.gal-cap{font-size:13px;color:var(--muted);margin:-1em 0 1.6em;line-height:1.6}
+.prose figure{margin-bottom:1.4em}
+.prose ul{padding-left:1.3em;margin:0 0 1.5em}
+.prose ul li{margin-bottom:.25em}
+.tbl{overflow-x:auto;margin:0 0 1.6em;border:1px solid var(--ink)}
+.tbl table{border-collapse:collapse;width:100%;min-width:560px;font-size:14px;line-height:1.55}
+.tbl th,.tbl td{text-align:left;padding:10px 12px;border-bottom:1px dashed var(--ink);vertical-align:top}
+.tbl th{background:var(--ink);color:var(--pill);font-weight:700;border-bottom:0}
+.tbl tr:last-child td{border-bottom:0}
+.video{display:flex;flex-direction:column;gap:6px;align-items:flex-start;margin:0 0 1.6em;padding:20px;background:var(--ink);color:var(--white)}
+.video b{font-family:var(--f-logo);font-weight:400;font-size:20px;letter-spacing:.02em}
+.video span{font-size:13px;opacity:.85}
+.video a{margin-top:6px;background:var(--pill);color:var(--ink);padding:8px 18px;border-radius:999px;font-weight:700;font-size:14px}
+.ext.int{background:var(--pill);color:var(--ink);border:1.5px solid var(--ink)}
+.more-all{display:flex;justify-content:center;padding-block:36px;background:var(--gray);border-bottom:1px solid var(--ink)}
+.more-all a{display:inline-flex;align-items:center;gap:14px;font-weight:900;font-size:clamp(17px,2vw,22px)}
+.more-all a i{font-style:normal;width:52px;height:52px;border-radius:50%;background:var(--ink);color:var(--white);display:grid;place-items:center}
+.vbadge{position:absolute;right:12px;bottom:12px;z-index:1;background:var(--ink);color:var(--pill);font-size:12px;font-weight:700;padding:2px 10px}
+.yt{position:relative;aspect-ratio:16/9;max-width:100%;margin:0 0 1.6em;border:1px solid var(--ink);background:var(--ink)}
+.yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+</style>
+
+</head>
+<body>
+<div class="navbar">
+  <nav class="pill" aria-label="メインメニュー">
+    <a class="home" href="#">MIRAIS</a>
+    <a href="#articles">記事一覧</a>
+    <a href="#features">特集</a>
+    <a href="#genre-report">取材レポート</a>
+    <a href="#genre-column">コラム</a>
+    <a href="#genre-interview">インタビュー</a>
+    <a href="#tags">タグ</a>
+  </nav>
+  <a class="cta" href="#feature-soudan">就活・進学お悩み相談 →</a>
+</div>
+<main id="app"><p class="err">読み込み中…</p></main>
+<footer>
+  <div class="marq copy" aria-hidden="true"><div class="track" id="foot-track"></div></div>
+  <div class="bottom">
+    <span class="logo">MIRAIS</span>
+    <span>©2026 MIRAIS All Rights Reserved</span>
+  </div>
+</footer>
+
+<script>
+let D=null, filter="all", afilter="all";
+const app=document.getElementById("app");
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt=d=>d?d.replace(/-/g,"."):"";
+const isJp=s=>/[^\x00-\x7F]/.test(s);
+const NEWS=[
+  {d:"2026.09.02",t:"EVENT",ti:"9月のミライワークショップ開催",c:"結・しぶや",u:"#shukatsuev"},
+  {d:"2026.07.25",t:"EVENT",ti:"大学生のためのコミュニケーション教室 開催！",c:"結・しぶや",u:"#communicationev"},
+  {d:"2026.03.23",t:"CIRCLE",ti:"就活ドラマ、鋭意製作中！",c:"MIRAISサークル",u:"#circle-drama"}
+];
+function marq(items,rep=4){const one=items.map(i=>`<span>${esc(i)}</span>`).join("");return one.repeat(rep)+one.repeat(rep)}
+document.getElementById("foot-track").innerHTML=marq(["MIRAISで未来をひらく学生","CHALLENGE FOR US.","すべての学生に、挑戦する機会と環境を。"],3);
+
+/* data helpers */
+const done=()=>D.articles.filter(a=>a.status==="done");
+const byDate=(x,y)=>(y.date||"").localeCompare(x.date||"");
+const ofFeature=id=>D.articles.filter(a=>a.feature===id).sort(byDate);
+const ofTag=id=>done().filter(a=>(a.tags||[]).includes(id)).sort(byDate);
+const ofGenre=id=>done().filter(a=>a.genre===id).sort(byDate);
+
+function media(src,alt,f){
+  if(!src) return phOnly(f);
+  const ph=`<div class="ph" aria-hidden="true">${esc(f.name)}</div>`;
+  return `<div class="media" style="background:${f.color}"><img src="${esc(src||"")}" alt="${esc(alt)}" loading="lazy" onerror="this.parentNode.classList.add('missing')">${ph}</div>`;
+}
+function phOnly(f){return `<div class="media missing" style="background:${f.color}"><div class="ph" aria-hidden="true" style="color:${f.ink}">${esc(f.name)}</div></div>`}
+const tagLinks=a=>(a.tags||[]).map(t=>`<a href="#tag-${t}">${esc(D.tags[t].label)}</a>`).join("");
+
+function card(a,i){
+  const f=D.features[a.feature];
+  if(a.status!=="done"){
+    return `<div class="cell pending">
+      <div class="thumb"><span class="label">${esc(f.name)}</span><span class="stamp">移行前</span>${phOnly(f)}</div>
+      <h3>${esc(a.title)}</h3>
+      <a class="old" href="${esc(a.oldUrl)}" target="_blank" rel="noopener">旧サイトで読む ↗</a>
+      <div class="num"><small>${fmt(a.date)}</small>${String(i+1).padStart(2,"0")}</div>
+    </div>`;
+  }
+  return `<div class="cell">
+    <div class="thumb"><a class="label" href="#feature-${a.feature}">${esc(f.name)}</a>${a.hasVideo?'<span class="vbadge">▶ 動画</span>':""}${media(a.cover&&a.cover.src,a.cover&&a.cover.alt,f)}</div>
+    <h3><a class="stretch" href="#${a.slug}">${esc(a.title)}</a></h3>
+    ${a.writer?`<p class="who">${esc(a.writer)}</p><p class="sub">${esc(D.genres[a.genre].label)}</p>`:`<p class="sub" style="margin:0">${esc(D.genres[a.genre].label)}</p>`}
+    <div class="tags">${tagLinks(a)}</div>
+    <div class="num"><small>${fmt(a.date)}</small>${String(i+1).padStart(2,"0")}</div>
+  </div>`;
+}
+const grid=list=>`<div class="grid">${list.map(card).join("")}</div>`;
+function featTile(id){
+  const f=D.features[id], n=ofFeature(id).length;
+  return `<a class="feat" href="#feature-${id}" style="background:${f.color};color:${f.ink}">
+    <span class="nm${isJp(f.name)?" jp":""}">${esc(f.name)}</span>
+    <p>${esc(f.catch)}</p>
+    <span class="ft"><span>${n?n+" articles":"coming soon"}</span><span>→</span></span>
+  </a>`;
+}
+function tagCloud(){
+  const t=Object.entries(D.tags).map(([k,v])=>[k,v,ofTag(k).length]).filter(x=>x[2]);
+  return `<div class="cloud">${t.map(([k,v,n])=>`<a href="#tag-${k}">#${esc(v.label)}<small>${n}</small></a>`).join("")}</div>`;
+}
+function genreCloud(){
+  return `<div class="cloud genres">${Object.entries(D.genres).map(([k,v])=>`<a href="#genre-${k}">${esc(v.label)}<small>${ofGenre(k).length}</small></a>`).join("")}</div>`;
+}
+
+function seriesSection(ids,title,sub,more){
+  const items=ids.map((id,i)=>{const f=D.features[id], n=ofFeature(id).length, wide=i%3===2;
+    return `<div class="s-item${wide?" wide":""}"><a class="s-cover" href="#feature-${id}" style="background:${f.color};color:${f.ink}">
+      <span class="k"><span>FEATURE ${String(i+1).padStart(2,"0")}</span><span>${n?n+" articles":"coming soon"}</span></span>
+      <span class="ghost" aria-hidden="true">${esc(f.name.slice(0,1))}</span>
+      <span><span class="nm${isJp(f.name)?" jp":""}">${esc(f.name)}</span><p class="cp">${esc(f.catch)}</p></span>
+    </a></div>`}).join("");
+  return `<section class="series">
+    <div class="ttl"><h2>${title}</h2><p>${sub}</p></div>
+    <div class="s-track" data-series>${items}</div>
+    <div class="s-ctl"><button class="r" data-dir="-1" aria-label="前へ">←</button><div class="dots">${ids.map((_,i)=>`<button aria-label="${i+1}番目へ" data-i="${i}"></button>`).join("")}</div><button class="r" data-dir="1" aria-label="次へ">→</button></div>
+    ${more?`<div class="s-more"><a href="#features">特集一覧へ <i>→</i></a></div>`:""}
+  </section>`;
+}
+function wireSeries(){
+  app.querySelectorAll(".series").forEach(sec=>{
+    const t=sec.querySelector("[data-series]"), items=[...t.children], dots=[...sec.querySelectorAll(".dots button")];
+    const go=i=>{i=Math.max(0,Math.min(items.length-1,i));t.scrollTo({left:items[i].offsetLeft-t.offsetLeft-16,behavior:"smooth"})};
+    const cur=()=>{let best=0,bd=1e9;items.forEach((el,i)=>{const d=Math.abs(el.offsetLeft-t.offsetLeft-16-t.scrollLeft);if(d<bd){bd=d;best=i}});return best};
+    const mark=()=>{const c=cur();dots.forEach((d,i)=>d.setAttribute("aria-current",i===c))};
+    sec.querySelectorAll("button.r").forEach(b=>b.onclick=()=>go(cur()+Number(b.dataset.dir)));
+    dots.forEach(d=>d.onclick=()=>go(Number(d.dataset.i)));
+    t.addEventListener("scroll",()=>requestAnimationFrame(mark),{passive:true});mark();
+  });
+}
+/* views */
+function home(){
+  const all=done().sort(byDate);
+  const pick=all.filter(a=>a.cover).slice(0,6);
+  const list=all.filter(a=>filter==="all"||a.genre===filter).slice(0,9);
+  const usedGenres=[...new Set(all.map(a=>a.genre))];
+  app.innerHTML=`
+  <section class="hero">
+    <div class="hero-top"><p>すべての学生のMIRAIに<br>つながるプロジェクト</p><small>PICK UP ${String(pick.length).padStart(2,"0")}</small></div>
+    <div class="slider" id="slider">
+      ${pick.map(a=>{const f=D.features[a.feature];return `<a class="slide" href="#${a.slug}">
+        ${media(a.cover.src,a.cover.alt,f)}
+        <div class="cap"><h2>${esc(a.title)}</h2><span>${esc(f.name)}${a.writer?` ／ ${esc(a.writer)}`:""}</span></div>
+      </a>`}).join("")}
+    </div>
+    <div class="biglogo" aria-hidden="true">MIRAIS</div>
+    <div class="arrows"><button class="arr" id="prev" aria-label="前の記事">←</button><button class="arr" id="next" aria-label="次の記事">→</button></div>
+  </section>
+  <div class="marq copy" aria-hidden="true"><div class="track">${marq(["MIRAISは、自分の未来や仕事について真剣に考え、学び、夢や目標を叶えるチャンスを掴むためのWEBメディアプロジェクトです。"],2)}</div></div>
+  <div class="marq giant" aria-hidden="true"><div class="track">${marq(["RECOMMEND"],4)}</div></div>
+  <div class="filters" role="group" aria-label="ジャンルで絞り込み">
+    <button class="chip" id="f-all" data-f="all" aria-pressed="${filter==="all"}">すべて</button>
+    ${usedGenres.map(k=>`<button class="chip" id="f-${k}" data-f="${k}" aria-pressed="${filter===k}">${esc(D.genres[k].label)}</button>`).join("")}
+  </div>
+  ${grid(list)}
+  <div class="more-all"><a href="#articles">すべての記事を見る（${all.length}本） <i>→</i></a></div>
+  ${seriesSection(Object.keys(D.features),"FEATURES","テーマごとの特集・連載",true)}
+  <div class="sec-h">News &amp; Events</div>
+  <div class="rows">
+    ${NEWS.map(n=>`<a class="row" href="${n.u}"><span class="d">${n.d}</span><span class="t">${esc(n.t)}</span><span class="ti">${esc(n.ti)}</span><span class="c">${esc(n.c)}</span><span class="w">READ →</span></a>`).join("")}
+  </div>
+  <div class="sec-h">Tags</div>
+  ${tagCloud()}`;
+  wireSeries();
+  app.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{filter=b.dataset.f;const y=scrollY;home();scrollTo(0,y)});
+  const s=document.getElementById("slider");
+  const step=()=>s.querySelector(".slide").getBoundingClientRect().width+20;
+  document.getElementById("prev").onclick=()=>s.scrollBy({left:-step(),behavior:"smooth"});
+  document.getElementById("next").onclick=()=>s.scrollBy({left:step(),behavior:"smooth"});
+}
+
+function articlesPage(){
+  const all=done().sort(byDate);
+  const list=all.filter(a=>afilter==="all"||a.genre===afilter);
+  app.innerHTML=`
+  <header class="band" style="background:var(--hero);color:var(--white)"><div class="in">
+    <div class="eyebrow">ALL ARTICLES</div>
+    <h1 class="jp">記事一覧</h1>
+    <div class="count"><span>${all.length}本の記事</span></div>
+  </div></header>
+  <div class="filters" role="group" aria-label="ジャンルで絞り込み">
+    <button class="chip" id="af-all" data-f="all" aria-pressed="${afilter==="all"}">すべて</button>
+    ${Object.entries(D.genres).map(([k,g])=>`<button class="chip" id="af-${k}" data-f="${k}" aria-pressed="${afilter===k}">${esc(g.label)}（${ofGenre(k).length}）</button>`).join("")}
+  </div>
+  ${grid(list)}`;
+  app.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{afilter=b.dataset.f;const y=scrollY;articlesPage();scrollTo(0,y)});
+}
+
+function featuresIndex(){
+  app.innerHTML=`
+  <header class="band" style="background:var(--pill)"><div class="in">
+    <div class="eyebrow">FEATURES</div>
+    <h1>特集一覧</h1>
+    <p class="catch">MIRAISのシリーズ企画。特集ごとに記事がまとまっています。</p>
+  </div></header>
+  <div class="feats" style="border-top:0">${Object.keys(D.features).map(featTile).join("")}</div>`;
+}
+
+function featurePage(id){
+  const f=D.features[id], list=ofFeature(id), n=list.filter(a=>a.status==="done").length;
+  const others=Object.keys(D.features).filter(k=>k!==id);
+  app.innerHTML=`
+  <header class="band" style="background:${f.color};color:${f.ink}"><div class="in">
+    <a class="back" href="#features">← 特集一覧</a>
+    <div class="eyebrow">FEATURE</div>
+    <h1 class="${isJp(f.name)?"jp":""}">${esc(f.name)}</h1>
+    <p class="catch">${esc(f.catch)}</p>
+    <p class="intro">${esc(f.intro)}</p>
+    <div class="count"><span>${list.length?`記事 ${list.length}本`:"準備中"}</span></div>
+  </div></header>
+  ${list.length?grid(list):`<div class="empty"><p>この特集の記事は準備中です。公開をお楽しみに。</p></div>`}
+  ${seriesSection(others,"MORE","ほかの特集",true)}`;
+  wireSeries();
+}
+
+function listPage(kind,id){
+  const isTag=kind==="tag";
+  const label=isTag?"#"+D.tags[id].label:D.genres[id].label;
+  const list=isTag?ofTag(id):ofGenre(id);
+  app.innerHTML=`
+  <header class="band" style="background:${isTag?"var(--white)":"var(--hero)"};color:${isTag?"var(--ink)":"var(--white)"}"><div class="in">
+    <div class="eyebrow">${isTag?"TAG":"GENRE"}</div>
+    <h1 class="jp">${esc(label)}</h1>
+    <div class="count"><span>${list.length}本の記事</span></div>
+  </div></header>
+  ${list.length?grid(list):`<div class="empty"><p>このジャンルの記事はまだありません。</p></div>`}
+  <div class="sec-h">${isTag?"ほかのタグ":"ほかのジャンル"}</div>
+  ${isTag?tagCloud():genreCloud()}`;
+}
+
+function tagsIndex(){
+  app.innerHTML=`
+  <header class="band" style="background:var(--white)"><div class="in">
+    <div class="eyebrow">GENRES &amp; TAGS</div>
+    <h1 class="jp">ジャンルとタグ</h1>
+    <p class="catch">記事はジャンル1つと、複数のタグで分類しています。</p>
+  </div></header>
+  <div class="sec-h">ジャンル</div>${genreCloud()}
+  <div class="sec-h">タグ</div>${tagCloud()}`;
+}
+
+function block(b,f){
+  switch(b.type){
+    case "p": return `<p>${esc(b.text)}</p>`;
+    case "h": return `<h2>${esc(b.text)}</h2>`;
+    case "q": return `<p class="q">${esc(b.text)}</p>`;
+    case "img": return `<figure>${media(b.src,b.alt,f)}</figure>${b.caption?`<p class="gal-cap">${esc(b.caption)}</p>`:""}`;
+    case "gallery": return `<div class="gal">${b.items.map(i=>`<figure>${media(i.src,i.alt,f)}</figure>`).join("")}</div>${b.caption?`<p class="gal-cap">${esc(b.caption)}</p>`:""}`;
+    case "list": return b.ordered===false?`<ul>${b.items.map(i=>`<li>${esc(i)}</li>`).join("")}</ul>`:`<ol>${b.items.map(i=>`<li>${esc(i)}</li>`).join("")}</ol>`;
+    case "table": return `<div class="tbl"><table><thead><tr>${b.head.map(c=>`<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${b.rows.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+    case "video": {const y=(b.href.match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/)||[])[1];
+      if(y) return `<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/${y}" title="${esc(b.title||"動画")}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`;}
+      return `<div class="video"><b>▶ VIDEO</b><span>この記事の動画は、移行作業で新サイトに埋め込みます。今は旧サイトで見られます。</span><a href="${esc(b.href)}" target="_blank" rel="noopener">旧サイトで動画を見る ↗</a></div>`;
+    case "link": return b.href.startsWith("#")?`<p><a class="ext int" href="${esc(b.href)}">${esc(b.label)} →</a></p>`:`<p><a class="ext" href="${esc(b.href)}" target="_blank" rel="noopener">${esc(b.label)} ↗</a></p>`;
+    default: return "";
+  }
+}
+function article(a){
+  const f=D.features[a.feature], g=D.genres[a.genre];
+  const same=ofFeature(a.feature).filter(x=>x.slug!==a.slug).slice(0,3);
+  const seen=new Set([a.slug,...same.map(x=>x.slug)]);
+  const byTag=done().filter(x=>!seen.has(x.slug)&&(x.tags||[]).some(t=>(a.tags||[]).includes(t))).sort(byDate).slice(0,3);
+  app.innerHTML=`
+  <header class="a-head gut" style="background:${f.color};color:${f.ink}"><div class="in">
+    <a class="back" href="#">← トップへ</a><br>
+    <div class="a-meta">
+      <a class="series" href="#feature-${a.feature}">${esc(f.name)}</a>
+      <a class="gen" href="#genre-${a.genre}">${esc(g.label)}</a>
+    </div>
+    <h1>${esc(a.title)}</h1>
+    <div class="by">${fmt(a.date)}${a.date&&a.writer?"　／　":""}${esc(a.writer)}</div>
+  </div></header>
+  <article class="a-body gut">
+    ${a.cover?`<div class="cover">${media(a.cover.src,a.cover.alt,f)}</div>`:""}
+    <div class="prose">
+      <div class="tags" style="margin-bottom:28px">${tagLinks(a)}</div>
+      ${a.body.map(b=>block(b,f)).join("")}
+      <p class="src">移行元：${esc(a.oldUrl)}</p>
+    </div>
+  </article>
+  <section class="related">
+    ${same.length?`<div class="sec-h">同じ特集の記事｜${esc(f.name)}</div>${grid(same)}`:""}
+    ${byTag.length?`<div class="sec-h">関連タグの記事</div>${grid(byTag)}`:""}
+  </section>`;
+}
+
+function route(){
+  if(!D) return;
+  const h=decodeURIComponent(location.hash.slice(1));
+  let m;
+  if(!h) home();
+  else if(h==="features") featuresIndex();
+  else if(h==="articles") articlesPage();
+  else if(h==="tags") tagsIndex();
+  else if((m=h.match(/^feature-(.+)$/))&&D.features[m[1]]) featurePage(m[1]);
+  else if((m=h.match(/^tag-(.+)$/))&&D.tags[m[1]]) listPage("tag",m[1]);
+  else if((m=h.match(/^genre-(.+)$/))&&D.genres[m[1]]) listPage("genre",m[1]);
+  else{const a=done().find(x=>x.slug===h); a?article(a):home();}
+  window.scrollTo(0,0);
+}
+window.addEventListener("hashchange",route);
+fetch("data/articles.json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{D=d;route()})
+  .catch(()=>{app.innerHTML='<p class="err">記事データを読み込めませんでした。ページを再読み込みしてください。</p>'});
+</script>
+
+</body>
+</html>
