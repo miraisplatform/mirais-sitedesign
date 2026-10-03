@@ -280,6 +280,51 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
 .ytch .player iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 @media (max-width:820px){.ytch{grid-template-columns:minmax(0,1fr)}}
 .yt.short{aspect-ratio:9/16;width:min(100%,360px);margin-inline:auto}
+/* MIRAISとは */
+.about{background:var(--ground);border-bottom:1px solid var(--ink)}
+.ab-hero{padding:64px clamp(16px,6vw,96px) 48px;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:40px;align-items:end;border-bottom:1px solid var(--ink)}
+.ab-hero .q{font-family:var(--f-logo);font-size:clamp(56px,10vw,128px);line-height:.95;margin:0}
+.ab-hero .q span{color:var(--hero)}
+.ab-hero .lead{font-size:clamp(18px,2.2vw,24px);font-weight:900;line-height:1.6;margin:0 0 14px;text-wrap:balance}
+.ab-hero p{margin:0;max-width:36em}
+.ab-ch{background:var(--hero);color:var(--white);padding:40px clamp(16px,6vw,96px);display:flex;justify-content:space-between;align-items:baseline;gap:16px 32px;flex-wrap:wrap;border-bottom:1px solid var(--ink)}
+.ab-ch b{font-family:var(--f-logo);font-weight:400;font-size:clamp(34px,6vw,72px);line-height:1}
+.ab-ch span{font-size:clamp(17px,2vw,22px);font-weight:700}
+.ab-ideal{padding:56px clamp(16px,6vw,96px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;border-bottom:1px solid var(--ink)}
+.ab-ideal .eyebrow{font-family:var(--f-latin);letter-spacing:.14em;font-size:14px;color:var(--muted)}
+.ab-ideal h3{font-size:clamp(22px,3vw,34px);font-weight:900;line-height:1.5;margin:10px 0 0;text-wrap:balance}
+.ab-ideal ul{list-style:none;margin:0 0 18px;padding:0;display:grid;gap:8px}
+.ab-ideal li{font-weight:700;padding:10px 14px;background:var(--white);border:1px solid var(--ink)}
+.ab-ideal p{margin:0}
+.ab-cans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.can{border-right:1px dashed var(--ink);padding:28px 24px 36px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.can:last-child{border-right:0}
+.can .pic{aspect-ratio:3/2;position:relative;max-width:100%;border:1px solid var(--ink);overflow:hidden;background:var(--gray)}
+.can .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.can .en{font-family:var(--f-latin);letter-spacing:.14em;font-size:13px;color:var(--muted)}
+.can h4{margin:0;font-size:28px;font-weight:900;line-height:1.2}
+.can h4 small{display:block;font-size:14px;font-weight:700;margin-top:6px;color:var(--ink)}
+.can p{margin:0;font-size:15px}
+@media (max-width:860px){.ab-hero,.ab-ideal{grid-template-columns:minmax(0,1fr)}.ab-cans{grid-template-columns:minmax(0,1fr)}.can{border-right:0;border-bottom:1px dashed var(--ink)}}
+/* MIRAISサークル 特設ページ */
+.cc-hero{margin-top:-80px;padding:120px clamp(16px,6vw,96px) 56px;background:#FFB020;color:#111;border-bottom:1px solid var(--ink);position:relative;overflow:hidden}
+.cc-hero .eyebrow{font-family:var(--f-latin);letter-spacing:.14em;font-size:14px}
+.cc-hero h1{font-family:var(--f-logo);font-weight:400;font-size:clamp(48px,11vw,150px);line-height:.92;margin:12px 0 10px}
+.cc-hero .tag{font-family:var(--f-latin);font-size:clamp(20px,3vw,32px);font-style:italic}
+.cc-qs{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.cc-qs span{background:#111;color:#FFB020;padding:8px 16px;border-radius:999px;font-weight:700;font-size:15px}
+.cc-intro{padding:44px clamp(16px,6vw,96px);font-size:clamp(17px,2vw,21px);font-weight:700;line-height:1.8;max-width:44em;border-bottom:1px solid var(--ink)}
+.cc-pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-bottom:1px solid var(--ink)}
+.pillar{padding:32px 26px 40px;border-right:1px solid var(--ink);display:flex;flex-direction:column;gap:10px;min-width:0}
+.pillar:last-child{border-right:0}
+.pillar .no{font-family:var(--f-logo);font-size:56px;line-height:1;color:#FFB020;-webkit-text-stroke:1.5px #111}
+.pillar h3{margin:0;font-family:var(--f-latin);font-size:26px;font-weight:500}
+.pillar h3 small{display:block;font-family:var(--f-jp);font-size:15px;font-weight:900;margin-top:4px}
+.pillar p{margin:0}
+@media (max-width:820px){.cc-pillars{grid-template-columns:minmax(0,1fr)}.pillar{border-right:0;border-bottom:1px solid var(--ink)}.pillar:last-child{border-bottom:0}}
+.cc-join{padding:56px clamp(16px,6vw,96px);background:#111;color:var(--white);display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;border-bottom:1px solid var(--ink)}
+.cc-join h2{margin:0;font-size:clamp(24px,3.4vw,40px);font-weight:900;line-height:1.4}
+.cc-join a{background:#FFB020;color:#111;padding:14px 28px;border-radius:999px;font-weight:900;font-size:17px}
 </style>
 
 </head>
@@ -287,6 +332,7 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
 <div class="navbar">
   <nav class="pill" aria-label="メインメニュー">
     <a class="home" href="#">MIRAIS</a>
+    <a href="#about">MIRAISとは</a>
     <a href="#articles">記事一覧</a>
     <a href="#features">特集</a>
     <a href="#genre-report">取材レポート</a>
@@ -427,6 +473,33 @@ function wireInsta(){
     fill(IG);
   }).catch(()=>{});
 }
+function aboutSection(){
+  const A=D.about; if(!A) return "";
+  return `<section class="about" id="about-sec">
+    <div class="ab-hero"><h2 class="q">MIRAIS<span>?</span></h2><div><p class="lead">${esc(A.lead)}</p><p>${esc(A.body)}</p></div></div>
+    <div class="ab-ch"><b>CHALLENGE FOR US.</b><span>${esc(A.challenge)}</span></div>
+    <div class="ab-ideal"><div><div class="eyebrow">IDEAL</div><h3>${esc(A.ideal)}</h3></div><div><ul>${A.quotes.map(q=>`<li>${esc(q)}</li>`).join("")}</ul><p>${esc(A.idealBody)}</p></div></div>
+    <div class="sec-h">MIRAISでできること</div>
+    <div class="ab-cans">${A.cans.map(c=>`<div class="can"><div class="pic"><img src="${esc(c.img)}" alt="${esc(c.jp)}" loading="lazy" onerror="this.remove()"></div><span class="en">${esc(c.en)}</span><h4>${esc(c.jp)}<small>${esc(c.sub)}</small></h4><p>${esc(c.text)}</p></div>`).join("")}</div>
+  </section>`;
+}
+function aboutPage(){
+  app.innerHTML=`<header class="band" style="background:var(--pill)"><div class="in"><div class="eyebrow">ABOUT</div><h1 class="jp">MIRAISとは</h1><p class="catch">すべての学生のMIRAIにつながるプロジェクト</p></div></header>${aboutSection()}`;
+}
+function circlePage(){
+  const C=D.circle, list=ofFeature("miraiscircle");
+  app.innerHTML=`
+  <header class="cc-hero"><div class="eyebrow">MIRAIS × STUDENTS</div><h1>MIRAIS<br>CIRCLE</h1><div class="tag">${esc(C.catch)}</div>
+    <div class="cc-qs">${C.questions.map(q=>`<span>${esc(q)}</span>`).join("")}</div></header>
+  <p class="cc-intro">${esc(C.intro)}</p>
+  <div class="sec-h">3つの柱</div>
+  <div class="cc-pillars">${C.pillars.map(x=>`<div class="pillar"><span class="no">${x.no}</span><h3>${esc(x.en)}<small>${esc(x.jp)}</small></h3><p>${esc(x.text)}</p></div>`).join("")}</div>
+  <div class="sec-h">サークルの最新の活動</div>
+  ${grid(list)}
+  <div class="cc-join"><h2>一緒に、自分の進路を<br>探しにいこう。</h2><a href="${esc(C.join)}" target="_blank" rel="noopener">参加を申し込む ↗</a></div>
+  ${seriesSection(Object.keys(D.features).filter(k=>k!=="miraiscircle"),"MORE","ほかの特集",true)}`;
+  wireSeries();
+}
 /* views */
 function home(){
   const all=done().sort(byDate);
@@ -460,6 +533,7 @@ function home(){
   <div class="rows">
     ${NEWS.map(n=>`<a class="row" href="${n.u}"><span class="d">${n.d}</span><span class="t">${esc(n.t)}</span><span class="ti">${esc(n.ti)}</span><span class="c">${esc(n.c)}</span><span class="w">READ →</span></a>`).join("")}
   </div>
+  ${aboutSection()}
   <div class="sec-h">Tags</div>
   ${tagCloud()}`;
   wireSeries(); wireInsta();
@@ -594,6 +668,8 @@ function route(){
   else if(h==="features") featuresIndex();
   else if(h==="articles") articlesPage();
   else if(h==="tags") tagsIndex();
+  else if(h==="about") aboutPage();
+  else if(h==="feature-miraiscircle"||h==="circle") circlePage();
   else if((m=h.match(/^feature-(.+)$/))&&D.features[m[1]]) featurePage(m[1]);
   else if((m=h.match(/^tag-(.+)$/))&&D.tags[m[1]]) listPage("tag",m[1]);
   else if((m=h.match(/^genre-(.+)$/))&&D.genres[m[1]]) listPage("genre",m[1]);

@@ -45,6 +45,9 @@ for a in data["articles"]:
             for i in b["items"]:
                 i["src"] = local(i["src"])
 
+for c in data.get("about", {}).get("cans", []):
+    c["img"] = local(c["img"])
+
 json.dump(data, open(DATA, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(f"写真: {ok} 件を配置 / 失敗 {len(failed)} 件")
 for s, e in failed:
