@@ -375,7 +375,7 @@ function home(){
     <div class="slider" id="slider">
       ${pick.map(a=>{const f=D.features[a.feature];return `<a class="slide" href="#${a.slug}">
         ${media(a.cover.src,a.cover.alt,f)}
-        <div class="cap"><h2>${esc(a.title)}</h2><span>${esc(f.name)}${a.writer?` ／ ${esc(a.writer)}`:""}</span></div>
+        <div class="cap"><h2>${esc(a.title)}</h2><span>${esc(f.name)}${a.writer&&a.writer!==f.name?` ／ ${esc(a.writer)}`:""}</span></div>
       </a>`}).join("")}
     </div>
     <div class="biglogo" aria-hidden="true">MIRAIS</div>
