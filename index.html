@@ -260,7 +260,7 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
 @media (max-width:700px){.insta{grid-template-columns:minmax(0,1fr)}}
 .insta-wrap{background:#00C2A8;border-bottom:1px solid var(--ink)}
 .insta-wrap .insta{border-bottom:0}
-.ig-track{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:0 clamp(16px,6vw,96px) 8px}
+.ig-track{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:clamp(16px,6vw,96px);scrollbar-width:none;padding:0 clamp(16px,6vw,96px) 8px}
 .ig-track::-webkit-scrollbar{display:none}
 .ig{flex:0 0 clamp(200px,26vw,300px);aspect-ratio:1/1;max-width:80vw;scroll-snap-align:start;position:relative;overflow:hidden;background:#0a8f7c;border:1.5px solid #111}
 .ig img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
