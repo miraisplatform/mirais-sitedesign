@@ -1254,7 +1254,10 @@
    "writer": "Movie editor：ayana／Narrator：下川結愛",
    "oldUrl": "https://www.mirais2055.jp/challengesports",
    "note": "M-newsからParasportsへ移す案",
-   "cover": null,
+   "cover": {
+    "src": "https://i.ytimg.com/vi/F-uIi1c_XHI/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
    "body": [
     {
      "type": "p",
@@ -1262,7 +1265,9 @@
     },
     {
      "type": "video",
-     "href": "https://www.youtube.com/@MIRAIS-zs8pn/videos"
+     "href": "https://www.youtube.com/shorts/F-uIi1c_XHI",
+     "title": "チャレスポ！TOKYOレポート",
+     "vertical": true
     }
    ],
    "hasVideo": true
@@ -1280,7 +1285,10 @@
    "writer": "Movie editor：ayana／Narrator：りり",
    "oldUrl": "https://www.mirais2055.jp/nhkchoutaiken",
    "note": "",
-   "cover": null,
+   "cover": {
+    "src": "https://i.ytimg.com/vi/dGn6Poon3-s/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
    "body": [
     {
      "type": "p",
@@ -1288,7 +1296,9 @@
     },
     {
      "type": "video",
-     "href": "https://www.youtube.com/@MIRAIS-zs8pn/videos"
+     "href": "https://www.youtube.com/shorts/dGn6Poon3-s",
+     "title": "NHK超体験フェス！",
+     "vertical": true
     }
    ],
    "hasVideo": true
@@ -1704,7 +1714,10 @@
    "writer": "teens!",
    "oldUrl": "https://www.mirais2055.jp/teens-akashi",
    "note": "特集ページの中にだけある記事。1本の記事ページにする",
-   "cover": null,
+   "cover": {
+    "src": "https://i.ytimg.com/vi/I_OZizO8VFI/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
    "body": [
     {
      "type": "p",
@@ -1712,7 +1725,9 @@
     },
     {
      "type": "video",
-     "href": "https://www.youtube.com/@MIRAIS-zs8pn/videos"
+     "href": "https://www.youtube.com/shorts/I_OZizO8VFI",
+     "title": "teens！明石城跡を紹介！",
+     "vertical": true
     }
    ],
    "hasVideo": true
@@ -1877,7 +1892,10 @@
    "writer": "Writer・Movie：MIRAIS／Narrator：ringo",
    "oldUrl": "https://www.mirais2055.jp/deafvbkawasaki",
    "note": "3/24公開のレポート動画も同じページに入れる",
-   "cover": null,
+   "cover": {
+    "src": "https://i.ytimg.com/vi/G5JGH9bRH3k/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
    "body": [
     {
      "type": "p",
@@ -1893,7 +1911,9 @@
     },
     {
      "type": "video",
-     "href": "https://www.youtube.com/@MIRAIS-zs8pn/videos"
+     "href": "https://www.youtube.com/shorts/G5JGH9bRH3k",
+     "title": "第26回ジャパンデフバレーボールカップ川崎大会 決勝大会レポート！",
+     "vertical": true
     }
    ],
    "hasVideo": true
@@ -1993,9 +2013,19 @@
     {
      "type": "p",
      "text": "結果は、最後までもつれる大接戦を制して神奈川ヴァンガーズが２連覇となった。"
+    },
+    {
+     "type": "h",
+     "text": "レポート動画"
+    },
+    {
+     "type": "video",
+     "href": "https://www.youtube.com/shorts/fUzw4gq1bLg",
+     "title": "第49回日本車いすバスケットボール選手権大会 天皇杯！",
+     "vertical": true
     }
    ],
-   "hasVideo": false
+   "hasVideo": true
   },
   {
    "slug": "dlive19",
@@ -4881,6 +4911,70 @@
      "type": "link",
      "label": "撮影の舞台裏はこちら",
      "href": "#blog-shinagawa"
+    }
+   ]
+  },
+  {
+   "slug": "teens-sholayered",
+   "status": "done",
+   "feature": "teens",
+   "genre": "video",
+   "tags": [
+    "shibuya",
+    "student-writer"
+   ],
+   "title": "SHOLAYERED ハラカド店さんのレポートに挑戦！",
+   "date": "",
+   "writer": "teens!",
+   "oldUrl": "",
+   "note": "YouTubeから追加",
+   "cover": {
+    "src": "https://i.ytimg.com/vi/dWBPxIJScKw/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
+   "hasVideo": true,
+   "body": [
+    {
+     "type": "p",
+     "text": "MIRAIS発の学生による学生のための情報発信ユニット teens! が、原宿・ハラカドにある SHOLAYERED のお店をレポートしました。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.youtube.com/shorts/dWBPxIJScKw",
+     "title": "SHOLAYERED ハラカド店さんのレポートに挑戦！",
+     "vertical": true
+    }
+   ]
+  },
+  {
+   "slug": "teens-harajuku-ichigo",
+   "status": "done",
+   "feature": "teens",
+   "genre": "video",
+   "tags": [
+    "shibuya",
+    "student-writer"
+   ],
+   "title": "原宿いちごでいちごスイーツを堪能！",
+   "date": "",
+   "writer": "teens!",
+   "oldUrl": "",
+   "note": "YouTubeから追加",
+   "cover": {
+    "src": "https://i.ytimg.com/vi/FZMpjIzlfGE/hqdefault.jpg",
+    "alt": "動画のサムネイル"
+   },
+   "hasVideo": true,
+   "body": [
+    {
+     "type": "p",
+     "text": "teens! のメンバーが、原宿の「原宿いちご」でいちごスイーツを食べてきました。"
+    },
+    {
+     "type": "video",
+     "href": "https://www.youtube.com/shorts/FZMpjIzlfGE",
+     "title": "原宿いちごでいちごスイーツを堪能！",
+     "vertical": true
     }
    ]
   }
