@@ -384,6 +384,27 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
 .contact.pg{margin-top:-80px;padding-top:130px;background:var(--pill)}
 .contact.pg .cf input,.contact.pg .cf select,.contact.pg .cf textarea{background:var(--white)}
 @media (max-width:760px){.contact{grid-template-columns:minmax(0,1fr)}.cf{grid-template-columns:minmax(0,1fr)}}
+/* 就活・進学お悩み相談 特設ページ */
+.sd-hero{margin-top:-80px;padding:120px clamp(16px,6vw,96px) 56px;background:#E8452C;color:#FFFFFF;border-bottom:1px solid var(--ink)}
+.sd-hero .eyebrow{font-family:var(--f-latin);letter-spacing:.14em;font-size:14px}
+.sd-hero h1{font-family:var(--f-jp);font-weight:900;font-size:clamp(34px,6.4vw,76px);line-height:1.2;margin:12px 0 14px;text-wrap:balance}
+.sd-hero .catch{font-size:clamp(17px,2.2vw,22px);font-weight:700;margin:0 0 18px}
+.sd-hero .free{display:inline-block;background:var(--pill);color:#111;font-weight:900;padding:6px 18px;border-radius:999px;font-size:16px}
+.sd-intro{padding:44px clamp(16px,6vw,96px);font-size:clamp(16px,1.9vw,19px);line-height:1.9;max-width:46em;border-bottom:1px solid var(--ink);margin:0}
+.sd-topics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-bottom:1px solid var(--ink)}
+.sd-topic{padding:30px 26px 36px;border-right:1px solid var(--ink);display:flex;flex-direction:column;gap:10px;min-width:0}
+.sd-topic:last-child{border-right:0}
+.sd-topic .k{font-family:var(--f-latin);letter-spacing:.14em;font-size:13px;color:#E8452C;font-weight:500}
+.sd-topic h3{margin:0;font-size:22px;font-weight:900}
+.sd-topic p{margin:0}
+.sd-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-bottom:1px solid var(--ink);background:var(--gray)}
+.sd-step{padding:26px 24px 30px;border-right:1px dashed var(--ink);display:flex;gap:14px;align-items:flex-start;min-width:0}
+.sd-step:last-child{border-right:0}
+.sd-step b{font-family:var(--f-logo);font-weight:400;font-size:30px;line-height:1;flex:0 0 auto}
+.sd-step span{font-weight:700;line-height:1.6}
+@media (max-width:820px){.sd-topics,.sd-flow{grid-template-columns:minmax(0,1fr)}.sd-topic,.sd-step{border-right:0;border-bottom:1px solid var(--ink)}.sd-step{border-bottom-style:dashed}.sd-topic:last-child,.sd-step:last-child{border-bottom:0}}
+.contact.sd{background:var(--white)}
+@media (max-width:520px){.sd-hero h1{font-size:30px}}
 </style>
 
 </head>
@@ -624,19 +645,63 @@ function wireContact(){
       const em=f.querySelector('[name="email"]');
       if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em.value.trim())){say("メールアドレスの形式が正しくありません。もう一度確認してください。",false);em.focus();return}
       const data=Object.fromEntries([...new FormData(f)].filter(([k])=>k!=="_honey").map(([k,v])=>[k,String(v).trim()]));
-      data._subject="【MIRAIS お問い合わせ】"+data["件名"]; data._template="table"; data._captcha="false";
+      data._subject=(f.dataset.prefix||"【MIRAIS お問い合わせ】")+(data["件名"]||(data["相談したい内容"]?data["相談したい内容"]+"／":"")+data["お名前"]+" さん"); data._template="table"; data._captcha="false";
+      const label=btn.dataset.label||(btn.dataset.label=btn.textContent);
       btn.disabled=true; btn.textContent="送信中…";
       fetch(FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify(data)})
         .then(r=>r.json().then(j=>({ok:r.ok,j})))
-        .then(({ok,j})=>{ if(ok&&String(j.success)!=="false"){f.reset();say("送信しました。内容を確認のうえ、メールでご連絡します。",true)} else throw 0 })
+        .then(({ok,j})=>{ if(ok&&String(j.success)!=="false"){f.reset();say(f.dataset.done||"送信しました。内容を確認のうえ、メールでご連絡します。",true)} else throw 0 })
         .catch(()=>say("送信できませんでした。時間をおいてもう一度お試しください。",false))
-        .finally(()=>{btn.disabled=false;btn.textContent="送信する"});
+        .finally(()=>{btn.disabled=false;btn.textContent=btn.dataset.label});
     });
   });
 }
 function contactPage(){
   app.innerHTML=contactSection("page").replace('class="contact"','class="contact pg"');
   wireContact();
+}
+function soudanForm(){
+  const req='<em>必須</em>';
+  const grades=["高校1年","高校2年","高校3年","専門学校","大学1年","大学2年","大学3年","大学4年","大学院","既卒","その他"];
+  return `<section class="contact sd" id="soudan-form">
+    <div class="side"><div class="eyebrow">APPLY</div><h2>相談を申し込む</h2>
+      <p>相談は無料です。フォームを送っていただくと、担当者からメールでご連絡します。</p>
+      <p>まだ考えがまとまっていなくても大丈夫です。気になっていることを、そのまま書いてください。</p></div>
+    <form class="cf" id="cf-soudan" data-prefix="【MIRAIS 相談申し込み】" data-done="申し込みを受け付けました。担当者から、入力いただいたメールアドレスにご連絡します。" novalidate>
+      <label><span class="lb">お名前${req}</span><input id="cf-soudan-name" name="お名前" autocomplete="name" required></label>
+      <label><span class="lb">メールアドレス${req}</span><input id="cf-soudan-email" name="email" type="email" autocomplete="email" inputmode="email" required></label>
+      <label><span class="lb">学校名</span><input id="cf-soudan-school" name="学校名" autocomplete="organization"></label>
+      <label><span class="lb">学年</span><select id="cf-soudan-grade" name="学年"><option value="">選択してください</option>${grades.map(g=>`<option>${g}</option>`).join("")}</select></label>
+      <label><span class="lb">相談したい内容${req}</span><select id="cf-soudan-topic" name="相談したい内容" required><option value="">選択してください</option><option>就活のこと</option><option>進学・総合型入試のこと</option><option>その他・まだ決まっていない</option></select></label>
+      <label><span class="lb">希望の相談方法</span><select id="cf-soudan-way" name="希望の相談方法"><option value="">選択してください</option><option>オンライン</option><option>対面</option><option>どちらでもよい</option></select></label>
+      <label class="full"><span class="lb">相談したいこと${req}</span><textarea id="cf-soudan-msg" name="相談したいこと" required placeholder="例：自己PRに書けることが見つからない／総合型入試の準備をいつから始めればいいか知りたい"></textarea></label>
+      <label class="hp" aria-hidden="true">この欄は空のままにしてください<input id="cf-soudan-hp" name="_honey" tabindex="-1" autocomplete="off"></label>
+      <label class="full agree"><input id="cf-soudan-agree" type="checkbox" required>入力した内容をMIRAISに送信することに同意します</label>
+      <button type="submit" id="cf-soudan-btn">申し込む</button>
+      <p class="cf-msg" id="cf-soudan-out" role="status" hidden></p>
+    </form>
+  </section>`;
+}
+function soudanPage(){
+  const f=D.features.soudan;
+  app.innerHTML=`
+  <header class="sd-hero"><div class="eyebrow">CONSULTATION</div><h1>就活・進学<br>お悩み相談プログラム</h1><p class="catch">${esc(f.catch)}</p><span class="free">相談無料</span></header>
+  <p class="sd-intro">${esc(f.intro)}</p>
+  <div class="sec-h">こんなことを相談できます</div>
+  <div class="sd-topics">
+    <div class="sd-topic"><span class="k">JOB HUNTING</span><h3>就活のこと</h3><p>何から始めればいいか分からない、自己PRやガクチカが書けない、面接が不安。就活の悩みを、学生の目線で一緒に整理します。</p></div>
+    <div class="sd-topic"><span class="k">ADMISSIONS</span><h3>進学・総合型入試のこと</h3><p>総合型入試の準備の進め方や、志望理由の考え方など、進学に関する疑問を相談できます。</p></div>
+    <div class="sd-topic"><span class="k">OTHERS</span><h3>まだ決まっていないこと</h3><p>やりたいことが見つからない、進路そのものに迷っている。まとまっていない段階の相談も歓迎です。</p></div>
+  </div>
+  <div class="sec-h">相談までの流れ</div>
+  <div class="sd-flow">
+    <div class="sd-step"><b>01</b><span>下のフォームから申し込む</span></div>
+    <div class="sd-step"><b>02</b><span>担当者からメールで連絡が届く</span></div>
+    <div class="sd-step"><b>03</b><span>オンラインまたは対面で相談する</span></div>
+  </div>
+  ${soudanForm()}
+  ${seriesSection(Object.keys(D.features).filter(k=>k!=="soudan"),"MORE","ほかの特集",true)}`;
+  wireContact(); wireSeries();
 }
 /* views */
 function home(){
@@ -809,6 +874,7 @@ function route(){
   else if(h==="tags") tagsIndex();
   else if(h==="about") aboutPage();
   else if(h==="contact") contactPage();
+  else if(h==="feature-soudan"||h==="soudan") soudanPage();
   else if(h==="feature-miraiscircle"||h==="circle") circlePage();
   else if((m=h.match(/^feature-(.+)$/))&&D.features[m[1]]) featurePage(m[1]);
   else if((m=h.match(/^tag-(.+)$/))&&D.tags[m[1]]) listPage("tag",m[1]);
