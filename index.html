@@ -661,6 +661,62 @@ footer{border-top:1px solid var(--line);margin-top:48px}
 footer .bottom{padding-inline:var(--wrap)}
 footer .logo{font-family:var(--f-latin);font-weight:600;font-size:22px;letter-spacing:.22em}
 .note{color:#FFFFFF}
+
+/* ===== カラフルなアクセント（白ベースに複数の色を少しずつ）===== */
+:root{--c1:#F0533A;--c2:#1E8FE1;--c3:#FFC530;--c4:#16A383;--c5:#8A63F5;--c6:#F0549A;
+  --t1:#C93A22;--t2:#1670C0;--t3:#8F6400;--t4:#0E7A62;--t5:#6B45D9;--t6:#C93072;
+  --rainbow:linear-gradient(90deg,var(--c1) 0 16.66%,var(--c3) 0 33.33%,var(--c4) 0 50%,var(--c2) 0 66.66%,var(--c5) 0 83.33%,var(--c6) 0)}
+/* ロゴの横とフッターに6色のライン */
+.pill .home::after,.m-logo::after,footer .logo::after{content:"";display:inline-block;width:36px;height:6px;margin-left:10px;vertical-align:middle;background:var(--rainbow);border-radius:3px}
+footer{border-top:0;position:relative}
+footer::before{content:"";display:block;height:6px;background:var(--rainbow)}
+/* トップの見出し：MIRAIを1文字ずつ色分け */
+.mirai i{font-style:normal}
+.mirai i:nth-child(1){color:var(--t1)}.mirai i:nth-child(2){color:var(--t2)}.mirai i:nth-child(3){color:var(--t4)}.mirai i:nth-child(4){color:var(--t5)}.mirai i:nth-child(5){color:var(--t6)}
+/* 見出しの四角を4色に */
+.sec-h::before{width:12px;height:12px;background:conic-gradient(var(--c1) 0 25%,var(--c3) 0 50%,var(--c4) 0 75%,var(--c2) 0);border-radius:2px}
+/* 記事サムネイルの特集ラベルを特集の色に */
+.label{background:var(--fc,#FFFFFF);color:var(--fi,var(--ink))}
+/* 特集カード：特集の色をうっすら敷く */
+.feat{background:color-mix(in srgb,var(--fc,#FFFFFF) 12%,#FFFFFF);border-top-width:8px}
+.feat:hover{background:color-mix(in srgb,var(--fc,#FFFFFF) 22%,#FFFFFF)}
+.feat .ft{border-top-color:color-mix(in srgb,var(--fc,#E2E2DE) 40%,#FFFFFF)}
+/* お知らせの種類ごとに色 */
+.row .t{border:0;color:#FFFFFF;background:var(--ink)}
+.row .t[data-t="EVENT"]{background:var(--t1)}
+.row .t[data-t="CLASS"]{background:var(--t2)}
+.row .t[data-t="CIRCLE"]{background:var(--t3)}
+/* 絞り込みボタン：選んだときに色 */
+.chip:hover{border-color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--t2);border-color:var(--t2)}
+/* ボタン：ホバーで色が変わる */
+.cta:hover,.cf button:hover,.kr-hero .go:hover,.ytch .go:hover,.insta .follow:hover,.cc-join a:hover,.m-cta:hover{background:var(--t2)}
+.more-all a:hover{background:var(--t2);border-color:var(--t2)}
+/* 動画・Instagramの帯 */
+.ytch{background:color-mix(in srgb,var(--c2) 10%,#FFFFFF)}
+.insta-wrap,.insta{background:color-mix(in srgb,var(--c6) 9%,#FFFFFF)}
+.ab-ch{background:color-mix(in srgb,var(--c3) 22%,#FFFFFF)}
+/* 韓流Meet up！ */
+.kr-for div:nth-child(1){border-top:4px solid var(--c1)}.kr-for div:nth-child(1) b{color:var(--t1)}
+.kr-for div:nth-child(2){border-top:4px solid #E09A00}.kr-for div:nth-child(2) b{color:var(--t3)}
+.kr-for div:nth-child(3){border-top:4px solid var(--c4)}.kr-for div:nth-child(3) b{color:var(--t4)}
+.kr-for div:nth-child(4){border-top:4px solid var(--c2)}.kr-for div:nth-child(4) b{color:var(--t2)}
+.kr-for div:nth-child(5){border-top:4px solid var(--c5)}.kr-for div:nth-child(5) b{color:var(--t5)}
+.kr-cur{background:color-mix(in srgb,var(--c2) 9%,#FFFFFF)}
+.kr-lesson:nth-child(6n+1) .k span:last-child{color:var(--t1)}.kr-lesson:nth-child(6n+2) .k span:last-child{color:var(--t3)}
+.kr-lesson:nth-child(6n+3) .k span:last-child{color:var(--t4)}.kr-lesson:nth-child(6n+4) .k span:last-child{color:var(--t2)}
+.kr-lesson:nth-child(6n+5) .k span:last-child{color:var(--t5)}.kr-lesson:nth-child(6n+6) .k span:last-child{color:var(--t6)}
+.kr-lesson .k span:last-child{font-weight:600;font-size:15px}
+.kr-hero .word{background:color-mix(in srgb,var(--c6) 10%,#FFFFFF)}
+.kr-hero .word b{color:var(--t2)}
+.kr-steps b{color:var(--t2)}
+.kr-faq .item .q::before{background:var(--t2)}
+/* 就活相談・サークル */
+.sd-step b{color:var(--t1)}
+.sd-flow{background:color-mix(in srgb,var(--c1) 8%,#FFFFFF)}
+.pillar .no{color:var(--t3)}
+.cc-join{background:color-mix(in srgb,#FFB020 18%,#FFFFFF)}
+.prose .q::before{background:var(--t2)}
 </style>
 
 </head>
@@ -755,7 +811,7 @@ function card(a,i){
     </div>`;
   }
   return `<div class="cell">
-    <div class="thumb"><a class="label" href="#feature-${a.feature}">${esc(f.name)}</a>${a.hasVideo?'<span class="vbadge">▶ 動画</span>':""}${media(a.cover&&a.cover.src,a.cover&&a.cover.alt,f)}</div>
+    <div class="thumb"><a class="label" href="#feature-${a.feature}" style="--fc:${f.color};--fi:${f.ink}">${esc(f.name)}</a>${a.hasVideo?'<span class="vbadge">▶ 動画</span>':""}${media(a.cover&&a.cover.src,a.cover&&a.cover.alt,f)}</div>
     <h3><a class="stretch" href="#${a.slug}">${esc(a.title)}</a></h3>
     ${a.writer?`<p class="who">${esc(a.writer)}</p><p class="sub">${esc(D.genres[a.genre].label)}</p>`:`<p class="sub" style="margin:0">${esc(D.genres[a.genre].label)}</p>`}
     <div class="tags">${tagLinks(a)}</div>
@@ -1032,7 +1088,7 @@ function home(){
   const usedGenres=[...new Set(all.map(a=>a.genre))];
   app.innerHTML=`
   <section class="hero">
-    <div class="hero-top"><p>すべての学生のMIRAIに<br>つながるプロジェクト</p><small>PICK UP ${String(pick.length).padStart(2,"0")}</small></div>
+    <div class="hero-top"><p>すべての学生の<span class="mirai" aria-label="MIRAI"><i>M</i><i>I</i><i>R</i><i>A</i><i>I</i></span>に<br>つながるプロジェクト</p><small>PICK UP ${String(pick.length).padStart(2,"0")}</small></div>
     <div class="slider" id="slider">
       ${pick.map(a=>{const f=D.features[a.feature];return `<a class="slide" href="#${a.slug}">
         ${media(a.cover.src,a.cover.alt,f)}
@@ -1053,7 +1109,7 @@ function home(){
   ${instaSection()}
   <div class="sec-h">お知らせ</div>
   <div class="rows">
-    ${NEWS.map(n=>`<a class="row" href="${n.u}"><span class="d">${n.d}</span><span class="t">${esc(n.t)}</span><span class="ti">${esc(n.ti)}</span><span class="c">${esc(n.c)}</span><span class="w">READ →</span></a>`).join("")}
+    ${NEWS.map(n=>`<a class="row" href="${n.u}"><span class="d">${n.d}</span><span class="t" data-t="${esc(n.t)}">${esc(n.t)}</span><span class="ti">${esc(n.ti)}</span><span class="c">${esc(n.c)}</span><span class="w">READ →</span></a>`).join("")}
   </div>
   ${aboutSection()}
   ${contactSection("home")}
