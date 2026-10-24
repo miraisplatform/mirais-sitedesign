@@ -409,6 +409,7 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
 .kr-hero{margin-top:-80px;padding:120px clamp(16px,6vw,96px) 64px;background:var(--hero);color:var(--white);border-bottom:1px solid var(--ink);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:40px;align-items:end}
 .kr-hero .eyebrow{font-family:var(--f-latin);letter-spacing:.12em;font-size:14px}
 .kr-hero h1{font-family:var(--f-jp);font-weight:900;font-size:clamp(34px,6vw,72px);line-height:1.25;margin:12px 0 14px}
+.kr-hero .lead{font-size:clamp(20px,2.8vw,30px);font-weight:900;line-height:1.4;margin:0 0 10px}
 .kr-hero .catch{font-size:clamp(16px,2vw,20px);font-weight:700;line-height:1.6;margin:0 0 18px}
 .kr-hero .chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
 .kr-hero .chips span{border:1px solid currentColor;border-radius:999px;padding:3px 14px;font-size:13px;font-weight:700}
@@ -476,7 +477,7 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
     <a href="#about">MIRAISとは</a>
     <a href="#articles">記事一覧</a>
     <a href="#features">特集</a>
-    <a href="#feature-korean">韓国語講座</a>
+    <a href="#feature-korean">韓流Meet up！</a>
     <a href="#genre-report">取材レポート</a>
     <a href="#genre-column">コラム</a>
     <a href="#genre-interview">インタビュー</a>
@@ -494,7 +495,7 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
     <a href="#articles">記事一覧</a>
     <a href="#features">特集</a>
     <a href="#feature-miraiscircle">MIRAISサークル</a>
-    <a href="#feature-korean">韓国語講座</a>
+    <a href="#feature-korean">韓流Meet up！</a>
     <a href="#genre-report">取材レポート</a>
     <a href="#genre-column">コラム</a>
     <a href="#genre-interview">インタビュー</a>
@@ -530,7 +531,7 @@ const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&
 const fmt=d=>d?d.replace(/-/g,"."):"";
 const isJp=s=>/[^\x00-\x7F]/.test(s);
 const NEWS=[
-  {d:"2026.10.24",t:"CLASS",ti:"大学生・専門学生のための無料韓国語講座、参加者募集中！",c:"韓国語講座",u:"#feature-korean"},
+  {d:"2026.10.24",t:"CLASS",ti:"無料の韓国語講座「韓流Meet up！」参加者募集中！",c:"韓流Meet up！",u:"#feature-korean"},
   {d:"2026.09.02",t:"EVENT",ti:"9月のミライワークショップ開催",c:"結・しぶや",u:"#shukatsuev"},
   {d:"2026.07.25",t:"EVENT",ti:"大学生のためのコミュニケーション教室 開催！",c:"結・しぶや",u:"#communicationev"},
   {d:"2026.03.23",t:"CIRCLE",ti:"就活ドラマ、鋭意製作中！",c:"MIRAISサークル",u:"#circle-drama"}
@@ -774,7 +775,7 @@ function koreanForm(){
   return `<section class="contact kr" id="korean-form">
     <div class="side"><div class="eyebrow">ENTRY</div><h2>お申し込み</h2>
       <p>下記のフォームから、1分ほどで申し込めます。受付後、数日以内にご案内をお送りします。</p></div>
-    <form class="cf" id="cf-korean" data-prefix="【MIRAIS 韓国語講座 申し込み】" data-done="申し込みを受け付けました。数日以内に、入力いただいたメールアドレスへご案内をお送りします。" novalidate>
+    <form class="cf" id="cf-korean" data-prefix="【MIRAIS 韓流Meet up！ 申し込み】" data-done="申し込みを受け付けました。数日以内に、入力いただいたメールアドレスへご案内をお送りします。" novalidate>
       <label><span class="lb">お名前${req}</span><input id="cf-korean-name" name="お名前" autocomplete="name" required></label>
       <label><span class="lb">メールアドレス${req}</span><input id="cf-korean-email" name="email" type="email" autocomplete="email" inputmode="email" required></label>
       <label class="full"><span class="lb">学校名${req}</span><input id="cf-korean-school" name="学校名" autocomplete="organization" required></label>
@@ -809,7 +810,8 @@ function koreanPage(){
     ["どの学校の学生でも参加できますか？","はい。大学生・専門学生であれば、学校・学年は問いません。"]];
   app.innerHTML=`
   <header class="kr-hero">
-    <div><div class="eyebrow">KOREAN CLASS ／ 2026</div><h1>「好き」を、<br>わかるに変える<br>韓国語。</h1>
+    <div><div class="eyebrow">MIRAIS KOREAN CLASS ／ 2026</div><h1>韓流<br>Meet up！</h1>
+      <p class="lead">「好き」を、わかるに変える韓国語。</p>
       <p class="catch">大学生・専門学生のための、無料の韓国語講座。<br>ハングルの読み方から、ネイティブ講師と一緒に。</p>
       <div class="chips"><span>参加費無料</span><span>初心者歓迎</span><span>1人参加OK</span></div>
       <a class="go" href="#korean-form" data-jump="korean-form">無料で参加する →</a></div>
