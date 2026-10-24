@@ -7,7 +7,7 @@
 <title>MIRAIS</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Noto+Sans+KR:wght@700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jost:wght@400;500&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Noto+Sans+KR:wght@700&display=swap">
 <style>
 /* Layout: ピル型の固定メニュー → 色面ヒーロー（記事スライダー＋巨大ロゴ）→ 流れるコピー → 罫線グリッドの記事 → ニュース行リスト → 流れるフッター
    Single bold light theme by choice: every color is set explicitly. */
@@ -198,7 +198,7 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
 .a-meta .gen{display:inline-block;border:1px solid currentColor;border-radius:999px;padding:3px 12px;font-size:13px;font-weight:700}
 .related{border-top:1px solid var(--ink)}
 .related .sec-h{background:var(--ground)}
-/* 旧・特集カルーセル（現在は未使用） */
+/* series corner (dodaSPORTS SERIES風) */
 .series{background:linear-gradient(90deg,var(--pill) 0%,var(--pill) 35%,var(--ground) 100%);border-block:1px dashed var(--ink);padding-block:56px 0;overflow:hidden}
 .series .ttl{text-align:center;padding-inline:16px}
 .series h2{font-family:var(--f-logo);font-weight:400;font-size:clamp(56px,11vw,130px);line-height:1;margin:0;letter-spacing:.01em}
@@ -467,200 +467,6 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
 .cf legend{font-weight:700;font-size:14px;padding:0;margin-bottom:6px}
 @media (max-width:820px){.kr-hero{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:520px){.kr-hero h1{font-size:32px}}
-
-/* ===== MIRAIS WHITE（2026-10-24 着せ替え）=====
-   白を基調に、黒の文字と細い罫線で組む。特集ごとの色は、カードや見出しの上の細い帯だけに使う。 */
-:root{--ground:#FFFFFF;--gray:#F4F4F2;--ink:#1A1A1A;--muted:#5E5E5E;--line:#E2E2DE;--pill:#FFFFFF;--tag:#1A1A1A;--hero:#1A1A1A;
-  --f-logo:"Jost","Futura","Avenir Next",sans-serif;--wrap:clamp(16px,6vw,96px)}
-html,body{background:#FFFFFF}
-a:focus-visible,button:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
-/* ヘッダー */
-.navbar{background:#FFFFFF;border-bottom:1px solid var(--line);justify-content:space-between;align-items:center;padding:10px var(--wrap);pointer-events:auto}
-.pill{background:transparent;box-shadow:none;border-radius:0;padding:0;gap:2px;flex:1 1 auto}
-.pill a{font-weight:500;font-size:14px;padding:8px 10px;border-radius:0}
-.pill a:hover{background:transparent;color:var(--ink);text-decoration:underline;text-underline-offset:6px}
-.pill .home{font-family:var(--f-latin);font-weight:600;font-size:20px;letter-spacing:.22em;margin-right:auto;padding-left:0}
-.cta{background:var(--ink);color:#FFFFFF;border-radius:4px;padding:10px 18px;font-size:14px}
-@media (max-width:700px){
-  .navbar{padding:8px 16px}
-  .m-logo{background:transparent;box-shadow:none;padding:0;height:48px;font-family:var(--f-latin);font-weight:600;font-size:20px;letter-spacing:.22em}
-  .burger{background:transparent;box-shadow:none;border-radius:0;width:48px;height:48px}
-  .burger span{background:var(--ink)}
-  .burger[aria-expanded="true"]{background:transparent;box-shadow:none}
-}
-.m-menu{background:#FFFFFF;color:var(--ink)}
-.m-links{border-top:1px solid var(--line)}
-.m-links a{border-bottom:1px solid var(--line);font-weight:700;font-size:20px}
-.m-cta{background:var(--ink);color:#FFFFFF;border-radius:4px}
-/* トップ */
-.hero{background:#FFFFFF;margin-top:0;padding-top:48px}
-.hero-top{color:var(--ink);padding-inline:var(--wrap);padding-block:0 28px}
-.hero-top p{font-size:clamp(26px,4.2vw,48px);font-weight:900;line-height:1.35}
-.hero-top small{color:var(--muted);opacity:1}
-.slider{padding-inline:var(--wrap);padding-bottom:72px}
-.slide{background:var(--gray)}
-.slide .cap{bottom:0;border-top:1px solid var(--line)}
-.arrows{right:var(--wrap);bottom:14px}
-.arr{background:#FFFFFF;border:1px solid var(--ink)}
-.arr:hover{background:var(--ink);color:#FFFFFF}
-.biglogo,.marq{display:none}
-@media (max-width:700px){.slider{padding-bottom:40px}}
-/* 見出し */
-.sec-h{justify-content:flex-start;padding:56px var(--wrap) 20px;border-bottom:0;font-family:var(--f-jp);font-weight:900;font-size:clamp(22px,2.6vw,28px);letter-spacing:0;background:transparent}
-.sec-h::before{content:"";width:10px;height:10px;background:var(--ink);margin-right:12px;flex:0 0 auto}
-/* 絞り込み・記事グリッド */
-.filters{background:#FFFFFF;border-bottom:0;justify-content:flex-start;padding:0 var(--wrap) 20px}
-.chip{border-color:var(--line);border-radius:4px}
-.chip[aria-pressed="true"]{background:var(--ink);color:#FFFFFF;border-color:var(--ink)}
-.grid{background:#FFFFFF;gap:32px 24px;padding:0 var(--wrap) 24px}
-.cell,.cell:nth-child(3n),.cell:nth-child(2n){border:0;padding:0}
-.cell .thumb{border-radius:6px;overflow:hidden}
-.label{border:0;background:#FFFFFF;font-weight:700;border-radius:3px}
-.cell h3{font-size:clamp(16px,1.6vw,19px)}
-.tags a,.tags span{border-color:var(--line);border-radius:3px}
-.tags a:hover{background:var(--ink);color:#FFFFFF}
-.num{border-top:1px solid var(--line);font-size:16px;color:var(--muted)}
-.cell.pending{background:#FFFFFF}
-.stamp{border-radius:3px}
-@media (max-width:600px){.grid{padding:0 16px 16px}.cell{padding:0!important}}
-.media{background:var(--gray)}
-.media .ph{color:var(--muted);font-weight:600;letter-spacing:.06em}
-.more-all{background:#FFFFFF;border-bottom:0;padding-block:28px 48px}
-.more-all a{font-size:16px;font-weight:700;border:1px solid var(--ink);border-radius:4px;padding:12px 22px;gap:12px}
-.more-all a i{width:auto;height:auto;background:transparent;color:var(--ink);font-size:16px}
-.more-all a:hover{background:var(--ink);color:#FFFFFF}
-.more-all a:hover i{color:#FFFFFF}
-/* お知らせ */
-.rows{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 var(--wrap)}
-.row{border-bottom:1px solid var(--line);padding-inline:0}
-.row .d{border-right:0;color:var(--muted)}
-.row .t{background:#FFFFFF;color:var(--ink);border:1px solid var(--ink);border-radius:3px;font-size:12px;padding:2px 10px}
-.row .c{border-left:0;color:var(--muted)}
-@media (max-width:760px){.rows{margin:0 16px}}
-/* 特集カード */
-.fx{padding-bottom:16px}
-.feats{border-top:0;gap:16px;padding:0 var(--wrap) 8px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
-.feat{background:#FFFFFF;color:var(--ink);border:1px solid var(--line);border-top:6px solid var(--fc,var(--ink));border-radius:6px;min-height:200px}
-.feat .nm{font-family:var(--f-jp);font-weight:900;font-size:clamp(22px,2.4vw,28px)}
-.feat p{color:var(--muted)}
-.feat .ft{border-top:1px solid var(--line);font-size:13px}
-.feat:hover{border-color:var(--ink);border-top-color:var(--fc,var(--ink))}
-.feat:hover .nm{text-decoration:none}
-/* ページ見出し・記事 */
-.band{margin-top:0;padding:56px var(--wrap) 40px;background:#FFFFFF;color:var(--ink);border-top:8px solid var(--fc,var(--ink));border-bottom:1px solid var(--line)}
-.band h1{font-family:var(--f-jp);font-weight:900;font-size:clamp(32px,5.6vw,64px);line-height:1.25}
-.band .eyebrow{color:var(--muted)}
-.band .count span{border-color:var(--line)}
-.a-head{margin-top:0;padding-top:48px;background:#FFFFFF;color:var(--ink);border-top:8px solid var(--fc,var(--ink));border-bottom:1px solid var(--line)}
-.a-head .series{background:#FFFFFF;border:1px solid var(--ink);border-radius:3px}
-.a-head .by{color:var(--muted)}
-.a-body .cover{border:0;margin-top:24px;border-radius:6px;overflow:hidden}
-.prose h2{border-bottom:1px solid var(--line)}
-.prose ol{border-top:1px solid var(--line)}.prose ol li{border-bottom:1px solid var(--line)}
-.prose figure{border:0;border-radius:6px;overflow:hidden}
-.prose .q::before{color:#FFFFFF;font-family:var(--f-latin);font-weight:600}
-.tbl{border-color:var(--line)}.tbl th{color:#FFFFFF}.tbl th,.tbl td{border-bottom-style:solid;border-bottom-color:var(--line)}
-.ext{color:#FFFFFF;border-radius:4px}
-.ext.int{background:#FFFFFF;color:var(--ink);border:1px solid var(--ink)}
-.video b{font-family:var(--f-latin)}.video a{background:#FFFFFF;color:var(--ink);border-radius:4px}
-.vbadge{color:#FFFFFF;border-radius:3px}
-.src{border-top:1px solid var(--line)}
-.related{border-top:1px solid var(--line)}.related .sec-h{background:transparent}
-.empty{background:var(--gray);border-bottom:0;margin:0 var(--wrap);border-radius:6px}
-.cloud{justify-content:flex-start;padding:0 var(--wrap) 40px;border-bottom:0}
-.cloud a{border:1px solid var(--line);border-radius:4px;font-weight:500}
-.cloud.genres a{background:var(--gray)}
-.cloud a:hover{background:var(--ink);color:#FFFFFF;border-color:var(--ink)}
-.cloud a:hover small{color:#FFFFFF}
-/* 動画・Instagram */
-.ytch{background:var(--gray);color:var(--ink);border-bottom:0;margin-top:40px}
-.ytch .eyebrow{color:var(--muted)}
-.ytch h2{font-family:var(--f-jp);font-weight:900}
-.ytch p{opacity:1;color:var(--muted)}
-.ytch .go{background:var(--ink);color:#FFFFFF;border-radius:4px}
-.ytch .player{border:0;border-radius:6px;overflow:hidden}
-.insta-wrap{background:#FFFFFF;border-bottom:0;border-top:1px solid var(--line)}
-.insta{background:#FFFFFF}
-.insta .handle{font-family:var(--f-latin);font-weight:600}
-.insta .follow{background:var(--ink);color:#FFFFFF;border-radius:4px}
-.ig{border:0;border-radius:6px;background:var(--gray)}
-.ig .vid{color:#FFFFFF}
-.ig-ctl button{border-color:var(--ink)}.ig-ctl button:hover{color:#FFFFFF}
-/* MIRAISとは */
-.about{background:#FFFFFF;border-bottom:0}
-.ab-hero,.ab-ideal{border-bottom:1px solid var(--line)}
-.ab-hero .q{font-family:var(--f-latin);font-weight:600;letter-spacing:.06em}
-.ab-hero .q span{color:var(--muted)}
-.ab-ch{background:var(--gray);color:var(--ink);border-bottom:0}
-.ab-ch b{font-family:var(--f-latin);font-weight:600}
-.ab-ideal li{border-color:var(--line);border-radius:4px}
-.can{border-right:1px solid var(--line)}
-.can .pic{border:0;border-radius:6px}
-@media (max-width:860px){.can{border-right:0;border-bottom:1px solid var(--line)}}
-/* MIRAISサークル */
-.cc-hero{margin-top:0;padding-top:64px;background:#FFFFFF;border-top:8px solid #FFB020;border-bottom:1px solid var(--line)}
-.cc-hero h1{font-family:var(--f-latin);font-weight:600;letter-spacing:.04em}
-.cc-qs span{background:var(--gray);color:var(--ink);border-radius:4px;font-weight:500}
-.cc-intro{border-bottom:1px solid var(--line)}
-.cc-pillars{border-bottom:1px solid var(--line)}.pillar{border-right:1px solid var(--line)}
-.pillar .no{color:var(--ink);-webkit-text-stroke:0;font-family:var(--f-latin);font-weight:600}
-.cc-join{background:var(--gray);color:var(--ink);border-bottom:0}
-.cc-join a{background:var(--ink);color:#FFFFFF;border-radius:4px}
-@media (max-width:820px){.pillar{border-bottom:1px solid var(--line)}}
-/* フォーム */
-.contact{border-bottom:0;border-top:1px solid var(--line)}
-.contact.pg{margin-top:0;padding-top:64px;background:#FFFFFF}
-.contact h2{font-size:clamp(28px,4vw,44px)}
-.cf label em{background:var(--ink);border-radius:2px}
-.cf input,.cf select,.cf textarea{background:#FFFFFF;border:1px solid #BDBDB8;border-radius:4px}
-.cf input:focus,.cf select:focus,.cf textarea:focus{outline:2px solid var(--ink);outline-offset:1px}
-.cf button{color:#FFFFFF;border-radius:4px;font-weight:700}
-.cf-msg{border:1px solid var(--ink);border-radius:4px}
-.cf-msg.ok{background:var(--gray)}
-/* 就活・進学お悩み相談 */
-.sd-hero{margin-top:0;padding-top:64px;background:#FFFFFF;color:var(--ink);border-top:8px solid #E8452C;border-bottom:1px solid var(--line)}
-.sd-hero .eyebrow{color:var(--muted)}
-.sd-hero .free{background:var(--ink);color:#FFFFFF;border-radius:4px}
-.sd-intro,.sd-topics,.sd-flow{border-bottom:1px solid var(--line)}
-.sd-topic{border-right:1px solid var(--line)}
-.sd-topic .k{color:var(--muted)}
-.sd-step{border-right:1px solid var(--line)}
-.sd-step b{font-family:var(--f-latin);font-weight:600}
-@media (max-width:820px){.sd-topic,.sd-step{border-bottom:1px solid var(--line)}}
-/* 韓流Meet up！ */
-.kr-hero{margin-top:0;padding-top:64px;background:#FFFFFF;color:var(--ink);border-top:8px solid #3B5BFF;border-bottom:1px solid var(--line)}
-.kr-hero .eyebrow{color:var(--muted)}
-.kr-hero .chips span{border-color:var(--line)}
-.kr-hero .go{background:var(--ink);color:#FFFFFF;border:0;box-shadow:none;border-radius:4px}
-.kr-hero .word{background:var(--gray);border:0;border-radius:6px}
-.kr-for{background:#FFFFFF;border-bottom:0;gap:16px;padding:0 var(--wrap) 8px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
-.kr-for div{border:1px solid var(--line);border-radius:6px}
-.kr-for div b{font-weight:600;color:var(--muted);font-size:18px}
-.kr-cur{background:var(--gray);border-bottom:0;margin-top:48px}
-.kr-cur h2{font-family:var(--f-jp);font-weight:900;font-size:clamp(22px,2.6vw,28px)}
-.kr-cur .ttl{text-align:left;padding:48px var(--wrap) 0}
-.kr-cur .ttl small{color:var(--muted)}
-.kr-lessons{max-width:none;padding:24px var(--wrap) 40px}
-.kr-lesson{border:0;border-radius:6px}
-.kr-lesson .k{color:var(--muted)}
-.kr-lesson p{border-top:1px solid var(--line)}
-.kr-flow{border-top:1px solid var(--line);padding:32px var(--wrap) 48px}
-.kr-flow .in{max-width:none}
-.kr-flow h3{text-align:left}
-.kr-steps{border-top:1px solid var(--line)}.kr-steps div{border-bottom:1px solid var(--line)}
-.kr-out{max-width:none;padding:0 var(--wrap) 48px}
-.kr-out dl,.kr-out dl div,.kr-out dl div:last-child{border-color:var(--line)}
-.kr-out dl div{border-bottom-style:solid}
-.kr-teacher{border:0;background:var(--gray);border-radius:6px}
-.kr-faq{border-bottom:0}
-.kr-faq .in{max-width:none;padding:0 var(--wrap) 48px}
-.kr-faq .item{border-bottom:1px solid var(--line)}
-.kr-faq .item .q::before{color:#FFFFFF;font-family:var(--f-latin);font-weight:600}
-/* フッター */
-footer{border-top:1px solid var(--line);margin-top:48px}
-footer .bottom{padding-inline:var(--wrap)}
-footer .logo{font-family:var(--f-latin);font-weight:600;font-size:22px;letter-spacing:.22em}
-.note{color:#FFFFFF}
 </style>
 
 </head>
@@ -699,6 +505,7 @@ footer .logo{font-family:var(--f-latin);font-weight:600;font-size:22px;letter-sp
 </nav>
 <main id="app"><p class="err">読み込み中…</p></main>
 <footer>
+  <div class="marq copy" aria-hidden="true"><div class="track" id="foot-track"></div></div>
   <div class="bottom">
     <span class="logo">MIRAIS</span>
     <span>©2026 MIRAIS All Rights Reserved</span>
@@ -728,6 +535,7 @@ const NEWS=[
   {d:"2026.03.23",t:"CIRCLE",ti:"就活ドラマ、鋭意製作中！",c:"MIRAISサークル",u:"#circle-drama"}
 ];
 function marq(items,rep=4){const one=items.map(i=>`<span>${esc(i)}</span>`).join("");return one.repeat(rep)+one.repeat(rep)}
+document.getElementById("foot-track").innerHTML=marq(["MIRAISで未来をひらく学生","CHALLENGE FOR US.","すべての学生に、挑戦する機会と環境を。"],3);
 
 /* data helpers */
 const done=()=>D.articles.filter(a=>a.status==="done");
@@ -739,9 +547,9 @@ const ofGenre=id=>done().filter(a=>a.genre===id).sort(byDate);
 function media(src,alt,f){
   if(!src) return phOnly(f);
   const ph=`<div class="ph" aria-hidden="true">${esc(f.name)}</div>`;
-  return `<div class="media"><img src="${esc(src||"")}" alt="${esc(alt)}" loading="lazy" onerror="this.parentNode.classList.add('missing')">${ph}</div>`;
+  return `<div class="media" style="background:${f.color}"><img src="${esc(src||"")}" alt="${esc(alt)}" loading="lazy" onerror="this.parentNode.classList.add('missing')">${ph}</div>`;
 }
-function phOnly(f){return `<div class="media missing"><div class="ph" aria-hidden="true">${esc(f.name)}</div></div>`}
+function phOnly(f){return `<div class="media missing" style="background:${f.color}"><div class="ph" aria-hidden="true" style="color:${f.ink}">${esc(f.name)}</div></div>`}
 const tagLinks=a=>(a.tags||[]).map(t=>`<a href="#tag-${t}">${esc(D.tags[t].label)}</a>`).join("");
 
 function card(a,i){
@@ -765,7 +573,7 @@ function card(a,i){
 const grid=list=>`<div class="grid">${list.map(card).join("")}</div>`;
 function featTile(id){
   const f=D.features[id], n=ofFeature(id).length;
-  return `<a class="feat" href="#feature-${id}" style="--fc:${f.color}">
+  return `<a class="feat" href="#feature-${id}" style="background:${f.color};color:${f.ink}">
     <span class="nm${isJp(f.name)?" jp":""}">${esc(f.name)}</span>
     <p>${esc(f.catch)}</p>
     <span class="ft"><span>${esc(f.status||(n?n+" articles":"coming soon"))}</span><span>→</span></span>
@@ -780,11 +588,17 @@ function genreCloud(){
 }
 
 function seriesSection(ids,title,sub,more){
-  /* 特集の一覧（白いカードのグリッド） */
-  return `<section class="fx">
-    <div class="sec-h">${title==="FEATURES"?"特集":"ほかの特集"}</div>
-    <div class="feats">${ids.map(featTile).join("")}</div>
-    ${more?`<div class="more-all"><a href="#features">特集一覧へ <i>→</i></a></div>`:""}
+  const items=ids.map((id,i)=>{const f=D.features[id], n=ofFeature(id).length, wide=i%3===2;
+    return `<div class="s-item${wide?" wide":""}"><a class="s-cover" href="#feature-${id}" style="background:${f.color};color:${f.ink}">
+      <span class="k"><span>FEATURE ${String(i+1).padStart(2,"0")}</span><span>${esc(f.status||(n?n+" articles":"coming soon"))}</span></span>
+      <span class="ghost" aria-hidden="true">${esc(f.name.slice(0,1))}</span>
+      <span><span class="nm${isJp(f.name)?" jp":""}">${esc(f.name)}</span><p class="cp">${esc(f.catch)}</p></span>
+    </a></div>`}).join("");
+  return `<section class="series">
+    <div class="ttl"><h2>${title}</h2><p>${sub}</p></div>
+    <div class="s-track" data-series>${items}</div>
+    <div class="s-ctl"><button class="r" data-dir="-1" aria-label="前へ">←</button><div class="dots">${ids.map((_,i)=>`<button aria-label="${i+1}番目へ" data-i="${i}"></button>`).join("")}</div><button class="r" data-dir="1" aria-label="次へ">→</button></div>
+    ${more?`<div class="s-more"><a href="#features">特集一覧へ <i>→</i></a></div>`:""}
   </section>`;
 }
 function wireSeries(){
@@ -842,7 +656,7 @@ function aboutSection(){
   </section>`;
 }
 function aboutPage(){
-  app.innerHTML=`<header class="band"><div class="in"><div class="eyebrow">ABOUT</div><h1 class="jp">MIRAISとは</h1><p class="catch">すべての学生のMIRAIにつながるプロジェクト</p></div></header>${aboutSection()}`;
+  app.innerHTML=`<header class="band" style="background:var(--pill)"><div class="in"><div class="eyebrow">ABOUT</div><h1 class="jp">MIRAISとは</h1><p class="catch">すべての学生のMIRAIにつながるプロジェクト</p></div></header>${aboutSection()}`;
 }
 function circlePage(){
   const C=D.circle, list=ofFeature("miraiscircle");
@@ -1001,10 +815,10 @@ function koreanPage(){
       <a class="go" href="#korean-form" data-jump="korean-form">無料で参加する →</a></div>
     <div class="word" aria-hidden="true"><b>좋아해</b><span>チョアヘ ／「好き」</span></div>
   </header>
-  <div class="sec-h">こんな人におすすめ</div>
+  <div class="sec-h">For You</div>
   <div class="kr-for">${fors.map((t,i)=>`<div><b>${String(i+1).padStart(2,"0")}</b><p>${esc(t)}</p></div>`).join("")}</div>
   <section class="kr-cur">
-    <div class="ttl"><h2>講座内容（一例）</h2><small>※内容は講師と相談して決定します。以下は一例です。</small></div>
+    <div class="ttl"><h2>CURRICULUM</h2><p>講座内容（一例）</p><small>※内容は講師と相談して決定します。以下は一例です。</small></div>
     <div class="kr-lessons">${lessons.map(([t,d],i)=>`<div class="kr-lesson"><div class="k"><span>LESSON</span><span>${String(i+1).padStart(2,"0")}</span></div><h3>${esc(t)}</h3><p>${esc(d)}</p></div>`).join("")}</div>
     <div class="kr-flow"><div class="in"><h3>1回の流れ（一例）</h3><div class="kr-steps">
       <div><b>01</b><p><strong>レッスン</strong>　50min<small>講師による少人数の授業</small></p></div>
@@ -1012,12 +826,12 @@ function koreanPage(){
       <div><b>03</b><p><strong>振り返り</strong>　10min<small>その日のポイントを確認</small></p></div>
     </div></div></div>
   </section>
-  <div class="sec-h">開催概要</div>
+  <div class="sec-h">Outline</div>
   <div class="kr-out">
-    <div><dl>${outline.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>
+    <div><h2>開催概要</h2><dl>${outline.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>
     <div class="kr-teacher"><span class="eyebrow">TEACHER</span><h3>講師</h3><p>韓国出身のネイティブ講師が担当します。発音や自然な表現も、その場で確かめられます。</p><p class="sub">授業とトークタイムは、学生スタッフがサポートします。</p></div>
   </div>
-  <div class="sec-h">よくある質問</div>
+  <div class="sec-h">FAQ</div>
   <section class="kr-faq"><div class="in">${faq.map(([q,a])=>`<div class="item"><p class="q">${esc(q)}</p><p>${esc(a)}</p></div>`).join("")}</div></section>
   ${koreanForm()}
   ${seriesSection(Object.keys(D.features).filter(k=>k!=="korean"),"MORE","ほかの特集",true)}`;
@@ -1039,9 +853,11 @@ function home(){
         <div class="cap"><h2>${esc(a.title)}</h2><span>${esc(f.name)}${a.writer&&a.writer!==f.name?` ／ ${esc(a.writer)}`:""}</span></div>
       </a>`}).join("")}
     </div>
+    <div class="biglogo" aria-hidden="true">MIRAIS</div>
     <div class="arrows"><button class="arr" id="prev" aria-label="前の記事">←</button><button class="arr" id="next" aria-label="次の記事">→</button></div>
   </section>
-  <div class="sec-h">新着記事</div>
+  <div class="marq copy" aria-hidden="true"><div class="track">${marq(["MIRAISは、自分の未来や仕事について真剣に考え、学び、夢や目標を叶えるチャンスを掴むためのWEBメディアプロジェクトです。"],2)}</div></div>
+  <div class="marq giant" aria-hidden="true"><div class="track">${marq(["RECOMMEND"],4)}</div></div>
   <div class="filters" role="group" aria-label="ジャンルで絞り込み">
     <button class="chip" id="f-all" data-f="all" aria-pressed="${filter==="all"}">すべて</button>
     ${usedGenres.map(k=>`<button class="chip" id="f-${k}" data-f="${k}" aria-pressed="${filter===k}">${esc(D.genres[k].label)}</button>`).join("")}
@@ -1051,13 +867,13 @@ function home(){
   ${seriesSection(Object.keys(D.features),"FEATURES","テーマごとの特集・連載",true)}
   ${ytChannelSection()}
   ${instaSection()}
-  <div class="sec-h">お知らせ</div>
+  <div class="sec-h">News &amp; Events</div>
   <div class="rows">
     ${NEWS.map(n=>`<a class="row" href="${n.u}"><span class="d">${n.d}</span><span class="t">${esc(n.t)}</span><span class="ti">${esc(n.ti)}</span><span class="c">${esc(n.c)}</span><span class="w">READ →</span></a>`).join("")}
   </div>
   ${aboutSection()}
   ${contactSection("home")}
-  <div class="sec-h">タグから探す</div>
+  <div class="sec-h">Tags</div>
   ${tagCloud()}`;
   wireSeries(); wireInsta(); wireContact();
   app.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{filter=b.dataset.f;const y=scrollY;home();scrollTo(0,y)});
@@ -1071,7 +887,7 @@ function articlesPage(){
   const all=done().sort(byDate);
   const list=all.filter(a=>afilter==="all"||a.genre===afilter);
   app.innerHTML=`
-  <header class="band"><div class="in">
+  <header class="band" style="background:var(--hero);color:var(--white)"><div class="in">
     <div class="eyebrow">ALL ARTICLES</div>
     <h1 class="jp">記事一覧</h1>
     <div class="count"><span>${all.length}本の記事</span></div>
@@ -1086,7 +902,7 @@ function articlesPage(){
 
 function featuresIndex(){
   app.innerHTML=`
-  <header class="band"><div class="in">
+  <header class="band" style="background:var(--pill)"><div class="in">
     <div class="eyebrow">FEATURES</div>
     <h1>特集一覧</h1>
     <p class="catch">MIRAISのシリーズ企画。特集ごとに記事がまとまっています。</p>
@@ -1098,7 +914,7 @@ function featurePage(id){
   const f=D.features[id], list=ofFeature(id), n=list.filter(a=>a.status==="done").length;
   const others=Object.keys(D.features).filter(k=>k!==id);
   app.innerHTML=`
-  <header class="band" style="--fc:${f.color}"><div class="in">
+  <header class="band" style="background:${f.color};color:${f.ink}"><div class="in">
     <a class="back" href="#features">← 特集一覧</a>
     <div class="eyebrow">FEATURE</div>
     <h1 class="${isJp(f.name)?"jp":""}">${esc(f.name)}</h1>
@@ -1117,7 +933,7 @@ function listPage(kind,id){
   const label=isTag?"#"+D.tags[id].label:D.genres[id].label;
   const list=isTag?ofTag(id):ofGenre(id);
   app.innerHTML=`
-  <header class="band"><div class="in">
+  <header class="band" style="background:${isTag?"var(--white)":"var(--hero)"};color:${isTag?"var(--ink)":"var(--white)"}"><div class="in">
     <div class="eyebrow">${isTag?"TAG":"GENRE"}</div>
     <h1 class="jp">${esc(label)}</h1>
     <div class="count"><span>${list.length}本の記事</span></div>
@@ -1129,7 +945,7 @@ function listPage(kind,id){
 
 function tagsIndex(){
   app.innerHTML=`
-  <header class="band"><div class="in">
+  <header class="band" style="background:var(--white)"><div class="in">
     <div class="eyebrow">GENRES &amp; TAGS</div>
     <h1 class="jp">ジャンルとタグ</h1>
     <p class="catch">記事はジャンル1つと、複数のタグで分類しています。</p>
@@ -1160,7 +976,7 @@ function article(a){
   const seen=new Set([a.slug,...same.map(x=>x.slug)]);
   const byTag=done().filter(x=>!seen.has(x.slug)&&(x.tags||[]).some(t=>(a.tags||[]).includes(t))).sort(byDate).slice(0,3);
   app.innerHTML=`
-  <header class="a-head gut" style="--fc:${f.color}"><div class="in">
+  <header class="a-head gut" style="background:${f.color};color:${f.ink}"><div class="in">
     <a class="back" href="#">← トップへ</a><br>
     <div class="a-meta">
       <a class="series" href="#feature-${a.feature}">${esc(f.name)}</a>
