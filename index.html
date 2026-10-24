@@ -359,6 +359,31 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
   .biglogo{font-size:22.5vw;bottom:-.08em}
   .arrows{display:none}
 }
+/* お問い合わせフォーム */
+.contact{padding:56px clamp(16px,6vw,96px);background:var(--white);border-bottom:1px solid var(--ink);display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:40px}
+.contact .eyebrow{font-family:var(--f-latin);letter-spacing:.14em;font-size:14px;color:var(--muted)}
+.contact h2{font-family:var(--f-jp);font-weight:900;font-size:clamp(32px,5vw,56px);line-height:1.2;margin:10px 0 16px}
+.contact .side p{margin:0 0 10px;max-width:24em}
+.cf{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 18px;position:relative}
+.cf .full{grid-column:1/-1}
+.cf label{display:flex;flex-direction:column;gap:6px;font-weight:700;font-size:14px;min-width:0}
+.cf label em{font-style:normal;font-size:11px;font-weight:700;background:var(--tag);color:var(--white);padding:1px 6px;margin-left:6px;align-self:flex-start}
+.cf .lb{display:flex;align-items:center}
+.cf input,.cf select,.cf textarea{font:500 16px var(--f-jp);color:var(--ink);background:var(--ground);border:1.5px solid var(--ink);border-radius:0;padding:12px 14px;width:100%;min-width:0}
+.cf textarea{min-height:180px;resize:vertical}
+.cf input:focus,.cf select:focus,.cf textarea:focus{outline:3px solid var(--pill);outline-offset:0;background:var(--white)}
+.cf .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.cf .agree{flex-direction:row;align-items:center;gap:10px;font-weight:500}
+.cf .agree input{width:20px;height:20px;flex:0 0 auto;padding:0}
+.cf button{justify-self:start;background:var(--ink);color:var(--pill);border:0;border-radius:999px;padding:16px 36px;font:900 17px var(--f-jp);cursor:pointer}
+.cf button:disabled{opacity:.5;cursor:wait}
+.cf-msg{grid-column:1/-1;margin:0;padding:14px 16px;font-weight:700;border:1.5px solid var(--ink)}
+.cf-msg.ok{background:var(--pill)}
+.cf-msg.ng{background:#FDE3DE}
+.cf-msg[hidden]{display:none}
+.contact.pg{margin-top:-80px;padding-top:130px;background:var(--pill)}
+.contact.pg .cf input,.contact.pg .cf select,.contact.pg .cf textarea{background:var(--white)}
+@media (max-width:760px){.contact{grid-template-columns:minmax(0,1fr)}.cf{grid-template-columns:minmax(0,1fr)}}
 </style>
 
 </head>
@@ -373,6 +398,7 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
     <a href="#genre-column">コラム</a>
     <a href="#genre-interview">インタビュー</a>
     <a href="#tags">タグ</a>
+    <a href="#contact">お問い合わせ</a>
   </nav>
   <a class="cta" href="#feature-soudan">就活・進学お悩み相談 →</a>
   <a class="m-logo" href="#" aria-label="MIRAIS トップへ">MIRAIS</a>
@@ -389,6 +415,7 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
     <a href="#genre-column">コラム</a>
     <a href="#genre-interview">インタビュー</a>
     <a href="#tags">タグ</a>
+    <a href="#contact">お問い合わせ</a>
   </div>
   <a class="m-cta" href="#feature-soudan">就活・進学お悩み相談 →</a>
   <div class="m-sns"><a href="https://www.instagram.com/100mirais" target="_blank" rel="noopener">Instagram ↗</a><a href="https://www.youtube.com/@MIRAIS-zs8pn/videos" target="_blank" rel="noopener">YouTube ↗</a></div>
@@ -561,6 +588,56 @@ function circlePage(){
   ${seriesSection(Object.keys(D.features).filter(k=>k!=="miraiscircle"),"MORE","ほかの特集",true)}`;
   wireSeries();
 }
+/* お問い合わせ：FormSubmit（formsubmit.co）経由でメールに届く */
+const FORM_ENDPOINT="https://formsubmit.co/ajax/3sa.shiraishi@gmail.com";
+const PREFS=["北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県", "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県", "新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県", "岐阜県", "静岡県", "愛知県", "三重県", "滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県", "鳥取県", "島根県", "岡山県", "広島県", "山口県", "徳島県", "香川県", "愛媛県", "高知県", "福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県", "海外"];
+function contactSection(uid){
+  const req='<em>必須</em>';
+  return `<section class="contact" id="contact-${uid}">
+    <div class="side"><div class="eyebrow">CONTACT</div><h2>お問い合わせ</h2>
+      <p>取材・掲載のご依頼、イベントや企画への参加、MIRAISへのご質問など、お気軽にお送りください。</p>
+      <p>内容を確認のうえ、担当者からメールでご連絡します。</p></div>
+    <form class="cf" id="cf-${uid}" novalidate>
+      <label><span class="lb">お名前${req}</span><input id="cf-${uid}-name" name="お名前" autocomplete="name" required></label>
+      <label><span class="lb">メールアドレス${req}</span><input id="cf-${uid}-email" name="email" type="email" autocomplete="email" inputmode="email" required></label>
+      <label><span class="lb">電話番号</span><input id="cf-${uid}-tel" name="電話番号" type="tel" autocomplete="tel" inputmode="tel"></label>
+      <label><span class="lb">都道府県</span><select id="cf-${uid}-pref" name="都道府県"><option value="">選択してください</option>${PREFS.map(p=>`<option>${p}</option>`).join("")}</select></label>
+      <label class="full"><span class="lb">所属（学校・学部名、企業名など）</span><input id="cf-${uid}-org" name="所属" autocomplete="organization"></label>
+      <label class="full"><span class="lb">件名${req}</span><input id="cf-${uid}-subject" name="件名" required></label>
+      <label class="full"><span class="lb">メッセージ${req}</span><textarea id="cf-${uid}-msg" name="メッセージ" required></textarea></label>
+      <label class="hp" aria-hidden="true">この欄は空のままにしてください<input id="cf-${uid}-hp" name="_honey" tabindex="-1" autocomplete="off"></label>
+      <label class="full agree"><input id="cf-${uid}-agree" type="checkbox" required>入力した内容をMIRAISに送信することに同意します</label>
+      <button type="submit" id="cf-${uid}-btn">送信する</button>
+      <p class="cf-msg" id="cf-${uid}-out" role="status" hidden></p>
+    </form>
+  </section>`;
+}
+function wireContact(){
+  app.querySelectorAll("form.cf").forEach(f=>{
+    const out=f.querySelector(".cf-msg"), btn=f.querySelector("button");
+    const say=(t,ok)=>{out.hidden=false;out.textContent=t;out.className="cf-msg "+(ok?"ok":"ng")};
+    f.addEventListener("submit",e=>{
+      e.preventDefault();
+      if(f.querySelector('[name="_honey"]').value) return;
+      const bad=[...f.querySelectorAll("[required]")].find(el=>el.type==="checkbox"?!el.checked:!el.value.trim());
+      if(bad){say(bad.type==="checkbox"?"送信内容への同意にチェックを入れてください。":"必須の項目が入力されていません。入力してから送信してください。",false);bad.focus();return}
+      const em=f.querySelector('[name="email"]');
+      if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em.value.trim())){say("メールアドレスの形式が正しくありません。もう一度確認してください。",false);em.focus();return}
+      const data=Object.fromEntries([...new FormData(f)].filter(([k])=>k!=="_honey").map(([k,v])=>[k,String(v).trim()]));
+      data._subject="【MIRAIS お問い合わせ】"+data["件名"]; data._template="table"; data._captcha="false";
+      btn.disabled=true; btn.textContent="送信中…";
+      fetch(FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify(data)})
+        .then(r=>r.json().then(j=>({ok:r.ok,j})))
+        .then(({ok,j})=>{ if(ok&&String(j.success)!=="false"){f.reset();say("送信しました。内容を確認のうえ、メールでご連絡します。",true)} else throw 0 })
+        .catch(()=>say("送信できませんでした。時間をおいてもう一度お試しください。",false))
+        .finally(()=>{btn.disabled=false;btn.textContent="送信する"});
+    });
+  });
+}
+function contactPage(){
+  app.innerHTML=contactSection("page").replace('class="contact"','class="contact pg"');
+  wireContact();
+}
 /* views */
 function home(){
   const all=done().sort(byDate);
@@ -595,9 +672,10 @@ function home(){
     ${NEWS.map(n=>`<a class="row" href="${n.u}"><span class="d">${n.d}</span><span class="t">${esc(n.t)}</span><span class="ti">${esc(n.ti)}</span><span class="c">${esc(n.c)}</span><span class="w">READ →</span></a>`).join("")}
   </div>
   ${aboutSection()}
+  ${contactSection("home")}
   <div class="sec-h">Tags</div>
   ${tagCloud()}`;
-  wireSeries(); wireInsta();
+  wireSeries(); wireInsta(); wireContact();
   app.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{filter=b.dataset.f;const y=scrollY;home();scrollTo(0,y)});
   const s=document.getElementById("slider");
   const step=()=>s.querySelector(".slide").getBoundingClientRect().width+20;
@@ -730,6 +808,7 @@ function route(){
   else if(h==="articles") articlesPage();
   else if(h==="tags") tagsIndex();
   else if(h==="about") aboutPage();
+  else if(h==="contact") contactPage();
   else if(h==="feature-miraiscircle"||h==="circle") circlePage();
   else if((m=h.match(/^feature-(.+)$/))&&D.features[m[1]]) featurePage(m[1]);
   else if((m=h.match(/^tag-(.+)$/))&&D.tags[m[1]]) listPage("tag",m[1]);
