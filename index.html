@@ -7,7 +7,7 @@
 <title>MIRAIS</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jost:wght@400;500&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jost:wght@400;500&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Noto+Sans+KR:wght@700&display=swap">
 <style>
 /* Layout: ピル型の固定メニュー → 色面ヒーロー（記事スライダー＋巨大ロゴ）→ 流れるコピー → 罫線グリッドの記事 → ニュース行リスト → 流れるフッター
    Single bold light theme by choice: every color is set explicitly. */
@@ -405,6 +405,67 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
 @media (max-width:820px){.sd-topics,.sd-flow{grid-template-columns:minmax(0,1fr)}.sd-topic,.sd-step{border-right:0;border-bottom:1px solid var(--ink)}.sd-step{border-bottom-style:dashed}.sd-topic:last-child,.sd-step:last-child{border-bottom:0}}
 .contact.sd{background:var(--white)}
 @media (max-width:520px){.sd-hero h1{font-size:30px}}
+/* 韓国語講座 特設ページ */
+.kr-hero{margin-top:-80px;padding:120px clamp(16px,6vw,96px) 64px;background:var(--hero);color:var(--white);border-bottom:1px solid var(--ink);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:40px;align-items:end}
+.kr-hero .eyebrow{font-family:var(--f-latin);letter-spacing:.12em;font-size:14px}
+.kr-hero h1{font-family:var(--f-jp);font-weight:900;font-size:clamp(34px,6vw,72px);line-height:1.25;margin:12px 0 14px}
+.kr-hero .catch{font-size:clamp(16px,2vw,20px);font-weight:700;line-height:1.6;margin:0 0 18px}
+.kr-hero .chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+.kr-hero .chips span{border:1px solid currentColor;border-radius:999px;padding:3px 14px;font-size:13px;font-weight:700}
+.kr-hero .go{display:inline-flex;align-items:center;min-height:52px;padding:0 28px;border-radius:999px;background:var(--pill);color:var(--ink);border:1.5px solid var(--ink);box-shadow:0 2px 0 var(--ink);font-weight:900;font-size:16px}
+.kr-hero .word{background:var(--white);color:var(--ink);border:1px solid var(--ink);aspect-ratio:4/3;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px}
+.kr-hero .word b{font-family:"Noto Sans KR",var(--f-jp);font-weight:700;font-size:clamp(56px,9vw,108px);line-height:1.1}
+.kr-hero .word span{font-size:14px;font-weight:700;color:var(--muted)}
+.kr-for{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));background:var(--gray);border-bottom:1px solid var(--ink)}
+.kr-for div{padding:28px 24px;border-right:1px dashed var(--ink);border-bottom:1px dashed var(--ink);display:flex;flex-direction:column;gap:10px;min-width:0}
+.kr-for div b{font-family:var(--f-latin);font-weight:400;font-size:22px}
+.kr-for div p{margin:0;font-weight:700}
+.kr-cur{background:var(--pill);border-bottom:1px dashed var(--ink)}
+.kr-cur .ttl{text-align:center;padding:56px 16px 8px}
+.kr-cur h2{font-family:var(--f-logo);font-weight:400;font-size:clamp(44px,9vw,110px);line-height:1;margin:0;letter-spacing:.01em}
+.kr-cur .ttl p{margin:14px 0 0;font-weight:700;font-size:clamp(16px,2vw,20px);letter-spacing:.06em}
+.kr-cur .ttl small{display:block;margin-top:6px;font-size:14px;color:#3D3B35}
+.kr-lessons{max-width:1080px;margin:0 auto;padding:32px 16px 56px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.kr-lesson{background:var(--white);border:1px solid var(--ink);padding:22px 20px;display:flex;flex-direction:column;gap:10px}
+.kr-lesson .k{display:flex;justify-content:space-between;font-family:var(--f-latin);font-size:13px;letter-spacing:.14em}
+.kr-lesson h3{margin:0;font-weight:900;font-size:19px;line-height:1.5}
+.kr-lesson p{margin:0;font-size:14px;color:var(--muted);border-top:1px solid var(--ink);padding-top:8px}
+.kr-flow{border-top:1px dashed var(--ink);padding:40px 16px 48px}
+.kr-flow .in{max-width:1080px;margin:0 auto}
+.kr-flow h3{margin:0 0 16px;font-weight:900;font-size:20px;text-align:center}
+.kr-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));border-top:1px solid var(--ink)}
+.kr-steps div{padding:16px 8px;border-bottom:1px solid var(--ink);display:flex;gap:16px;align-items:baseline}
+.kr-steps b{font-family:var(--f-latin);font-weight:400;font-size:20px;min-width:2em}
+.kr-steps p{margin:0}
+.kr-steps strong{font-weight:900}
+.kr-steps small{display:block;font-size:14px}
+.kr-out{max-width:1080px;margin:0 auto;padding:48px 16px 64px;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:40px;align-items:start}
+.kr-out h2{margin:0 0 16px;font-weight:900;font-size:clamp(22px,3vw,30px)}
+.kr-out dl{margin:0;border-top:1px solid var(--ink)}
+.kr-out dl div{display:grid;grid-template-columns:96px 1fr;padding:12px 0;border-bottom:1px dashed var(--ink)}
+.kr-out dl div:last-child{border-bottom:1px solid var(--ink)}
+.kr-out dt{font-weight:700}
+.kr-out dd{margin:0}
+.kr-teacher{background:var(--white);border:1px solid var(--ink);padding:24px;display:flex;flex-direction:column;gap:10px}
+.kr-teacher .eyebrow{font-family:var(--f-latin);font-size:14px;letter-spacing:.12em}
+.kr-teacher h3{margin:0;font-weight:900;font-size:20px}
+.kr-teacher p{margin:0}
+.kr-teacher .sub{font-size:14px;color:var(--muted)}
+.kr-faq{background:var(--white);border-bottom:1px solid var(--ink)}
+.kr-faq .in{max-width:720px;margin:0 auto;padding:16px 16px 48px}
+.kr-faq .item{padding:18px 0;border-bottom:1px dashed var(--ink)}
+.kr-faq .item:last-child{border-bottom:0}
+.kr-faq .item p{margin:0 0 0 36px}
+.kr-faq .item .q{margin:0 0 6px;font-weight:900;display:flex;gap:10px}
+.kr-faq .item .q::before{content:"Q";font-family:var(--f-logo);background:var(--ink);color:var(--pill);width:26px;height:26px;display:grid;place-items:center;flex:0 0 auto;font-size:14px;margin-top:2px}
+.contact.kr{background:var(--white)}
+.cf .radios{display:flex;gap:24px;flex-wrap:wrap}
+.cf .radios label{display:flex;flex-direction:row;align-items:center;gap:8px;min-height:44px;font-weight:500}
+.cf .radios input{width:20px;height:20px;padding:0;flex:0 0 auto}
+.cf fieldset{border:0;margin:0;padding:0;min-width:0}
+.cf legend{font-weight:700;font-size:14px;padding:0;margin-bottom:6px}
+@media (max-width:820px){.kr-hero{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:520px){.kr-hero h1{font-size:32px}}
 </style>
 
 </head>
@@ -415,6 +476,7 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
     <a href="#about">MIRAISとは</a>
     <a href="#articles">記事一覧</a>
     <a href="#features">特集</a>
+    <a href="#feature-korean">韓国語講座</a>
     <a href="#genre-report">取材レポート</a>
     <a href="#genre-column">コラム</a>
     <a href="#genre-interview">インタビュー</a>
@@ -432,6 +494,7 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
     <a href="#articles">記事一覧</a>
     <a href="#features">特集</a>
     <a href="#feature-miraiscircle">MIRAISサークル</a>
+    <a href="#feature-korean">韓国語講座</a>
     <a href="#genre-report">取材レポート</a>
     <a href="#genre-column">コラム</a>
     <a href="#genre-interview">インタビュー</a>
@@ -467,6 +530,7 @@ const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&
 const fmt=d=>d?d.replace(/-/g,"."):"";
 const isJp=s=>/[^\x00-\x7F]/.test(s);
 const NEWS=[
+  {d:"2026.10.24",t:"CLASS",ti:"大学生・専門学生のための無料韓国語講座、参加者募集中！",c:"韓国語講座",u:"#feature-korean"},
   {d:"2026.09.02",t:"EVENT",ti:"9月のミライワークショップ開催",c:"結・しぶや",u:"#shukatsuev"},
   {d:"2026.07.25",t:"EVENT",ti:"大学生のためのコミュニケーション教室 開催！",c:"結・しぶや",u:"#communicationev"},
   {d:"2026.03.23",t:"CIRCLE",ti:"就活ドラマ、鋭意製作中！",c:"MIRAISサークル",u:"#circle-drama"}
@@ -513,7 +577,7 @@ function featTile(id){
   return `<a class="feat" href="#feature-${id}" style="background:${f.color};color:${f.ink}">
     <span class="nm${isJp(f.name)?" jp":""}">${esc(f.name)}</span>
     <p>${esc(f.catch)}</p>
-    <span class="ft"><span>${n?n+" articles":"coming soon"}</span><span>→</span></span>
+    <span class="ft"><span>${esc(f.status||(n?n+" articles":"coming soon"))}</span><span>→</span></span>
   </a>`;
 }
 function tagCloud(){
@@ -527,7 +591,7 @@ function genreCloud(){
 function seriesSection(ids,title,sub,more){
   const items=ids.map((id,i)=>{const f=D.features[id], n=ofFeature(id).length, wide=i%3===2;
     return `<div class="s-item${wide?" wide":""}"><a class="s-cover" href="#feature-${id}" style="background:${f.color};color:${f.ink}">
-      <span class="k"><span>FEATURE ${String(i+1).padStart(2,"0")}</span><span>${n?n+" articles":"coming soon"}</span></span>
+      <span class="k"><span>FEATURE ${String(i+1).padStart(2,"0")}</span><span>${esc(f.status||(n?n+" articles":"coming soon"))}</span></span>
       <span class="ghost" aria-hidden="true">${esc(f.name.slice(0,1))}</span>
       <span><span class="nm${isJp(f.name)?" jp":""}">${esc(f.name)}</span><p class="cp">${esc(f.catch)}</p></span>
     </a></div>`}).join("");
@@ -703,6 +767,77 @@ function soudanPage(){
   ${seriesSection(Object.keys(D.features).filter(k=>k!=="soudan"),"MORE","ほかの特集",true)}`;
   wireContact(); wireSeries();
 }
+/* 韓国語講座：申し込みは相談フォームと同じ FormSubmit 経由でメールに届く */
+function koreanForm(){
+  const req='<em>必須</em>';
+  const grades=["1年","2年","3年","4年","その他"];
+  return `<section class="contact kr" id="korean-form">
+    <div class="side"><div class="eyebrow">ENTRY</div><h2>お申し込み</h2>
+      <p>下記のフォームから、1分ほどで申し込めます。受付後、数日以内にご案内をお送りします。</p></div>
+    <form class="cf" id="cf-korean" data-prefix="【MIRAIS 韓国語講座 申し込み】" data-done="申し込みを受け付けました。数日以内に、入力いただいたメールアドレスへご案内をお送りします。" novalidate>
+      <label><span class="lb">お名前${req}</span><input id="cf-korean-name" name="お名前" autocomplete="name" required></label>
+      <label><span class="lb">メールアドレス${req}</span><input id="cf-korean-email" name="email" type="email" autocomplete="email" inputmode="email" required></label>
+      <label class="full"><span class="lb">学校名${req}</span><input id="cf-korean-school" name="学校名" autocomplete="organization" required></label>
+      <label><span class="lb">学部・学科名</span><input id="cf-korean-faculty" name="学部・学科名"></label>
+      <label><span class="lb">学年${req}</span><select id="cf-korean-grade" name="学年" required><option value="">選択してください</option>${grades.map(g=>`<option>${g}</option>`).join("")}</select></label>
+      <fieldset class="full"><legend>韓国語の経験</legend><div class="radios">
+        <label><input type="radio" name="韓国語の経験" value="なし">なし</label>
+        <label><input type="radio" name="韓国語の経験" value="少しある">少しある</label>
+      </div></fieldset>
+      <label class="full"><span class="lb">参加のきっかけ（任意）</span><textarea id="cf-korean-why" name="参加のきっかけ" style="min-height:110px"></textarea></label>
+      <label class="hp" aria-hidden="true">この欄は空のままにしてください<input id="cf-korean-hp" name="_honey" tabindex="-1" autocomplete="off"></label>
+      <label class="full agree"><input id="cf-korean-agree" type="checkbox" required>入力した内容をMIRAISに送信することに同意します</label>
+      <button type="submit" id="cf-korean-btn">無料で参加する</button>
+      <p class="cf-msg" id="cf-korean-out" role="status" hidden></p>
+    </form>
+  </section>`;
+}
+function koreanPage(){
+  const lessons=[
+    ["ハングルってどうなってる？","母音・子音のしくみを知り、自分の名前をハングルで書ける"],
+    ["推しの名前を読んでみよう","ハングルを声に出して読める"],
+    ["あいさつと自己紹介","初対面のあいさつと簡単な自己紹介ができる"],
+    ["ドラマでよく聞くフレーズ","感謝・驚き・応援など、よく使う表現が分かる"],
+    ["推しにメッセージを書こう","短い応援メッセージを韓国語で書ける"],
+    ["成果発表","自己紹介や好きなものを韓国語で発表できる"]];
+  const fors=["韓国ドラマやK-POPをきっかけに、韓国語に興味を持った","独学で始めたものの、続かなかった","スクールに通う前に、まず気軽に試してみたい","韓国好きの友人を大学の外にもつくりたい","いつか韓国への旅行や留学を考えている"];
+  const outline=[["対象","大学生・専門学生（学校・学年不問）"],["レベル","入門（韓国語がはじめての方）"],["参加費","無料（教材はこちらで用意します）"],["日程","全6回（月2回）・日程は調整中"],["時間","各回90分・時間帯は調整中"],["会場","都内（調整中）"],["定員","調整中"],["持ち物","筆記用具、スマートフォン"]];
+  const faq=[["韓国語がまったくわかりませんが、参加できますか？","はい。ハングルの読み方から始めるので、はじめての方向けの内容です。"],
+    ["本当に無料ですか？","はい。参加費・教材費はかかりません。会場までの交通費のみご負担ください。"],
+    ["1人で参加しても大丈夫ですか？","1人で参加される方がほとんどです。トークタイムはスタッフが進行するので、初対面が苦手な方も気軽に参加できます。"],
+    ["全回参加できなくても申し込めますか？","できるだけ全回の参加をおすすめしていますが、欠席があっても問題ありません。"],
+    ["どの学校の学生でも参加できますか？","はい。大学生・専門学生であれば、学校・学年は問いません。"]];
+  app.innerHTML=`
+  <header class="kr-hero">
+    <div><div class="eyebrow">KOREAN CLASS ／ 2026</div><h1>「好き」を、<br>わかるに変える<br>韓国語。</h1>
+      <p class="catch">大学生・専門学生のための、無料の韓国語講座。<br>ハングルの読み方から、ネイティブ講師と一緒に。</p>
+      <div class="chips"><span>参加費無料</span><span>初心者歓迎</span><span>1人参加OK</span></div>
+      <a class="go" href="#korean-form" data-jump="korean-form">無料で参加する →</a></div>
+    <div class="word" aria-hidden="true"><b>좋아해</b><span>チョアヘ ／「好き」</span></div>
+  </header>
+  <div class="sec-h">For You</div>
+  <div class="kr-for">${fors.map((t,i)=>`<div><b>${String(i+1).padStart(2,"0")}</b><p>${esc(t)}</p></div>`).join("")}</div>
+  <section class="kr-cur">
+    <div class="ttl"><h2>CURRICULUM</h2><p>講座内容（一例）</p><small>※内容は講師と相談して決定します。以下は一例です。</small></div>
+    <div class="kr-lessons">${lessons.map(([t,d],i)=>`<div class="kr-lesson"><div class="k"><span>LESSON</span><span>${String(i+1).padStart(2,"0")}</span></div><h3>${esc(t)}</h3><p>${esc(d)}</p></div>`).join("")}</div>
+    <div class="kr-flow"><div class="in"><h3>1回の流れ（一例）</h3><div class="kr-steps">
+      <div><b>01</b><p><strong>レッスン</strong>　50min<small>講師による少人数の授業</small></p></div>
+      <div><b>02</b><p><strong>トークタイム</strong>　30min<small>グループに分かれ、習った表現を実際に使う</small></p></div>
+      <div><b>03</b><p><strong>振り返り</strong>　10min<small>その日のポイントを確認</small></p></div>
+    </div></div></div>
+  </section>
+  <div class="sec-h">Outline</div>
+  <div class="kr-out">
+    <div><h2>開催概要</h2><dl>${outline.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>
+    <div class="kr-teacher"><span class="eyebrow">TEACHER</span><h3>講師</h3><p>韓国出身のネイティブ講師が担当します。発音や自然な表現も、その場で確かめられます。</p><p class="sub">授業とトークタイムは、学生スタッフがサポートします。</p></div>
+  </div>
+  <div class="sec-h">FAQ</div>
+  <section class="kr-faq"><div class="in">${faq.map(([q,a])=>`<div class="item"><p class="q">${esc(q)}</p><p>${esc(a)}</p></div>`).join("")}</div></section>
+  ${koreanForm()}
+  ${seriesSection(Object.keys(D.features).filter(k=>k!=="korean"),"MORE","ほかの特集",true)}`;
+  wireContact(); wireSeries();
+  app.querySelectorAll("[data-jump]").forEach(a=>a.onclick=e=>{e.preventDefault();document.getElementById(a.dataset.jump).scrollIntoView({behavior:"smooth"})});
+}
 /* views */
 function home(){
   const all=done().sort(byDate);
@@ -875,6 +1010,7 @@ function route(){
   else if(h==="about") aboutPage();
   else if(h==="contact") contactPage();
   else if(h==="feature-soudan"||h==="soudan") soudanPage();
+  else if(h==="feature-korean"||h==="korean") koreanPage();
   else if(h==="feature-miraiscircle"||h==="circle") circlePage();
   else if((m=h.match(/^feature-(.+)$/))&&D.features[m[1]]) featurePage(m[1]);
   else if((m=h.match(/^tag-(.+)$/))&&D.tags[m[1]]) listPage("tag",m[1]);
