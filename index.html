@@ -7,7 +7,7 @@
 <title>MIRAIS</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Noto+Sans+KR:wght@700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Zen+Maru+Gothic:wght@500;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Noto+Sans+KR:wght@700&display=swap">
 <style>
 /* Layout: ピル型の固定メニュー → 色面ヒーロー（記事スライダー＋巨大ロゴ）→ 流れるコピー → 罫線グリッドの記事 → ニュース行リスト → 流れるフッター
    Single bold light theme by choice: every color is set explicitly. */
@@ -661,6 +661,92 @@ footer{border-top:1px solid var(--line);margin-top:48px}
 footer .bottom{padding-inline:var(--wrap)}
 footer .logo{font-family:var(--f-latin);font-weight:600;font-size:22px;letter-spacing:.22em}
 .note{color:#FFFFFF}
+
+/* ===== MIRAIS POP（白ベース＋パステルの丸い色面）===== */
+:root{--p1:#FFE6D9;--p2:#DDF3E8;--p3:#FFF2C2;--p4:#E9E3FF;--p5:#DDEEFF;--p6:#FFE3EE;
+  --f-round:"Zen Maru Gothic","Zen Kaku Gothic New",sans-serif;--r:22px}
+h1,h2,h3,h4,.hero-top p,.sec-h,.feat .nm,.band h1,.contact h2,.kr-hero h1,.kr-hero .lead,.sd-hero h1,.cc-intro,.ab-hero .lead{font-family:var(--f-round)}
+.pill .home,.m-logo,footer .logo{font-family:var(--f-round);font-weight:900;letter-spacing:.08em}
+.pill a{border-radius:999px}
+.pill a:hover{background:var(--p3);text-decoration:none}
+.cta,.m-cta,.cf button,.kr-hero .go,.ytch .go,.insta .follow,.cc-join a,.sd-hero .free,.ext{border-radius:999px}
+.more-all a{border-radius:999px}
+/* トップ */
+.hero{padding-top:20px}
+.hero-top{margin:0 var(--wrap) 24px;padding:40px clamp(20px,4vw,48px);background:var(--p3);border-radius:var(--r);position:relative;overflow:hidden}
+.hero-top::after{content:"";position:absolute;right:-40px;top:-40px;width:180px;height:180px;border-radius:50%;background:var(--p6)}
+.hero-top::before{content:"";position:absolute;right:120px;bottom:-60px;width:120px;height:120px;border-radius:50%;background:var(--p5)}
+.hero-top p,.hero-top small{position:relative;z-index:1}
+.slide{border-radius:var(--r);overflow:hidden}
+.slide .cap{border-top:0;border-radius:0 16px 0 0}
+.arr{border-radius:50%}
+/* 見出し */
+.sec-h{font-weight:900}
+.sec-h::before{width:14px;height:14px;border-radius:50%;background:var(--ink)}
+/* 記事 */
+.cell .thumb{border-radius:18px}
+.label{border-radius:999px;padding:3px 12px}
+.chip{border-radius:999px}
+.tags a,.tags span{border-radius:999px}
+/* 特集カード：パステルの丸いカード */
+.feat{border:0;border-radius:var(--r);min-height:210px;background:var(--p1)}
+.feats .feat:nth-child(6n+2){background:var(--p2)}.feats .feat:nth-child(6n+3){background:var(--p3)}
+.feats .feat:nth-child(6n+4){background:var(--p4)}.feats .feat:nth-child(6n+5){background:var(--p5)}.feats .feat:nth-child(6n+6){background:var(--p6)}
+.feat .ft{border-top:1px solid rgba(26,26,26,.15)}
+.feat:hover{transform:translateY(-3px);transition:transform .2s;border:0}
+@media (prefers-reduced-motion:reduce){.feat:hover{transform:none}}
+/* お知らせ */
+.row .t{border:0;border-radius:999px;background:var(--p4);padding:3px 12px}
+.row .t[data-t="EVENT"]{background:var(--p1)}.row .t[data-t="CLASS"]{background:var(--p5)}.row .t[data-t="CIRCLE"]{background:var(--p3)}
+/* 色面のセクションを丸く */
+.ytch{background:var(--p5);border-radius:var(--r);margin:40px var(--wrap) 0;padding:48px clamp(20px,4vw,56px)}
+.ytch .player{border-radius:16px}
+.insta-wrap{border:0;background:var(--p6);border-radius:var(--r);margin:24px var(--wrap) 0;overflow:hidden}
+.insta{background:transparent}
+.ab-ch{background:var(--p3);border-radius:var(--r);margin:0 var(--wrap)}
+.ab-ideal li{border:0;background:var(--p2);border-radius:14px}
+.can .pic{border-radius:18px}
+.empty{border-radius:var(--r);background:var(--p2)}
+/* ページ見出し：パステルの丸い面 */
+.band,.a-head,.sd-hero,.cc-hero,.kr-hero{border-top:0;border-bottom:0;border-radius:var(--r);margin:20px var(--wrap) 0}
+.band{background:color-mix(in srgb,var(--fc,#FFE07A) 22%,#FFFFFF)}
+.a-head{background:color-mix(in srgb,var(--fc,#FFE07A) 22%,#FFFFFF);padding-inline:clamp(20px,4vw,56px)}
+.sd-hero{background:var(--p1)}
+.cc-hero{background:var(--p3)}
+.kr-hero{background:var(--p5)}
+.kr-hero .word{background:#FFFFFF;border-radius:18px}
+.kr-hero .chips span{background:#FFFFFF;border:0}
+@media (max-width:600px){.band,.a-head,.sd-hero,.cc-hero,.kr-hero{margin-inline:12px;padding-inline:20px}}
+/* 特設ページの中身 */
+.kr-for div{border:0;border-radius:18px;background:var(--p2)}
+.kr-for div:nth-child(2){background:var(--p3)}.kr-for div:nth-child(3){background:var(--p6)}.kr-for div:nth-child(4){background:var(--p4)}.kr-for div:nth-child(5){background:var(--p1)}
+.kr-cur{background:var(--p4);border-radius:var(--r);margin:48px var(--wrap) 0}
+.kr-cur .ttl,.kr-lessons,.kr-flow{padding-inline:clamp(20px,4vw,48px)}
+.kr-lesson{border-radius:16px}
+.kr-flow{border-top:1px solid rgba(26,26,26,.12)}
+.kr-teacher{background:var(--p2);border-radius:var(--r)}
+.kr-faq .item .q::before,.prose .q::before{border-radius:50%}
+.sd-topics{gap:16px;padding:24px var(--wrap);border-bottom:0}
+.sd-topic{border:0;border-radius:var(--r);background:var(--p2)}
+.sd-topic:nth-child(2){background:var(--p4)}.sd-topic:nth-child(3){background:var(--p6)}
+.sd-flow{background:var(--p3);border-radius:var(--r);margin:0 var(--wrap);border-bottom:0}
+.sd-step{border-right:0}
+.cc-pillars{gap:16px;padding:24px var(--wrap);border-bottom:0}
+.pillar{border:0;border-radius:var(--r);background:var(--p5)}
+.pillar:nth-child(2){background:var(--p2)}.pillar:nth-child(3){background:var(--p1)}
+.cc-join{background:var(--p4);border-radius:var(--r);margin:24px var(--wrap)}
+@media (max-width:820px){.sd-topic,.pillar{border-bottom:0}}
+/* フォーム */
+.contact{border-top:0;background:var(--p2);border-radius:var(--r);margin:40px var(--wrap) 0}
+.contact.kr,.contact.sd{background:var(--p3)}
+.contact.pg{margin-top:20px;padding-top:56px}
+.cf input,.cf select,.cf textarea{border-radius:12px;border-color:#CFCFCA}
+.cf label em{border-radius:999px;padding:1px 8px}
+.cf-msg{border-radius:12px}
+@media (max-width:600px){.ytch,.insta-wrap,.ab-ch,.kr-cur,.sd-flow,.cc-join,.contact{margin-inline:12px}}
+/* フッター */
+footer{border-top:0}
+footer .bottom{background:var(--ink);color:#FFFFFF;border-radius:var(--r) var(--r) 0 0;margin:0 var(--wrap);padding:28px clamp(20px,4vw,48px)}
 </style>
 
 </head>
@@ -1053,7 +1139,7 @@ function home(){
   ${instaSection()}
   <div class="sec-h">お知らせ</div>
   <div class="rows">
-    ${NEWS.map(n=>`<a class="row" href="${n.u}"><span class="d">${n.d}</span><span class="t">${esc(n.t)}</span><span class="ti">${esc(n.ti)}</span><span class="c">${esc(n.c)}</span><span class="w">READ →</span></a>`).join("")}
+    ${NEWS.map(n=>`<a class="row" href="${n.u}"><span class="d">${n.d}</span><span class="t" data-t="${esc(n.t)}">${esc(n.t)}</span><span class="ti">${esc(n.ti)}</span><span class="c">${esc(n.c)}</span><span class="w">READ →</span></a>`).join("")}
   </div>
   ${aboutSection()}
   ${contactSection("home")}
