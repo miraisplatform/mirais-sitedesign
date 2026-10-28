@@ -767,17 +767,19 @@ function contactSection(uid){
 }
 function wireContact(){
   app.querySelectorAll("form.cf").forEach(f=>{
+    const shownAt=Date.now(); /* 機械による送信対策：表示から3秒未満の送信は送らない */
     const out=f.querySelector(".cf-msg"), btn=f.querySelector("button");
     const say=(t,ok)=>{out.hidden=false;out.textContent=t;out.className="cf-msg "+(ok?"ok":"ng")};
     f.addEventListener("submit",e=>{
       e.preventDefault();
       if(f.querySelector('[name="_honey"]').value) return;
+      if(Date.now()-shownAt<3000){f.reset();say(f.dataset.done||"送信しました。内容を確認のうえ、メールでご連絡します。",true);return}
       const bad=[...f.querySelectorAll("[required]")].find(el=>el.type==="checkbox"?!el.checked:!el.value.trim());
       if(bad){say(bad.type==="checkbox"?"送信内容への同意にチェックを入れてください。":"必須の項目が入力されていません。入力してから送信してください。",false);bad.focus();return}
       const em=f.querySelector('[name="email"]');
       if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em.value.trim())){say("メールアドレスの形式が正しくありません。もう一度確認してください。",false);em.focus();return}
       const data=Object.fromEntries([...new FormData(f)].filter(([k])=>k!=="_honey").map(([k,v])=>[k,String(v).trim()]));
-      data._subject=(f.dataset.prefix||"【MIRAIS お問い合わせ】")+(data["件名"]||(data["相談したい内容"]?data["相談したい内容"]+"／":"")+data["お名前"]+" さん"); data._template="table"; data._captcha="false";
+      data._subject=(f.dataset.prefix||"【MIRAIS お問い合わせ】")+(data["件名"]||(data["相談したい内容"]?data["相談したい内容"]+"／":"")+data["お名前"]+" さん"); data._template="table"; data._captcha="false"; data._blacklist="casino,viagra,cialis,bitcoin,crypto,forex,porn,loan,seo service,backlink";
       const label=btn.dataset.label||(btn.dataset.label=btn.textContent);
       btn.disabled=true; btn.textContent="送信中…";
       fetch(FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify(data)})
