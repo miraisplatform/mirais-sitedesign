@@ -468,19 +468,25 @@ footer .logo{font-family:var(--f-logo);font-size:34px;line-height:1}
 @media (max-width:820px){.kr-hero{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:520px){.kr-hero h1{font-size:32px}}
 
-/* メンバー募集：TOPのバナー */
-.mb-banner{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px 40px;align-items:center;padding:36px clamp(16px,6vw,96px);background:var(--pill);color:var(--ink);border-block:1px solid var(--ink);position:relative;overflow:hidden}
-.mb-banner .eyebrow{font-family:var(--f-latin);letter-spacing:.14em;font-size:14px;color:var(--muted)}
-.mb-banner h2{margin:6px 0 10px;font-weight:900;font-size:clamp(28px,4.6vw,52px);line-height:1.2;text-wrap:balance}
-.mb-banner p{margin:0 0 14px;font-weight:500;max-width:34em}
-.mb-banner .roles{display:flex;flex-wrap:wrap;gap:8px}
-.mb-banner .roles span{font-size:13px;font-weight:700;border:1px solid var(--ink);border-radius:999px;padding:3px 12px;background:var(--white)}
-.mb-banner .go{display:inline-flex;align-items:center;gap:10px;min-height:60px;padding:0 32px;border-radius:999px;background:var(--ink);color:var(--pill);font-weight:900;font-size:18px;white-space:nowrap;box-shadow:0 3px 0 var(--hero)}
-.mb-banner .go i{font-style:normal;font-family:var(--f-latin);transition:transform .2s}
-.mb-banner:hover .go i{transform:translateX(4px)}
-.mb-banner .free{position:absolute;right:clamp(16px,6vw,96px);top:14px;font-family:var(--f-logo);font-size:13px;letter-spacing:.06em;background:var(--tag);color:var(--white);padding:2px 10px;border-radius:999px}
-@media (max-width:760px){.mb-banner{grid-template-columns:minmax(0,1fr)}.mb-banner .go{justify-self:start}.mb-banner .free{position:static;justify-self:start;order:-1}}
-@media (prefers-reduced-motion:reduce){.mb-banner .go i{transition:none}}
+/* メンバー募集：TOPの画像バナー（枠で囲った横長の1枚） */
+.mb-wrap{padding:36px 16px;background:var(--ground)}
+.mb-banner{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);max-width:1120px;margin-inline:auto;min-height:clamp(260px,30vw,340px);border:2px solid var(--ink);box-shadow:6px 6px 0 var(--ink);background:var(--pill);color:var(--ink);overflow:hidden;transition:transform .15s,box-shadow .15s}
+.mb-banner:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--ink)}
+.mb-banner .txt{padding:clamp(18px,3vw,36px) clamp(18px,3.4vw,44px);display:flex;flex-direction:column;justify-content:center;gap:clamp(6px,1vw,12px);min-width:0}
+.mb-banner .en{font-family:var(--f-logo);font-size:clamp(13px,1.4vw,17px);letter-spacing:.04em}
+.mb-banner h2{margin:0;font-weight:900;font-size:clamp(28px,4.4vw,54px);line-height:1.15;letter-spacing:-.01em}
+.mb-banner h2 span{background:var(--ink);color:var(--pill);padding:0 .14em}
+.mb-banner .sub{margin:0;font-weight:700;font-size:clamp(13px,1.35vw,16px);line-height:1.6}
+.mb-banner .go{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;margin-top:4px;padding:8px 20px;border-radius:999px;background:var(--hero);color:var(--white);font-weight:900;font-size:clamp(13px,1.3vw,16px)}
+.mb-banner .ph{position:relative;border-left:2px solid var(--ink);min-width:0;background:var(--hero)}
+.mb-banner .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.mb-banner .ph b{position:absolute;right:12px;bottom:12px;background:var(--white);border:1.5px solid var(--ink);font-size:12px;font-weight:700;padding:2px 10px}
+@media (max-width:700px){
+  .mb-wrap{padding:24px 16px}
+  .mb-banner{grid-template-columns:minmax(0,1fr);aspect-ratio:auto;box-shadow:4px 4px 0 var(--ink)}
+  .mb-banner .ph{order:-1;aspect-ratio:16/8;border-left:0;border-bottom:2px solid var(--ink)}
+}
+@media (prefers-reduced-motion:reduce){.mb-banner{transition:none}}
 
 /* メンバー募集ページ */
 .mb-hero{margin-top:-80px;padding:120px clamp(16px,6vw,96px) 56px;background:var(--hero);color:var(--white);border-bottom:1px solid var(--ink)}
@@ -904,13 +910,15 @@ function koreanPage(){
 
 /* メンバー募集 */
 function memberBanner(){
-  return `<a class="mb-banner" href="#member" aria-label="学生メンバー募集のページへ">
-    <span class="free">FREE</span>
-    <div><div class="eyebrow">MEMBER RECRUITING</div><h2>学生メンバー募集中</h2>
-      <p>動画編集、子どもの学習サポート、Webメディアの運営・広報。未経験から、MIRAISで一緒に活動しませんか。</p>
-      <div class="roles"><span>就活ドラマの動画編集</span><span>子どもの学習サポート</span><span>Webメディアの運営・広報</span></div></div>
-    <span class="go">募集の詳細を見る <i>→</i></span>
-  </a>`;
+  return `<div class="mb-wrap"><a class="mb-banner" href="#member" aria-label="学生メンバー募集の詳細を見る">
+    <div class="txt">
+      <span class="en">MIRAIS MEMBER RECRUITING</span>
+      <h2>学生メンバー<br><span>募集中！</span></h2>
+      <p class="sub">動画編集／子どもの学習サポート／<br>Webメディアの運営・広報</p>
+      <span class="go">詳しく見る →</span>
+    </div>
+    <div class="ph"><img src="images/7fe300_f6521cdc177149198f7611eb413c937b_mv2.jpeg" alt="" loading="lazy"><b>未経験OK・参加無料</b></div>
+  </a></div>`;
 }
 const MB_POS=[
   {k:"01",w:"リモート可",t:"就活ショートドラマの動画編集",d:"就活生が主人公の連載ショートドラマを、学生メンバー中心で制作しています。撮影した素材を30秒〜1分の動画に仕上げるのが担当です。スマホの編集アプリが使えれば、未経験でも大丈夫。スポンサー獲得も並行して進める本格的な企画なので、編集スキルを実践で磨けます。",
